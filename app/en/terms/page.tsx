@@ -1,7 +1,6 @@
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
-
-const SITE_URL = 'https://david699.github.io/notePad----'
+import { SITE_URL } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',

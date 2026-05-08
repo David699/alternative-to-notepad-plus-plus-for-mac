@@ -14,8 +14,8 @@ import FAQ from '@/components/FAQ'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import { zh } from '@/lib/i18n'
+import { SITE_URL } from '@/lib/paths'
 
-const SITE_URL = 'https://david699.github.io/notePad----'
 const APP_NAME = 'notePad++++'
 const APP_DESC = 'Mac 上更顺手的文本处理工作台。多标签编辑、正则搜索、工作区浏览、脚本流水线、批量处理、云同步与 AI 辅助。Notepad++ 在 macOS 上的优秀替代选择，支持中文文本清洗与自动化处理。'
 

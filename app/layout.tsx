@@ -1,10 +1,11 @@
 import type { Metadata } from 'next'
 import './globals.css'
+import { withBasePath } from '@/lib/paths'
 
 export const metadata: Metadata = {
   icons: {
-    icon: '/images/app-icon.png',
-    apple: '/images/app-icon.png',
+    icon: withBasePath('/images/app-icon.png'),
+    apple: withBasePath('/images/app-icon.png'),
   },
 }
 

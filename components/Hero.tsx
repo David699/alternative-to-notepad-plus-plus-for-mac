@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import Image from 'next/image'
 import type { HeroDict, Locale } from '@/lib/i18n/types'
 import LocalizedImage from '@/components/LocalizedImage'
+import { withBasePath } from '@/lib/paths'
 
 function KeyBadge({ keys }: { keys: string[] }) {
   return (
@@ -55,7 +56,7 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
           <motion.div variants={item} className="flex justify-center mb-8">
             <div className="flex items-center gap-3 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl px-4 py-2.5 shadow-card">
               <div className="w-10 h-10 rounded-xl overflow-hidden flex-shrink-0">
-                <Image src="/images/app-icon.png" alt="notePad++++ App icon" width={40} height={40} className="object-cover" />
+                <Image src={withBasePath('/images/app-icon.png')} alt="notePad++++ App icon" width={40} height={40} className="object-cover" />
               </div>
               <div className="text-left">
                 <div className="text-xs text-gray-500 leading-none mb-0.5">{t.appBadgeOS}</div>
@@ -109,7 +110,7 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
                   className={`relative w-8 h-8 rounded-full overflow-hidden border-2 p-0.5 flex-shrink-0
                               ${tag.iconFrame}`}
                 >
-                  <Image src={tag.iconSrc} alt="" fill sizes="32px" className="object-cover p-0.5" />
+                  <Image src={withBasePath(tag.iconSrc)} alt="" fill sizes="32px" className="object-cover p-0.5" />
                 </span>
                 {tag.label}
               </motion.span>

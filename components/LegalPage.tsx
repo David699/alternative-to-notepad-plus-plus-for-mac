@@ -1,3 +1,5 @@
+import { withBasePath } from '@/lib/paths'
+
 interface Section {
   heading: string
   body: string[]
@@ -29,11 +31,11 @@ export default function LegalPage({
       {/* Top nav bar */}
       <nav className="border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
-          <a href={homeHref} className="font-bold text-white text-lg">
+          <a href={withBasePath(homeHref)} className="font-bold text-white text-lg">
             {appName.replace('++++', '')}
             <span className="text-brand-400">++++</span>
           </a>
-          <a href={backHref} className="text-sm text-gray-400 hover:text-white transition-colors">
+          <a href={withBasePath(backHref)} className="text-sm text-gray-400 hover:text-white transition-colors">
             ← {backLabel}
           </a>
         </div>
@@ -68,7 +70,7 @@ export default function LegalPage({
 
       {/* Footer */}
       <footer className="border-t border-gray-800 mt-20 py-8 text-center text-xs text-gray-600">
-        <p>© 2024 {appName} · <a href={backHref} className="hover:text-gray-400 transition-colors">{backLabel}</a></p>
+        <p>© 2024 {appName} · <a href={withBasePath(backHref)} className="hover:text-gray-400 transition-colors">{backLabel}</a></p>
       </footer>
     </div>
   )

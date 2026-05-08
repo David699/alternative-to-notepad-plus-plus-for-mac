@@ -13,8 +13,8 @@ import FAQ from '@/components/FAQ'
 import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import { en } from '@/lib/i18n'
+import { SITE_URL } from '@/lib/paths'
 
-const SITE_URL = 'https://david699.github.io/notePad----'
 const APP_NAME = 'notePad++++'
 const EN_DESC = 'The text workbench Mac has been missing: multi-tab editing, workspace search, regex find & replace, script pipelines, batch processing, cloud sync, and AI assistance — a polished macOS alternative to Notepad++.'
 

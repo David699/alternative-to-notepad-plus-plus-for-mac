@@ -1,5 +1,6 @@
 'use client'
 import type { FooterDict } from '@/lib/i18n/types'
+import { withBasePath } from '@/lib/paths'
 
 interface Props { t: FooterDict }
 
@@ -50,10 +51,10 @@ export default function Footer({ t }: Props) {
             <div className="font-semibold text-gray-300 mb-3 text-sm">{t.legalTitle}</div>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href={t.privacyHref} className="hover:text-white transition-colors">{t.privacyLabel}</a>
+                <a href={withBasePath(t.privacyHref)} className="hover:text-white transition-colors">{t.privacyLabel}</a>
               </li>
               <li>
-                <a href={t.termsHref} className="hover:text-white transition-colors">{t.termsLabel}</a>
+                <a href={withBasePath(t.termsHref)} className="hover:text-white transition-colors">{t.termsLabel}</a>
               </li>
             </ul>
           </div>

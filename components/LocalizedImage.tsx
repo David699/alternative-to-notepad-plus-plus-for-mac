@@ -2,6 +2,7 @@
 import { useState, useEffect, useCallback } from 'react'
 import Image, { type ImageProps } from 'next/image'
 import type { Locale } from '@/lib/i18n/types'
+import { withBasePath } from '@/lib/paths'
 
 /** Insert `-en` before the file extension: `foo.png` → `foo-en.png` */
 function toEnVariant(src: string): string {
@@ -39,5 +40,5 @@ export default function LocalizedImage({
 
   // alt is guaranteed to be in props (required by ImageProps); ESLint can't see through the spread
   // eslint-disable-next-line jsx-a11y/alt-text
-  return <Image {...props} src={imgSrc} onError={handleError} />
+  return <Image {...props} src={withBasePath(imgSrc)} onError={handleError} />
 }

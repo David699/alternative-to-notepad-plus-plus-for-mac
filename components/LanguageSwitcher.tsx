@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import type { Locale } from '@/lib/i18n/types'
+import { withBasePath } from '@/lib/paths'
 
 interface Props {
   locale: Locale
@@ -11,7 +12,7 @@ interface Props {
 export default function LanguageSwitcher({ locale, switchLabel, switchHref }: Props) {
   return (
     <motion.a
-      href={switchHref}
+      href={withBasePath(switchHref)}
       whileHover={{ scale: 1.05 }}
       whileTap={{ scale: 0.95 }}
       className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg

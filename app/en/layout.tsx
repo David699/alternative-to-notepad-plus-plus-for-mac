@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import HtmlLangSetter from './HtmlLangSetter'
+import { SITE_URL } from '@/lib/paths'
 
-const SITE_URL = 'https://david699.github.io/notePad----'
 const APP_NAME = 'notePad++++'
 const EN_DESC = 'The most powerful plain-text workbench for Mac. Multi-tab editing, workspace search, regex find & replace, script pipelines, batch processing, and AI assistance — the macOS alternative to Notepad++.'
 

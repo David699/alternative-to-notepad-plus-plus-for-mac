@@ -2,6 +2,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import type { CTADict } from '@/lib/i18n/types'
+import { withBasePath } from '@/lib/paths'
 
 interface Props { t: CTADict }
 
@@ -28,7 +29,7 @@ export default function CTASection({ t }: Props) {
         >
           <div className="flex justify-center mb-8">
             <div className="w-20 h-20 rounded-3xl overflow-hidden shadow-xl border-2 border-white/20">
-              <Image src="/images/app-icon.png" alt={t.iconAlt} width={80} height={80} className="object-cover" />
+              <Image src={withBasePath('/images/app-icon.png')} alt={t.iconAlt} width={80} height={80} className="object-cover" />
             </div>
           </div>
 
