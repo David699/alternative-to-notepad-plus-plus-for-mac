@@ -76,7 +76,7 @@ export default function TermsZh() {
         {
           heading: '9. 联系我们',
           body: [
-            '如对本条款有任何疑问，请通过 GitHub Issues（github.com/David699/notePad----）联系我们。',
+            '如对本条款有任何疑问，请通过 App Store 页面反馈与我们联系。',
           ],
         },
       ]}

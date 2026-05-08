@@ -76,7 +76,7 @@ export default function TermsEn() {
         {
           heading: '9. Contact',
           body: [
-            'For questions about these terms, please open an issue on GitHub at github.com/David699/notePad----.',
+            'For questions about these terms, please contact us through the App Store page.',
           ],
         },
       ]}

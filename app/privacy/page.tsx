@@ -76,7 +76,7 @@ export default function PrivacyZh() {
         {
           heading: '8. 联系我们',
           body: [
-            '如有任何关于隐私的疑问，欢迎通过 GitHub Issues（github.com/David699/notePad----）联系我们。',
+            '如有任何关于隐私的疑问，欢迎通过 App Store 页面反馈与我们联系。',
           ],
         },
       ]}

@@ -76,7 +76,7 @@ export default function PrivacyEn() {
         {
           heading: '8. Contact',
           body: [
-            'For privacy-related questions, please open an issue on GitHub at github.com/David699/notePad----.',
+            'For privacy-related questions, please contact us through the App Store page.',
           ],
         },
       ]}
