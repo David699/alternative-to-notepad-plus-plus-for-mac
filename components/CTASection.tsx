@@ -2,7 +2,7 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 import type { CTADict } from '@/lib/i18n/types'
-import { withBasePath } from '@/lib/paths'
+import { APP_STORE_URL, withBasePath } from '@/lib/paths'
 
 interface Props { t: CTADict }
 
@@ -43,7 +43,7 @@ export default function CTASection({ t }: Props) {
 
           <div className="flex justify-center mb-12">
             <a
-              href="https://apps.apple.com/app/id6759166160?mt=12"
+              href={APP_STORE_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-gray-900 rounded-2xl font-bold text-lg hover:bg-gray-50 active:scale-95 transition-all duration-150 shadow-xl"

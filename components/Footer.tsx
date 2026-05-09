@@ -1,6 +1,6 @@
 'use client'
 import type { FooterDict } from '@/lib/i18n/types'
-import { withBasePath } from '@/lib/paths'
+import { APP_STORE_URL, withBasePath } from '@/lib/paths'
 
 interface Props { t: FooterDict }
 
@@ -34,7 +34,7 @@ export default function Footer({ t }: Props) {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://apps.apple.com/app/id6759166160?mt=12"
+                  href={APP_STORE_URL}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-white transition-colors"
