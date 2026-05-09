@@ -2,6 +2,8 @@
 
 This is the official landing page for **notePad++++**, a macOS text editing workbench.
 
+Live site: https://david699.github.io/alternative-to-notepad-plus-plus-for-mac/
+
 ## Stack
 
 - **Next.js 14** (App Router, static export)
