@@ -22,10 +22,10 @@ export const en: Dict = {
     headline: 'The Text Workbench',
     headlineGradient: 'Mac Has Been Missing',
     subheadline:
-      'Multi-tab editing, regex search, workspace browse, scripted pipelines, batch processing, and AI assistance. Hand off the repetitive text work to notePad++++, and keep your focus on what actually matters.',
+      'A Notepad++ for Mac alternative built for everyday text work: multi-tab editing, column mode, regex find and replace, workspace search, scripted pipelines, batch processing, and AI assistance.',
     tags: [
       {
-        label: 'Notepad++ Alternative',
+        label: 'Notepad++ for Mac',
         iconSrc: '/images/tag-notepad.png',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
@@ -121,7 +121,7 @@ export const en: Dict = {
     sectionLabel: 'Feature Coverage',
     headline: 'Everything daily editing needs,',
     headlineGradient: 'in one lightweight window.',
-    sub: 'Not a single-purpose tool — a fully polished text editing workbench.',
+    sub: 'A polished Mac text editor for users moving from Notepad++ or TextEdit.',
     features: [
       { icon: '📑', title: 'Multi-Tab Editing', desc: 'Open multiple text files at once, switch between them instantly, and see unsaved changes at a glance.', badge: { text: 'Core', color: 'bg-brand-100 text-brand-700' } },
       { icon: '🗂️', title: 'Workspace Browse & Search', desc: 'Open a folder and search across the entire workspace. Jump directly to the file and line you need.', badge: { text: 'Efficient', color: 'bg-teal-100 text-teal-700' } },

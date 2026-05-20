@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/fix-html-lang.mjs",
     "start": "next start",
-    "export": "next build"
+    "export": "npm run build"
   },
   "dependencies": {
     "next": "14.2.3",

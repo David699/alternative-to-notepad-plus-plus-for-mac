@@ -2,7 +2,7 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import { motion, AnimatePresence } from 'framer-motion'
-import LanguageSwitcher from './LanguageSwitcher'
+import LanguageMenu from './LanguageMenu'
 import type { NavDict } from '@/lib/i18n/types'
 import type { Locale } from '@/lib/i18n/types'
 import { withBasePath } from '@/lib/paths'
@@ -41,12 +41,12 @@ export default function Navbar({ t, locale }: NavbarProps) {
         </a>
 
         {/* Desktop nav */}
-        <div className="hidden md:flex items-center gap-1">
+        <div className="hidden lg:flex items-center gap-1">
           {t.links.map((link) => (
             <a
               key={link.href}
               href={link.href}
-              className="text-sm font-medium text-gray-600 hover:text-gray-900 px-3 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
+              className="whitespace-nowrap text-sm font-medium text-gray-600 hover:text-gray-900 px-3 py-1.5 rounded-lg hover:bg-gray-100 transition-colors"
             >
               {link.label}
             </a>
@@ -54,9 +54,9 @@ export default function Navbar({ t, locale }: NavbarProps) {
         </div>
 
         {/* Desktop CTAs */}
-        <div className="hidden md:flex items-center gap-2">
-          <LanguageSwitcher locale={locale} switchLabel={t.switchLang} switchHref={t.switchLangHref} />
-          <a href="#download" className="btn-primary text-xs px-4 py-2">
+        <div className="hidden lg:flex items-center gap-2">
+          <LanguageMenu locale={locale} />
+          <a href="#download" className="btn-primary whitespace-nowrap text-xs px-4 py-2">
             <svg className="w-3.5 h-3.5" viewBox="0 0 20 20" fill="currentColor">
               <path fillRule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clipRule="evenodd" />
             </svg>
@@ -66,7 +66,7 @@ export default function Navbar({ t, locale }: NavbarProps) {
 
         {/* Mobile menu button */}
         <button
-          className="md:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
+          className="lg:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Menu"
         >
@@ -85,7 +85,7 @@ export default function Navbar({ t, locale }: NavbarProps) {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-200 px-4 py-4 space-y-1"
+            className="lg:hidden bg-white/95 backdrop-blur-xl border-b border-gray-200 px-4 py-4 space-y-1"
           >
             {t.links.map((link) => (
               <a
@@ -99,7 +99,7 @@ export default function Navbar({ t, locale }: NavbarProps) {
             ))}
             <div className="pt-2 flex gap-2">
               <a href="#download" className="btn-primary flex-1 justify-center text-xs py-2.5">{t.downloadLabel}</a>
-              <LanguageSwitcher locale={locale} switchLabel={t.switchLang} switchHref={t.switchLangHref} />
+              <LanguageMenu locale={locale} />
             </div>
           </motion.div>
         )}

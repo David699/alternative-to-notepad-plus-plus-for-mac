@@ -22,10 +22,10 @@ export const zh: Dict = {
     headline: 'Mac 上更顺手的',
     headlineGradient: '文本处理工作台',
     subheadline:
-      '从多标签编辑、正则搜索、工作区浏览，到脚本流水线、批量处理和 AI 辅助。把重复的文本整理工作交给 notePad++++，把注意力留给真正重要的内容。',
+      '面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 notePad++++。',
     tags: [
       {
-        label: 'Notepad++ 替代',
+        label: 'Notepad++ Mac 替代',
         iconSrc: '/images/tag-notepad.png',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
@@ -121,7 +121,7 @@ export const zh: Dict = {
     sectionLabel: '功能完整度',
     headline: '日常编辑需要的功能',
     headlineGradient: '都在一个轻量窗口里',
-    sub: '不是单点工具，是一个经过打磨的完整文本编辑工作台。',
+    sub: '适合从 Notepad++ 或 TextEdit 迁移到 Mac 的完整文本编辑工作台。',
     features: [
       { icon: '📑', title: '多标签编辑', desc: '同时打开多个文本文件，快速切换，未保存状态一眼可见。', badge: { text: '核心', color: 'bg-brand-100 text-brand-700' } },
       { icon: '🗂️', title: '工作区浏览与搜索', desc: '打开一个文件夹，在整个工作区里查找内容，快速定位到目标文件和行。', badge: { text: '高效', color: 'bg-teal-100 text-teal-700' } },

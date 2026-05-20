@@ -14,9 +14,7 @@ import CTASection from '@/components/CTASection'
 import Footer from '@/components/Footer'
 import { en } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/paths'
-
-const APP_NAME = 'notePad++++'
-const EN_DESC = 'The text workbench Mac has been missing: multi-tab editing, workspace search, regex find & replace, script pipelines, batch processing, cloud sync, and AI assistance — a polished macOS alternative to Notepad++.'
+import { APP_NAME, EN_APP_DESC, EN_SEO_KEYWORDS } from '@/lib/seo'
 
 export default function EnHome() {
   return (
@@ -31,7 +29,8 @@ export default function EnHome() {
             operatingSystem: 'macOS',
             applicationCategory: 'ProductivityApplication',
             applicationSubCategory: 'TextEditor',
-            description: EN_DESC,
+            description: EN_APP_DESC,
+            keywords: EN_SEO_KEYWORDS.join(', '),
             url: `${SITE_URL}/en/`,
             image: `${SITE_URL}/images/app-icon.png`,
             screenshot: [

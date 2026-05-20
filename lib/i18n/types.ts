@@ -1,4 +1,4 @@
-export type Locale = 'zh' | 'en'
+export type Locale = 'zh' | 'en' | 'de' | 'es' | 'fr' | 'it' | 'ja' | 'ko' | 'pt-br' | 'ru' | 'sv'
 
 export interface ShortcutItem {
   action: string
