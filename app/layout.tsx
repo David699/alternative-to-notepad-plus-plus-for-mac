@@ -5,6 +5,8 @@ import { CLOUDFLARE_WEB_ANALYTICS_TOKEN } from '@/lib/analytics'
 import { withBasePath } from '@/lib/paths'
 import { getHtmlLangForSegment } from '@/lib/site-locales'
 
+const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID
+
 export const metadata: Metadata = {
   icons: {
     icon: withBasePath('/images/app-icon.png'),
@@ -24,15 +26,19 @@ export default function RootLayout({
   return (
     <html lang={htmlLang} className="scroll-smooth">
       <head>
-        <Script src="https://www.googletagmanager.com/gtag/js?id=AW-10873493085" strategy="beforeInteractive" />
-        <Script id="google-ads-tag" strategy="beforeInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'AW-10873493085');
-          `}
-        </Script>
+        {GOOGLE_ADS_ID ? (
+          <>
+            <Script src={`https://www.googletagmanager.com/gtag/js?id=${GOOGLE_ADS_ID}`} strategy="beforeInteractive" />
+            <Script id="google-ads-tag" strategy="beforeInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GOOGLE_ADS_ID}');
+              `}
+            </Script>
+          </>
+        ) : null}
         <meta name="theme-color" content="#118de8" />
         <script
           defer

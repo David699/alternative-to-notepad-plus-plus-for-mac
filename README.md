@@ -60,14 +60,15 @@ Output goes to `out/` - ready for GitHub Pages or any static host.
 
 ## Google Ads download conversion
 
-The global Google Ads tag is installed in `app/layout.tsx`.
+The global Google Ads tag is installed in `app/layout.tsx` only when `NEXT_PUBLIC_GOOGLE_ADS_ID` is provided at build time.
 
-App Store download clicks emit `app_store_download_click` and also report the Google Ads conversion `AW-10873493085/GAr0COeAorEcEN2s8cAo`. To override it, set one of these build-time environment variables before `npm run build`:
+App Store download clicks emit `app_store_download_click` and also report the Google Ads conversion when the build-time environment variables are configured:
 
 ```bash
-NEXT_PUBLIC_GOOGLE_ADS_DOWNLOAD_CONVERSION_LABEL=GAr0COeAorEcEN2s8cAo
+NEXT_PUBLIC_GOOGLE_ADS_ID=AW-XXXXXXXXXX
+NEXT_PUBLIC_GOOGLE_ADS_DOWNLOAD_CONVERSION_LABEL=XXXXXXXXXXXX
 # or
-NEXT_PUBLIC_GOOGLE_ADS_DOWNLOAD_CONVERSION_SEND_TO=AW-10873493085/GAr0COeAorEcEN2s8cAo
+NEXT_PUBLIC_GOOGLE_ADS_DOWNLOAD_CONVERSION_SEND_TO=AW-XXXXXXXXXX/XXXXXXXXXXXX
 ```
 
 ## Deploy to GitHub Pages
