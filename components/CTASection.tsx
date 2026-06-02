@@ -1,8 +1,9 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { CTADict } from '@/lib/i18n/types'
-import { APP_STORE_URL, withBasePath } from '@/lib/paths'
+import { withBasePath } from '@/lib/paths'
 
 interface Props { t: CTADict }
 
@@ -42,15 +43,13 @@ export default function CTASection({ t }: Props) {
           <p className="text-lg text-white/75 max-w-xl mx-auto mb-10 leading-relaxed">{t.sub}</p>
 
           <div className="flex justify-center mb-12">
-            <a
-              href={APP_STORE_URL}
-              target="_blank"
-              rel="noopener noreferrer"
+            <AppStoreDownloadLink
+              source="cta"
               className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-white text-gray-900 rounded-2xl font-bold text-lg hover:bg-gray-50 active:scale-95 transition-all duration-150 shadow-xl"
             >
               {APPLE_ICON}
               {t.appStoreLabel}
-            </a>
+            </AppStoreDownloadLink>
           </div>
 
           <div className="flex flex-wrap justify-center gap-4 text-sm text-white/60">

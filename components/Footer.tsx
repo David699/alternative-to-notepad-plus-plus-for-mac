@@ -1,6 +1,7 @@
 'use client'
+import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { FooterDict } from '@/lib/i18n/types'
-import { APP_STORE_URL, withBasePath } from '@/lib/paths'
+import { withBasePath } from '@/lib/paths'
 
 interface Props { t: FooterDict }
 
@@ -33,14 +34,12 @@ export default function Footer({ t }: Props) {
             <div className="font-semibold text-gray-300 mb-3 text-sm">{t.linksTitle}</div>
             <ul className="space-y-2 text-sm">
               <li>
-                <a
-                  href={APP_STORE_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <AppStoreDownloadLink
+                  source="footer"
                   className="hover:text-white transition-colors"
                 >
                   {t.appStoreLabel}
-                </a>
+                </AppStoreDownloadLink>
               </li>
               <li>
                 <a href="#download" className="hover:text-white transition-colors">{t.downloadLabel}</a>
