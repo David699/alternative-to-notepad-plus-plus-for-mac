@@ -261,13 +261,31 @@ export interface ReviewItem {
   text: string
 }
 
+export interface AppStoreReviewItem {
+  title: string
+  author: string
+  date: string
+  country: string
+  rating: number
+  text: string
+}
+
 export interface ReviewsDict {
   sectionLabel: string
   headline: string
   headlineGradient: string
   appStoreCaption: string
   reviewsAlt: string
+  scoreLabel: string
+  scoreValue: string
+  scoreSuffix: string
+  ratingsCountLabel: string
+  ratingsCount: string
+  latestLabel: string
+  latestCount: string
+  versionPrefix: string
   items: ReviewItem[]
+  appStoreReviews: AppStoreReviewItem[]
 }
 
 export interface FAQItem {
@@ -297,8 +315,10 @@ export interface FooterDict {
   navTitle: string
   linksTitle: string
   navLinks: { label: string; href: string }[]
+  guideLinks?: { label: string; href: string }[]
   appStoreLabel: string
   githubLabel: string
+  productHuntLabel: string
   downloadLabel: string
   copyright: string
   trademark: string

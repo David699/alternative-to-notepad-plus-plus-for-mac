@@ -1,7 +1,7 @@
 'use client'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { FooterDict } from '@/lib/i18n/types'
-import { withBasePath } from '@/lib/paths'
+import { GITHUB_REPO_URL, PRODUCT_HUNT_URL, withBasePath } from '@/lib/paths'
 
 interface Props { t: FooterDict }
 
@@ -44,6 +44,21 @@ export default function Footer({ t }: Props) {
               <li>
                 <a href="#download" className="hover:text-white transition-colors">{t.downloadLabel}</a>
               </li>
+              <li>
+                <a href={GITHUB_REPO_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  {t.githubLabel}
+                </a>
+              </li>
+              <li>
+                <a href={PRODUCT_HUNT_URL} target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                  {t.productHuntLabel}
+                </a>
+              </li>
+              {t.guideLinks?.map((link) => (
+                <li key={link.href}>
+                  <a href={withBasePath(link.href)} className="hover:text-white transition-colors">{link.label}</a>
+                </li>
+              ))}
             </ul>
           </div>
           <div>
