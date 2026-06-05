@@ -79,6 +79,16 @@ export default function SeoArticlePage({ article }: Props) {
                 View product overview
               </Link>
             </div>
+            <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+              <Image
+                src={withBasePath('/images/screen-main-en.png')}
+                alt="notePad++++ main editor interface on macOS"
+                width={1440}
+                height={900}
+                priority
+                className="h-auto w-full"
+              />
+            </figure>
           </div>
         </section>
 
