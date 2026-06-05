@@ -7,6 +7,9 @@ const requiredArticles = [
   'notepad-plus-plus-for-mac',
   'notepad-plus-plus-alternatives-for-mac',
   'column-mode-editor-for-mac',
+  'best-lightweight-text-editors-for-mac-2026',
+  'why-macos-still-needs-a-notepad-plus-plus-alternative',
+  'how-i-built-a-notepad-plus-plus-style-editor-for-macos',
 ]
 
 const requiredFeaturePhrases = [

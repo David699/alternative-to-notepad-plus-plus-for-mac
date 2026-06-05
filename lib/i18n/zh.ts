@@ -407,6 +407,9 @@ export const zh: Dict = {
       { label: '中文文本场景', href: '/#text-cleaning' },
     ],
     guideLinks: [
+      { label: '2026 Mac 轻量编辑器', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
+      { label: '为什么 Mac 仍需要 Notepad++ 替代品', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
+      { label: 'notePad++++ 构建故事', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Mac 替代品指南', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: '列模式编辑指南', href: '/en/column-mode-editor-for-mac/' },

@@ -407,6 +407,9 @@ export const en: Dict = {
       { label: 'Text Cleaning', href: '/en/#text-cleaning' },
     ],
     guideLinks: [
+      { label: 'Best Mac text editors 2026', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
+      { label: 'Why Mac needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
+      { label: 'How notePad++++ was built', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Mac alternatives guide', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: 'Column Mode guide', href: '/en/column-mode-editor-for-mac/' },

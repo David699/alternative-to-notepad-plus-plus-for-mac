@@ -291,6 +291,288 @@ export const seoArticles: SeoArticle[] = [
       { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
     ],
   },
+  {
+    slug: 'best-lightweight-text-editors-for-mac-2026',
+    title: 'Best Lightweight Text Editors for Mac in 2026: Choosing Between notePad++++, CotEditor, BBEdit, Sublime Text, VS Code, and TextEdit',
+    shortTitle: 'Best Lightweight Text Editors for Mac in 2026',
+    description:
+      'A practical 2026 guide to lightweight text editors for Mac, comparing notePad++++, CotEditor, BBEdit, Sublime Text, VS Code, and TextEdit for notes, logs, regex cleanup, column editing, Markdown, and local text processing.',
+    datePublished: '2026-06-05',
+    dateModified: '2026-06-05',
+    keywords: [
+      'best lightweight text editors for Mac 2026',
+      'lightweight text editor for Mac',
+      'Mac text editor',
+      'Notepad++ alternative for Mac',
+      'CotEditor BBEdit Sublime Text VS Code comparison',
+    ],
+    heroKicker: '2026 buyer and workflow guide',
+    heroSummary:
+      'The best lightweight Mac editor depends on what you actually do with text: quick notes, source snippets, Markdown drafts, logs, regex cleanup, column edits, or repeatable batch processing. This guide compares common choices by workflow rather than by feature count.',
+    sections: [
+      {
+        title: 'What lightweight should mean on macOS',
+        body: [
+          'A lightweight text editor should open quickly, stay out of the way, and make common text work faster without asking you to manage a full development environment. For many Mac users, that means a native-feeling app with tabs, search, keyboard-friendly editing, and predictable local file handling.',
+          'The tricky part is that "lightweight" does not always mean "minimal." A tool can still be lightweight if it includes focused power features such as Regex Find & Replace, Column Mode, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing, as long as those features serve daily text work instead of turning the editor into an IDE.',
+        ],
+      },
+      {
+        title: 'The short list',
+        body: [
+          'TextEdit is already on every Mac and is fine for simple rich text or plain text notes. CotEditor is a clean native choice for plain-text editing. BBEdit is the long-running professional Mac editor. Sublime Text is fast, keyboard-driven, and cross-platform. VS Code is excellent for coding projects but often more than needed for quick text cleanup.',
+          `${APP_NAME} fits a more specific niche: users who want a Notepad++-style Mac editor for local files, tabs, regex cleanup, column editing, Markdown, workspace search, and repeatable transformations without opening a full IDE.`,
+        ],
+      },
+      {
+        title: 'When notePad++++ makes sense',
+        body: [
+          'notePad++++ is strongest when editing and processing are part of the same job. If you often clean copied content, inspect logs, normalize lists, edit Markdown, run regex replacements, or repeat the same text transformation across multiple files, the app is designed around that loop.',
+          'Its local-first workflow also matters. Core editing does not require an account, and text processing happens around the files you choose to open. Optional AI and scripting workflows are designed as explicit actions rather than background behavior.',
+        ],
+        bullets: [
+          'Use tabs for several local files in one focused window.',
+          'Use Column Mode for aligned text, logs, and CSV-like snippets.',
+          'Use Regex Find & Replace for structured cleanup.',
+          'Use Workspace Search when a folder contains the answer.',
+          'Use Script Pipelines and Batch Processing for repeatable cleanup.',
+          'Use Markdown Preview for notes, docs, and drafts.',
+        ],
+      },
+      {
+        title: 'How to choose',
+        body: [
+          'Choose TextEdit if the file is simple and formatting matters. Choose CotEditor if you want a clean native editor for straightforward plain-text work. Choose BBEdit if you want a mature professional Mac editor. Choose Sublime Text if you prefer a fast cross-platform editor with a package ecosystem. Choose VS Code if the text lives inside a coding project.',
+          'Choose notePad++++ if your main problem is not only writing text, but repeatedly cleaning, transforming, searching, previewing, and safely applying edits to local text files.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Lightweight Mac editor comparison',
+      headers: ['Editor', 'Best fit', 'Where it may be too much or too little'],
+      rows: [
+        ['notePad++++', 'Notepad++-style Mac text work with tabs, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing.', 'Best for text workflows, not a full IDE replacement.'],
+        ['CotEditor', 'Clean native plain-text editing on macOS.', 'Less focused on batch pipelines, rollback, and repeatable automation.'],
+        ['BBEdit', 'Mature professional Mac text editing with a deep feature set.', 'Can be more than a casual text-cleanup workflow needs.'],
+        ['Sublime Text', 'Fast cross-platform editing, keyboard workflows, and packages.', 'Less Mac-native in feel than pure macOS-focused tools.'],
+        ['VS Code', 'Coding projects, extensions, debugging, and language tooling.', 'Heavier than needed for quick notes, logs, and one-off text cleanup.'],
+        ['TextEdit', 'Built-in simple documents and quick notes.', 'Not designed for Notepad++-style regex, column, workspace, or batch workflows.'],
+      ],
+    },
+    faq: [
+      {
+        q: 'What is the best lightweight text editor for Mac in 2026?',
+        a: 'There is no single best choice. notePad++++ is a strong fit for users who want a lightweight Mac editor with tabs, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing.',
+      },
+      {
+        q: 'Is VS Code a lightweight text editor?',
+        a: 'VS Code can edit text well, but it is usually better described as a code editor platform. For quick local text cleanup, a smaller focused editor may feel faster.',
+      },
+      {
+        q: 'Is notePad++++ affiliated with Notepad++?',
+        a: 'No. notePad++++ is an independent macOS text editor inspired by practical Notepad++-style workflows.',
+      },
+    ],
+    related: [
+      { label: 'Why macOS still needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
+      { label: 'How I built a Notepad++-style editor for macOS', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
+      { label: 'Compare Notepad++ alternatives for Mac', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
+      { label: 'Back to product overview', href: '/en/' },
+    ],
+    externalLinks: [
+      { label: 'Download notePad++++ on the App Store', href: APP_STORE_URL, external: true },
+      { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
+      { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
+      { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
+    ],
+  },
+  {
+    slug: 'why-macos-still-needs-a-notepad-plus-plus-alternative',
+    title: 'Why macOS Still Needs a Notepad++ Alternative',
+    shortTitle: 'Why macOS Still Needs a Notepad++ Alternative',
+    description:
+      'Why Mac users still search for a Notepad++ alternative in 2026, and how practical workflows like tabs, regex cleanup, column editing, workspace search, Markdown preview, and local text processing shape notePad++++.',
+    datePublished: '2026-06-05',
+    dateModified: '2026-06-05',
+    keywords: [
+      'why macOS needs Notepad++ alternative',
+      'Notepad++ alternative for Mac',
+      'Notepad++ for Mac',
+      'Mac text editor like Notepad++',
+      'local text editor for macOS',
+    ],
+    heroKicker: 'Product thinking',
+    heroSummary:
+      'Mac users do not need a pixel-for-pixel clone of Notepad++. They need the same practical feeling: open quickly, edit local text, search precisely, transform repetitive content, and move on without launching a full IDE.',
+    sections: [
+      {
+        title: 'The search is really about workflow',
+        body: [
+          'When people search for "Notepad++ for Mac", they are not only asking whether the Windows app runs on macOS. They are usually asking for a familiar workflow: quick local files, multiple tabs, predictable find and replace, column editing, and simple tools for text cleanup.',
+          'That workflow sits between two extremes. TextEdit is too basic for many structured text tasks. Full IDEs are powerful, but heavy when you only want to inspect a log, clean a list, edit a config snippet, or replace a pattern in a Markdown file.',
+        ],
+      },
+      {
+        title: 'The gap on Mac',
+        body: [
+          'macOS has good editors, but the category is still fragmented. Some apps are beautifully simple, some are built for professional text editing, and some are code platforms. The everyday Notepad++ habit is different: open the file, make the fix, use regex or columns when needed, then close it.',
+          `${APP_NAME} was built around that gap. It keeps the app focused on local text work, while adding the practical features users tend to miss when moving from Windows to Mac.`,
+        ],
+      },
+      {
+        title: 'What a modern alternative should add',
+        body: [
+          'A 2026 Mac alternative should not stop at tabs and syntax highlighting. Modern text work often means cleaning copied content, previewing Markdown, extracting useful lines, applying a repeated cleanup rule, or making a safe change across more than one file.',
+          'That is why notePad++++ combines Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, Batch Processing, diff preview, backup, and rollback. The goal is not to become a full IDE. The goal is to make repetitive text work less manual.',
+        ],
+        bullets: [
+          'Column Mode for structured rows and aligned edits.',
+          'Regex Find & Replace for precise cleanup.',
+          'Workspace Search for folder-level text lookup.',
+          'Script Pipelines for repeatable transformations.',
+          'Batch Processing with preview and rollback.',
+          'Optional AI actions controlled by the user.',
+        ],
+      },
+      {
+        title: 'A different kind of power tool',
+        body: [
+          'The best lightweight tools do not feel small because they lack features. They feel small because the features stay close to the job. A Notepad++-style Mac editor should be fast enough for small notes and capable enough for messy real-world text.',
+          'That is the space notePad++++ is trying to occupy: not a clone, not an IDE, but a practical Mac text workbench for people who still value the Notepad++ way of getting text fixed quickly.',
+        ],
+      },
+    ],
+    table: {
+      title: 'The Notepad++ habit translated to macOS',
+      headers: ['User need', 'Modern Mac interpretation'],
+      rows: [
+        ['Open quickly', 'A focused Mac app for local files rather than a whole development workspace.'],
+        ['Edit several files', 'Multi-tab editing and workspace-aware navigation.'],
+        ['Fix text precisely', 'Regex Find & Replace, case options, whole-word matching, and structured cleanup.'],
+        ['Handle aligned rows', 'Column Mode for lists, logs, tables, and configuration-style text.'],
+        ['Repeat cleanup work', 'Script Pipelines and Batch Processing with preview and rollback.'],
+        ['Stay in control', 'Local-first editing and explicit user-triggered AI or scripting actions.'],
+      ],
+    },
+    faq: [
+      {
+        q: 'Does macOS need a Notepad++ clone?',
+        a: 'Not necessarily. What many users need is a native Mac app that preserves the practical Notepad++ workflow: tabs, regex, column editing, search, and fast local text cleanup.',
+      },
+      {
+        q: 'Why not just use an IDE?',
+        a: 'An IDE is great for projects, but often too heavy for one-off text work such as cleaning copied content, inspecting logs, editing snippets, or normalizing lists.',
+      },
+      {
+        q: 'What makes notePad++++ different from a basic notepad app?',
+        a: 'It combines everyday editing with text-processing workflows such as Script Pipelines, Batch Processing, diff preview, backup, rollback, and optional user-controlled AI actions.',
+      },
+    ],
+    related: [
+      { label: 'Best lightweight text editors for Mac in 2026', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
+      { label: 'How I built a Notepad++-style editor for macOS', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
+      { label: 'Notepad++ for Mac alternative overview', href: '/en/notepad-plus-plus-for-mac/' },
+      { label: 'Back to product overview', href: '/en/' },
+    ],
+    externalLinks: [
+      { label: 'Download notePad++++ on the App Store', href: APP_STORE_URL, external: true },
+      { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
+      { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
+      { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
+    ],
+  },
+  {
+    slug: 'how-i-built-a-notepad-plus-plus-style-editor-for-macos',
+    title: 'How I Built a Notepad++-Style Editor for macOS',
+    shortTitle: 'How I Built a Notepad++-Style Editor for macOS',
+    description:
+      'A developer story about building notePad++++, a Notepad++-style editor for macOS focused on local files, Monaco-powered editing, tabs, column mode, regex cleanup, workspace search, scripts, Markdown preview, and batch-safe text processing.',
+    datePublished: '2026-06-05',
+    dateModified: '2026-06-05',
+    keywords: [
+      'how I built a Notepad++ style editor for macOS',
+      'build Mac text editor',
+      'Notepad++ style editor for Mac',
+      'Monaco editor macOS app',
+      'notePad++++ development story',
+    ],
+    heroKicker: 'Developer story',
+    heroSummary:
+      'notePad++++ started from a simple observation: many Mac users still want the practical Notepad++ workflow, but they also expect a Mac app that feels local, safe, and modern.',
+    sections: [
+      {
+        title: 'The product constraint',
+        body: [
+          'The goal was not to build another IDE. macOS already has strong developer tools. The product constraint was narrower: make a lightweight editor for local text work, especially for users who miss the Notepad++ habit of opening a file, making a precise edit, and moving on.',
+          'That constraint shaped the feature set. Multi-tab editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing all serve the same loop: inspect text, transform text, preview changes, and stay in control.',
+        ],
+      },
+      {
+        title: 'Why a hybrid architecture made sense',
+        body: [
+          'A pure native editor can feel excellent on macOS, but building advanced editor behavior from scratch is expensive. A pure web app can move fast, but local file workflows and desktop expectations matter. notePad++++ uses a Mac shell with a Monaco-powered editing surface so the editor can support serious text features while still behaving like a desktop app.',
+          'That architecture keeps the app focused on the hard parts users notice: opening local files, switching tabs, keeping unsaved state clear, running text operations safely, and showing useful previews before changes are applied.',
+        ],
+      },
+      {
+        title: 'The scripting idea',
+        body: [
+          'The scripting feature came from a recurring pattern: many text edits are too small to justify writing a standalone script, but too repetitive to do by hand every time. Removing blank lines, deduplicating lists, extracting links, normalizing dates, stripping Markdown, or cleaning copied content all fall into that category.',
+          'Instead of treating scripts as system automation, notePad++++ treats them as text transformations. The app focuses on current-document and batch-safe workflows, with preview, diff, backup, and rollback where the operation could affect more content.',
+        ],
+        bullets: [
+          'Keep scripts close to the text being edited.',
+          'Make repeatable cleanup easy to rerun.',
+          'Preview changes before applying broad edits.',
+          'Use rollback as part of the workflow, not as an afterthought.',
+        ],
+      },
+      {
+        title: 'What I would still improve',
+        body: [
+          'The interesting part of this category is that the work never ends at "can edit text." The next improvements are about reducing friction: better batch review, clearer script reuse, smoother Markdown workflows, and more user-controlled AI actions that help with real text tasks instead of adding a chatbot for its own sake.',
+          'The direction remains the same: notePad++++ should be a small, practical Mac text workbench for people who value the Notepad++ workflow but want it to fit macOS.',
+        ],
+      },
+    ],
+    table: {
+      title: 'Design choices behind notePad++++',
+      headers: ['Choice', 'Reason'],
+      rows: [
+        ['Mac-first app shell', 'Local files, permissions, window behavior, and App Store distribution matter for the target users.'],
+        ['Monaco-powered editor surface', 'Advanced editing behaviors such as Column Mode and syntax-aware workflows are easier to support consistently.'],
+        ['Text transformation scripts', 'Many users repeat cleanup tasks that are too small for standalone automation.'],
+        ['Diff preview and rollback', 'Batch edits need trust before they need speed.'],
+        ['User-controlled AI', 'AI should help with selected text, scripts, summaries, and rewrites only when the user asks for it.'],
+      ],
+    },
+    faq: [
+      {
+        q: 'Is notePad++++ open source?',
+        a: 'The landing page repository is public, but the macOS app itself is distributed through the Mac App Store.',
+      },
+      {
+        q: 'Why use Monaco in a Mac app?',
+        a: 'Monaco provides mature editing behavior for complex text workflows, while the Mac app shell handles local desktop behavior and distribution.',
+      },
+      {
+        q: 'Is notePad++++ a Notepad++ clone?',
+        a: 'No. It is an independent macOS editor inspired by practical Notepad++-style workflows, not an official port or clone.',
+      },
+    ],
+    related: [
+      { label: 'Best lightweight text editors for Mac in 2026', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
+      { label: 'Why macOS still needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
+      { label: 'Notepad++ for Mac alternative overview', href: '/en/notepad-plus-plus-for-mac/' },
+      { label: 'Back to product overview', href: '/en/' },
+    ],
+    externalLinks: [
+      { label: 'Download notePad++++ on the App Store', href: APP_STORE_URL, external: true },
+      { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
+      { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
+      { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
+    ],
+  },
 ]
 
 export function getSeoArticle(slug: string): SeoArticle | undefined {

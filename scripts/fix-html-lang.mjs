@@ -1,9 +1,8 @@
-import { readFile, writeFile } from 'node:fs/promises'
+import { readdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 
 const htmlLangByOutput = {
   'index.html': 'zh-CN',
-  'en/index.html': 'en',
   'de/index.html': 'de',
   'es/index.html': 'es',
   'fr/index.html': 'fr',
@@ -17,7 +16,7 @@ const htmlLangByOutput = {
 
 let updatedCount = 0
 
-for (const [relativePath, lang] of Object.entries(htmlLangByOutput)) {
+async function fixHtmlLang(relativePath, lang) {
   const filePath = path.join(process.cwd(), 'out', relativePath)
   const html = await readFile(filePath, 'utf8')
   const updated = html.replace(/<html lang="[^"]*"/, `<html lang="${lang}"`)
@@ -25,6 +24,20 @@ for (const [relativePath, lang] of Object.entries(htmlLangByOutput)) {
   if (updated !== html) {
     await writeFile(filePath, updated)
     updatedCount += 1
+  }
+}
+
+for (const [relativePath, lang] of Object.entries(htmlLangByOutput)) {
+  await fixHtmlLang(relativePath, lang)
+}
+
+const englishDir = path.join(process.cwd(), 'out', 'en')
+const englishEntries = await readdir(englishDir, { withFileTypes: true })
+
+await fixHtmlLang('en/index.html', 'en')
+for (const entry of englishEntries) {
+  if (entry.isDirectory()) {
+    await fixHtmlLang(path.join('en', entry.name, 'index.html'), 'en')
   }
 }
 
