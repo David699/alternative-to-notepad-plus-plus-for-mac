@@ -486,14 +486,14 @@ export const seoArticles: SeoArticle[] = [
     title: 'How I Built a Notepad++-Style Editor for macOS',
     shortTitle: 'How I Built a Notepad++-Style Editor for macOS',
     description:
-      'A developer story about building notePad++++, a Notepad++-style editor for macOS focused on local files, Monaco-powered editing, tabs, column mode, regex cleanup, workspace search, scripts, Markdown preview, and batch-safe text processing.',
+      'A developer story about building notePad++++, a Notepad++-style editor for macOS focused on local files, fast editing, tabs, column mode, regex cleanup, workspace search, scripts, Markdown preview, and batch-safe text processing.',
     datePublished: '2026-06-05',
     dateModified: '2026-06-05',
     keywords: [
       'how I built a Notepad++ style editor for macOS',
       'build Mac text editor',
       'Notepad++ style editor for Mac',
-      'Monaco editor macOS app',
+      'Mac-first text editor architecture',
       'notePad++++ development story',
     ],
     heroKicker: 'Developer story',
@@ -510,7 +510,7 @@ export const seoArticles: SeoArticle[] = [
       {
         title: 'Why a hybrid architecture made sense',
         body: [
-          'A pure native editor can feel excellent on macOS, but building advanced editor behavior from scratch is expensive. A pure web app can move fast, but local file workflows and desktop expectations matter. notePad++++ uses a Mac shell with a Monaco-powered editing surface so the editor can support serious text features while still behaving like a desktop app.',
+          'A pure native editor can feel excellent on macOS, but building advanced editor behavior from scratch is expensive. A pure web app can move fast, but local file workflows and desktop expectations matter. notePad++++ uses a Mac-first app shell with a desktop-grade editing surface so the editor can support serious text features while still behaving like a desktop app.',
           'That architecture keeps the app focused on the hard parts users notice: opening local files, switching tabs, keeping unsaved state clear, running text operations safely, and showing useful previews before changes are applied.',
         ],
       },
@@ -540,7 +540,7 @@ export const seoArticles: SeoArticle[] = [
       headers: ['Choice', 'Reason'],
       rows: [
         ['Mac-first app shell', 'Local files, permissions, window behavior, and App Store distribution matter for the target users.'],
-        ['Monaco-powered editor surface', 'Advanced editing behaviors such as Column Mode and syntax-aware workflows are easier to support consistently.'],
+        ['Desktop-grade editing surface', 'Advanced editing behaviors such as Column Mode and syntax-aware workflows are easier to support consistently.'],
         ['Text transformation scripts', 'Many users repeat cleanup tasks that are too small for standalone automation.'],
         ['Diff preview and rollback', 'Batch edits need trust before they need speed.'],
         ['User-controlled AI', 'AI should help with selected text, scripts, summaries, and rewrites only when the user asks for it.'],
@@ -552,8 +552,8 @@ export const seoArticles: SeoArticle[] = [
         a: 'The landing page repository is public, but the macOS app itself is distributed through the Mac App Store.',
       },
       {
-        q: 'Why use Monaco in a Mac app?',
-        a: 'Monaco provides mature editing behavior for complex text workflows, while the Mac app shell handles local desktop behavior and distribution.',
+        q: 'Why use a hybrid architecture for a Mac editor?',
+        a: 'A hybrid architecture lets the app support advanced text workflows while the Mac app shell handles local desktop behavior and distribution.',
       },
       {
         q: 'Is notePad++++ a Notepad++ clone?',

@@ -30,7 +30,7 @@ export const ZH_SEO_KEYWORDS = [
   'BBEdit 替代品',
   'CotEditor 替代品',
   'Sublime Text alternative Mac',
-  'Monaco editor for Mac',
+  'Mac-first text editor',
 ]
 
 export const EN_SEO_KEYWORDS = [
@@ -58,5 +58,5 @@ export const EN_SEO_KEYWORDS = [
   'BBEdit alternative for Mac',
   'CotEditor alternative',
   'Sublime Text alternative Mac',
-  'Monaco editor for Mac',
+  'Mac-first text editor',
 ]
