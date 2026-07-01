@@ -1,5 +1,7 @@
 import { APP_NAME } from './seo'
 import { APP_STORE_URL, GITHUB_REPO_URL, NOTEPAD_PLUS_PLUS_URL, PRODUCT_HUNT_URL, SITE_URL } from './paths'
+import { textEditorGuides } from './seo-articles/text-editor-guides'
+import { workflowGuides } from './seo-articles/workflow-guides'
 
 export interface SeoArticleLink {
   label: string
@@ -41,7 +43,7 @@ export interface SeoArticle {
   externalLinks: SeoArticleLink[]
 }
 
-export const seoArticles: SeoArticle[] = [
+const coreSeoArticles: SeoArticle[] = [
   {
     slug: 'notepad-plus-plus-for-mac',
     title: 'Notepad++ for Mac Alternative: A Native macOS Text Editor for Everyday Text Work',
@@ -118,6 +120,8 @@ export const seoArticles: SeoArticle[] = [
       },
     ],
     related: [
+      { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
+      { label: 'Regex find and replace on Mac', href: '/en/regex-find-replace-mac/' },
       { label: 'Compare Notepad++ alternatives for Mac', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: 'Column Mode editor for Mac', href: '/en/column-mode-editor-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },
@@ -196,6 +200,8 @@ export const seoArticles: SeoArticle[] = [
       },
     ],
     related: [
+      { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
+      { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
       { label: 'Notepad++ for Mac alternative overview', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Column Mode editor for Mac', href: '/en/column-mode-editor-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },
@@ -280,6 +286,8 @@ export const seoArticles: SeoArticle[] = [
       },
     ],
     related: [
+      { label: 'Regex find and replace on Mac', href: '/en/regex-find-replace-mac/' },
+      { label: 'Batch text processing on Mac', href: '/en/batch-text-processing-mac/' },
       { label: 'Notepad++ for Mac alternative overview', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Compare Notepad++ alternatives for Mac', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },
@@ -374,6 +382,9 @@ export const seoArticles: SeoArticle[] = [
       },
     ],
     related: [
+      { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
+      { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
+      { label: 'Batch text processing on Mac', href: '/en/batch-text-processing-mac/' },
       { label: 'Why macOS still needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
       { label: 'How I built a Notepad++-style editor for macOS', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Compare Notepad++ alternatives for Mac', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
@@ -573,6 +584,12 @@ export const seoArticles: SeoArticle[] = [
       { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
     ],
   },
+]
+
+export const seoArticles: SeoArticle[] = [
+  ...coreSeoArticles,
+  ...textEditorGuides,
+  ...workflowGuides,
 ]
 
 export function getSeoArticle(slug: string): SeoArticle | undefined {

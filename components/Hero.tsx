@@ -110,7 +110,7 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
                   className={`relative w-8 h-8 rounded-full overflow-hidden border-2 p-0.5 flex-shrink-0
                               ${tag.iconFrame}`}
                 >
-                  <Image src={withBasePath(tag.iconSrc)} alt="" fill sizes="32px" className="object-cover p-0.5" />
+                  <Image src={withBasePath(tag.iconSrc)} alt={tag.imageAlt} fill sizes="32px" className="object-cover p-0.5" />
                 </span>
                 {tag.label}
               </motion.span>

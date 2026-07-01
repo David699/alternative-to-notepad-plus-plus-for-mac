@@ -27,6 +27,7 @@ export const en: Dict = {
       {
         label: 'Notepad++ for Mac',
         iconSrc: '/images/tag-notepad.png',
+        imageAlt: 'Notepad++ for Mac alternative icon',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(59,130,246,0.28)]',
@@ -34,6 +35,7 @@ export const en: Dict = {
       {
         label: 'Column Mode',
         iconSrc: '/images/tag-column.png',
+        imageAlt: 'Column mode editing icon',
         classes: 'bg-emerald-100 text-emerald-800 border-emerald-300 hover:bg-emerald-200 hover:border-emerald-400',
         iconFrame: 'border-emerald-500 bg-white shadow-[0_2px_10px_rgba(5,150,105,0.22)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(16,185,129,0.28)]',
@@ -41,6 +43,7 @@ export const en: Dict = {
       {
         label: 'Multi-Tab',
         iconSrc: '/images/tag-tabs.png',
+        imageAlt: 'Multi-tab text editor icon',
         classes: 'bg-amber-100 text-amber-800 border-amber-300 hover:bg-amber-200 hover:border-amber-400',
         iconFrame: 'border-amber-500 bg-white shadow-[0_2px_10px_rgba(217,119,6,0.24)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(245,158,11,0.28)]',
@@ -48,6 +51,7 @@ export const en: Dict = {
       {
         label: 'AI + Automation',
         iconSrc: '/images/tag-ai.png',
+        imageAlt: 'AI and text automation icon',
         classes: 'bg-violet-100 text-violet-800 border-violet-300 hover:bg-violet-200 hover:border-violet-400',
         iconFrame: 'border-violet-500 bg-white shadow-[0_2px_10px_rgba(124,58,237,0.24)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(124,58,237,0.28)]',
@@ -407,6 +411,11 @@ export const en: Dict = {
       { label: 'Text Cleaning', href: '/en/#text-cleaning' },
     ],
     guideLinks: [
+      { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
+      { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
+      { label: 'Notepad for Mac', href: '/en/notepad-for-mac/' },
+      { label: 'Regex find and replace on Mac', href: '/en/regex-find-replace-mac/' },
+      { label: 'Batch text processing on Mac', href: '/en/batch-text-processing-mac/' },
       { label: 'Best Mac text editors 2026', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
       { label: 'Why Mac needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
       { label: 'How notePad++++ was built', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },

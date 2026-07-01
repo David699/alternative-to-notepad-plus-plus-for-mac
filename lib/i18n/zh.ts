@@ -27,6 +27,7 @@ export const zh: Dict = {
       {
         label: 'Notepad++ Mac 替代',
         iconSrc: '/images/tag-notepad.png',
+        imageAlt: 'Notepad++ Mac 替代品图标',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(59,130,246,0.28)]',
@@ -34,6 +35,7 @@ export const zh: Dict = {
       {
         label: '列模式',
         iconSrc: '/images/tag-column.png',
+        imageAlt: '列模式编辑图标',
         classes: 'bg-emerald-100 text-emerald-800 border-emerald-300 hover:bg-emerald-200 hover:border-emerald-400',
         iconFrame: 'border-emerald-500 bg-white shadow-[0_2px_10px_rgba(5,150,105,0.22)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(16,185,129,0.28)]',
@@ -41,6 +43,7 @@ export const zh: Dict = {
       {
         label: '多标签',
         iconSrc: '/images/tag-tabs.png',
+        imageAlt: '多标签文本编辑器图标',
         classes: 'bg-amber-100 text-amber-800 border-amber-300 hover:bg-amber-200 hover:border-amber-400',
         iconFrame: 'border-amber-500 bg-white shadow-[0_2px_10px_rgba(217,119,6,0.24)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(245,158,11,0.28)]',
@@ -48,6 +51,7 @@ export const zh: Dict = {
       {
         label: 'AI + 自动化',
         iconSrc: '/images/tag-ai.png',
+        imageAlt: 'AI 与文本自动化图标',
         classes: 'bg-violet-100 text-violet-800 border-violet-300 hover:bg-violet-200 hover:border-violet-400',
         iconFrame: 'border-violet-500 bg-white shadow-[0_2px_10px_rgba(124,58,237,0.24)]',
         glow: 'hover:shadow-[0_6px_24px_rgba(124,58,237,0.28)]',
@@ -407,6 +411,11 @@ export const zh: Dict = {
       { label: '中文文本场景', href: '/#text-cleaning' },
     ],
     guideLinks: [
+      { label: 'Mac 文本编辑器', href: '/en/text-editor-for-mac/' },
+      { label: 'Mac 纯文本编辑器', href: '/en/plain-text-editor-for-mac/' },
+      { label: 'Notepad for Mac', href: '/en/notepad-for-mac/' },
+      { label: 'Mac 正则查找替换', href: '/en/regex-find-replace-mac/' },
+      { label: 'Mac 批量文本处理', href: '/en/batch-text-processing-mac/' },
       { label: '2026 Mac 轻量编辑器', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
       { label: '为什么 Mac 仍需要 Notepad++ 替代品', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
       { label: 'notePad++++ 构建故事', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },

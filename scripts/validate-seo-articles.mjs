@@ -10,6 +10,11 @@ const requiredArticles = [
   'best-lightweight-text-editors-for-mac-2026',
   'why-macos-still-needs-a-notepad-plus-plus-alternative',
   'how-i-built-a-notepad-plus-plus-style-editor-for-macos',
+  'text-editor-for-mac',
+  'plain-text-editor-for-mac',
+  'notepad-for-mac',
+  'regex-find-replace-mac',
+  'batch-text-processing-mac',
 ]
 
 const requiredFeaturePhrases = [
@@ -31,10 +36,16 @@ function assert(condition, message) {
   }
 }
 
-const articleDataPath = 'lib/seo-articles.ts'
-assert(fs.existsSync(path.join(root, articleDataPath)), `${articleDataPath} is missing`)
+const articleDataPaths = [
+  'lib/seo-articles.ts',
+  'lib/seo-articles/text-editor-guides.ts',
+  'lib/seo-articles/workflow-guides.ts',
+]
+for (const articleDataPath of articleDataPaths) {
+  assert(fs.existsSync(path.join(root, articleDataPath)), `${articleDataPath} is missing`)
+}
 
-const articleData = read(articleDataPath)
+const articleData = articleDataPaths.map((articleDataPath) => read(articleDataPath)).join('\n')
 for (const slug of requiredArticles) {
   assert(articleData.includes(`slug: '${slug}'`), `Article data missing slug: ${slug}`)
   const routePath = `app/en/${slug}/page.tsx`

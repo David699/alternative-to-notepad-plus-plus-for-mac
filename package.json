@@ -7,7 +7,8 @@
     "build": "next build && node scripts/fix-html-lang.mjs",
     "start": "next start",
     "export": "npm run build",
-    "test:seo": "node scripts/validate-seo-articles.mjs"
+    "test:seo": "node scripts/validate-seo-articles.mjs",
+    "seo:indexnow": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
     "next": "14.2.3",

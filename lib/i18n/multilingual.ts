@@ -650,6 +650,7 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
       tags: page.hero.badges.map((label, index) => ({
         label,
         iconSrc: ['/images/tag-notepad.png', '/images/tag-column.png', '/images/tag-tabs.png', '/images/tag-ai.png'][index] ?? '/images/tag-tabs.png',
+        imageAlt: label,
         classes: ['bg-blue-100 text-blue-800 border-blue-300', 'bg-emerald-100 text-emerald-800 border-emerald-300', 'bg-amber-100 text-amber-800 border-amber-300', 'bg-violet-100 text-violet-800 border-violet-300'][index] ?? 'bg-gray-100 text-gray-800 border-gray-300',
         iconFrame: ['border-blue-500', 'border-emerald-500', 'border-amber-500', 'border-violet-500'][index] + ' bg-white',
         glow: 'hover:shadow-card-hover',
@@ -857,6 +858,11 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
         { label: ui.textTools, href: `${page.path}#text-cleaning` },
       ],
       guideLinks: [
+        { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
+        { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
+        { label: 'Notepad for Mac', href: '/en/notepad-for-mac/' },
+        { label: 'Regex find and replace on Mac', href: '/en/regex-find-replace-mac/' },
+        { label: 'Batch text processing on Mac', href: '/en/batch-text-processing-mac/' },
         { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
         { label: 'Mac alternatives guide', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
         { label: 'Column Mode guide', href: '/en/column-mode-editor-for-mac/' },

@@ -66,7 +66,7 @@ export default function SeoArticlePage({ article }: Props) {
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">{article.heroSummary}</p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <AppStoreDownloadLink
-                source="seo_article"
+                source={`seo_${article.slug}`}
                 href={APP_STORE_URL}
                 className="inline-flex items-center justify-center rounded-xl bg-brand-600 px-5 py-3 text-sm font-bold text-white shadow-sm transition hover:bg-brand-700"
               >

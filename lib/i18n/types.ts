@@ -13,6 +13,7 @@ export interface ShortcutItem {
 export interface TagItem {
   label: string
   iconSrc: string
+  imageAlt: string
   classes: string
   iconFrame: string
   glow: string

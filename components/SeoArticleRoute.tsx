@@ -49,24 +49,35 @@ export default function SeoArticleRoute({ slug }: { slug: string }) {
   if (!article) return null
 
   const canonical = getSeoArticleUrl(article)
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'Article',
+      headline: article.title,
+      description: article.description,
+      datePublished: article.datePublished,
+      dateModified: article.dateModified,
+      image: `${SITE_URL}${ARTICLE_IMAGE}`,
+      mainEntityOfPage: canonical,
+      author: { '@type': 'Person', name: 'David699' },
+      publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: 'Home', item: `${SITE_URL}/en/` },
+        { '@type': 'ListItem', position: 2, name: article.shortTitle, item: canonical },
+      ],
+    },
+  ]
 
   return (
     <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify({
-            '@context': 'https://schema.org',
-            '@type': 'Article',
-            headline: article.title,
-            description: article.description,
-            datePublished: article.datePublished,
-            dateModified: article.dateModified,
-            image: `${SITE_URL}${ARTICLE_IMAGE}`,
-            mainEntityOfPage: canonical,
-            author: { '@type': 'Person', name: 'David699' },
-            publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
-          }),
+          __html: JSON.stringify(jsonLd),
         }}
       />
       <SeoArticlePage article={article} />
