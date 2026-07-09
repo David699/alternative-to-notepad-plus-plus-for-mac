@@ -9,13 +9,13 @@
 文件路径按语言分目录：
 
 ```txt
-content/seo/ar/text-editor-for-mac.md
+content/seo/ja/notepad-plus-plus-for-mac.md
 ```
 
 对应 URL：
 
 ```txt
-/ar/text-editor-for-mac/
+/ja/notepad-plus-plus-for-mac/
 ```
 
 对已经配置动态路由的语言来说，新增一篇文章只需要：
@@ -24,9 +24,9 @@ content/seo/ar/text-editor-for-mac.md
 2. 确保 `slug` 和文件名一致。
 3. 运行 `npm run test:seo` 和 `npm run build`。
 
-当前 Arabic 已经配置动态路由，新增 `content/seo/ar/*.md` 不需要再新增 `app/ar/.../page.tsx`。
+当前已注册的 SEO-only 语言共用 `app/[locale]/[slug]/page.tsx` 动态路由，新增 `content/seo/<locale>/*.md` 不需要再新增路由文件。
 
-新增一个全新语言时，还需要在 `lib/seo-localized/locales.ts` 和 `lib/seo-localized/types.ts` 注册语言配置，并给该语言添加对应 route。
+新增一个全新语言时，还需要在 `lib/seo-localized/locales.ts` 和 `lib/seo-localized/types.ts` 注册语言配置。只要语言被注册，Markdown 文件会自动进入构建和 sitemap。
 
 ## 文件结构
 
@@ -94,10 +94,15 @@ related:
 
 `externalLinks` 会显示在页面侧栏的“Useful links”区域。`href` 可以写真实 URL，也可以写项目内置 token。
 
+每篇和 Notepad++ 相关的本地化 SEO 页面建议至少包含 App Store 和 Notepad++ 官方网站。这样页面不会只像下载转化页，也能把原始 Windows 项目的来源讲清楚。
+
 ```yaml
 externalLinks:
   - label: "تحميل notePad++++ من App Store"
     href: "appStore"
+    external: true
+  - label: "موقع Notepad++ الرسمي"
+    href: "notepadPlusPlus"
     external: true
   - label: "مشاهدة المشروع على GitHub"
     href: "github"

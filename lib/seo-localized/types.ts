@@ -1,6 +1,18 @@
 import type { AppStoreRatingSummaryData } from '../app-store-rating'
 
-export type SeoOnlyLocale = 'ar'
+export type SeoOnlyLocale =
+  | 'ar'
+  | 'de'
+  | 'es'
+  | 'fr'
+  | 'it'
+  | 'ja'
+  | 'ko'
+  | 'nl'
+  | 'pl'
+  | 'pt-br'
+  | 'tr'
+  | 'zh-hant'
 
 export interface LocalizedSeoArticleLink {
   label: string

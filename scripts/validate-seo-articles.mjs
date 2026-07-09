@@ -1,5 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
+import matter from 'gray-matter'
 
 const root = process.cwd()
 
@@ -22,6 +23,23 @@ const requiredArabicBaselineArticles = [
   'notepad-alternative-mac',
   'text-editor-for-mac',
 ]
+
+const requiredLocalizedSeoLocales = [
+  'ar',
+  'de',
+  'es',
+  'fr',
+  'it',
+  'ja',
+  'ko',
+  'nl',
+  'pl',
+  'pt-br',
+  'tr',
+  'zh-hant',
+]
+
+const requiredNotepadForMacLocalizedLocales = requiredLocalizedSeoLocales.filter((locale) => locale !== 'ar')
 
 const requiredFeaturePhrases = [
   'Column Mode',
@@ -51,6 +69,15 @@ function markdownSlugs(relativeDirectory) {
     .filter((entry) => entry.isFile() && entry.name.endsWith('.md'))
     .map((entry) => entry.name.replace(/\.md$/, ''))
     .sort()
+}
+
+function markdownArticle(relativePath) {
+  const source = read(relativePath)
+  const parsed = matter(source)
+  return {
+    data: parsed.data,
+    content: parsed.content,
+  }
 }
 
 const articleDataPaths = [
@@ -83,17 +110,32 @@ for (const slug of requiredArabicBaselineArticles) {
 }
 for (const slug of arabicArticleSlugs) {
   const articlePath = `content/seo/ar/${slug}.md`
-  const articleMarkdown = read(articlePath)
-  assert(articleMarkdown.includes(`slug: "${slug}"`), `Arabic Markdown article missing slug: ${slug}`)
-  assert(articleMarkdown.includes('## '), `${articlePath} is missing Markdown section headings`)
+  const article = markdownArticle(articlePath)
+  assert(article.data.slug === slug, `Arabic Markdown article missing slug: ${slug}`)
+  assert(article.content.includes('## '), `${articlePath} is missing Markdown section headings`)
 }
-const arabicRoutePath = 'app/ar/[slug]/page.tsx'
-assert(fs.existsSync(path.join(root, arabicRoutePath)), `${arabicRoutePath} is missing`)
-const arabicRouteSource = read(arabicRoutePath)
-assert(arabicRouteSource.includes("const locale = 'ar'"), `${arabicRoutePath} does not reference its SEO-only locale`)
-assert(arabicRouteSource.includes('generateStaticParams'), `${arabicRoutePath} is missing static params generation`)
-assert(arabicRouteSource.includes('generateMetadata'), `${arabicRoutePath} is missing metadata generation`)
-assert(arabicRouteSource.includes('localizedSeoArticlesByLocale'), `${arabicRoutePath} does not generate pages from Markdown articles`)
+for (const locale of requiredNotepadForMacLocalizedLocales) {
+  const articleDirectory = `content/seo/${locale}`
+  const slugs = markdownSlugs(articleDirectory)
+  assert(slugs.includes('notepad-plus-plus-for-mac'), `${articleDirectory} is missing notepad-plus-plus-for-mac`)
+
+  const articlePath = `${articleDirectory}/notepad-plus-plus-for-mac.md`
+  const article = markdownArticle(articlePath)
+  const relatedHrefs = article.data.related.map((link) => link.href)
+  const externalHrefs = article.data.externalLinks.map((link) => link.href)
+  assert(article.data.slug === 'notepad-plus-plus-for-mac', `${articlePath} has an invalid slug`)
+  assert(article.data.englishEquivalentPath === '/en/notepad-plus-plus-for-mac/', `${articlePath} is missing English equivalent`)
+  assert(externalHrefs.includes('notepadPlusPlus'), `${articlePath} should link to official Notepad++`)
+  assert(externalHrefs.includes('appStore'), `${articlePath} should link to App Store`)
+  assert(!relatedHrefs.includes(`/${locale}/text-editor-for-mac/`), `${articlePath} should not link to ungenerated localized related pages`)
+  assert(article.content.includes('## '), `${articlePath} is missing Markdown section headings`)
+}
+const localizedSeoRoutePath = 'app/[locale]/[slug]/page.tsx'
+assert(fs.existsSync(path.join(root, localizedSeoRoutePath)), `${localizedSeoRoutePath} is missing`)
+const localizedSeoRouteSource = read(localizedSeoRoutePath)
+assert(localizedSeoRouteSource.includes('localizedSeoArticleEntries'), `${localizedSeoRoutePath} does not generate all localized SEO articles`)
+assert(localizedSeoRouteSource.includes('isLocalizedSeoLocale'), `${localizedSeoRoutePath} should validate locale params`)
+assert(!fs.existsSync(path.join(root, 'app/ar/[slug]/page.tsx')), 'Arabic SEO should use the shared localized route')
 assert(fs.existsSync(path.join(root, 'lib/seo-localized/locales.ts')), 'Localized SEO locale config is missing')
 assert(fs.existsSync(path.join(root, 'lib/seo-localized/index.ts')), 'Localized SEO registry is missing')
 assert(fs.existsSync(path.join(root, 'lib/seo-localized/markdown.ts')), 'Localized SEO Markdown loader is missing')
@@ -103,6 +145,14 @@ assert(fs.existsSync(path.join(root, 'components/LocalizedSeoArticleRoute.tsx'))
 assert(!fs.existsSync(path.join(root, 'lib/seo-localized/articles-ar.ts')), 'Arabic SEO content should live in Markdown, not TS article data')
 assert(read('lib/seo-localized/locales.ts').includes("dir: 'rtl'"), 'Arabic SEO locale config is missing RTL direction')
 assert(read('lib/seo-localized/locales.ts').includes('Notepad++ علامة تجارية'), 'Arabic SEO locale config is missing brand disclaimer')
+for (const locale of requiredLocalizedSeoLocales) {
+  assert(read('lib/seo-localized/types.ts').includes(`'${locale}'`), `Localized SEO type is missing locale: ${locale}`)
+  const localeConfigSource = read('lib/seo-localized/locales.ts')
+  assert(
+    localeConfigSource.includes(`${locale}:`) || localeConfigSource.includes(`'${locale}':`),
+    `Localized SEO config is missing locale: ${locale}`,
+  )
+}
 assert(read('components/LocalizedSeoArticlePage.tsx').includes('dir={config.dir}'), 'Generic localized SEO page does not use locale direction')
 assert(read('components/LocalizedSeoArticlePage.tsx').includes('article.contentHtml'), 'Generic localized SEO page does not render Markdown content')
 assert(read('components/LocalizedSeoArticleRoute.tsx').includes('content-language'), 'Generic localized SEO metadata is missing content-language')
@@ -129,6 +179,7 @@ assert(!siteLocales.includes("slug: 'ar'"), 'Arabic should not be added to full-
 const htmlLangFixer = read('scripts/fix-html-lang.mjs')
 assert(htmlLangFixer.includes('seoOnlyLangByDirectory'), 'Static html lang fixer is missing SEO-only locale directory support')
 assert(htmlLangFixer.includes("ar: 'ar'"), 'Static html lang fixer is missing Arabic SEO directory support')
+assert(htmlLangFixer.includes("ja: 'ja'"), 'Static html lang fixer is missing localized SEO directory support')
 
 const ratingSource = read('lib/app-store-rating.ts')
 assert(ratingSource.includes('ratingCount: 261'), 'App Store rating source should keep the current rating count')
@@ -151,4 +202,6 @@ assert(footer.includes('guideLinks'), 'Footer does not render guide links')
 assert(footer.includes('GITHUB_REPO_URL'), 'Footer does not render GitHub external link')
 assert(footer.includes('PRODUCT_HUNT_URL'), 'Footer does not render Product Hunt external link')
 
-console.log(`SEO article validation passed for ${requiredArticles.length} English articles and ${arabicArticleSlugs.length} Arabic articles.`)
+console.log(
+  `SEO article validation passed for ${requiredArticles.length} English articles, ${arabicArticleSlugs.length} Arabic articles, and ${requiredNotepadForMacLocalizedLocales.length} localized Notepad++ pages.`,
+)

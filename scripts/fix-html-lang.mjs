@@ -16,6 +16,17 @@ const htmlLangByOutput = {
 
 const seoOnlyLangByDirectory = {
   ar: 'ar',
+  de: 'de',
+  es: 'es',
+  fr: 'fr',
+  it: 'it',
+  ja: 'ja',
+  ko: 'ko',
+  nl: 'nl',
+  pl: 'pl',
+  'pt-br': 'pt-BR',
+  tr: 'tr',
+  'zh-hant': 'zh-Hant',
 }
 
 let updatedCount = 0

@@ -12,9 +12,12 @@ export type {
 } from './types'
 export { getLocalizedSeoLocale, localizedSeoLocales } from './locales'
 
-export const localizedSeoArticlesByLocale: Record<SeoOnlyLocale, LocalizedSeoArticle[]> = {
-  ar: loadLocalizedSeoArticles('ar', localizedSeoLocales.ar),
-}
+export const localizedSeoArticlesByLocale = Object.fromEntries(
+  (Object.keys(localizedSeoLocales) as SeoOnlyLocale[]).map((locale) => [
+    locale,
+    loadLocalizedSeoArticles(locale, localizedSeoLocales[locale]),
+  ]),
+) as Record<SeoOnlyLocale, LocalizedSeoArticle[]>
 
 export const localizedSeoArticleEntries = (Object.keys(localizedSeoArticlesByLocale) as SeoOnlyLocale[]).flatMap(
   (locale) => {
