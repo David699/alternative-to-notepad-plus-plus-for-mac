@@ -1,38 +1,37 @@
 ---
 slug: notepad-plus-plus-for-mac
 englishEquivalentPath: /en/notepad-plus-plus-for-mac/
-title: Alternativa ao Notepad++ para Mac | Editor de texto leve
-shortTitle: Alternativa ao Notepad++ para Mac
+title: "Notepad++ no Mac: por onde começar | Editor de texto leve"
+shortTitle: "Notepad++ no Mac: por onde começar"
 description: >-
-  Um editor de texto nativo para macOS com abas, modo coluna, busca e
-  substituição com regex, pesquisa em pastas, prévia Markdown e processamento em
-  lote com segurança.
-datePublished: '2026-07-09'
-dateModified: '2026-07-09'
+  Você usava o Notepad++ no Windows e acabou de chegar ao Mac? Um guia direto
+  para retomar sua rotina: abas, edição em coluna, regex, CSV com ponto e
+  vírgula e acentos que não quebram.
+datePublished: '2026-06-17'
+dateModified: '2026-06-17'
 keywords:
-  - Notepad++ para Mac
-  - alternativa ao Notepad++ para Mac
-  - Notepad++ Mac alternativa
-  - editor de texto para Mac
-  - editor de código para Mac
-  - editor de texto leve Mac
-  - modo coluna Mac
-  - buscar e substituir regex Mac
-  - editor CSV Mac
-  - editor Markdown Mac
-heroKicker: Para quem saiu do Windows e está no macOS
+  - notepad++ para mac
+  - bloco de notas para mac
+  - editor de texto mac
+  - alternativa notepad++ mac
+  - csv ponto e vírgula mac
+  - acentos quebrados arquivo
+  - editor leve macos
+  - localizar e substituir regex mac
+  - editor csv mac
+heroKicker: Guia de chegada para quem veio do Windows
 heroSummary: >-
-  Se você procura Notepad++ para Mac porque sente falta de abas, modo coluna,
-  busca com regex e uma edição rápida para arquivos simples, o notePad++++
-  entrega esse fluxo em um app nativo para macOS, sem Wine, sem máquina virtual
-  e sem abrir uma IDE pesada.
+  Você não precisa reaprender tudo do zero. Se o Notepad++ era seu bloco de
+  notas turbinado no Windows, o notePad++++ é um editor independente e nativo
+  do macOS que devolve aquela rotina: abrir rápido, editar em abas, limpar
+  texto com regex e fechar sem cerimônia.
 related:
-  - label: Página em inglês sobre Notepad++ para Mac
+  - label: Versão em inglês desta página
     href: /en/notepad-plus-plus-for-mac/
-  - label: Início do notePad++++
+  - label: Página inicial do notePad++++
     href: /pt-br/
 externalLinks:
-  - label: Baixar notePad++++ na App Store
+  - label: Baixar o notePad++++ na App Store
     href: appStore
     external: true
   - label: Visitar o site oficial do Notepad++
@@ -45,63 +44,53 @@ faq:
   - q: O notePad++++ é a versão oficial do Notepad++ para Mac?
     a: >-
       Não. O notePad++++ é um editor de texto independente para macOS e não tem
-      afiliação com o projeto oficial Notepad++.
-  - q: 'Preciso usar Wine, Parallels ou uma máquina virtual?'
+      relação com o projeto oficial do Notepad++.
+  - q: O CSV do Excel brasileiro, separado por ponto e vírgula, funciona?
     a: >-
-      Não. O app roda de forma nativa no macOS, sem depender de Windows ou de
-      camadas de compatibilidade.
-  - q: Ele tem modo coluna?
+      Sim. Arquivos CSV exportados com ponto e vírgula podem ser editados
+      normalmente, com Column Mode para alinhar colunas e regex para trocar
+      separadores quando necessário.
+  - q: Arquivos antigos com acentos quebrados abrem certo?
     a: >-
-      Sim. O Column Mode foi pensado para listas alinhadas, logs, trechos de CSV
-      e blocos de configuração.
-  - q: Dá para buscar e substituir usando expressões regulares?
+      Sim. Arquivos salvos em codificações antigas, como Windows-1252, abrem
+      com ç, ã e é legíveis, sem virar símbolos estranhos.
+  - q: Preciso de Wine ou máquina virtual?
     a: >-
-      Sim. O fluxo de busca e substituição aceita regex, diferenciação entre
-      maiúsculas e minúsculas, palavras inteiras e mudanças controladas.
+      Não. O notePad++++ é feito para macOS e roda de forma nativa, sem camada
+      de compatibilidade com Windows.
 ---
-## Procurando Notepad++ para Mac?
+## Sentiu falta do Notepad++ no Mac? Comece por aqui
 
-No Brasil, muita gente pesquisa por «Notepad++ para Mac», «alternativa ao Notepad++ para Mac» ou «editor de texto para Mac» depois de trocar o Windows pelo macOS. A necessidade é bem prática: abrir arquivos rapidamente, usar abas, editar colunas, fazer busca e substituição com regex e trabalhar com texto puro sem transformar tudo em documento formatado.
+Se você acabou de trocar o Windows pelo Mac, provavelmente já percebeu: o Notepad++ não veio junto. Aquele hábito de abrir qualquer arquivo de texto em meio segundo, ajustar duas linhas e fechar — sem projeto, sem espera — de repente não tem um lugar óbvio no macOS.
 
-O notePad++++ foi criado para esse tipo de uso. Ele não é a versão oficial do Notepad++ para Mac. É um editor de texto independente e nativo para macOS, focado em tarefas do dia a dia: logs, arquivos CSV, Markdown, configurações, snippets de código, listas e textos copiados da web.
+A boa notícia é que a rotina continua possível. O notePad++++ é um editor de texto independente, feito para macOS, pensado exatamente para quem chega do Windows com essa memória muscular. Ele não é o Notepad++ oficial — e este guia é honesto sobre as diferenças — mas cobre o dia a dia que fazia você abrir o Notepad++ dez vezes por dia.
 
-## Por que não usar só uma IDE?
+## Seus primeiros dez minutos
 
-Ferramentas como VS Code, Xcode e outras IDEs são ótimas quando você está dentro de um projeto. Mas nem todo ajuste de texto merece abrir um ambiente completo. Às vezes você só precisa remover linhas vazias, ordenar uma lista, substituir um padrão, conferir um arquivo `.env`, revisar um log ou preparar uma nota Markdown.
+Instale, abra e siga este roteiro rápido para reconhecer o terreno:
 
-Nesses casos, um editor leve faz diferença. O notePad++++ tenta ficar nesse ponto: mais poderoso do que um bloco de notas básico, mas mais direto do que uma IDE completa.
+1. **Abra dois ou três arquivos de uma vez.** Eles aparecem em abas, como você esperava. Arraste, alterne, feche — sem criar projeto nenhum.
+2. **Teste o Column Mode.** Abra um log ou um trecho de CSV e selecione um bloco vertical. É a edição em coluna que você usava para alinhar listas e corrigir campos repetidos.
+3. **Faça uma busca com regex.** Use Regex Find & Replace para remover linhas em branco duplicadas ou padronizar datas. Diferenciar maiúsculas e palavra inteira também estão lá.
+4. **Abra uma pasta inteira.** Com o Workspace Search, você procura um termo em todos os arquivos de uma pasta e pula direto para a linha certa.
+5. **Escreva um Markdown.** O Markdown Preview mostra o resultado enquanto você digita — útil para README, anotações e rascunhos.
 
-## Fluxos que importam para quem gosta de Notepad++
+Se esses cinco passos fizerem sentido, o resto do editor vai parecer familiar.
 
-- Abas para manter vários arquivos locais abertos
-- Modo coluna para ajustar listas, logs, CSV e textos alinhados
-- Busca e substituição com regex para limpezas precisas
-- Pesquisa no workspace para encontrar texto dentro de uma pasta
-- Prévia Markdown para notas, documentação e rascunhos
-- Script Pipelines para remover linhas vazias, deduplicar, ordenar, extrair links ou datas e normalizar texto
-- Processamento em lote com prévia, diff e rollback antes de aplicar mudanças
+## CSV com ponto e vírgula e acentos quebrados
 
-Esse conjunto é útil tanto para programadores quanto para suporte, estudantes, criadores de documentação e pessoas que trabalham com dados em texto.
+Dois problemas aparecem com frequência por aqui.
 
-## Comparação por intenção de busca
+**O CSV brasileiro.** O Excel em português exporta CSV separado por ponto e vírgula, porque a vírgula já é o separador decimal. Muita ferramenta engasga com isso. Num editor de texto, o arquivo continua sendo só texto: você alinha colunas com o Column Mode, troca separadores com uma substituição por regex e, se precisar repetir a limpeza em vários arquivos, monta a sequência em Script Pipelines e confere o diff antes de aplicar.
 
-| O que o usuário procura | Como o notePad++++ ajuda |
-| --- | --- |
-| Notepad++ para Mac | Oferece uma experiência nativa no macOS para edição rápida de texto |
-| Alternativa ao Notepad++ para Mac | Cobre abas, modo coluna, regex, Markdown e pesquisa em pastas |
-| Editor de texto para Mac | Abre arquivos locais sem virar editor de documento rico |
-| Editor de código para Mac | Serve para scripts, snippets, JSON, SQL, `.env` e configurações |
-| Buscar e substituir regex Mac | Permite limpar padrões de texto com controle |
-| Editor CSV Mac | Ajuda a ajustar linhas e colunas sem abrir uma planilha completa |
+**Os acentos quebrados.** Arquivos antigos, vindos do Windows, muitas vezes foram salvos em Windows-1252. Abertos como UTF-8, o ç vira símbolo estranho e o ã desaparece. O notePad++++ abre arquivos nessas codificações antigas corretamente, então aquela planilha exportada em 2015 ou o TXT de um sistema legado continuam legíveis.
 
-## Para quem o notePad++++ faz sentido
+## O que muda em relação ao Notepad++ do Windows
 
-O notePad++++ é uma boa escolha se você já usa uma IDE para projetos grandes, mas quer um editor separado para tarefas rápidas. Também é útil para quem veio do Windows e sente falta de um app simples, rápido e com recursos práticos de edição.
+Vale ser direto: o notePad++++ não tenta clonar o Notepad++. O ecossistema de plugins do original não existe aqui — o caminho para automatizar tarefas repetitivas são os Script Pipelines, com visualização de diff e possibilidade de desfazer antes de gravar. Os atalhos seguem o padrão do macOS (Cmd em vez de Ctrl), o que pede alguns dias de adaptação. E, para quem quer, há um assistente de IA opcional para rascunhar scripts de limpeza de texto, além de iCloud Sync para manter a mesma configuração em mais de um Mac.
 
-Ele não tenta copiar todos os menus do Notepad++. A proposta é trazer para o Mac os fluxos mais importantes: abrir, editar, buscar, substituir, visualizar e aplicar transformações repetíveis com segurança.
+Se a sua necessidade é um ambiente completo de desenvolvimento, uma IDE continua sendo a ferramenta certa. Se é um bloco de notas forte para o dia a dia — o papel que o Notepad++ ocupava — é exatamente esse o alvo.
 
-Para tarefas repetidas, a assistência opcional com IA pode ajudar a criar scripts de texto ou revisar conteúdo sem transformar o app em uma IDE pesada. O fluxo continua centrado em arquivos locais: você pode ver o diff antes de aplicar mudanças, reverter quando necessário e usar iCloud Sync para manter o mesmo espaço de trabalho em mais de um Mac.
+## Marca e independência
 
-## Nota sobre marca e independência
-
-Notepad++ é uma marca de seu respectivo proprietário. O notePad++++ é um editor de texto independente para macOS e não é afiliado, endossado nem aprovado pelo projeto oficial Notepad++.
+Notepad++ é uma marca de seu respectivo titular. O notePad++++ é um editor de texto independente para macOS e não é afiliado, endossado nem autorizado pelo projeto oficial do Notepad++.
