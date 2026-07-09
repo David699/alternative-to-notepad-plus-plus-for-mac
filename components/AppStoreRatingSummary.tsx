@@ -15,7 +15,7 @@ function StarIcon({ className = 'h-3.5 w-3.5' }: { className?: string }) {
 
 function StarLabel({ count }: { count: number }) {
   return (
-    <div className="flex w-[72px] justify-end gap-0.5 text-gray-950" aria-label={`${count} star`}>
+    <div className="flex w-[72px] justify-end gap-0.5 text-gray-950" aria-hidden="true">
       {Array.from({ length: count }).map((_, index) => (
         <StarIcon key={index} className="h-3 w-3" />
       ))}
@@ -27,8 +27,11 @@ export default function AppStoreRatingSummary({
   rating = notepadAppStoreRating,
   className = '',
 }: AppStoreRatingSummaryProps) {
-  const ratingCount = rating.ratingCount.toLocaleString('en-US')
-  const ariaLabel = `${rating.platformLabel}: ${rating.score} out of ${rating.maxScore}, ${ratingCount} ${rating.ratingCountLabel}`
+  const numberLocale = rating.numberLocale ?? 'en-US'
+  const ratingCount = rating.ratingCount.toLocaleString(numberLocale)
+  const maxScoreLabel = rating.maxScoreLabel ?? 'out of'
+  const storeLabel = rating.storeLabel ?? 'App Store'
+  const ariaLabel = `${rating.platformLabel}: ${rating.score.toFixed(1)} ${maxScoreLabel} ${rating.maxScore}, ${ratingCount} ${rating.ratingCountLabel}`
 
   return (
     <aside
@@ -41,7 +44,7 @@ export default function AppStoreRatingSummary({
             <div className="text-sm font-black text-gray-500">{rating.platformLabel}</div>
             <div className="mt-2 flex items-end gap-2">
               <span className="text-6xl font-black leading-none tracking-tight text-gray-950">{rating.score.toFixed(1)}</span>
-              <span className="pb-1 text-sm font-bold text-gray-500">out of {rating.maxScore}</span>
+              <span className="pb-1 text-sm font-bold text-gray-500">{maxScoreLabel} {rating.maxScore}</span>
             </div>
             <div className="mt-3 flex items-center gap-2">
               <div className="flex gap-0.5 text-amber-400" aria-hidden="true">
@@ -49,7 +52,7 @@ export default function AppStoreRatingSummary({
                   <StarIcon key={index} />
                 ))}
               </div>
-              <span className="text-sm font-semibold text-gray-600">App Store</span>
+              <span className="text-sm font-semibold text-gray-600">{storeLabel}</span>
             </div>
           </div>
         </div>

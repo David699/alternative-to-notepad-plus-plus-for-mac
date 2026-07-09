@@ -1,4 +1,5 @@
 import type { Dict } from './types'
+import { notepadAppStoreRating } from '../app-store-rating'
 
 export const zh: Dict = {
   locale: 'zh',
@@ -350,7 +351,7 @@ export const zh: Dict = {
     scoreValue: '4.8',
     scoreSuffix: '满分 5 分',
     ratingsCountLabel: '个评分',
-    ratingsCount: '172',
+    ratingsCount: String(notepadAppStoreRating.ratingCount),
     latestLabel: '最新评论',
     latestCount: '25',
     versionPrefix: '版本',

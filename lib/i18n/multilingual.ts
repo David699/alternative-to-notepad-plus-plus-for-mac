@@ -2,6 +2,7 @@ import type { Dict, Locale } from './types'
 import { en } from './en'
 import { zh } from './zh'
 import { getLocalePage, type AppSupportedLocaleSlug, type LocalePageContent } from '@/lib/site-locales'
+import { notepadAppStoreRating } from '../app-store-rating'
 
 interface UiCopy {
   automation: string
@@ -813,7 +814,7 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
       scoreValue: '4.8',
       scoreSuffix: 'out of 5',
       ratingsCountLabel: 'ratings',
-      ratingsCount: '172',
+      ratingsCount: String(notepadAppStoreRating.ratingCount),
       latestLabel: 'Latest reviews',
       latestCount: '25',
       versionPrefix: 'Version',

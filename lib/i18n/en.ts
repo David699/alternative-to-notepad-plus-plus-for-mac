@@ -1,4 +1,5 @@
 import type { Dict } from './types'
+import { notepadAppStoreRating } from '../app-store-rating'
 
 export const en: Dict = {
   locale: 'en',
@@ -350,7 +351,7 @@ export const en: Dict = {
     scoreValue: '4.8',
     scoreSuffix: 'out of 5',
     ratingsCountLabel: 'ratings',
-    ratingsCount: '172',
+    ratingsCount: String(notepadAppStoreRating.ratingCount),
     latestLabel: 'Latest reviews',
     latestCount: '25',
     versionPrefix: 'Version',

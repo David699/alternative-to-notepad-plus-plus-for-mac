@@ -14,6 +14,10 @@ const htmlLangByOutput = {
   'sv/index.html': 'sv',
 }
 
+const seoOnlyLangByDirectory = {
+  ar: 'ar',
+}
+
 let updatedCount = 0
 
 async function fixHtmlLang(relativePath, lang) {
@@ -27,8 +31,36 @@ async function fixHtmlLang(relativePath, lang) {
   }
 }
 
+async function fixHtmlLangInDirectory(relativeDir, lang) {
+  const outputDir = path.join(process.cwd(), 'out', relativeDir)
+  let entries
+
+  try {
+    entries = await readdir(outputDir, { withFileTypes: true })
+  } catch (error) {
+    if (error && typeof error === 'object' && 'code' in error && error.code === 'ENOENT') {
+      return
+    }
+    throw error
+  }
+
+  for (const entry of entries) {
+    const childRelativePath = path.join(relativeDir, entry.name)
+
+    if (entry.isDirectory()) {
+      await fixHtmlLangInDirectory(childRelativePath, lang)
+    } else if (entry.isFile() && entry.name === 'index.html') {
+      await fixHtmlLang(childRelativePath, lang)
+    }
+  }
+}
+
 for (const [relativePath, lang] of Object.entries(htmlLangByOutput)) {
   await fixHtmlLang(relativePath, lang)
+}
+
+for (const [relativeDir, lang] of Object.entries(seoOnlyLangByDirectory)) {
+  await fixHtmlLangInDirectory(relativeDir, lang)
 }
 
 const englishDir = path.join(process.cwd(), 'out', 'en')

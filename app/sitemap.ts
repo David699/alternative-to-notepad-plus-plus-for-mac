@@ -1,6 +1,7 @@
 import { MetadataRoute } from 'next'
 import { SITE_URL } from '@/lib/paths'
 import { seoArticles } from '@/lib/seo-articles'
+import { localizedSeoArticleEntries } from '@/lib/seo-localized'
 import { allSiteLocales, getAbsoluteUrl } from '@/lib/site-locales'
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -16,6 +17,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(article.dateModified),
       changeFrequency: 'monthly' as const,
       priority: 0.75,
+    })),
+    ...localizedSeoArticleEntries.map(({ article, url }) => ({
+      url,
+      lastModified: new Date(article.dateModified),
+      changeFrequency: 'monthly' as const,
+      priority: article.slug === 'notepad-plus-plus-for-mac' ? 0.8 : 0.7,
     })),
     {
       url: `${SITE_URL}/privacy/`,

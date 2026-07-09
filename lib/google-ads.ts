@@ -14,7 +14,7 @@ declare global {
   }
 }
 
-export type DownloadClickSource = 'cta' | 'footer' | 'seo_article' | `seo_${string}`
+export type DownloadClickSource = 'cta' | 'footer' | 'hero_badge' | 'seo_article' | `seo_${string}`
 
 export function reportAppStoreDownloadClick(source: DownloadClickSource) {
   if (typeof window === 'undefined' || typeof window.gtag !== 'function') return

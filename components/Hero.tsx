@@ -1,6 +1,7 @@
 'use client'
 import { motion } from 'framer-motion'
 import Image from 'next/image'
+import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { HeroDict, Locale } from '@/lib/i18n/types'
 import LocalizedImage from '@/components/LocalizedImage'
 import { withBasePath } from '@/lib/paths'
@@ -54,7 +55,11 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
         >
           {/* App badge */}
           <motion.div variants={item} className="flex justify-center mb-8">
-            <div className="flex items-center gap-3 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl px-4 py-2.5 shadow-card">
+            <AppStoreDownloadLink
+              source="hero_badge"
+              aria-label="Open notePad++++ on the App Store"
+              className="flex items-center gap-3 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl px-4 py-2.5 shadow-card transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-card-hover focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
+            >
               <div className="w-10 h-10 rounded-xl overflow-hidden flex-shrink-0">
                 <Image src={withBasePath('/images/app-icon.png')} alt="notePad++++ App icon" width={40} height={40} className="object-cover" />
               </div>
@@ -72,7 +77,7 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
                 </div>
                 <div className="text-xs text-gray-500">4.8 · App Store</div>
               </div>
-            </div>
+            </AppStoreDownloadLink>
           </motion.div>
 
           {/* Main headline */}
