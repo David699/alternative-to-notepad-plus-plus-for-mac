@@ -130,6 +130,18 @@ for (const locale of requiredNotepadForMacLocalizedLocales) {
   assert(!relatedHrefs.includes(`/${locale}/text-editor-for-mac/`), `${articlePath} should not link to ungenerated localized related pages`)
   assert(article.content.includes('## '), `${articlePath} is missing Markdown section headings`)
 }
+const localizedPublishedDates = new Map()
+for (const locale of requiredLocalizedSeoLocales) {
+  for (const slug of markdownSlugs(`content/seo/${locale}`)) {
+    const { data } = markdownArticle(`content/seo/${locale}/${slug}.md`)
+    const existing = localizedPublishedDates.get(data.datePublished)
+    assert(
+      !existing,
+      `content/seo/${locale}/${slug}.md shares datePublished ${data.datePublished} with ${existing}`,
+    )
+    localizedPublishedDates.set(data.datePublished, `content/seo/${locale}/${slug}.md`)
+  }
+}
 const localizedSeoRoutePath = 'app/[locale]/[slug]/page.tsx'
 assert(fs.existsSync(path.join(root, localizedSeoRoutePath)), `${localizedSeoRoutePath} is missing`)
 const localizedSeoRouteSource = read(localizedSeoRoutePath)
