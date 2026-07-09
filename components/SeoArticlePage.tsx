@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
+import AppStoreRatingSummary from '@/components/AppStoreRatingSummary'
 import type { SeoArticle } from '@/lib/seo-articles'
 import { APP_STORE_URL, GITHUB_REPO_URL, withBasePath } from '@/lib/paths'
 
@@ -64,7 +65,8 @@ export default function SeoArticlePage({ article }: Props) {
               {article.shortTitle}
             </h1>
             <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-600">{article.heroSummary}</p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <AppStoreRatingSummary className="mt-8 max-w-3xl" />
+            <div className="mt-5 flex flex-col gap-3 sm:flex-row">
               <AppStoreDownloadLink
                 source={`seo_${article.slug}`}
                 href={APP_STORE_URL}
@@ -72,12 +74,13 @@ export default function SeoArticlePage({ article }: Props) {
               >
                 Download on the App Store
               </AppStoreDownloadLink>
-              <Link
-                href="/en/"
+              <AppStoreDownloadLink
+                source={`seo_${article.slug}_overview`}
+                href={APP_STORE_URL}
                 className="inline-flex items-center justify-center rounded-xl border border-gray-300 bg-white px-5 py-3 text-sm font-bold text-gray-800 transition hover:border-gray-400 hover:bg-gray-50"
               >
-                View product overview
-              </Link>
+                View App Store page
+              </AppStoreDownloadLink>
             </div>
             <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
               <Image
