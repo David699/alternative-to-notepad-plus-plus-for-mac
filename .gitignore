@@ -24,3 +24,6 @@ yarn-error.log*
 # Local source copies
 /用户评价.png
 /Mac文本处理工作台落地页设计文档.md
+
+# Local agent execution plans
+/docs/superpowers/plans/
