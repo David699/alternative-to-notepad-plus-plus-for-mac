@@ -1,105 +1,100 @@
 ---
 slug: notepad-plus-plus-for-mac
 englishEquivalentPath: /en/notepad-plus-plus-for-mac/
-title: Mac için Notepad++ alternatifi | Hafif metin editörü
-shortTitle: Mac için Notepad++ alternatifi
+title: "Mac'te Notepad++ alternatifi: bozuk Türkçe karakterlere son"
+shortTitle: Mac'te Notepad++ alternatifi
 description: >-
-  macOS için yerel bir metin editörü: sekmeler, sütun modu, regex ile bul ve
-  değiştir, klasör içinde arama, Markdown önizleme ve güvenli toplu işlemler.
-datePublished: '2026-07-09'
-dateModified: '2026-07-09'
+  Windows'tan Mac'e geçen Notepad++ kullanıcıları için hafif bir metin
+  editörü. Eski kodlamayla kaydedilmiş dosyalardaki Türkçe karakterleri doğru
+  açar; sekmeler, sütun modu ve regex sunar.
+datePublished: '2026-07-06'
+dateModified: '2026-07-06'
 keywords:
-  - Mac için Notepad++
-  - Mac için Notepad++ alternatifi
-  - Notepad++ Mac alternatifi
-  - Mac metin editörü
-  - Mac kod editörü
-  - hafif metin editörü Mac
-  - sütun düzenleme Mac
-  - regex bul değiştir Mac
-  - CSV editörü Mac
-  - Markdown editörü Mac
-heroKicker: Windows’tan macOS’e geçen kullanıcılar için
+  - notepad++ mac
+  - notepad++ mac alternatifi
+  - metin editörü mac
+  - not defteri mac
+  - türkçe karakter bozuk
+  - windows-1254 mac
+  - kod editörü mac
+  - regex bul değiştir mac
+  - hafif metin editörü macos
+heroKicker: Windows'tan Mac'e geçenlere
 heroSummary: >-
-  Notepad++’ı Mac’te arıyorsanız muhtemelen sekmeler, sütun düzenleme, regex ile
-  bul-değiştir ve hızlı metin işleme akışını özlüyorsunuz. notePad++++ bu günlük
-  işleri Wine veya sanal makine olmadan, yerel bir macOS uygulamasıyla sunar.
+  Eski bir dosyayı açtığınızda Türkçe karakterlerin bozuk çıkması tanıdık bir
+  dert. notePad++++ macOS için bağımsız, native bir metin editörüdür: sekmeler,
+  sütun modu ve regex ile günlük metin işlerini üstlenir, eski kodlamalı
+  dosyaları da doğru açar.
 related:
-  - label: İngilizce Notepad++ for Mac sayfası
+  - label: Bu sayfanın İngilizce sürümü
     href: /en/notepad-plus-plus-for-mac/
-  - label: notePad++++ İngilizce ana sayfa
-    href: /en/
+  - label: notePad++++ ana sayfası
+    href: /tr/
 externalLinks:
-  - label: notePad++++’i App Store’dan indirin
+  - label: notePad++++ uygulamasını App Store'dan indir
     href: appStore
     external: true
-  - label: Resmi Notepad++ sitesini ziyaret edin
+  - label: Resmi Notepad++ sitesini ziyaret et
     href: notepadPlusPlus
     external: true
-  - label: Site projesini GitHub’da görüntüleyin
+  - label: Site projesini GitHub'da gör
     href: github
     external: true
 faq:
-  - q: notePad++++ resmi Notepad++ Mac sürümü mü?
+  - q: notePad++++ Notepad++'ın resmi Mac sürümü mü?
     a: >-
-      Hayır. notePad++++ macOS için geliştirilmiş bağımsız bir metin editörüdür
-      ve resmi Notepad++ projesiyle bağlantılı değildir.
-  - q: Wine veya sanal makine gerekiyor mu?
+      Hayır. notePad++++ macOS için bağımsız bir metin editörüdür ve resmi
+      Notepad++ projesiyle ilişkisi yoktur.
+  - q: Eski dosyalarda Türkçe karakterler neden bozuk çıkıyor?
     a: >-
-      Hayır. Uygulama macOS üzerinde yerel olarak çalışır; Windows ortamına veya
-      uyumluluk katmanına ihtiyaç duymaz.
-  - q: Sütun düzenleme var mı?
+      Dosya yıllar önce Windows-1254 gibi eski bir kodlamayla kaydedilip bugün
+      UTF-8 sanılarak açıldığında ı, İ, ş, ğ, ç, ö, ü bozulur. notePad++++ bu
+      dosyaları doğru kodlamayla açar, böylece karakterler olması gerektiği gibi
+      görünür.
+  - q: ı ve İ harflerini otomatik büyük/küçük harfe çevirir mi?
     a: >-
-      Evet. Column Mode hizalı listeler, loglar, CSV benzeri metinler ve
-      yapılandırma blokları için tasarlanmıştır.
-  - q: Regex ile bul ve değiştir yapabilir miyim?
+      Bu sayfa böyle bir dönüşüm vaat etmez. Odak noktası, karakterlerin
+      dosyada olduğu gibi doğru görüntülenmesi ve kaydedilmesidir.
+  - q: Wine veya sanal makine gerekir mi?
     a: >-
-      Evet. Regex, büyük/küçük harf duyarlılığı, tam kelime arama ve kontrollü
-      değiştirme akışları desteklenir.
+      Hayır. notePad++++ macOS için native çalışır, Windows uyumluluk katmanına
+      gerek yoktur.
 ---
-## Mac’te Notepad++ arıyorsanız
+## Dosyayı açtınız, Türkçe karakterler bozuk mu görünüyor?
 
-Türkçe aramalarda genelde «Mac için Notepad++», «Mac için Notepad++ alternatifi», «Mac metin editörü» veya «regex bul değiştir Mac» gibi ifadeler kullanılıyor. Bu aramaların arkasındaki ihtiyaç nettir: Windows’ta alışılan hızlı metin düzenleme akışını macOS’te de sürdürmek.
+Tanıdık bir an: eski bir metin dosyasını, bir logu ya da bir yerden indirdiğiniz bir listeyi açıyorsunuz ve ı, ş, ğ, ç yerine ekranı anlamsız işaretler dolduruyor. Dosya yıllar önce Windows-1254 gibi eski bir kodlamayla kaydedilmiş, bugünse UTF-8 sanılarak açılıyor. Sonuç: okunmayan bir Türkçe.
 
-notePad++++ bu ihtiyaç için tasarlanmış yerel bir macOS metin editörüdür. Resmi Notepad++ Mac sürümü değildir; Notepad++ projesinden bağımsızdır. Bunun yerine Notepad++ kullanıcılarının günlük olarak ihtiyaç duyduğu pratik işleri Mac ortamında hızlı ve kontrollü şekilde yapmaya odaklanır.
+notePad++++ tam da bu tür günlük dertler için tasarlanmış, macOS'a özel bağımsız bir metin editörüdür. Resmi Notepad++ değildir ve onu birebir kopyalamaya çalışmaz; Windows'ta Notepad++ ile yaptığınız işleri Mac'te sürdürmeyi hedefler. Eski kodlamayla kaydedilmiş dosyaları doğru açtığı için, Türkçe karakterler olması gerektiği gibi görünür.
 
-## Her küçük iş için ağır bir IDE açmak zorunda değilsiniz
+## Windows'tan Mac'e geçen Notepad++ kullanıcısının gerçek listesi
 
-VS Code, Xcode veya başka IDE’ler büyük projeler için güçlüdür. Ancak bir log dosyasını temizlemek, CSV parçasında birkaç kolonu düzeltmek, Markdown taslağını kontrol etmek, `.env` dosyasını düzenlemek veya klasör içinde bir metin aramak için çoğu zaman daha hafif bir araç yeterlidir.
+Notepad++ Türkiye'de öğrenciler ve yazılımcılar arasında oldukça yaygındı. Mac'e geçenlerin aradığı, çoğu zaman menülerin aynısı değil, birkaç alışkanlıktır:
 
-notePad++++ tam bu aralıkta konumlanır: basit bir not uygulamasından daha güçlü, tam bir IDE’den daha hızlı ve odaklı.
+- Birden çok dosyayı sekmelerde açıp aralarında hızla geçmek
+- Sütun modu ile log ve CSV'lerde dikey blokları düzenlemek
+- Regex ile bul-değiştir yaparak tekrarlayan kalıpları temizlemek
+- Bir klasörün tamamında bir metni aramak
+- Aynı temizliği tekrar tekrar, güvenle uygulamak
 
-## Notepad++ kullanıcılarının beklediği ana akışlar
+notePad++++ bu listeyi macOS tarafında karşılamak için var.
 
-- Birden fazla yerel dosyayı sekmelerle açık tutma
-- Column Mode ile hizalı metin, log, liste ve CSV bloklarını sütun olarak düzenleme
-- Regex ile bul ve değiştir kullanarak tekrar eden kalıpları temizleme
-- Workspace Search ile klasör içindeki dosya ve satırları bulma
-- Markdown önizleme ile not, dokümantasyon ve taslakları kontrol etme
-- Script Pipelines ile boş satır silme, tekrarları kaldırma, sıralama, link veya tarih çıkarma ve metni normalleştirme
-- Toplu işlemleri uygulamadan önce önizleme, diff ve geri alma güvenliği
+## notePad++++ ile günlük metin işleri
 
-Bu özellikler yalnızca geliştiriciler için değil; destek ekipleri, teknik yazarlar, öğrenciler ve veri dosyalarıyla çalışan herkes için yararlıdır.
+- Sekmelerde birden çok yerel dosya, hafif bir pencerede
+- Column Mode ile hizalı satırlar, listeler ve CSV parçaları
+- Regex Find & Replace ile hassas temizlik
+- Workspace Search ile klasör genelinde arama
+- Markdown Preview ile notlar ve belgeler
+- Script Pipelines ve toplu işleme, uygulamadan önce diff ve geri alma ile
 
-## Arama niyetine göre özellikler
+Tekrarlayan işler için isteğe bağlı yapay zeka desteği temizlik betikleri yazmaya yardımcı olabilir; iCloud Sync ise aynı ortamı birden çok Mac'te kullanmanızı sağlar.
 
-| Arama veya ihtiyaç | notePad++++ nasıl yardımcı olur |
-| --- | --- |
-| Mac için Notepad++ | Benzer günlük düzenleme akışlarını macOS’te yerel olarak sunar |
-| Notepad++ Mac alternatifi | Sekmeler, sütun modu, regex, Markdown ve klasör araması sağlar |
-| Mac metin editörü | Yerel metin dosyalarını hızlı ve sade şekilde açar |
-| Mac kod editörü | Snippet, JSON, SQL, script ve yapılandırma dosyaları için uygundur |
-| Regex bul değiştir Mac | Metin kalıplarını kontrollü biçimde temizler veya dönüştürür |
-| CSV editörü Mac | Tam bir tablo uygulaması açmadan satır ve kolon düzeltmeyi kolaylaştırır |
+## Kimler için uygun, kimler için değil
 
-## Kimler için uygun?
+notePad++++, günü küçük ve somut metin işleriyle geçenlere uygundur: loglar, yapılandırma dosyaları, CSV parçaları, notlar, hızlıca bakılacak kod. Amacı, her seferinde büyük bir uygulama açmadan bu işleri hızlandırmaktır.
 
-Windows’tan Mac’e geçtiyseniz ve Notepad++’ın hızını özlüyorsanız notePad++++ iyi bir seçenek olabilir. Büyük projelerde zaten bir IDE kullanıyor olsanız bile, küçük metin dosyalarını ayrı bir araçta hızlıca işlemek iş akışını rahatlatır.
+Öte yandan, Notepad++'ın eklenti ekosistemini ya da tam bir IDE'nin tüm gücünü bekliyorsanız, ihtiyaçlarınızı dikkatle karşılaştırın. Proje derleyip hata ayıklamanız gerekiyorsa doğru araç bir geliştirme ortamıdır. notePad++++ hafif ve native kalmayı, günlük metin işlerini iyi yapmayı seçer.
 
-Notepad++ eklenti ekosisteminin birebir aynısını arıyorsanız, ihtiyaçlarınızı ayrı ayrı karşılaştırmanız gerekir. notePad++++’in amacı Windows uygulamasını kopyalamak değil, en sık kullanılan metin düzenleme işlerini macOS üzerinde temiz bir deneyimle sunmaktır.
+## Marka ve bağımsızlık
 
-Tekrarlanan işlerde isteğe bağlı AI desteği küçük metin işleme betikleri yazmaya veya metni düzenlemeye yardımcı olabilir. Temel akış yerel dosyalara odaklanır: değişiklikleri uygulamadan önce diff görebilir, gerekirse geri alabilir ve aynı çalışma alanını birden fazla Mac’te kullanmak için iCloud Sync’ten yararlanabilirsiniz.
-
-## Marka ve bağımsızlık notu
-
-Notepad++ ilgili sahibinin ticari markasıdır. notePad++++ macOS için bağımsız bir metin editörüdür ve resmi Notepad++ projesiyle bağlantılı, onaylı veya desteklenmiş değildir.
+Notepad++ ilgili hak sahibinin markasıdır. notePad++++ macOS için bağımsız bir metin editörüdür; resmi Notepad++ projesiyle bağlantılı, onun tarafından onaylanmış ya da yetkilendirilmiş değildir.
