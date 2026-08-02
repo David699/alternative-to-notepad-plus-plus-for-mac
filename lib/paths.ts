@@ -4,6 +4,7 @@ export const APP_STORE_URL = 'https://apps.apple.com/cn/app/id6759166160?ct=land
 export const GITHUB_REPO_URL = 'https://github.com/David699/alternative-to-notepad-plus-plus-for-mac'
 export const NOTEPAD_PLUS_PLUS_URL = 'https://notepad-plus-plus.org/'
 export const PRODUCT_HUNT_URL = 'https://www.producthunt.com/products/notepad-14'
+export const TYPORA_URL = 'https://typora.io/'
 
 export function withBasePath(path: string): string {
   if (!path.startsWith('/')) return path

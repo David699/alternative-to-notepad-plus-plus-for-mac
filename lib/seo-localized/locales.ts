@@ -1,5 +1,5 @@
 import { notepadAppStoreRating, notepadArabicAppStoreRating } from '../app-store-rating'
-import { GITHUB_REPO_URL, NOTEPAD_PLUS_PLUS_URL } from '../paths'
+import { GITHUB_REPO_URL, NOTEPAD_PLUS_PLUS_URL, TYPORA_URL } from '../paths'
 import type { SeoOnlyLocale, SeoOnlyLocaleConfig } from './types'
 
 const arabicLtrTerms = [
@@ -38,7 +38,9 @@ interface LtrSeoLocaleDefinition {
   ogLocale: string
   homeHref: string
   articleLabel: string
+  articleHref?: string
   officialLabel: string
+  officialHref?: string
   githubLabel: string
   brandDisclaimer: string
   labels: SeoOnlyLocaleConfig['labels']
@@ -58,14 +60,39 @@ function ltrSeoLocale(definition: LtrSeoLocaleDefinition): SeoOnlyLocaleConfig {
     ltrTerms: [],
     labels: definition.labels,
     navLinks: [
-      { label: definition.articleLabel, href: `/${definition.locale}/notepad-plus-plus-for-mac/` },
-      { label: definition.officialLabel, href: NOTEPAD_PLUS_PLUS_URL, external: true },
+      {
+        label: definition.articleLabel,
+        href: definition.articleHref ?? `/${definition.locale}/notepad-plus-plus-for-mac/`,
+      },
+      { label: definition.officialLabel, href: definition.officialHref ?? NOTEPAD_PLUS_PLUS_URL, external: true },
       { label: definition.githubLabel, href: GITHUB_REPO_URL, external: true },
     ],
   }
 }
 
 const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
+  en: ltrSeoLocale({
+    locale: 'en',
+    htmlLang: 'en',
+    contentLanguage: 'en',
+    ogLocale: 'en_US',
+    homeHref: '/en/',
+    articleLabel: 'Notepad++ for Mac',
+    officialLabel: 'Official Notepad++',
+    githubLabel: 'GitHub',
+    brandDisclaimer:
+      'Notepad++ is a trademark of its respective owner. notePad++++ is an independent macOS text editor and is not affiliated with, endorsed by, or approved by the official Notepad++ project.',
+    labels: {
+      home: 'English home',
+      faq: 'FAQ',
+      related: 'Related guides',
+      usefulLinks: 'Useful links',
+      download: 'Download on the App Store',
+      viewStore: 'View App Store page',
+      appIconAlt: 'notePad++++ icon',
+      heroImageAlt: 'notePad++++ editing and previewing Markdown on macOS',
+    },
+  }),
   de: ltrSeoLocale({
     locale: 'de',
     htmlLang: 'de',
@@ -284,6 +311,30 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       viewStore: 'App Store sayfasını görüntüleyin',
       appIconAlt: 'notePad++++ simgesi',
       heroImageAlt: 'macOS üzerinde metin düzenleyen notePad++++ arayüzü',
+    },
+  }),
+  'zh-hans': ltrSeoLocale({
+    locale: 'zh-hans',
+    htmlLang: 'zh-CN',
+    contentLanguage: 'zh-CN',
+    ogLocale: 'zh_CN',
+    homeHref: '/',
+    articleLabel: 'Typora 替代方案',
+    articleHref: '/zh-hans/typora-alternative-for-mac/',
+    officialLabel: 'Typora 官网',
+    officialHref: TYPORA_URL,
+    githubLabel: 'GitHub',
+    brandDisclaimer:
+      'Typora 和 Notepad++ 是其各自权利人的商标。notePad++++ 是独立的 macOS 文本编辑器，与上述产品或项目没有合作、认可或背书关系。本文依据公开功能资料比较不同工作方式。',
+    labels: {
+      home: '中文首页',
+      faq: '常见问题',
+      related: '相关文章',
+      usefulLinks: '实用链接',
+      download: '在 App Store 下载',
+      viewStore: '查看 App Store 页面',
+      appIconAlt: 'notePad++++ 图标',
+      heroImageAlt: 'notePad++++ 在 macOS 上编辑和预览 Markdown 的界面',
     },
   }),
   'zh-hant': ltrSeoLocale({

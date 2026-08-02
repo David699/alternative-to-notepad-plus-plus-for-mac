@@ -15,12 +15,14 @@ export interface AppStoreRatingSummaryData {
   distribution: AppStoreRatingDistributionItem[]
 }
 
+const appStoreRatingCount = 323
+
 export const notepadAppStoreRating: AppStoreRatingSummaryData = {
   platformLabel: 'macOS rating',
   score: 4.8,
   maxScore: 5,
   maxScoreLabel: 'out of',
-  ratingCount: 261,
+  ratingCount: appStoreRatingCount,
   ratingCountLabel: 'ratings',
   storeLabel: 'App Store',
   numberLocale: 'en-US',
@@ -38,7 +40,7 @@ export const notepadArabicAppStoreRating: AppStoreRatingSummaryData = {
   score: 4.8,
   maxScore: 5,
   maxScoreLabel: 'من أصل',
-  ratingCount: 261,
+  ratingCount: appStoreRatingCount,
   ratingCountLabel: 'تقييمًا',
   storeLabel: 'App Store',
   numberLocale: 'en-US',

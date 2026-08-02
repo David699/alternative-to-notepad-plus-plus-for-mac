@@ -25,7 +25,7 @@ export default function TermsZh() {
         {
           heading: '1. 许可',
           body: [
-            'notePad++++ 通过 Apple App Store 分发，适用于 macOS 13 及以上版本。我们授予您个人、非独占、不可转让的许可，在您拥有或控制的 Mac 设备上安装和使用本应用。',
+            'notePad++++ 通过 Apple App Store 分发，适用于 macOS 12 及以上版本。我们授予您个人、非独占、不可转让的许可，在您拥有或控制的 Mac 设备上安装和使用本应用。',
           ],
         },
         {

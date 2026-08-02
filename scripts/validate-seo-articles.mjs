@@ -41,6 +41,20 @@ const requiredLocalizedSeoLocales = [
 
 const requiredNotepadForMacLocalizedLocales = requiredLocalizedSeoLocales.filter((locale) => locale !== 'ar')
 
+const expectedNotepadForMacRelatedHomeHrefByLocale = {
+  de: '/de/',
+  es: '/es/',
+  fr: '/fr/',
+  it: '/it/',
+  ja: '/ja/',
+  ko: '/ko/',
+  nl: '/en/',
+  pl: '/en/',
+  'pt-br': '/pt-br/',
+  tr: '/en/',
+  'zh-hant': '/en/',
+}
+
 const requiredFeaturePhrases = [
   'Column Mode',
   'Regex Find & Replace',
@@ -128,6 +142,13 @@ for (const locale of requiredNotepadForMacLocalizedLocales) {
   assert(externalHrefs.includes('notepadPlusPlus'), `${articlePath} should link to official Notepad++`)
   assert(externalHrefs.includes('appStore'), `${articlePath} should link to App Store`)
   assert(!relatedHrefs.includes(`/${locale}/text-editor-for-mac/`), `${articlePath} should not link to ungenerated localized related pages`)
+  assert(
+    relatedHrefs.includes(expectedNotepadForMacRelatedHomeHrefByLocale[locale]),
+    `${articlePath} should link to ${expectedNotepadForMacRelatedHomeHrefByLocale[locale]} as its related home page`,
+  )
+  if (expectedNotepadForMacRelatedHomeHrefByLocale[locale] !== `/${locale}/`) {
+    assert(!relatedHrefs.includes(`/${locale}/`), `${articlePath} should not link to an ungenerated /${locale}/ home page`)
+  }
   assert(article.content.includes('## '), `${articlePath} is missing Markdown section headings`)
 }
 const localizedPublishedDates = new Map()
@@ -194,7 +215,7 @@ assert(htmlLangFixer.includes("ar: 'ar'"), 'Static html lang fixer is missing Ar
 assert(htmlLangFixer.includes("ja: 'ja'"), 'Static html lang fixer is missing localized SEO directory support')
 
 const ratingSource = read('lib/app-store-rating.ts')
-assert(ratingSource.includes('ratingCount: 261'), 'App Store rating source should keep the current rating count')
+assert(ratingSource.includes('const appStoreRatingCount = 323'), 'App Store rating source should keep the current rating count')
 for (const localeDataPath of ['lib/i18n/en.ts', 'lib/i18n/zh.ts', 'lib/i18n/multilingual.ts']) {
   const localeData = read(localeDataPath)
   assert(

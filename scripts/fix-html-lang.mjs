@@ -26,6 +26,7 @@ const seoOnlyLangByDirectory = {
   pl: 'pl',
   'pt-br': 'pt-BR',
   tr: 'tr',
+  'zh-hans': 'zh-CN',
   'zh-hant': 'zh-Hant',
 }
 

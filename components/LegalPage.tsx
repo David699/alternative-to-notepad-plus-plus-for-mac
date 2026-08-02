@@ -70,7 +70,7 @@ export default function LegalPage({
 
       {/* Footer */}
       <footer className="border-t border-gray-800 mt-20 py-8 text-center text-xs text-gray-600">
-        <p>© 2024 {appName} · <a href={withBasePath(backHref)} className="hover:text-gray-400 transition-colors">{backLabel}</a></p>
+        <p>© 2026 {appName} · <a href={withBasePath(backHref)} className="hover:text-gray-400 transition-colors">{backLabel}</a></p>
       </footer>
     </div>
   )

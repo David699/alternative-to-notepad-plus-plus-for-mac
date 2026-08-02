@@ -3,6 +3,7 @@ import type { AppStoreRatingSummaryData } from '../app-store-rating'
 export type SeoOnlyLocale =
   | 'ar'
   | 'de'
+  | 'en'
   | 'es'
   | 'fr'
   | 'it'
@@ -12,6 +13,7 @@ export type SeoOnlyLocale =
   | 'pl'
   | 'pt-br'
   | 'tr'
+  | 'zh-hans'
   | 'zh-hant'
 
 export interface LocalizedSeoArticleLink {

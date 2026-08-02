@@ -26,8 +26,8 @@ heroSummary: >-
 related:
   - label: Engelse versie van deze pagina
     href: /en/notepad-plus-plus-for-mac/
-  - label: Startpagina van notePad++++
-    href: /nl/
+  - label: Engelse startpagina van notePad++++
+    href: /en/
 externalLinks:
   - label: Download notePad++++ in de App Store
     href: appStore

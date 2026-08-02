@@ -28,8 +28,8 @@ heroSummary: >-
 related:
   - label: Bu sayfanın İngilizce sürümü
     href: /en/notepad-plus-plus-for-mac/
-  - label: notePad++++ ana sayfası
-    href: /tr/
+  - label: notePad++++ İngilizce ana sayfası
+    href: /en/
 externalLinks:
   - label: notePad++++ uygulamasını App Store'dan indir
     href: appStore

@@ -124,7 +124,7 @@ const localizedPages = {
       title: 'Häufige Fragen',
       items: [
         { q: 'Ist notePad++++ die offizielle Mac-Version von Notepad++?', a: 'Nein. notePad++++ ist ein eigenständiger macOS-Texteditor, inspiriert von bekannten Notepad++-Workflows.' },
-        { q: 'Welche macOS-Versionen werden unterstützt?', a: 'macOS 13 Ventura oder neuer, inklusive Apple Silicon und Intel Mac.' },
+        { q: 'Welche macOS-Versionen werden unterstützt?', a: 'macOS 12 Monterey oder neuer, inklusive Apple Silicon und Intel Mac.' },
         { q: 'Kann ich Regex und Spaltenbearbeitung nutzen?', a: 'Ja. Beides gehört zu den Kernfunktionen der App.' },
       ],
     },

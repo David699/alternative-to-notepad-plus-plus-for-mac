@@ -842,7 +842,7 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
       githubLabel: 'GitHub',
       iconAlt: page.title,
       badges: [
-        { icon: '🍎', text: 'macOS 13+' },
+        { icon: '🍎', text: 'macOS 12+' },
         { icon: '💾', text: ui.privacyTitles[0] },
         { icon: '🔄', text: ui.completed },
         { icon: '🌐', text: page.nativeLabel },

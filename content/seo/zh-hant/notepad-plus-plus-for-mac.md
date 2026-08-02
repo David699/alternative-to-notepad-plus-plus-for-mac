@@ -26,8 +26,8 @@ heroSummary: >-
 related:
   - label: 這個頁面的英文版
     href: /en/notepad-plus-plus-for-mac/
-  - label: notePad++++ 首頁
-    href: /zh-hant/
+  - label: notePad++++ 英文首頁
+    href: /en/
 externalLinks:
   - label: 到 App Store 下載 notePad++++
     href: appStore

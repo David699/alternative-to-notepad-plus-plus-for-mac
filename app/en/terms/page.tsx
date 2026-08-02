@@ -25,7 +25,7 @@ export default function TermsEn() {
         {
           heading: '1. License',
           body: [
-            'notePad++++ is distributed through the Apple App Store and requires macOS 13 or later. We grant you a personal, non-exclusive, non-transferable license to install and use the app on Mac devices you own or control.',
+            'notePad++++ is distributed through the Apple App Store and requires macOS 12 or later. We grant you a personal, non-exclusive, non-transferable license to install and use the app on Mac devices you own or control.',
           ],
         },
         {
