@@ -1,9 +1,9 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import AppStoreRatingSummary from '@/components/AppStoreRatingSummary'
+import OptimizedImage from '@/components/OptimizedImage'
 import type { SeoArticle } from '@/lib/seo-articles'
-import { APP_STORE_URL, GITHUB_REPO_URL, withBasePath } from '@/lib/paths'
+import { APP_STORE_URL, GITHUB_REPO_URL } from '@/lib/paths'
 
 interface Props {
   article: SeoArticle
@@ -37,8 +37,8 @@ export default function SeoArticlePage({ article }: Props) {
         <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4 sm:px-6 lg:px-8">
           <Link href="/en/" className="flex items-center gap-2.5">
             <span className="h-8 w-8 overflow-hidden rounded-lg">
-              <Image
-                src={withBasePath('/images/app-icon.png')}
+              <OptimizedImage
+                src="/images/app-icon.png"
                 alt="notePad++++ icon"
                 width={32}
                 height={32}
@@ -83,8 +83,8 @@ export default function SeoArticlePage({ article }: Props) {
               </AppStoreDownloadLink>
             </div>
             <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
-              <Image
-                src={withBasePath('/images/screen-main-en.png')}
+              <OptimizedImage
+                src="/images/screen-main-en.png"
                 alt="notePad++++ main editor interface on macOS"
                 width={1440}
                 height={900}

@@ -1,8 +1,8 @@
 'use client'
 import { useState, useEffect, useCallback, useMemo } from 'react'
-import Image, { type ImageProps } from 'next/image'
+import type { ImageProps } from 'next/image'
+import OptimizedImage from '@/components/OptimizedImage'
 import type { Locale } from '@/lib/i18n/types'
-import { withBasePath } from '@/lib/paths'
 
 /** Insert a locale suffix before the file extension: `foo.png` -> `foo-en.png` */
 function toLocaleVariant(src: string, locale: string): string {
@@ -62,5 +62,5 @@ export default function LocalizedImage({
 
   // alt is guaranteed to be in props (required by ImageProps); ESLint can't see through the spread
   // eslint-disable-next-line jsx-a11y/alt-text
-  return <Image {...props} src={withBasePath(imgSrc)} onError={handleError} />
+  return <OptimizedImage {...props} src={imgSrc} onError={handleError} />
 }

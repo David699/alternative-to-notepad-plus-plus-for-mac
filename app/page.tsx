@@ -73,11 +73,11 @@ export default function Home() {
             description: ZH_APP_DESC,
             keywords: ZH_SEO_KEYWORDS.join(', '),
             url: SITE_URL,
-            image: `${SITE_URL}/images/app-icon.png`,
+            image: `${SITE_URL}/images/optimized/app-icon.png.webp`,
             screenshot: [
-              `${SITE_URL}/images/screen-main.png`,
-              `${SITE_URL}/images/screen-search.png`,
-              `${SITE_URL}/images/screen-scripts.png`,
+              `${SITE_URL}/images/optimized/screen-main.png.webp`,
+              `${SITE_URL}/images/optimized/screen-search.png.webp`,
+              `${SITE_URL}/images/optimized/screen-scripts.png.webp`,
             ],
             featureList: [
               '多标签文本编辑', '工作区搜索与浏览', '正则查找替换', '列模式编辑',

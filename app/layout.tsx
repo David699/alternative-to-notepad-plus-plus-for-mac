@@ -9,8 +9,8 @@ const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID
 
 export const metadata: Metadata = {
   icons: {
-    icon: withBasePath('/images/app-icon.png'),
-    apple: withBasePath('/images/app-icon.png'),
+    icon: [{ url: withBasePath('/images/optimized/app-icon-64.png'), sizes: '64x64', type: 'image/png' }],
+    apple: [{ url: withBasePath('/images/optimized/app-icon-180.png'), sizes: '180x180', type: 'image/png' }],
   },
 }
 
