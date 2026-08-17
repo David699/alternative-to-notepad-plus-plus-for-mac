@@ -4,7 +4,7 @@ title: "Markdown Editor with Live Preview for Mac: Source, Preview, and Text Cle
 shortTitle: "Markdown Editor with Live Preview for Mac"
 description: "Edit Markdown with a live side-by-side preview on Mac, then use tabs, workspace search, regex, scripts, and batch-safe tools to maintain local .md files."
 datePublished: "2026-08-01"
-dateModified: "2026-08-03"
+dateModified: "2026-08-17"
 keywords:
   - "Markdown editor with live preview Mac"
   - "live Markdown preview Mac"
@@ -13,6 +13,8 @@ keywords:
   - "Mac Markdown preview app"
 heroKicker: "Keep source and rendered output visible"
 heroSummary: "A live preview is most useful when it helps you catch formatting problems without hiding the Markdown source. Side-by-side editing keeps links, tables, lists, and document structure easy to inspect while you write."
+heroImage: "/images/screen-markdown-en.png"
+heroImageAlt: "notePad++++ live Markdown preview on Mac with source text and rendered tasks, tables, highlighted code, math, and Mermaid diagrams side by side"
 related:
   - label: "Markdown editor for Mac in 2026"
     href: "/en/markdown-editor-for-mac-2026/"

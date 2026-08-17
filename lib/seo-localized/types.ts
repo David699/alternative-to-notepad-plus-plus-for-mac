@@ -38,6 +38,8 @@ export interface LocalizedSeoArticle {
   keywords: string[]
   heroKicker: string
   heroSummary: string
+  heroImage?: string
+  heroImageAlt?: string
   contentHtml: string
   showRating?: boolean
   faq: LocalizedSeoArticleFaq[]

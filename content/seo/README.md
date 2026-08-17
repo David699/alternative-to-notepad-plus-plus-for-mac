@@ -78,6 +78,15 @@ heroSummary: "Hero 里的简介"
 | `heroKicker` | Hero 区域上方小标题 |
 | `heroSummary` | Hero 区域说明文字 |
 
+每篇文章可以在 frontmatter 中指定自己的 Hero 配图。两个字段必须同时填写，图片必须位于 `public/images/`：
+
+```yaml
+heroImage: "/images/seo/example-page.png"
+heroImageAlt: "准确描述图片内容的英文替代文字"
+```
+
+如果省略这两个字段，页面继续使用默认产品截图。构建前的图片处理会自动为 PNG 或 JPEG 生成 WebP，文章作者仍然只需要维护 Markdown 和原始图片。
+
 ## 相关链接
 
 `related` 会显示在页面侧栏的“相关文章”区域。

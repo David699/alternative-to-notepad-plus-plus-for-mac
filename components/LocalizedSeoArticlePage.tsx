@@ -156,8 +156,8 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
               </div>
               <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
                 <OptimizedImage
-                  src="/images/screen-main-en.png"
-                  alt={config.labels.heroImageAlt}
+                  src={article.heroImage ?? '/images/screen-main-en.png'}
+                  alt={article.heroImageAlt ?? config.labels.heroImageAlt}
                   width={1440}
                   height={900}
                   priority

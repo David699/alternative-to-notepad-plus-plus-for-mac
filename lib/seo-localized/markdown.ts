@@ -130,6 +130,24 @@ function parseMarkdownArticle(filePath: string, config: SeoOnlyLocaleConfig): Lo
   const source = fs.readFileSync(filePath, 'utf8')
   const parsed = matter(source)
   const data = parsed.data as Record<string, unknown>
+  const heroImage = optionalString(data.heroImage, 'heroImage', filePath)
+  const heroImageAlt = optionalString(data.heroImageAlt, 'heroImageAlt', filePath)
+
+  if (Boolean(heroImage) !== Boolean(heroImageAlt)) {
+    throw new Error(`${fieldPath(filePath, 'heroImage')} and heroImageAlt must be provided together`)
+  }
+
+  if (heroImage) {
+    if (!heroImage.startsWith('/images/')) {
+      throw new Error(`${fieldPath(filePath, 'heroImage')} must start with /images/`)
+    }
+
+    const imagePath = path.join(process.cwd(), 'public', heroImage.slice(1))
+    if (!fs.existsSync(imagePath)) {
+      throw new Error(`${fieldPath(filePath, 'heroImage')} references missing file ${heroImage}`)
+    }
+  }
+
   const contentHtml = wrapMarkdownTables(
     marked.parse(wrapLtrTerms(parsed.content.trim(), config.ltrTerms), { async: false }) as string,
   )
@@ -145,6 +163,8 @@ function parseMarkdownArticle(filePath: string, config: SeoOnlyLocaleConfig): Lo
     keywords: stringArray(data.keywords, 'keywords', filePath),
     heroKicker: requiredString(data.heroKicker, 'heroKicker', filePath),
     heroSummary: requiredString(data.heroSummary, 'heroSummary', filePath),
+    heroImage,
+    heroImageAlt,
     contentHtml,
     showRating: booleanValue(data.showRating),
     faq: faqArray(data.faq, filePath),

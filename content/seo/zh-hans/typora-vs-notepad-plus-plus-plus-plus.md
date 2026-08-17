@@ -4,7 +4,7 @@ title: "Typora 与 notePad++++ 对比：Mac 写 Markdown 和处理文本怎么�
 shortTitle: "Typora 与 notePad++++ 对比"
 description: "详细比较 Typora 和 notePad++++ 在 Mac 上的 Markdown 预览、中文写作、文件管理、正则替换、批量处理、导出和授权方式，按具体任务给出选择建议。"
 datePublished: "2026-08-02"
-dateModified: "2026-08-03"
+dateModified: "2026-08-17"
 keywords:
   - "Typora 对比"
   - "Typora 和 notePad++++"
@@ -14,6 +14,8 @@ keywords:
   - "Markdown 文本编辑器"
 heroKicker: "不是比功能数量，而是比较实际使用方式"
 heroSummary: "Typora 把 Markdown 写作和排版显示放在同一个页面里；notePad++++ 把 Markdown 原文、实时预览和通用文本处理工具放在一起。选哪个，取决于你是以连续写作为主，还是经常要搜索、清理和批量修改本地文本。"
+heroImage: "/images/screen-markdown.png"
+heroImageAlt: "notePad++++ 中文 Markdown 编辑界面，左侧保留原文，右侧实时预览任务列表、表格、代码、数学公式和 Mermaid 流程图"
 related:
   - label: "Mac 上的 Typora 替代方案"
     href: "/zh-hans/typora-alternative-for-mac/"

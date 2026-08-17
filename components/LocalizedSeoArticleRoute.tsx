@@ -17,6 +17,8 @@ export function generateLocalizedSeoArticleMetadata(locale: SeoOnlyLocale, slug:
 
   const config = getLocalizedSeoLocale(locale)
   const canonical = getLocalizedSeoArticleUrl(locale, article)
+  const articleImage = article.heroImage ?? ARTICLE_IMAGE
+  const articleImageAlt = article.heroImageAlt ?? article.shortTitle
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -38,7 +40,7 @@ export function generateLocalizedSeoArticleMetadata(locale: SeoOnlyLocale, slug:
       siteName: APP_NAME,
       title: article.title,
       description: article.description,
-      images: [{ url: ARTICLE_IMAGE, width: 1200, height: 630, alt: article.shortTitle }],
+      images: [{ url: articleImage, alt: articleImageAlt }],
       publishedTime: article.datePublished,
       modifiedTime: article.dateModified,
     },
@@ -46,7 +48,7 @@ export function generateLocalizedSeoArticleMetadata(locale: SeoOnlyLocale, slug:
       card: 'summary_large_image',
       title: article.title,
       description: article.description,
-      images: [ARTICLE_IMAGE],
+      images: [articleImage],
     },
     robots: {
       index: true,
@@ -65,6 +67,7 @@ export default function LocalizedSeoArticleRoute({ locale, slug }: { locale: Seo
 
   const config = getLocalizedSeoLocale(locale)
   const canonical = getLocalizedSeoArticleUrl(locale, article)
+  const articleImage = article.heroImage ?? ARTICLE_IMAGE
   const jsonLd = [
     {
       '@context': 'https://schema.org',
@@ -73,7 +76,7 @@ export default function LocalizedSeoArticleRoute({ locale, slug }: { locale: Seo
       description: article.description,
       datePublished: article.datePublished,
       dateModified: article.dateModified,
-      image: `${SITE_URL}${ARTICLE_IMAGE}`,
+      image: `${SITE_URL}${articleImage}`,
       mainEntityOfPage: canonical,
       author: { '@type': 'Person', name: 'David699' },
       publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },

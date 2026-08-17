@@ -4,7 +4,7 @@ title: "Markdown Editor for Mac in 2026: Preview, Local Files, Regex, and Batch 
 shortTitle: "Markdown Editor for Mac in 2026"
 description: "Choose a Markdown editor for Mac in 2026. Compare preview styles, local file handling, folder search, regex cleanup, tabs, and repeatable Markdown processing."
 datePublished: "2026-08-03"
-dateModified: "2026-08-03"
+dateModified: "2026-08-17"
 keywords:
   - "Markdown editor for Mac 2026"
   - "best Markdown editor Mac"
@@ -13,6 +13,8 @@ keywords:
   - "edit Markdown files on Mac"
 heroKicker: "A practical 2026 workflow guide"
 heroSummary: "The right Markdown editor depends on what happens around the document. Writing comfort matters, but so do local files, preview, folder search, regex cleanup, and repeatable changes across a collection of notes or documentation."
+heroImage: "/images/screen-markdown-en.png"
+heroImageAlt: "notePad++++ Markdown editor on Mac showing Markdown source and a rendered preview side by side with tasks, tables, code, math, and Mermaid diagrams"
 related:
   - label: "Markdown editor with live preview for Mac"
     href: "/en/markdown-editor-with-live-preview-for-mac/"

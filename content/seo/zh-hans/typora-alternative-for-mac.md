@@ -4,7 +4,7 @@ title: "Typora 替代品怎么选？适合 Mac 中文用户的 Markdown 与文�
 shortTitle: "Mac 上的 Typora 替代方案"
 description: "在 Mac 上寻找 Typora 替代品？本文比较实时预览、Markdown 写作、本地文件、正则替换、文件夹搜索和批量文本处理，帮助中文用户按实际用途选择。"
 datePublished: "2026-08-03"
-dateModified: "2026-08-03"
+dateModified: "2026-08-17"
 keywords:
   - "Typora 替代品"
   - "Typora 替代 Mac"
@@ -14,6 +14,8 @@ keywords:
   - "Typora 类似软件"
 heroKicker: "给 Mac 中文用户的选择指南"
 heroSummary: "Typora 擅长安静、连贯的 Markdown 写作；notePad++++ 更偏向同时处理 Markdown、普通文本、列表、日志和一批本地文件。两者不是简单的高低之分，关键在于你主要是在写文章，还是经常要搜索、整理和批量修改文本。"
+heroImage: "/images/screen-markdown.png"
+heroImageAlt: "notePad++++ 在 Mac 上左右并排显示 Markdown 中文原文和实时预览，内容包括任务列表、表格、代码、数学公式与 Mermaid 流程图"
 related:
   - label: "Typora 与 notePad++++ 详细对比"
     href: "/zh-hans/typora-vs-notepad-plus-plus-plus-plus/"
