@@ -1,14 +1,17 @@
 ---
 slug: "typora-alternative-for-mac"
-title: "Typora 替代品怎么选？适合 Mac 中文用户的 Markdown 与文本处理工具"
+title: "Typora 替代品与平替怎么选？适合 Mac 中文用户的 Markdown 与文本处理工具"
 shortTitle: "Mac 上的 Typora 替代方案"
-description: "在 Mac 上寻找 Typora 替代品？本文比较实时预览、Markdown 写作、本地文件、正则替换、文件夹搜索和批量文本处理，帮助中文用户按实际用途选择。"
+description: "在 Mac 上寻找 Typora 平替或替代品？本文说明 Typora 官网与授权方式，比较实时预览、正则替换、文件夹搜索和批量文本处理，帮助中文用户按实际用途选择。"
 datePublished: "2026-08-03"
-dateModified: "2026-08-17"
+dateModified: "2026-09-29"
 keywords:
   - "Typora 替代品"
+  - "Typora 平替"
   - "Typora 替代 Mac"
   - "Typora 中文替代"
+  - "Typora 官网"
+  - "Typora 免费替代"
   - "Mac Markdown 编辑器"
   - "Markdown 编辑器推荐"
   - "Typora 类似软件"
@@ -42,6 +45,10 @@ faq:
     a: "如果你最重视单窗口实时排版、专注模式、主题和文档导出，Typora 通常更贴近这种写作方式。如果你还会处理日志、列表、JSON、普通文本，或者需要正则替换和批量整理，notePad++++ 更值得试。"
   - q: "notePad++++ 能实时预览 Markdown 吗？"
     a: "可以。它采用左右并排方式，一边保留 Markdown 原文，一边显示排版后的结果，适合同时检查语法和最终显示效果。"
+  - q: "Typora 官网是哪个网址？"
+    a: "Typora 的官方网站是 typora.io，购买和许可证说明在 store.typora.io。下载、购买或激活时请只使用官方页面，不要使用来源不明的下载站或激活工具。"
+  - q: "有免费的 Typora 平替吗？"
+    a: "有几类思路：使用 VS Code 等编辑器自带的 Markdown 预览，或使用 Obsidian、MarkText 等免费或开源的 Markdown 工具。它们的功能、更新状态和适用场景各不相同，请在下载前查看各自当前的官方页面。如果你的需求还包括文件夹搜索、正则替换和批量整理，也可以试试 notePad++++。"
 ---
 
 ## 为什么很多中文用户喜欢 Typora？
@@ -59,6 +66,19 @@ Typora 官方还支持导出 PDF、HTML 和图片；安装 Pandoc 后可以处�
 例如，你可能需要同时打开 Markdown、TXT、JSON、日志和代码片段；在一个文件夹里搜索某个词；按固定格式修改几十处链接；清理重复行、空行和标点；或者先检查一批文件会发生哪些变化，再决定是否应用。
 
 这些需求更接近“文本处理”，而不是单纯的 Markdown 写作。此时，预览仍然重要，但文件搜索、精确替换和重复操作会占用更多时间。
+
+## 想找 Typora 平替，先分清要替代什么
+
+“平替”常被理解成“功能差不多、价格更低”。但 Typora 同时承担了几件不同的事，把它们拆开看，选择会清楚很多。
+
+| 你想替代的部分 | 可以考虑的方向 |
+| --- | --- |
+| 单窗口实时排版和安静的长文写作 | 其他所见即所得风格的 Markdown 编辑器 |
+| 本地 Markdown 笔记库 | Obsidian 等笔记类工具，功能和适用场景不同，请先看官方页面 |
+| 只想免费预览 Markdown | VS Code 等编辑器自带的 Markdown 预览 |
+| Markdown 之外还要搜索、替换和批量整理文本 | 本地文本编辑器，例如 notePad++++ |
+
+如果你的顾虑主要是价格，可以先用 Typora 的 15 天试用判断自己会不会长期使用，再决定要不要为它付费，也不必急着找平替。
 
 ## notePad++++ 与 Typora 的主要区别
 

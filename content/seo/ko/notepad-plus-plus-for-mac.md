@@ -29,6 +29,8 @@ related:
     href: /en/notepad-plus-plus-for-mac/
   - label: notePad++++ 한국어 홈
     href: /ko/
+  - label: 맥에서 Notepad++ 중복 줄 제거하는 방법
+    href: /ko/remove-duplicate-lines-mac/
 externalLinks:
   - label: App Store에서 notePad++++ 받기
     href: appStore

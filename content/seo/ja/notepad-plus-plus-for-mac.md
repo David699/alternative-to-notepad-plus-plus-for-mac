@@ -29,6 +29,8 @@ related:
     href: /en/notepad-plus-plus-for-mac/
   - label: notePad++++ 日本語ホーム
     href: /ja/
+  - label: サクラエディタは Mac で使える？機能の対応表
+    href: /ja/sakura-editor-for-mac/
 externalLinks:
   - label: notePad++++ を App Store で入手
     href: appStore
