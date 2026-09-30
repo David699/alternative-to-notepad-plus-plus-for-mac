@@ -9,10 +9,19 @@ export interface SeoArticleLink {
   external?: boolean
 }
 
+export interface SeoArticleFigure {
+  src: string
+  alt: string
+  caption?: string
+  width: number
+  height: number
+}
+
 export interface SeoArticleSection {
   title: string
   body: string[]
   bullets?: string[]
+  figure?: SeoArticleFigure
 }
 
 export interface SeoArticleTable {
@@ -140,57 +149,203 @@ const coreSeoArticles: SeoArticle[] = [
     title: 'Best Notepad++ Alternatives for Mac: When to Use notePad++++, BBEdit, CotEditor, Sublime Text, or VS Code',
     shortTitle: 'Notepad++ Alternatives for Mac',
     description:
-      'Compare practical Notepad++ alternatives for Mac and see where notePad++++ fits: tabs, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, Batch Processing, iCloud sync, and user-controlled AI.',
+      'Compare Notepad++ alternatives for Mac in 2026: Nextpad++, NotepadNext, BBEdit, CotEditor, TextMate, Sublime Text, VS Code, and notePad++++.',
     datePublished: '2026-06-03',
-    dateModified: '2026-06-03',
+    dateModified: '2026-09-30',
     keywords: [
       'best Notepad++ alternatives for Mac',
       'Notepad++ Mac replacement',
       'BBEdit alternative',
       'CotEditor alternative',
       'Sublime Text alternative Mac',
+      'native Notepad++ for Mac',
+      'Nextpad++ vs NotepadNext',
+      'free Notepad++ alternative for Mac',
+      'Notepad++ vs BBEdit',
     ],
-    heroKicker: 'Comparison guide',
+    heroKicker: 'Comparison guide, updated September 2026',
     heroSummary:
-      'There is no single best editor for every Mac user. The right Notepad++ alternative depends on whether you need a code-first tool, a lightweight plain-text editor, or a text-processing workbench for repeatable cleanup tasks.',
+      'There is no single best editor for every Mac user. Notepad++ itself is still a Windows program, so the real choice is between native ports of its code, Mac-native editors, and cross-platform code editors. The right one depends on the work you do most.',
     sections: [
       {
+        title: 'Quick picks: which Notepad++ alternative fits you',
+        body: [
+          'If you only have a minute, start here. Each pick below is explained in its own section, with what it is good at and what to weigh before you install it.',
+        ],
+        bullets: [
+          'Closest to the original: Nextpad++, a native port',
+          'Free and lightweight: CotEditor',
+          'Deepest text processing: BBEdit',
+          'Coding projects: VS Code or Sublime Text',
+          'Repeatable cleanup and batch edits: notePad++++',
+          'Open-source look-alike: NotepadNext',
+        ],
+      },
+      {
         title: 'How to choose a Notepad++ alternative on Mac',
+        figure: {
+          src: '/images/seo/notepad-alternatives-decision-guide.svg',
+          alt: 'Decision guide: choose Nextpad++ or NotepadNext for the Notepad++ interface, VS Code or Sublime Text for coding, CotEditor for a free and simple native editor, BBEdit for deep grep and scripting, and notePad++++ for tabs, Column Mode, and batch edits.',
+          caption: 'The same questions as a picture: answer them in order and stop at the first yes. Prices, system requirements, and trade-offs are covered in the sections below.',
+          width: 600,
+          height: 740,
+        },
         body: [
           'Start with the work you do most often. If you mainly write code, an IDE-like tool or VS Code may be the better fit. If you mainly open plain text, clean copied content, edit lists, search folders, and process repeated text tasks, a focused editor can be faster.',
-          `${APP_NAME} is positioned for that second group: Mac users who want a lightweight editor with strong text manipulation features rather than a full development environment.`,
+          'A few questions narrow the field quickly. Do you depend on a specific Notepad++ plugin? Do you search and change text across many files? Does the price model matter to you? And does the editor support the macOS version you run? The sections below answer these for each option.',
+        ],
+      },
+      {
+        title: 'First, the fact that shapes every option: Notepad++ is Windows-only',
+        body: [
+          'The official Notepad++ project distributes a Windows application and does not publish a macOS version. Everything on this page is therefore one of three things: a port or re-implementation of Notepad++ for the Mac, a Mac editor with a similar feature set, or a general code editor that also runs on macOS.',
+          'You can also run the original Windows build through Wine, CrossOver, or a Windows virtual machine. That works, but it is a Windows program in a translation layer, which is why most people end up choosing one of the native options below.',
+        ],
+      },
+      {
+        title: 'Nextpad++: a native port of the Notepad++ code',
+        body: [
+          'In April 2026 an independent developer released a native macOS port of the Notepad++ code under the name Notepad++ for Mac. The original author objected to the use of the Notepad++ name and branding, and the port was renamed Nextpad++ in May 2026. It is an unofficial community project and is not endorsed by the Notepad++ project.',
+          'According to its own site, Nextpad++ is free, released under the GPL, and ships as a universal binary for Apple silicon and Intel Macs. Plugins written for the Windows version have to be ported, so a plugin you rely on may not be available yet.',
+        ],
+        bullets: [
+          'Best for: the Notepad++ interface as a native Mac app',
+          'Weigh: a community project, and plugin availability varies',
+        ],
+      },
+      {
+        title: 'NotepadNext: an open-source re-implementation',
+        body: [
+          'NotepadNext describes itself as a cross-platform re-implementation of Notepad++. It is built with Qt, released under GPL-3.0, and runs on Windows, Linux, and macOS. On a Mac you can download a disk image from its releases page or install it with Homebrew.',
+          'Its README calls it stable and usable, but also says it should not be considered safe for critically important work and acknowledges bugs and half-working parts. It does not mention plugin support. Treat it as a promising look-alike for everyday editing rather than a drop-in replacement.',
+        ],
+        bullets: [
+          'Best for: an open-source editor with a Notepad++-style layout',
+          'Weigh: rough edges, and no plugin support is mentioned',
+        ],
+      },
+      {
+        title: 'BBEdit: the deepest Mac-native text tool',
+        body: [
+          'BBEdit describes itself as a professional HTML and text editor for macOS. Its website lists grep pattern matching, multi-file search and replace, code folding, and AppleScript and Unix scripting. At the time of writing, it requires macOS 14.0 or later.',
+          'BBEdit includes a 30-day evaluation with all features enabled. After that you can keep using it in Free Mode, or unlock its exclusive features with a purchase or a Mac App Store subscription. Check its website for current prices.',
+        ],
+        bullets: [
+          'Best for: heavy pattern-based search and scripting across many files',
+          'Weigh: more depth than quick cleanup needs, and some features are paid',
+        ],
+      },
+      {
+        title: 'CotEditor: free, native, and lightweight',
+        body: [
+          'CotEditor is a free, open-source Mac text editor available through the Mac App Store. Its website highlights find and replace with the ICU regular expression engine, macros in languages such as AppleScript, JavaScript, Python, Ruby, and UNIX shell, and support for many file encodings with attention to CJK languages.',
+          'Its GitHub page states that it supports the latest two major macOS releases, and at the time of writing it lists macOS Tahoe 26 or later as the requirement. If your Mac runs an older system, check the requirements first.',
+        ],
+        bullets: [
+          'Best for: a simple, free native editor for everyday text',
+          'Weigh: current releases need a recent version of macOS',
+        ],
+      },
+      {
+        title: 'TextMate: bundles, multiple carets, and project search',
+        body: [
+          'TextMate is developed as open source and, according to its website, requires macOS 10.12 or later. It highlights multiple carets, file search with a preview of replacements, snippets, macros, and bundles for customization across many languages and markup systems.',
+          'Its customization centers on bundles, which is a different model from Notepad++ plugins, so plan for a short adjustment if you are moving over from Notepad++.',
+        ],
+        bullets: [
+          'Best for: customizable editing with snippets and macros',
+          'Weigh: bundles work differently from Notepad++ plugins',
+        ],
+      },
+      {
+        title: 'Sublime Text and VS Code: cross-platform code editors',
+        body: [
+          'Sublime Text can be downloaded and evaluated for free, but a license must be purchased for continued use. Its website describes personal licenses as a one-time purchase that includes three years of updates. It highlights multiple selections, Goto features for navigating projects, native Apple silicon support, and a Python-based plugin API.',
+          'Visual Studio Code is free and open source, with a large extension marketplace, built-in Git support, debugging, and an integrated terminal. Its documentation says it supports macOS versions that still receive Apple security updates, typically the latest release and the two before it.',
+        ],
+        bullets: [
+          'Best for: coding projects, extensions, and language tooling',
+          'Weigh: built around code projects rather than quick plain-text cleanup',
         ],
       },
       {
         title: 'Where notePad++++ fits',
+        figure: {
+          src: '/images/screen-scripts-en.png',
+          alt: 'notePad++++ Script Pipelines: a step-by-step text workflow with a result preview, batch processing counts, and rollback',
+          caption: 'Script Pipelines chain cleanup steps such as trimming, deduplicating, and sorting, then show a preview before anything is applied.',
+          width: 1440,
+          height: 900,
+        },
         body: [
           'notePad++++ is strongest when editing and processing text are part of the same job. The app combines Multi-Tab Editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Diff View, Script Pipelines, Batch Processing, backup, rollback, iCloud sync, and optional AI assistance.',
-          'That makes it useful for notes, Markdown documents, logs, CSV-like text, keyword lists, support snippets, release notes, copied social content, and one-off cleanup jobs that would be tedious by hand.',
+          'That makes it useful for notes, Markdown documents, logs, CSV-like text, keyword lists, support snippets, release notes, copied social content, and one-off cleanup jobs that would be tedious by hand. It does not run Notepad++ plugins, and it is not affiliated with or endorsed by the Notepad++ project.',
+        ],
+        bullets: [
+          'Best for: searching, transforming, and reviewing text in one window',
+          'Weigh: a text workbench, not an IDE or a Notepad++ plugin host',
         ],
       },
       {
         title: 'When another editor may be better',
         body: [
-          'BBEdit is a long-running professional Mac editor with a deep feature set. CotEditor is a clean native Mac text editor for users who want simplicity. Sublime Text is fast and extensible. VS Code is strong for coding projects and extensions.',
+          'Choose Nextpad++ or NotepadNext if you want the Notepad++ interface itself and accept the trade-offs of a community project. Choose BBEdit if you need the deepest Mac-native text processing. Choose CotEditor if you want something free and simple. Choose Sublime Text or VS Code if your day is mostly code.',
           'Those tools can be excellent choices. notePad++++ is designed for a more specific search intent: a Mac-first text editor that keeps Notepad++-style editing comfort while adding repeatable cleanup workflows and batch-safe processing.',
+        ],
+      },
+      {
+        title: 'Test with one real task before you commit',
+        figure: {
+          src: '/images/screen-search-en.png',
+          alt: 'notePad++++ Workspace Search finding a term across project files, with match counts per file and replacement previews',
+          caption: 'A realistic test: search a whole folder for a pattern and check the replacement preview before you apply it.',
+          width: 1440,
+          height: 900,
+        },
+        body: [
+          'Feature lists only go so far. Pick one real job, such as changing the same pattern across a folder of files or cleaning a messy export, and try it in your top two candidates. The tool that makes you switch windows the least is usually the right one.',
+          'If you work with older text files, also open one legacy file in each candidate to check that its encoding is handled correctly, since that is a common surprise after switching platforms.',
         ],
       },
     ],
     table: {
-      title: 'Alternative comparison by primary use case',
-      headers: ['Tool', 'Best fit', 'Tradeoff to consider'],
+      title: 'Alternatives at a glance',
+      headers: ['Tool', 'Cost model', 'Best fit', 'Trade-off to consider'],
       rows: [
-        ['notePad++++', 'Text editing plus repeatable cleanup, Column Mode, Regex Find & Replace, Workspace Search, Script Pipelines, Batch Processing, Markdown Preview.', 'Best for macOS text workflows, not intended to replace a full IDE.'],
-        ['BBEdit', 'Professional Mac editing with a broad, mature feature set.', 'More advanced than some users need for quick everyday cleanup.'],
-        ['CotEditor', 'Simple native Mac plain-text editing.', 'Less focused on batch pipelines and automation workflows.'],
-        ['Sublime Text', 'Fast cross-platform editing with packages and keyboard-driven workflows.', 'A different product style for users who want a strictly native Mac app.'],
-        ['VS Code', 'Coding projects, extensions, debugging, language tooling.', 'Heavier than needed for simple text cleanup and quick file edits.'],
+        ['notePad++++', 'Mac App Store; see the listing for current pricing', 'Text editing plus repeatable cleanup: Column Mode, Regex Find & Replace, Workspace Search, Script Pipelines, Batch Processing', 'A text workbench for macOS, not a full IDE or a Notepad++ plugin host'],
+        ['Nextpad++', 'Free, GPL, per its own site', 'The Notepad++ interface as a native Mac app', 'Unofficial community project; Windows plugins must be ported'],
+        ['NotepadNext', 'Free, GPL-3.0', 'An open-source, cross-platform look-alike of Notepad++', 'The README mentions bugs and does not mention plugin support'],
+        ['BBEdit', '30-day evaluation, then Free Mode; exclusive features are paid', 'Deep grep, multi-file search, and scripting on Mac', 'More than some users need for quick everyday cleanup'],
+        ['CotEditor', 'Free and open source', 'Simple native plain-text editing with regex and scripting', 'Current releases require a recent version of macOS'],
+        ['TextMate', 'Open source', 'Customizable editing with bundles, snippets, and macros', 'Bundles differ from Notepad++ plugins'],
+        ['Sublime Text', 'Free to evaluate; license required for continued use', 'Fast cross-platform editing with a Python plugin API', 'A different product style for users who want a strictly native Mac app'],
+        ['VS Code', 'Free and open source', 'Coding projects, extensions, debugging, language tooling', 'Heavier than needed for simple text cleanup and quick file edits'],
       ],
     },
     faq: [
       {
         q: 'What is the best Notepad++ alternative for Mac?',
-        a: 'It depends on your workflow. notePad++++ is a strong fit if you want tabs, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and batch text processing in a native Mac app.',
+        a: 'It depends on your workflow. Nextpad++ is closest if you want the Notepad++ interface as a native app, CotEditor is a good free and simple choice, and BBEdit is the deepest Mac-native tool. notePad++++ is a strong fit if you want tabs, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and batch text processing in a native Mac app.',
+      },
+      {
+        q: 'Is there a native Notepad++ for Mac?',
+        a: 'Not from the official project, which distributes a Windows application only. Nextpad++ is an independent community port of the Notepad++ code to macOS, and NotepadNext is a cross-platform re-implementation. Neither is an official release.',
+      },
+      {
+        q: 'What is the difference between Nextpad++ and NotepadNext?',
+        a: 'By their own descriptions, Nextpad++ is a port of the Notepad++ code base to macOS, while NotepadNext is a cross-platform re-implementation of Notepad++ built with Qt. Check each project for the features and plugins you need.',
+      },
+      {
+        q: 'Is there a free Notepad++ alternative for Mac?',
+        a: 'Yes, several. CotEditor is free and open source, Nextpad++ and NotepadNext are released under the GPL, Visual Studio Code is free and open source, TextMate is open source, and BBEdit offers a Free Mode after its 30-day evaluation. Sublime Text is free to evaluate but needs a license for continued use.',
+      },
+      {
+        q: 'Which alternatives support Notepad++ plugins?',
+        a: 'Nextpad++ says it supports plugins, but plugins written for Windows have to be ported, so not every plugin is available. The NotepadNext README does not mention plugin support. The other tools have their own extension systems, and notePad++++ does not run Notepad++ plugins.',
+      },
+      {
+        q: 'Can I run the real Notepad++ on a Mac?',
+        a: 'Yes, through a compatibility layer such as Wine or CrossOver, or inside a Windows virtual machine. It is still a Windows program, so behavior and integration differ from a native Mac app. The guide linked in the sidebar covers the trade-offs.',
       },
       {
         q: 'Is notePad++++ a code IDE?',
@@ -215,6 +370,13 @@ const coreSeoArticles: SeoArticle[] = [
       { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
       { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
       { label: 'Visit the official Notepad++ website', href: NOTEPAD_PLUS_PLUS_URL, external: true },
+      { label: 'Nextpad++ community port', href: 'https://nextpad.org/', external: true },
+      { label: 'NotepadNext on GitHub', href: 'https://github.com/dail8859/NotepadNext', external: true },
+      { label: 'BBEdit official website', href: 'https://www.barebones.com/products/bbedit/', external: true },
+      { label: 'CotEditor official website', href: 'https://coteditor.com/', external: true },
+      { label: 'TextMate official website', href: 'https://macromates.com/', external: true },
+      { label: 'Sublime Text official website', href: 'https://www.sublimetext.com/', external: true },
+      { label: 'Visual Studio Code official website', href: 'https://code.visualstudio.com/', external: true },
     ],
   },
   {

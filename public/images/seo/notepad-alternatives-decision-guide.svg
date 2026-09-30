@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 740" width="600" height="740" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <rect width="600" height="740" rx="20" fill="#f8fafc"/>
+
+  <text x="32" y="58" font-size="26" font-weight="800" fill="#0f172a">Which Notepad++ alternative fits you?</text>
+  <text x="32" y="86" font-size="16" fill="#475569">Notepad++ itself is Windows-only, so pick by the job you do most.</text>
+
+  <!-- 1 -->
+  <rect x="24" y="112" width="552" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="24" y="112" width="8" height="100" rx="4" fill="#7c3aed"/>
+  <text x="52" y="154" font-size="22" font-weight="700" fill="#0f172a">Want the Notepad++ interface itself?</text>
+  <text x="52" y="188" font-size="20" font-weight="600" fill="#6d28d9">→ Nextpad++ or NotepadNext</text>
+
+  <!-- 2 -->
+  <rect x="24" y="226" width="552" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="24" y="226" width="8" height="100" rx="4" fill="#0ea5e9"/>
+  <text x="52" y="268" font-size="22" font-weight="700" fill="#0f172a">Mostly writing code?</text>
+  <text x="52" y="302" font-size="20" font-weight="600" fill="#0369a1">→ VS Code or Sublime Text</text>
+
+  <!-- 3 -->
+  <rect x="24" y="340" width="552" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="24" y="340" width="8" height="100" rx="4" fill="#10b981"/>
+  <text x="52" y="382" font-size="22" font-weight="700" fill="#0f172a">Free, simple, native editor?</text>
+  <text x="52" y="416" font-size="20" font-weight="600" fill="#047857">→ CotEditor</text>
+
+  <!-- 4 -->
+  <rect x="24" y="454" width="552" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="24" y="454" width="8" height="100" rx="4" fill="#f59e0b"/>
+  <text x="52" y="496" font-size="22" font-weight="700" fill="#0f172a">Deep grep and scripting?</text>
+  <text x="52" y="530" font-size="20" font-weight="600" fill="#b45309">→ BBEdit</text>
+
+  <!-- 5 -->
+  <rect x="24" y="568" width="552" height="100" rx="14" fill="#ffffff" stroke="#e2e8f0"/>
+  <rect x="24" y="568" width="8" height="100" rx="4" fill="#118de8"/>
+  <text x="52" y="610" font-size="22" font-weight="700" fill="#0f172a">Tabs, Column Mode, batch edits?</text>
+  <text x="52" y="644" font-size="20" font-weight="600" fill="#0b6fbd">→ notePad++++</text>
+
+  <text x="32" y="708" font-size="15" fill="#64748b">Prices, system requirements, and trade-offs are in the sections below.</text>
+</svg>

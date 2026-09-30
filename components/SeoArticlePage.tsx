@@ -3,7 +3,7 @@ import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import AppStoreRatingSummary from '@/components/AppStoreRatingSummary'
 import OptimizedImage from '@/components/OptimizedImage'
 import type { SeoArticle } from '@/lib/seo-articles'
-import { APP_STORE_URL, GITHUB_REPO_URL } from '@/lib/paths'
+import { APP_STORE_URL, GITHUB_REPO_URL, withBasePath } from '@/lib/paths'
 
 interface Props {
   article: SeoArticle
@@ -96,7 +96,7 @@ export default function SeoArticlePage({ article }: Props) {
         </section>
 
         <div className="mx-auto grid max-w-5xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_280px] lg:px-8">
-          <div className="space-y-12">
+          <div className="min-w-0 space-y-12">
             {article.sections.map((section) => (
               <section key={section.title} className="scroll-mt-24">
                 <h2 className="text-2xl font-black tracking-tight text-gray-950">{section.title}</h2>
@@ -105,6 +105,35 @@ export default function SeoArticlePage({ article }: Props) {
                     <p key={paragraph}>{paragraph}</p>
                   ))}
                 </div>
+                {section.figure && (
+                  <figure className="mt-6 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
+                    {section.figure.src.endsWith('.svg') ? (
+                      // SVG 不经过 WebP 转换，直接用普通 img 引用
+                      // eslint-disable-next-line @next/next/no-img-element
+                      <img
+                        src={withBasePath(section.figure.src)}
+                        alt={section.figure.alt}
+                        width={section.figure.width}
+                        height={section.figure.height}
+                        loading="lazy"
+                        className="h-auto w-full"
+                      />
+                    ) : (
+                      <OptimizedImage
+                        src={section.figure.src}
+                        alt={section.figure.alt}
+                        width={section.figure.width}
+                        height={section.figure.height}
+                        className="h-auto w-full"
+                      />
+                    )}
+                    {section.figure.caption && (
+                      <figcaption className="border-t border-gray-200 px-4 py-3 text-sm leading-6 text-gray-600">
+                        {section.figure.caption}
+                      </figcaption>
+                    )}
+                  </figure>
+                )}
                 {section.bullets && (
                   <ul className="mt-5 grid gap-3 text-sm font-semibold text-gray-800 sm:grid-cols-2">
                     {section.bullets.map((bullet) => (
@@ -120,7 +149,7 @@ export default function SeoArticlePage({ article }: Props) {
             {article.table && (
               <section>
                 <h2 className="text-2xl font-black tracking-tight text-gray-950">{article.table.title}</h2>
-                <div className="mt-5 overflow-hidden rounded-xl border border-gray-200">
+                <div className="mt-5 overflow-x-auto rounded-xl border border-gray-200">
                   <table className="w-full border-collapse text-left text-sm">
                     <thead className="bg-gray-950 text-white">
                       <tr>
