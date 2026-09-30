@@ -67,6 +67,9 @@
   .localized-seo-markdown table {
     @apply w-full min-w-[640px] border-collapse text-sm;
   }
+  .localized-seo-markdown pre {
+    @apply code-block text-left;
+  }
   .localized-seo-markdown thead {
     @apply bg-gray-950 text-white;
   }

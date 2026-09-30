@@ -168,7 +168,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
           </section>
 
           <div className="mx-auto grid max-w-5xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1fr_280px] lg:px-8">
-            <div className="space-y-12">
+            <div className="min-w-0 space-y-12">
               <div
                 className={`localized-seo-markdown localized-seo-markdown-${config.dir}`}
                 dangerouslySetInnerHTML={{ __html: article.contentHtml }}
