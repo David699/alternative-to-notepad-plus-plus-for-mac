@@ -86,6 +86,7 @@ export const workflowGuides: SeoArticle[] = [
     ],
     related: [
       { label: 'Batch text processing on Mac', href: '/en/batch-text-processing-mac/' },
+      { label: 'Delete lines containing text on Mac', href: '/en/delete-lines-containing-text-on-mac/' },
       { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
       { label: 'Column Mode editor for Mac', href: '/en/column-mode-editor-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },
@@ -169,6 +170,7 @@ export const workflowGuides: SeoArticle[] = [
     ],
     related: [
       { label: 'Regex find and replace on Mac', href: '/en/regex-find-replace-mac/' },
+      { label: 'Sort and remove duplicate lines on Mac', href: '/en/sort-and-remove-duplicate-lines-on-mac/' },
       { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
       { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },

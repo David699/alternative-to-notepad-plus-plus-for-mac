@@ -19,6 +19,8 @@ related:
     href: "/en/notepad-plus-plus-for-mac/"
   - label: "Notepad++ alternatives for Mac"
     href: "/en/notepad-plus-plus-alternatives-for-mac/"
+  - label: "Nextpad++ vs NotepadNext vs notePad++++"
+    href: "/en/nextpad-vs-notepadnext-vs-notepad-plus-plus-plus-plus/"
   - label: "CotEditor alternative for Mac"
     href: "/en/coteditor-alternative-for-mac/"
   - label: "Column Mode editor for Mac"

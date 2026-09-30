@@ -22,6 +22,8 @@ related:
     href: "/en/regex-find-replace-mac/"
   - label: "HTML editor with live preview for Mac"
     href: "/en/html-editor-with-live-preview-mac/"
+  - label: "Open and validate JSON, JSONC, and JSON5 on Mac"
+    href: "/en/open-and-validate-json-jsonc-json5-on-mac/"
   - label: "Text editor for Mac"
     href: "/en/text-editor-for-mac/"
   - label: "Back to product overview"

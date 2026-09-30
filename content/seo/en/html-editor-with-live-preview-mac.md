@@ -18,6 +18,8 @@ heroImageAlt: "notePad++++ HTML editor showing source code, document outline, an
 related:
   - label: "Responsive HTML preview on Mac"
     href: "/en/responsive-html-preview-mac/"
+  - label: "Check HTML for common mistakes on Mac"
+    href: "/en/check-html-for-errors-on-mac/"
   - label: "JavaScript text processing on Mac"
     href: "/en/javascript-text-processing-mac/"
   - label: "Plain text editor for Mac"

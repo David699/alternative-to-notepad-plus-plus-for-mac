@@ -361,6 +361,7 @@ const coreSeoArticles: SeoArticle[] = [
       { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
       { label: 'Notepad++ for Mac alternative overview', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Does Notepad++ work on Mac?', href: '/en/does-notepad-plus-plus-work-on-mac/' },
+      { label: 'Nextpad++ vs NotepadNext vs notePad++++', href: '/en/nextpad-vs-notepadnext-vs-notepad-plus-plus-plus-plus/' },
       { label: 'CotEditor alternative for Mac', href: '/en/coteditor-alternative-for-mac/' },
       { label: 'Column Mode editor for Mac', href: '/en/column-mode-editor-for-mac/' },
       { label: 'Back to product overview', href: '/en/' },
@@ -384,20 +385,37 @@ const coreSeoArticles: SeoArticle[] = [
     title: 'Column Mode Editor for Mac: Edit Aligned Text, Lists, Logs, and CSV-Like Data Faster',
     shortTitle: 'Column Mode Editor for Mac',
     description:
-      'Need a Column Mode editor for Mac? notePad++++ supports column-style editing alongside tabs, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, Batch Processing, diff preview, and rollback.',
+      'Need a Column Mode editor for Mac? Hold Option and drag for a column selection, or switch Column Mode on from the toolbar. notePad++++ pairs it with Regex Find & Replace, Workspace Search, Script Pipelines, diff preview, and rollback.',
     datePublished: '2026-06-03',
-    dateModified: '2026-06-03',
+    dateModified: '2026-09-30',
     keywords: [
       'Column Mode editor for Mac',
       'Notepad++ column mode Mac',
       'Mac text editor with column mode',
       'column editing macOS',
       'edit columns of text on Mac',
+      'column mode shortcut Mac',
+      'Option drag column select Mac',
+      'block selection Mac text editor',
     ],
     heroKicker: 'For aligned text and structured snippets',
     heroSummary:
       'Column Mode is useful when text behaves more like a grid than a paragraph. It helps with aligned lists, log snippets, CSV-like rows, configuration blocks, and repeated edits in the same character position.',
     sections: [
+      {
+        title: 'How to make a column selection on Mac',
+        body: [
+          'On a Mac the Alt key is called Option. Hold Option, press the mouse button in the editor, and drag: the selection becomes a rectangle instead of following the lines. This works at any time, even when Column Mode is switched off.',
+          'To stay in column selection without holding a key, switch Column Mode on with its toolbar button. The button reads Column Mode: On, the app confirms with a message that says Option + drag, and the setting is remembered the next time you open the app.',
+          'The editor engine notePad++++ is built on, Monaco, also defines Cmd + Shift + Option + an arrow key to grow a column selection from the keyboard.',
+        ],
+        bullets: [
+          'Hold Option and drag: a one-off column selection with no setup.',
+          'Toolbar Column Mode button: keeps column selection on until you turn it off.',
+          'Type once: the text is inserted on every selected row at the same column.',
+          'Copy a column block, then paste it into a column selection with the same number of rows to put each copied row on its matching row.',
+        ],
+      },
       {
         title: 'What Column Mode is useful for',
         body: [
@@ -438,6 +456,14 @@ const coreSeoArticles: SeoArticle[] = [
       ],
     },
     faq: [
+      {
+        q: 'What is the Column Mode shortcut on Mac?',
+        a: 'Hold Option and drag with the mouse to select a column block. From the keyboard, Cmd + Shift + Option plus an arrow key extends a column selection. The toolbar Column Mode button keeps column selection on without holding a key.',
+      },
+      {
+        q: 'Is Column Mode part of Pro?',
+        a: 'No. In the app, column mode editing is part of the free edition. Check the App Store listing for the current split between free and Pro features.',
+      },
       {
         q: 'Does notePad++++ support Column Mode?',
         a: 'Yes. Column Mode is one of the core features shown on the product page and is designed for aligned text, lists, logs, and CSV-like data.',
