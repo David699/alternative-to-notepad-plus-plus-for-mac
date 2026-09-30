@@ -424,6 +424,8 @@ export const en: Dict = {
       { label: 'How notePad++++ was built', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Mac alternatives guide', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
+      { label: 'Does Notepad++ work on Mac?', href: '/en/does-notepad-plus-plus-work-on-mac/' },
+      { label: 'CotEditor alternative for Mac', href: '/en/coteditor-alternative-for-mac/' },
       { label: 'Column Mode guide', href: '/en/column-mode-editor-for-mac/' },
     ],
     appStoreLabel: 'App Store',

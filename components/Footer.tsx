@@ -1,6 +1,7 @@
 'use client'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { FooterDict } from '@/lib/i18n/types'
+import { footerLanguageLinks } from '@/lib/footer-languages'
 import { GITHUB_REPO_URL, PRODUCT_HUNT_URL, withBasePath } from '@/lib/paths'
 
 interface Props { t: FooterDict }
@@ -73,6 +74,24 @@ export default function Footer({ t }: Props) {
             </ul>
           </div>
         </div>
+
+        <nav aria-label="Languages" className="mb-8 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs">
+          <svg className="h-4 w-4 text-gray-500" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+            <path d="M10 18a8 8 0 100-16 8 8 0 000 16Z" stroke="currentColor" strokeWidth="1.5" />
+            <path d="M2.5 10h15M10 2c2 2.15 3 4.82 3 8s-1 5.85-3 8M10 2c-2 2.15-3 4.82-3 8s1 5.85 3 8" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
+          </svg>
+          {footerLanguageLinks.map((language) => (
+            <a
+              key={language.hreflang}
+              href={withBasePath(language.href)}
+              hrefLang={language.hreflang}
+              lang={language.hreflang}
+              className="hover:text-white transition-colors"
+            >
+              {language.label}
+            </a>
+          ))}
+        </nav>
 
         <div className="border-t border-gray-800 pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
           <p>{t.copyright}</p>

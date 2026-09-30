@@ -2,6 +2,7 @@ import type { Dict, Locale } from './types'
 import { en } from './en'
 import { zh } from './zh'
 import { getLocalePage, type AppSupportedLocaleSlug, type LocalePageContent } from '@/lib/site-locales'
+import { getLocalizedGuideLinks } from '@/lib/footer-languages'
 import { notepadAppStoreRating } from '../app-store-rating'
 
 interface UiCopy {
@@ -859,6 +860,7 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
         { label: ui.textTools, href: `${page.path}#text-cleaning` },
       ],
       guideLinks: [
+        ...getLocalizedGuideLinks(page.slug),
         { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
         { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
         { label: 'Notepad for Mac', href: '/en/notepad-for-mac/' },
