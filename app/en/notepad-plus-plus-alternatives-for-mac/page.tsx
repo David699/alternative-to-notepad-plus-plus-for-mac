@@ -23,7 +23,7 @@ export function generateMetadata(): Metadata {
       siteName: APP_NAME,
       title: article.title,
       description: article.description,
-      images: [{ url: '/images/og-cover.png', width: 1200, height: 630, alt: article.shortTitle }],
+      images: [{ url: '/images/seo/notepad-alternatives-workflow-map.webp', width: 1440, height: 960, alt: article.heroFigure?.alt ?? article.shortTitle }],
       publishedTime: article.datePublished,
       modifiedTime: article.dateModified,
     },
@@ -31,7 +31,7 @@ export function generateMetadata(): Metadata {
       card: 'summary_large_image',
       title: article.title,
       description: article.description,
-      images: ['/images/og-cover.png'],
+      images: ['/images/seo/notepad-alternatives-workflow-map.webp'],
     },
     robots: {
       index: true,
@@ -60,6 +60,7 @@ export default function NotepadPlusPlusAlternativesForMacPage() {
             dateModified: article.dateModified,
             mainEntityOfPage: canonical,
             author: { '@type': 'Person', name: 'David699' },
+            image: `${SITE_URL}/images/seo/notepad-alternatives-workflow-map.webp`,
             publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
           }),
         }}

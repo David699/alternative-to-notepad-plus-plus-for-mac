@@ -1,0 +1,25 @@
+EDITING CHECKLIST
+
+Before you start
+---------------
+[ ] Make a copy of the original document.
+[ ] Check the file name and encoding.
+[ ] Open notes and reference text in separate tabs.
+
+While editing
+-------------
+[ ] Read the current paragraph.
+[ ] Keep the surrounding context visible.
+[ ] Use search when a document is longer.
+[ ] Enter Zen Mode for a focused pass.
+[ ] Try Minimal Mode for quiet writing.
+
+Before finishing
+----------------
+[ ] Check names and numbers.
+[ ] Review the changes.
+[ ] Save the sample file.
+[ ] Reopen it and verify the result.
+
+This checklist is demonstration content.
+It does not describe measured performance.

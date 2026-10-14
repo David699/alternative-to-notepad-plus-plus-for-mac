@@ -10,12 +10,12 @@ function toLocaleVariant(src: string, locale: string): string {
 }
 
 const imageVariants: Partial<Record<string, readonly Locale[]>> = {
-  '/images/ai-write.png': ['en'],
-  '/images/screen-bookmarks.png': ['en'],
-  '/images/screen-column.png': ['en'],
-  '/images/screen-main.png': ['en'],
-  '/images/screen-scripts.png': ['en'],
-  '/images/screen-search.png': ['en'],
+  '/images/ai-write.webp': ['en'],
+  '/images/screen-bookmarks.webp': ['en'],
+  '/images/screen-column.webp': ['en'],
+  '/images/screen-main.webp': ['en'],
+  '/images/screen-scripts.webp': ['en'],
+  '/images/screen-search.webp': ['en'],
 }
 
 type LocalizedImageProps = Omit<ImageProps, 'src'> & {

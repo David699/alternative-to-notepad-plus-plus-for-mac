@@ -23,16 +23,16 @@ keywords:
 heroKicker: Pour qui travaille le texte au quotidien
 heroSummary: >-
   Vous aimiez chez Notepad++ la rapidité, les onglets et une recherche solide.
-  notePad++++ est un éditeur de texte indépendant et natif pour macOS qui
+  {{APP_NAME}} est un éditeur de texte indépendant et natif pour macOS qui
   reprend ces habitudes, en tenant compte des contraintes typographiques du
   français : guillemets, espaces insécables et accents.
 related:
   - label: Version anglaise de cette page
     href: /en/notepad-plus-plus-for-mac/
-  - label: Page d'accueil de notePad++++
+  - label: Page d'accueil de {{APP_NAME}}
     href: /fr/
 externalLinks:
-  - label: Télécharger notePad++++ sur l'App Store
+  - label: Télécharger {{APP_NAME}} sur l'App Store
     href: appStore
     external: true
   - label: Visiter le site officiel de Notepad++
@@ -42,9 +42,9 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: notePad++++ est-il la version officielle de Notepad++ pour Mac ?
+  - q: "{{APP_NAME}} est-il la version officielle de Notepad++ pour Mac ?"
     a: >-
-      Non. notePad++++ est un éditeur de texte indépendant pour macOS, sans lien
+      Non. {{APP_NAME}} est un éditeur de texte indépendant pour macOS, sans lien
       avec le projet officiel Notepad++.
   - q: Comment gérer les CSV séparés par des points-virgules ?
     a: >-
@@ -57,14 +57,14 @@ faq:
       substitution de texte, pas une mise en forme automatique.
   - q: Ai-je besoin de Wine ou d'une machine virtuelle ?
     a: >-
-      Non. notePad++++ est conçu pour macOS et fonctionne nativement, sans
+      Non. {{APP_NAME}} est conçu pour macOS et fonctionne nativement, sans
       couche de compatibilité Windows.
 ---
 ## Retrouver ses habitudes de Notepad++ sur Mac
 
 Notepad++ est très répandu dans le monde francophone : interface traduite, communauté active, présence dans beaucoup d'environnements de travail. Ceux qui l'utilisaient au quotidien ne cherchent pas forcément un clone à l'identique en passant au Mac. Ils veulent surtout retrouver quelques gestes : ouvrir vite un fichier, travailler en onglets, chercher et remplacer sérieusement, éditer une colonne.
 
-notePad++++ vise exactement cela. Ce n'est pas le Notepad++ officiel — il n'y a aucun lien — mais un éditeur de texte indépendant et natif pour macOS, taillé pour le travail du texte de tous les jours. Et pour qui écrit en français, ce travail comporte des contraintes bien précises.
+{{APP_NAME}} vise exactement cela. Ce n'est pas le Notepad++ officiel — il n'y a aucun lien — mais un éditeur de texte indépendant et natif pour macOS, taillé pour le travail du texte de tous les jours. Et pour qui écrit en français, ce travail comporte des contraintes bien précises.
 
 ## Guillemets « français », espaces insécables et majuscules accentuées
 
@@ -74,7 +74,7 @@ Le français impose une typographie que peu d'éditeurs traitent proprement, et 
 
 **Les espaces insécables.** Les signes doubles — point-virgule, deux-points, point d'interrogation — appellent une espace insécable avant eux. Repérer et nettoyer ces espaces, ou les normaliser, se fait aussi par recherche ciblée.
 
-**Les majuscules accentuées.** Les vieux fichiers issus de Windows portent parfois des É, À ou Ç mal encodés. notePad++++ ouvre correctement les fichiers enregistrés dans d'anciens encodages comme Windows-1252, de sorte que les accents restent lisibles au lieu de se transformer en caractères parasites.
+**Les majuscules accentuées.** Les vieux fichiers issus de Windows portent parfois des É, À ou Ç mal encodés. {{APP_NAME}} ouvre correctement les fichiers enregistrés dans d'anciens encodages comme Windows-1252, de sorte que les accents restent lisibles au lieu de se transformer en caractères parasites.
 
 ## CSV au point-virgule et fichiers hérités de Windows
 
@@ -89,8 +89,8 @@ Excel en version française exporte ses CSV avec un point-virgule comme séparat
 - Markdown Preview pour les notes et la documentation
 - Script Pipelines et traitement par lots, avec aperçu et retour arrière avant application
 
-Pour les tâches répétitives, une aide IA optionnelle peut rédiger des scripts de nettoyage, et iCloud Sync met le même environnement à disposition sur plusieurs Mac. Si votre besoin est un environnement de développement complet, une IDE reste l'outil adapté ; notePad++++ vise le travail du texte, léger et natif.
+Pour les tâches répétitives, une aide IA optionnelle peut rédiger des scripts de nettoyage, et iCloud Sync met le même environnement à disposition sur plusieurs Mac. Si votre besoin est un environnement de développement complet, une IDE reste l'outil adapté ; {{APP_NAME}} vise le travail du texte, léger et natif.
 
 ## Marque et indépendance
 
-Notepad++ est une marque de son détenteur respectif. notePad++++ est un éditeur de texte indépendant pour macOS ; il n'est ni affilié, ni approuvé, ni autorisé par le projet officiel Notepad++.
+Notepad++ est une marque de son détenteur respectif. {{APP_NAME}} est un éditeur de texte indépendant pour macOS ; il n'est ni affilié, ni approuvé, ni autorisé par le projet officiel Notepad++.

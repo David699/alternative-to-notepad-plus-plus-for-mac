@@ -1,10 +1,11 @@
+import { APP_NAME } from '../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
 import { SITE_URL } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: '服务条款',
-  description: 'notePad++++ 服务条款 — 使用本应用前请阅读以下条款',
+  description: `${APP_NAME} 服务条款 — 使用本应用前请阅读以下条款`,
   alternates: {
     canonical: `${SITE_URL}/terms/`,
     languages: { 'zh-CN': `${SITE_URL}/terms/`, en: `${SITE_URL}/en/terms/` },
@@ -16,7 +17,7 @@ export default function TermsZh() {
   return (
     <LegalPage
       title="服务条款"
-      subtitle="在使用 notePad++++ 之前，请仔细阅读以下条款。下载或使用本应用即表示您同意本条款。"
+      subtitle={`在使用 ${APP_NAME} 之前，请仔细阅读以下条款。下载或使用本应用即表示您同意本条款。`}
       lastUpdated="最后更新：2026 年 5 月"
       backLabel="返回首页"
       backHref="/"
@@ -25,7 +26,7 @@ export default function TermsZh() {
         {
           heading: '1. 许可',
           body: [
-            'notePad++++ 通过 Apple App Store 分发，适用于 macOS 12 及以上版本。我们授予您个人、非独占、不可转让的许可，在您拥有或控制的 Mac 设备上安装和使用本应用。',
+            `${APP_NAME} 通过 Apple App Store 分发，适用于 macOS 12 及以上版本。我们授予您个人、非独占、不可转让的许可，在您拥有或控制的 Mac 设备上安装和使用本应用。`,
           ],
         },
         {
@@ -38,7 +39,7 @@ export default function TermsZh() {
         {
           heading: '3. AI 功能',
           body: [
-            'AI 功能需要您自行提供第三方 AI 服务商（如 OpenAI）的 API Key，并遵守该服务商的使用条款。使用 AI 功能产生的费用由您与 AI 服务商之间直接结算，与 notePad++++ 无关。',
+            `AI 功能需要您自行提供第三方 AI 服务商（如 OpenAI）的 API Key，并遵守该服务商的使用条款。使用 AI 功能产生的费用由您与 AI 服务商之间直接结算，与 ${APP_NAME} 无关。`,
           ],
         },
         {
@@ -63,7 +64,7 @@ export default function TermsZh() {
         {
           heading: '7. 知识产权',
           body: [
-            'notePad++++ 的名称、图标、界面设计及代码归开发者所有。macOS 是 Apple Inc. 的注册商标。Notepad++ 是 Don Ho 的开源项目，notePad++++ 与其无从属关系。',
+            `${APP_NAME} 的名称、图标、界面设计及代码归开发者所有。macOS 是 Apple Inc. 的注册商标。Notepad++ 是 Don Ho 的开源项目，${APP_NAME} 与其无从属关系。`,
           ],
         },
         {

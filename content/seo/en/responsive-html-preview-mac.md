@@ -12,9 +12,9 @@ keywords:
   - "HTML viewport tester macOS"
   - "test responsive HTML locally Mac"
 heroKicker: "Check layout changes before publishing"
-heroSummary: "A page that looks correct in a wide preview can still overflow, hide controls, or become hard to read on a tablet or phone. notePad++++ lets you switch the same local HTML preview between responsive, desktop, iPad, phone, and custom viewport sizes."
-heroImage: "/images/seo/responsive-html-preview-mac.png"
-heroImageAlt: "notePad++++ responsive HTML preview showing the same webpage at desktop, iPad, and phone viewport sizes"
+heroSummary: "A page that looks correct in a wide preview can still overflow, hide controls, or become hard to read on a tablet or phone. {{APP_NAME}} lets you switch the same local HTML preview between responsive, desktop, iPad, phone, and custom viewport sizes."
+heroImage: "/images/seo/responsive-html-preview-mac.webp"
+heroImageAlt: "{{APP_NAME}} responsive HTML preview showing the same webpage at desktop, iPad, and phone viewport sizes"
 related:
   - label: "HTML editor with live preview for Mac"
     href: "/en/html-editor-with-live-preview-mac/"
@@ -27,17 +27,17 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
-  - label: "See notePad++++ on Product Hunt"
+  - label: "See {{APP_NAME}} on Product Hunt"
     href: "productHunt"
     external: true
   - label: "View this website repository on GitHub"
     href: "github"
     external: true
 faq:
-  - q: "Can notePad++++ preview HTML at phone and iPad sizes?"
+  - q: "Can {{APP_NAME}} preview HTML at phone and iPad sizes?"
     a: "Yes. The HTML preview includes phone and iPad presets in addition to responsive, desktop, and custom viewport modes. The named phone and iPad modes are Pro features."
   - q: "Can I enter a custom viewport size?"
     a: "Yes. Width and height can be entered directly, and the preview scales down to fit the available Mac window when necessary."
@@ -51,7 +51,7 @@ faq:
 
 Responsive design depends on the available viewport width and height. Checking only a full-width desktop pane can miss problems in navigation, grids, buttons, images, tables, and long text.
 
-notePad++++ includes desktop presets, several iPad sizes, common phone sizes, and custom width and height fields. The preview scales to fit the available Mac window while preserving the selected viewport dimensions.
+{{APP_NAME}} includes desktop presets, several iPad sizes, common phone sizes, and custom width and height fields. The preview scales to fit the available Mac window while preserving the selected viewport dimensions.
 
 - Use a flexible preview that follows the current pane.
 - Check desktop sizes such as 1440 × 900 and 1920 × 1080.

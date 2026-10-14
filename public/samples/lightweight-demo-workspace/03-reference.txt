@@ -1,0 +1,24 @@
+REFERENCE TEXT
+
+Regular view
+------------
+Use tabs and the workspace to move between documents.
+Open search or other panels when a task needs them.
+
+Zen Mode
+--------
+Keep the document in view with fewer interface controls.
+Useful for reading, proofreading, and drafting text.
+Exit the mode to bring navigation controls back.
+
+Minimal Mode
+------------
+Keep a pared-back writing view with a small control strip.
+Adjust text size or colors for comfortable reading.
+Return to the regular view when you need more tools.
+
+Comparison notes
+----------------
+Use the same file when comparing two editors.
+Check editing comfort separately from performance.
+Do not infer memory use from a screenshot.

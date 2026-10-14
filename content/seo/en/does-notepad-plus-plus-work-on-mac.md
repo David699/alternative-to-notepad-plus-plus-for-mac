@@ -19,7 +19,7 @@ related:
     href: "/en/notepad-plus-plus-for-mac/"
   - label: "Notepad++ alternatives for Mac"
     href: "/en/notepad-plus-plus-alternatives-for-mac/"
-  - label: "Nextpad++ vs NotepadNext vs notePad++++"
+  - label: "Nextpad++ vs NotepadNext vs {{APP_NAME}}"
     href: "/en/nextpad-vs-notepadnext-vs-notepad-plus-plus-plus-plus/"
   - label: "CotEditor alternative for Mac"
     href: "/en/coteditor-alternative-for-mac/"
@@ -30,7 +30,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "Official Notepad++ website"
@@ -53,7 +53,7 @@ faq:
   - q: "Will Windows plugins work in a Mac port?"
     a: "Not automatically. Plugins written for the Windows version have to be ported, so a plugin you rely on may not be available. Check the plugins you need before you switch."
   - q: "What if I only need Notepad++ features like tabs, Column Mode, and regex search?"
-    a: "A Mac-native editor can cover those jobs without running Windows software. notePad++++ is built around that workflow, with Column Mode, Regex Find & Replace, Workspace Search, and batch tools, though it does not run Notepad++ plugins."
+    a: "A Mac-native editor can cover those jobs without running Windows software. {{APP_NAME}} is built around that workflow, with Column Mode, Regex Find & Replace, Workspace Search, and batch tools, though it does not run Notepad++ plugins."
 ---
 
 ## The short answer
@@ -69,7 +69,7 @@ The right choice depends on what you actually need from Notepad++. If you need t
 | Wine or CrossOver | The original Windows build | Real Notepad++ without installing Windows | A Windows program in a translation layer, so behavior and Mac integration vary |
 | Windows virtual machine | The original Windows build inside Windows | Highest compatibility with the Windows version | Needs a Windows license, disk space, memory, and a separate desktop |
 | Nextpad++ | An independent native Mac port | A native Mac app built from the Notepad++ code | Unofficial, and plugins have to be ported |
-| Mac-native editor such as notePad++++ | A separate Mac app | Built for macOS with no emulation | Not the same program, so some plugins and habits differ |
+| Mac-native editor such as {{APP_NAME}} | A separate Mac app | Built for macOS with no emulation | Not the same program, so some plugins and habits differ |
 
 ## Option 1: Wine or CrossOver
 
@@ -91,7 +91,7 @@ According to its own site, [Nextpad++](https://nextpad.org/) is free, released u
 
 ## Option 4: A Mac-native editor
 
-If what you miss is the workflow rather than the specific program, a native Mac editor may be less effort than any option above. notePad++++ is an independent Mac app built around Notepad++-style workflows: multi-tab editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing with diff preview and rollback for broad changes.
+If what you miss is the workflow rather than the specific program, a native Mac editor may be less effort than any option above. {{APP_NAME}} is an independent Mac app built around Notepad++-style workflows: multi-tab editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing with diff preview and rollback for broad changes.
 
 It does not run Notepad++ plugins, and it is not affiliated with or endorsed by the Notepad++ project. Other Mac editors such as BBEdit, CotEditor, and Sublime Text also cover text editing, each with a different balance of features. The [comparison of Notepad++ alternatives for Mac](/en/notepad-plus-plus-alternatives-for-mac/) goes through them.
 
@@ -99,7 +99,7 @@ It does not run Notepad++ plugins, and it is not affiliated with or endorsed by 
 
 - You need the original program or one specific Windows plugin: use a virtual machine, or Wine or CrossOver if you can accept rough edges.
 - You want the Notepad++ interface and code base as a native Mac app and accept that it is a community project: try Nextpad++.
-- You mostly need tabs, Column Mode, regex, folder-wide search, and repeatable cleanup: a Mac-native editor such as notePad++++ is the lowest-maintenance route.
+- You mostly need tabs, Column Mode, regex, folder-wide search, and repeatable cleanup: a Mac-native editor such as {{APP_NAME}} is the lowest-maintenance route.
 
 ## Check the source before you download
 

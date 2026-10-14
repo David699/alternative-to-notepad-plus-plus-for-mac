@@ -22,16 +22,16 @@ keywords:
 heroKicker: Windows'tan Mac'e geçenlere
 heroSummary: >-
   Eski bir dosyayı açtığınızda Türkçe karakterlerin bozuk çıkması tanıdık bir
-  dert. notePad++++ macOS için bağımsız, native bir metin editörüdür: sekmeler,
+  dert. {{APP_NAME}} macOS için bağımsız, native bir metin editörüdür: sekmeler,
   sütun modu ve regex ile günlük metin işlerini üstlenir, eski kodlamalı
   dosyaları da doğru açar.
 related:
   - label: Bu sayfanın İngilizce sürümü
     href: /en/notepad-plus-plus-for-mac/
-  - label: notePad++++ İngilizce ana sayfası
+  - label: "{{APP_NAME}} İngilizce ana sayfası"
     href: /en/
 externalLinks:
-  - label: notePad++++ uygulamasını App Store'dan indir
+  - label: "{{APP_NAME}} uygulamasını App Store'dan indir"
     href: appStore
     external: true
   - label: Resmi Notepad++ sitesini ziyaret et
@@ -41,14 +41,14 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: notePad++++ Notepad++'ın resmi Mac sürümü mü?
+  - q: "{{APP_NAME}} Notepad++'ın resmi Mac sürümü mü?"
     a: >-
-      Hayır. notePad++++ macOS için bağımsız bir metin editörüdür ve resmi
+      Hayır. {{APP_NAME}} macOS için bağımsız bir metin editörüdür ve resmi
       Notepad++ projesiyle ilişkisi yoktur.
   - q: Eski dosyalarda Türkçe karakterler neden bozuk çıkıyor?
     a: >-
       Dosya yıllar önce Windows-1254 gibi eski bir kodlamayla kaydedilip bugün
-      UTF-8 sanılarak açıldığında ı, İ, ş, ğ, ç, ö, ü bozulur. notePad++++ bu
+      UTF-8 sanılarak açıldığında ı, İ, ş, ğ, ç, ö, ü bozulur. {{APP_NAME}} bu
       dosyaları doğru kodlamayla açar, böylece karakterler olması gerektiği gibi
       görünür.
   - q: ı ve İ harflerini otomatik büyük/küçük harfe çevirir mi?
@@ -57,14 +57,14 @@ faq:
       dosyada olduğu gibi doğru görüntülenmesi ve kaydedilmesidir.
   - q: Wine veya sanal makine gerekir mi?
     a: >-
-      Hayır. notePad++++ macOS için native çalışır, Windows uyumluluk katmanına
+      Hayır. {{APP_NAME}} macOS için native çalışır, Windows uyumluluk katmanına
       gerek yoktur.
 ---
 ## Dosyayı açtınız, Türkçe karakterler bozuk mu görünüyor?
 
 Tanıdık bir an: eski bir metin dosyasını, bir logu ya da bir yerden indirdiğiniz bir listeyi açıyorsunuz ve ı, ş, ğ, ç yerine ekranı anlamsız işaretler dolduruyor. Dosya yıllar önce Windows-1254 gibi eski bir kodlamayla kaydedilmiş, bugünse UTF-8 sanılarak açılıyor. Sonuç: okunmayan bir Türkçe.
 
-notePad++++ tam da bu tür günlük dertler için tasarlanmış, macOS'a özel bağımsız bir metin editörüdür. Resmi Notepad++ değildir ve onu birebir kopyalamaya çalışmaz; Windows'ta Notepad++ ile yaptığınız işleri Mac'te sürdürmeyi hedefler. Eski kodlamayla kaydedilmiş dosyaları doğru açtığı için, Türkçe karakterler olması gerektiği gibi görünür.
+{{APP_NAME}} tam da bu tür günlük dertler için tasarlanmış, macOS'a özel bağımsız bir metin editörüdür. Resmi Notepad++ değildir ve onu birebir kopyalamaya çalışmaz; Windows'ta Notepad++ ile yaptığınız işleri Mac'te sürdürmeyi hedefler. Eski kodlamayla kaydedilmiş dosyaları doğru açtığı için, Türkçe karakterler olması gerektiği gibi görünür.
 
 ## Windows'tan Mac'e geçen Notepad++ kullanıcısının gerçek listesi
 
@@ -76,9 +76,9 @@ Notepad++ Türkiye'de öğrenciler ve yazılımcılar arasında oldukça yaygın
 - Bir klasörün tamamında bir metni aramak
 - Aynı temizliği tekrar tekrar, güvenle uygulamak
 
-notePad++++ bu listeyi macOS tarafında karşılamak için var.
+{{APP_NAME}} bu listeyi macOS tarafında karşılamak için var.
 
-## notePad++++ ile günlük metin işleri
+## {{APP_NAME}} ile günlük metin işleri
 
 - Sekmelerde birden çok yerel dosya, hafif bir pencerede
 - Column Mode ile hizalı satırlar, listeler ve CSV parçaları
@@ -91,10 +91,10 @@ Tekrarlayan işler için isteğe bağlı yapay zeka desteği temizlik betikleri 
 
 ## Kimler için uygun, kimler için değil
 
-notePad++++, günü küçük ve somut metin işleriyle geçenlere uygundur: loglar, yapılandırma dosyaları, CSV parçaları, notlar, hızlıca bakılacak kod. Amacı, her seferinde büyük bir uygulama açmadan bu işleri hızlandırmaktır.
+{{APP_NAME}}, günü küçük ve somut metin işleriyle geçenlere uygundur: loglar, yapılandırma dosyaları, CSV parçaları, notlar, hızlıca bakılacak kod. Amacı, her seferinde büyük bir uygulama açmadan bu işleri hızlandırmaktır.
 
-Öte yandan, Notepad++'ın eklenti ekosistemini ya da tam bir IDE'nin tüm gücünü bekliyorsanız, ihtiyaçlarınızı dikkatle karşılaştırın. Proje derleyip hata ayıklamanız gerekiyorsa doğru araç bir geliştirme ortamıdır. notePad++++ hafif ve native kalmayı, günlük metin işlerini iyi yapmayı seçer.
+Öte yandan, Notepad++'ın eklenti ekosistemini ya da tam bir IDE'nin tüm gücünü bekliyorsanız, ihtiyaçlarınızı dikkatle karşılaştırın. Proje derleyip hata ayıklamanız gerekiyorsa doğru araç bir geliştirme ortamıdır. {{APP_NAME}} hafif ve native kalmayı, günlük metin işlerini iyi yapmayı seçer.
 
 ## Marka ve bağımsızlık
 
-Notepad++ ilgili hak sahibinin markasıdır. notePad++++ macOS için bağımsız bir metin editörüdür; resmi Notepad++ projesiyle bağlantılı, onun tarafından onaylanmış ya da yetkilendirilmiş değildir.
+Notepad++ ilgili hak sahibinin markasıdır. {{APP_NAME}} macOS için bağımsız bir metin editörüdür; resmi Notepad++ projesiyle bağlantılı, onun tarafından onaylanmış ya da yetkilendirilmiş değildir.

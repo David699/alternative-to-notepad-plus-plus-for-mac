@@ -1,0 +1,11 @@
+FICTIONAL APPLICATION LOG
+
+2026-10-14 09:00 INFO customer_id=1001 session opened
+2026-10-14 09:01 INFO customer_id=1002 session opened
+2026-10-14 09:02 WARN customer_id=1003 retry requested
+2026-10-14 09:03 INFO account_id=2001 lookup complete
+2026-10-14 09:04 INFO customer_id=1004 session closed
+
+Search the workspace for customer_id.
+Open a result to inspect its surrounding text.
+All entries are fictional and contain no real customer data.

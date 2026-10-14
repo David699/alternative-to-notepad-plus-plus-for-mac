@@ -26,7 +26,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "CotEditor official website"
@@ -47,7 +47,7 @@ faq:
   - q: "Is BBEdit free?"
     a: "BBEdit includes a 30-day evaluation with all features enabled. After that you can keep using it in Free Mode, or unlock its exclusive features with a purchase or a Mac App Store subscription. Check the BBEdit website for current prices."
   - q: "Which Mac editor is closest to Notepad++?"
-    a: "None is identical, because Notepad++ is a Windows program. BBEdit is the heaviest text-processing option, CotEditor is the lightest free one, and notePad++++ is built around Notepad++-style workflows such as tabs, Column Mode, and folder-wide search."
+    a: "None is identical, because Notepad++ is a Windows program. BBEdit is the heaviest text-processing option, CotEditor is the lightest free one, and {{APP_NAME}} is built around Notepad++-style workflows such as tabs, Column Mode, and folder-wide search."
   - q: "Can CotEditor handle Japanese, Chinese, or Korean text files?"
     a: "The CotEditor website says it supports a wide range of file encodings and is optimized for CJK languages. Test one of your real legacy files before you rely on it."
 ---
@@ -57,7 +57,7 @@ faq:
 Stay with CotEditor if it already does your daily work. It is free, native, and lightweight. Look for an alternative when one job keeps getting awkward, and pick by that job.
 
 - **You want deeper pattern-based search and scripting across many files, with a free mode:** BBEdit.
-- **You want Notepad++-style tabs, Column Mode, folder-wide search, and repeatable cleanup with review before applying:** a Notepad++-style editor such as notePad++++.
+- **You want Notepad++-style tabs, Column Mode, folder-wide search, and repeatable cleanup with review before applying:** a Notepad++-style editor such as {{APP_NAME}}.
 - **You want a general code editor with a large ecosystem:** Sublime Text or Visual Studio Code.
 
 ## What CotEditor does well
@@ -96,7 +96,7 @@ On the Mac, BBEdit is the option with the heaviest text-processing toolbox. It d
 
 ## Where a Notepad++-style editor fits
 
-notePad++++ is an independent Mac app built around the everyday workflow many Notepad++ users know. It has multi-tab editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing with diff preview and rollback for broad changes.
+{{APP_NAME}} is an independent Mac app built around the everyday workflow many Notepad++ users know. It has multi-tab editing, Column Mode, Regex Find & Replace, Workspace Search, Markdown Preview, Script Pipelines, and Batch Processing with diff preview and rollback for broad changes.
 
 It does not run Notepad++ plugins, and it is not affiliated with or endorsed by the Notepad++ project. Its strength is combining search, transformation, and review in one window, so a repeated cleanup becomes a saved sequence instead of a manual routine.
 
@@ -106,7 +106,7 @@ It does not run Notepad++ plugins, and it is not affiliated with or endorsed by 
 | --- | --- |
 | A free, lightweight native editor for everyday text and code | CotEditor |
 | Deep pattern-based search and scripting, with a free mode to try | BBEdit |
-| Notepad++-style tabs, Column Mode, and review-first batch cleanup | notePad++++ |
+| Notepad++-style tabs, Column Mode, and review-first batch cleanup | {{APP_NAME}} |
 | A general-purpose code editor with a large ecosystem | Sublime Text or Visual Studio Code |
 
 Test with one real task rather than a demo file: open a folder, search for a pattern, change it in several places, and see which tool makes you switch windows the least.

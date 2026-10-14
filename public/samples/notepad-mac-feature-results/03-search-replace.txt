@@ -1,0 +1,21 @@
+SEARCH AND REPLACE DEMONSTRATION
+
+client_id=1001
+client_id=1002
+client_id=1003
+client_id=1004
+account_id=2001
+invoice_id=3001
+
+LITERAL SEARCH
+--------------
+Find: customer_id
+Replacement: client_id
+
+REGULAR EXPRESSION SEARCH
+-------------------------
+Find: customer_id=[0-9]+
+This matches the four customer identifier lines above.
+The expression text below is reference material, not a match.
+
+Use a copy if you want to test a replacement.

@@ -1,4 +1,6 @@
 'use client'
+import AppName from '@/components/AppName'
+import { APP_NAME } from '../lib/seo'
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import LanguageMenu from './LanguageMenu'
@@ -33,9 +35,9 @@ export default function Navbar({ t, locale }: NavbarProps) {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2.5 flex-shrink-0">
           <div className="w-8 h-8 rounded-lg overflow-hidden">
-            <OptimizedImage src="/images/app-icon.png" alt="notePad++++ icon" width={32} height={32} className="object-cover" />
+            <OptimizedImage src="/images/app-icon.webp" alt={`${APP_NAME} icon`} width={32} height={32} className="object-cover" />
           </div>
-          <span className="font-bold text-gray-900 text-sm tracking-tight">notePad<span className="text-brand-600">++++</span></span>
+          <span className="font-bold text-gray-900 text-sm tracking-tight"><AppName accentClassName="text-brand-600" /></span>
           <span className="hidden sm:inline text-xs text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded font-medium">for macOS</span>
         </a>
 

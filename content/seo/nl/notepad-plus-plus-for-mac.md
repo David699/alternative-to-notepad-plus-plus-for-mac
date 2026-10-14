@@ -20,16 +20,16 @@ keywords:
   - lichte teksteditor macos
 heroKicker: Zonder omhaal
 heroSummary: >-
-  Geen lange uitleg nodig. notePad++++ is een onafhankelijke, native
+  Geen lange uitleg nodig. {{APP_NAME}} is een onafhankelijke, native
   teksteditor voor macOS die de dagelijkse Notepad++-taken overneemt: snel
   openen, tabbladen, kolommodus en regex.
 related:
   - label: Engelse versie van deze pagina
     href: /en/notepad-plus-plus-for-mac/
-  - label: Engelse startpagina van notePad++++
+  - label: Engelse startpagina van {{APP_NAME}}
     href: /en/
 externalLinks:
-  - label: Download notePad++++ in de App Store
+  - label: Download {{APP_NAME}} in de App Store
     href: appStore
     external: true
   - label: Bezoek de officiële Notepad++-website
@@ -39,9 +39,9 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: Is notePad++++ de officiële Mac-versie van Notepad++?
+  - q: Is {{APP_NAME}} de officiële Mac-versie van Notepad++?
     a: >-
-      Nee. notePad++++ is een onafhankelijke teksteditor voor macOS en heeft
+      Nee. {{APP_NAME}} is een onafhankelijke teksteditor voor macOS en heeft
       geen band met het officiële Notepad++-project.
   - q: Werken puntkomma-gescheiden CSV's gewoon?
     a: >-
@@ -49,12 +49,12 @@ faq:
       lijnt kolommen uit met Column Mode en zet scheidingstekens om met regex.
   - q: Heb ik Wine of een virtuele machine nodig?
     a: >-
-      Nee. notePad++++ is native voor macOS gebouwd en werkt zonder
+      Nee. {{APP_NAME}} is native voor macOS gebouwd en werkt zonder
       Windows-compatibiliteitslaag.
 ---
 ## De korte versie
 
-notePad++++ is een lichte, native teksteditor voor macOS. Het is niet het officiële Notepad++ en probeert dat ook niet te zijn. Wel neemt het de taken over waarvoor je op Windows Notepad++ opende: snel een bestand openen, iets aanpassen, sluiten — zonder project en zonder gedoe.
+{{APP_NAME}} is een lichte, native teksteditor voor macOS. Het is niet het officiële Notepad++ en probeert dat ook niet te zijn. Wel neemt het de taken over waarvoor je op Windows Notepad++ opende: snel een bestand openen, iets aanpassen, sluiten — zonder project en zonder gedoe.
 
 ## Wat je er in de praktijk mee doet
 
@@ -69,8 +69,8 @@ notePad++++ is een lichte, native teksteditor voor macOS. Het is niet het offici
 
 In Nederland exporteert Excel CSV's vaak met een puntkomma als scheidingsteken. Tools die op komma's rekenen, lopen daarop vast. In een teksteditor blijft het bestand gewoon tekst: kolommen uitlijnen met Column Mode, scheidingstekens omzetten met regex, klaar.
 
-Oudere bestanden zijn soms opgeslagen in Windows-1252. Geopend als UTF-8 worden accenttekens dan rare symbolen. notePad++++ opent bestanden in zulke oudere coderingen correct, zodat de tekst leesbaar blijft.
+Oudere bestanden zijn soms opgeslagen in Windows-1252. Geopend als UTF-8 worden accenttekens dan rare symbolen. {{APP_NAME}} opent bestanden in zulke oudere coderingen correct, zodat de tekst leesbaar blijft.
 
 ## Merk en onafhankelijkheid
 
-Notepad++ is een merk van de betreffende rechthebbende. notePad++++ is een onafhankelijke teksteditor voor macOS en is niet verbonden met, goedgekeurd door of geautoriseerd door het officiële Notepad++-project.
+Notepad++ is een merk van de betreffende rechthebbende. {{APP_NAME}} is een onafhankelijke teksteditor voor macOS en is niet verbonden met, goedgekeurd door of geautoriseerd door het officiële Notepad++-project.

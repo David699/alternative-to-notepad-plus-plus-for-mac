@@ -2,7 +2,7 @@
 slug: "remove-duplicate-lines-mac"
 title: "맥에서 Notepad++ 중복 줄 제거하는 방법: 순서 유지부터 정렬까지"
 shortTitle: "맥에서 중복 줄 제거하기"
-description: "Notepad++의 중복 줄 제거를 맥에서 하려면? notePad++++ 내장 스크립트로 순서를 유지한 채 중복 줄을 지우고, 정렬과 빈 줄 정리까지 이어서 처리하는 방법을 정리했습니다."
+description: "Notepad++의 중복 줄 제거를 맥에서 하려면? {{APP_NAME}} 내장 스크립트로 순서를 유지한 채 중복 줄을 지우고, 정렬과 빈 줄 정리까지 이어서 처리하는 방법을 정리했습니다."
 datePublished: "2026-09-28"
 dateModified: "2026-09-28"
 keywords:
@@ -17,12 +17,12 @@ heroSummary: "Notepad++에서 메뉴 한 번으로 하던 중복 줄 제거를 �
 related:
   - label: "맥에서 EditPlus·Notepad++ 대신 쓸 만한 텍스트 에디터"
     href: "/ko/notepad-plus-plus-for-mac/"
-  - label: "notePad++++ 한국어 홈"
+  - label: "{{APP_NAME}} 한국어 홈"
     href: "/ko/"
   - label: "맥에서 Notepad++를 쓸 수 있을까? (영어)"
     href: "/en/does-notepad-plus-plus-work-on-mac/"
 externalLinks:
-  - label: "App Store에서 notePad++++ 받기"
+  - label: "App Store에서 {{APP_NAME}} 받기"
     href: "appStore"
     external: true
   - label: "Notepad++ 공식 사이트 보기"
@@ -32,7 +32,7 @@ externalLinks:
     href: "github"
     external: true
 faq:
-  - q: "notePad++++에도 Notepad++처럼 중복 줄 제거 기능이 있나요?"
+  - q: "{{APP_NAME}}에도 Notepad++처럼 중복 줄 제거 기능이 있나요?"
     a: "내장 스크립트 '중복 줄 제거(순서 유지)'가 있습니다. 완전히 같은 줄이 여러 번 나오면 처음 나온 줄만 남기고 나머지를 지웁니다."
   - q: "대소문자나 공백이 다른 줄도 중복으로 처리되나요?"
     a: "아니요. 글자가 완전히 같은 줄만 중복으로 봅니다. 줄 끝에 공백이 섞여 있어 중복이 잡히지 않는다면 먼저 '후행 공백 자르기'를 실행하세요."
@@ -52,7 +52,7 @@ Windows용 Notepad++에는 편집 메뉴의 줄 작업(Edit > Line Operations) �
 
 ## 맥에서 중복 줄 제거하기
 
-notePad++++에는 중복 줄을 지우는 내장 스크립트가 들어 있습니다. 이름은 "중복 줄 제거(순서 유지)"입니다.
+{{APP_NAME}}에는 중복 줄을 지우는 내장 스크립트가 들어 있습니다. 이름은 "중복 줄 제거(순서 유지)"입니다.
 
 1. 중복을 지울 파일을 열거나 텍스트를 새 탭에 붙여넣습니다.
 2. 스크립트 창을 엽니다.
@@ -88,4 +88,4 @@ notePad++++에는 중복 줄을 지우는 내장 스크립트가 들어 있습�
 
 ## 상표 및 독립성 안내
 
-Notepad++는 각 권리자에게 귀속된 상표입니다. notePad++++는 독립적인 macOS 텍스트 에디터이며 Notepad++ 프로젝트와 제휴, 승인, 관련이 없습니다.
+Notepad++는 각 권리자에게 귀속된 상표입니다. {{APP_NAME}}는 독립적인 macOS 텍스트 에디터이며 Notepad++ 프로젝트와 제휴, 승인, 관련이 없습니다.

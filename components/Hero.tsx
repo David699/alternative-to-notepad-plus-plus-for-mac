@@ -1,4 +1,6 @@
 'use client'
+import AppName from '@/components/AppName'
+import { APP_NAME } from '../lib/seo'
 import { motion } from 'framer-motion'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import OptimizedImage from '@/components/OptimizedImage'
@@ -56,15 +58,15 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
           <motion.div variants={item} className="flex justify-center mb-8">
             <AppStoreDownloadLink
               source="hero_badge"
-              aria-label="Open notePad++++ on the App Store"
+              aria-label={`Open ${APP_NAME} on the App Store`}
               className="flex items-center gap-3 bg-white/90 backdrop-blur border border-gray-200 rounded-2xl px-4 py-2.5 shadow-card transition-all duration-200 hover:-translate-y-0.5 hover:border-brand-200 hover:shadow-card-hover focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2"
             >
               <div className="w-10 h-10 rounded-xl overflow-hidden flex-shrink-0">
-                <OptimizedImage src="/images/app-icon.png" alt="notePad++++ App icon" width={40} height={40} className="object-cover" />
+                <OptimizedImage src="/images/app-icon.webp" alt={`${APP_NAME} App icon`} width={40} height={40} className="object-cover" />
               </div>
               <div className="text-left">
                 <div className="text-xs text-gray-500 leading-none mb-0.5">{t.appBadgeOS}</div>
-                <div className="font-bold text-sm text-gray-900">notePad<span className="text-brand-600">++++</span></div>
+                <div className="font-bold text-sm text-gray-900"><AppName accentClassName="text-brand-600" /></div>
               </div>
               <div className="pl-3 border-l border-gray-200">
                 <div className="flex gap-0.5">
@@ -235,9 +237,9 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
 
           <div className="screenshot-glow overflow-hidden mx-auto max-w-5xl border border-gray-800/10">
             <LocalizedImage
-              src="/images/screen-main.png"
+              src="/images/screen-main.webp"
               locale={locale}
-              alt="notePad++++ main editor interface — multi-tab editing and workspace"
+              alt={`${APP_NAME} main editor interface — multi-tab editing and workspace`}
               width={1400}
               height={900}
               className="w-full h-auto"

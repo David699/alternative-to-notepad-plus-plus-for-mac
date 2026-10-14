@@ -2,7 +2,7 @@
 slug: "sort-and-remove-duplicate-lines-on-mac"
 title: "Sort Lines and Remove Duplicate Lines on Mac: Terminal, and a Point-and-Click Way"
 shortTitle: "Sort and Remove Duplicate Lines on Mac"
-description: "How to sort a list alphabetically and delete duplicate lines on a Mac, using Terminal commands or built-in scripts in notePad++++, with a preview before anything changes."
+description: "How to sort a list alphabetically and delete duplicate lines on a Mac, using Terminal commands or built-in scripts in {{APP_NAME}}, with a preview before anything changes."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -13,8 +13,8 @@ keywords:
   - "Notepad++ remove duplicate lines Mac"
 heroKicker: "Clean up a list without leaving the editor"
 heroSummary: "TextEdit has no command for sorting lines or removing duplicates, and the Terminal answers are easy to get subtly wrong. Here are the reliable options, including what each one does to your original order and your blank lines."
-heroImage: "/images/screen-scripts-en.png"
-heroImageAlt: "notePad++++ Script Pipelines showing a workflow that trims spaces, removes empty lines, deduplicates, and sorts text, with a result preview"
+heroImage: "/images/screen-scripts-en.webp"
+heroImageAlt: "{{APP_NAME}} Script Pipelines showing a workflow that trims spaces, removes empty lines, deduplicates, and sorts text, with a result preview"
 related:
   - label: "Delete lines containing text on Mac"
     href: "/en/delete-lines-containing-text-on-mac/"
@@ -27,7 +27,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "Official Notepad++ website"
@@ -44,7 +44,7 @@ faq:
   - q: "Are lines that differ only by capital letters duplicates?"
     a: "Not by default. Deduplication compares lines exactly, so Banana and banana both stay. Convert the text to lowercase first if you want them treated as the same."
   - q: "Can I preview the result before applying it?"
-    a: "In notePad++++ the script result appears in a diff preview first, so you can review what will change and cancel without touching the file."
+    a: "In {{APP_NAME}} the script result appears in a diff preview first, so you can review what will change and cancel without touching the file."
 ---
 
 ## Why this is harder than it looks
@@ -71,9 +71,9 @@ The `awk` command keeps the first occurrence of every line and leaves the order 
 
 Always write to a new file, as above. Redirecting output back onto the file you are reading empties it.
 
-## Option 2: Built-in scripts in notePad++++
+## Option 2: Built-in scripts in {{APP_NAME}}
 
-notePad++++ ships with ready-made scripts for these jobs, and shows a preview before it changes anything.
+{{APP_NAME}} ships with ready-made scripts for these jobs, and shows a preview before it changes anything.
 
 1. Open the file, or paste your list into a new tab.
 2. Open the script window.
@@ -108,6 +108,6 @@ If you run this sequence often, chain the steps into a Script Pipeline and run i
 | --- | --- |
 | A sorted, unique list from a file, quickly | `sort -u` in Terminal |
 | Duplicates removed, original order kept | `awk` in Terminal, or Deduplicate Lines (Keep Order) |
-| To see what changes before it happens | notePad++++ scripts with the diff preview |
+| To see what changes before it happens | {{APP_NAME}} scripts with the diff preview |
 | To treat Banana and banana as the same | To Lowercase first, then deduplicate |
 | To clean only part of a document | Select the text and run the script from the context menu |

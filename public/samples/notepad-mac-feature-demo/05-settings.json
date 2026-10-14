@@ -1,0 +1,15 @@
+{
+  "project": "Notepad-style Mac editing demo",
+  "customer_id": 1001,
+  "editor": {
+    "tabs": true,
+    "column_mode": true,
+    "syntax_highlighting": true
+  },
+  "demo_files": [
+    "02-column-editing.txt",
+    "03-search-replace.txt",
+    "04-app-log.txt"
+  ],
+  "fictional_data": true
+}

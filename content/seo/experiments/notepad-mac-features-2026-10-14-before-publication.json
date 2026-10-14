@@ -1,0 +1,31 @@
+{
+  "page": "https://notepad-plus-plus-mac.com/en/notepad-plus-plus-for-mac/",
+  "prepared_at": "2026-10-14",
+  "publication_status": "draft_pending_user_review",
+  "published_at": null,
+  "features_demonstrated": [
+    "document tabs",
+    "JSON syntax highlighting and optional tree preview",
+    "five-row rectangular selection",
+    "four-record regex replacement with captured numbers",
+    "workspace search reporting fourteen matching lines across five files"
+  ],
+  "verification": [
+    "Actual notePad++++ screenshot capture in a 2536x1305 ordinary window",
+    "Column replacement matched expected output and left identifier/status text unchanged",
+    "Regex replacement matched expected output and left account_id/invoice_id unchanged",
+    "Inputs restored after demonstration; results preserved separately"
+  ],
+  "screenshots": [
+    "workspace-search-real.png",
+    "column-selection-real.png",
+    "tabs-syntax-real.png",
+    "regex-replace-real.png"
+  ],
+  "notes": [
+    "No publication until the user approves",
+    "Not an official Notepad++ Mac release",
+    "No Windows plugin or recorded-macro import claim",
+    "No performance or memory ranking"
+  ]
+}

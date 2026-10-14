@@ -9,7 +9,7 @@ import {
 } from '@/lib/seo-localized'
 import { SITE_URL } from '@/lib/paths'
 
-const ARTICLE_IMAGE = '/images/og-cover.png'
+const ARTICLE_IMAGE = '/images/og-cover.webp'
 
 export function generateLocalizedSeoArticleMetadata(locale: SeoOnlyLocale, slug: string): Metadata {
   const article = getLocalizedSeoArticle(locale, slug)

@@ -1,3 +1,4 @@
+import AppName from '@/components/AppName'
 import Link from 'next/link'
 import HtmlLangSetter from '@/components/HtmlLangSetter'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
@@ -110,7 +111,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
             <Link href={config.homeHref} className="flex items-center gap-2.5">
               <span className="h-8 w-8 overflow-hidden rounded-lg">
                 <OptimizedImage
-                  src="/images/app-icon.png"
+                  src="/images/app-icon.webp"
                   alt={config.labels.appIconAlt}
                   width={32}
                   height={32}
@@ -118,7 +119,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
                 />
               </span>
               <span className="text-sm font-bold tracking-tight">
-                <bdi dir="ltr">notePad<span className="text-brand-600">++++</span></bdi>
+                <bdi dir="ltr"><AppName accentClassName="text-brand-600" /></bdi>
               </span>
             </Link>
             <nav className="hidden items-center gap-5 text-sm font-semibold text-gray-600 sm:flex">
@@ -156,7 +157,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
               </div>
               <figure className="mt-10 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
                 <OptimizedImage
-                  src={article.heroImage ?? '/images/screen-main-en.png'}
+                  src={article.heroImage ?? '/images/screen-main-en.webp'}
                   alt={article.heroImageAlt ?? config.labels.heroImageAlt}
                   width={1440}
                   height={900}

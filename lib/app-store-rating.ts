@@ -15,7 +15,7 @@ export interface AppStoreRatingSummaryData {
   distribution: AppStoreRatingDistributionItem[]
 }
 
-const appStoreRatingCount = 323
+const appStoreRatingCount = 493
 
 export const notepadAppStoreRating: AppStoreRatingSummaryData = {
   platformLabel: 'macOS rating',

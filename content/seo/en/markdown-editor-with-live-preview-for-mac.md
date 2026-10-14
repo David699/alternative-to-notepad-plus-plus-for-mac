@@ -13,8 +13,8 @@ keywords:
   - "Mac Markdown preview app"
 heroKicker: "Keep source and rendered output visible"
 heroSummary: "A live preview is most useful when it helps you catch formatting problems without hiding the Markdown source. Side-by-side editing keeps links, tables, lists, and document structure easy to inspect while you write."
-heroImage: "/images/screen-markdown-en.png"
-heroImageAlt: "notePad++++ live Markdown preview on Mac with source text and rendered tasks, tables, highlighted code, math, and Mermaid diagrams side by side"
+heroImage: "/images/screen-markdown-en.webp"
+heroImageAlt: "{{APP_NAME}} live Markdown preview on Mac with source text and rendered tasks, tables, highlighted code, math, and Mermaid diagrams side by side"
 related:
   - label: "Markdown editor for Mac in 2026"
     href: "/en/markdown-editor-for-mac-2026/"
@@ -27,10 +27,10 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
-  - label: "See notePad++++ on Product Hunt"
+  - label: "See {{APP_NAME}} on Product Hunt"
     href: "productHunt"
     external: true
   - label: "View this website repository on GitHub"
@@ -41,7 +41,7 @@ faq:
     a: "No. The source remains plain Markdown. The preview renders that source so you can inspect the result while keeping the file portable."
   - q: "Is side-by-side preview better than inline formatting?"
     a: "It depends on the job. Side-by-side preview is useful when exact syntax and rendered output both matter. Inline formatting may feel calmer for prose-only writing."
-  - q: "Can notePad++++ clean multiple Markdown files?"
+  - q: "Can {{APP_NAME}} clean multiple Markdown files?"
     a: "Yes. Workspace, script, and batch tools are designed for repeated text tasks, with diff preview and rollback for broad changes."
 ---
 
@@ -55,7 +55,7 @@ Live preview shortens the feedback time. You can see the rendered result while t
 
 A side-by-side layout separates two questions: what syntax is in the file, and what will a reader see? That separation is valuable when exact source text matters or when the document includes structures that are easier to verify visually.
 
-notePad++++ keeps the Markdown source on one side and the rendered document on the other. This model is less like writing on a formatted page and more like inspecting source and output together.
+{{APP_NAME}} keeps the Markdown source on one side and the rendered document on the other. This model is less like writing on a formatted page and more like inspecting source and output together.
 
 - Check heading hierarchy while keeping every `#` marker visible.
 - Review link text and destinations without losing the source.
@@ -66,7 +66,7 @@ notePad++++ keeps the Markdown source on one side and the rendered document on t
 
 Once Markdown expands from one draft to a folder of files, maintenance becomes a separate job. You may need to find an old phrase across notes, change a repeated URL, normalize headings, remove trailing spaces, or clean pasted text before it enters the document.
 
-notePad++++ places Workspace Search, Regex Find & Replace, Script Pipelines, and Batch Processing beside the editor. These tools address the parts of Markdown work that happen before and after writing the paragraph.
+{{APP_NAME}} places Workspace Search, Regex Find & Replace, Script Pipelines, and Batch Processing beside the editor. These tools address the parts of Markdown work that happen before and after writing the paragraph.
 
 ## A practical review-first process
 

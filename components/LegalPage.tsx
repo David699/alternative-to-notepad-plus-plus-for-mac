@@ -1,3 +1,5 @@
+import AppName from '@/components/AppName'
+import { APP_NAME } from '../lib/seo'
 import { withBasePath } from '@/lib/paths'
 
 interface Section {
@@ -24,7 +26,7 @@ export default function LegalPage({
   backLabel,
   backHref,
   homeHref,
-  appName = 'notePad++++',
+  appName = APP_NAME,
 }: LegalPageProps) {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-200">
@@ -32,8 +34,7 @@ export default function LegalPage({
       <nav className="border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
           <a href={withBasePath(homeHref)} className="font-bold text-white text-lg">
-            {appName.replace('++++', '')}
-            <span className="text-brand-400">++++</span>
+            <AppName name={appName} accentClassName="text-brand-400" />
           </a>
           <a href={withBasePath(backHref)} className="text-sm text-gray-400 hover:text-white transition-colors">
             ← {backLabel}

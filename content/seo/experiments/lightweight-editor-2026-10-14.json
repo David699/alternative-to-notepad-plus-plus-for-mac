@@ -1,0 +1,158 @@
+{
+  "page": "https://notepad-plus-plus-mac.com/en/best-lightweight-text-editors-for-mac-2026/",
+  "site": "sc-domain:notepad-plus-plus-mac.com",
+  "recorded_at": "2026-10-14",
+  "publication_status": "published",
+  "published_at": "2026-10-14",
+  "primary_keyword": "lightweight text editor for mac",
+  "related_keywords": [
+    "best lightweight text editor for mac",
+    "lightweight text editor mac"
+  ],
+  "source": "Live Google Search Console exact-page report checked on 2026-10-14",
+  "filters": {
+    "search_type": "Web",
+    "page_match": "exact",
+    "country": "all",
+    "device": "all"
+  },
+  "latest_complete_data_date": "2026-10-11",
+  "baseline_28_days": {
+    "start": "2026-09-14",
+    "end": "2026-10-11",
+    "page": {
+      "clicks": 2,
+      "impressions": 210,
+      "ctr": 0.009523809523809525,
+      "position": 7.79,
+      "precision_source": "Same-day original page CSV; live summary 7.8"
+    },
+    "queries": [
+      {
+        "query": "lightweight text editor for mac",
+        "clicks": 0,
+        "impressions": 10,
+        "ctr": 0,
+        "position": 7.9
+      },
+      {
+        "query": "best lightweight text editor for mac",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 8.2
+      },
+      {
+        "query": "lightweight text editor mac",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 13.8
+      }
+    ]
+  },
+  "baseline_7_days": {
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "page": {
+      "clicks": 2,
+      "impressions": 117,
+      "ctr": 0.017094017094017096,
+      "position": 7.6
+    },
+    "queries": [
+      {
+        "query": "lightweight text editor for mac",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.0
+      },
+      {
+        "query": "best lightweight text editor for mac",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 9.5
+      },
+      {
+        "query": "lightweight text editor mac",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 15.0
+      }
+    ]
+  },
+  "review": {
+    "monitor_id": "notepad",
+    "cadence": "Wednesday 09:00 Asia/Shanghai",
+    "first_post_publication_review": "2026-10-21 09:00 Asia/Shanghai",
+    "rules": [
+      "Do not publish without explicit approval in this chat.",
+      "Compare exact page and exact query with unchanged search type, country and device filters.",
+      "Use adjacent complete seven-day windows around publication; if incomplete, report actual covered days and retain full-week review pending.",
+      "Record clicks, impressions, click-through rate and average position.",
+      "A smaller average position is better; no impressions means missing position.",
+      "Small query samples do not establish a trend.",
+      "Publication approved and completed on 2026-10-14; future article changes require new authorization.",
+      "At the 2026-10-21 check, report once even if unchanged; if complete data does not yet cover 10/20, label interim days and retain full-week review pending."
+    ],
+    "pre_publication_window": [
+      "2026-10-07",
+      "2026-10-13"
+    ],
+    "post_publication_window": [
+      "2026-10-14",
+      "2026-10-20"
+    ]
+  },
+  "limitations": [
+    "Page totals are different from visible query totals because some anonymous queries are omitted.",
+    "Current keyword samples are 2–10 impressions; results need longer observation.",
+    "Screenshots demonstrate visible interface changes, not performance or resource usage."
+  ],
+  "publication": {
+    "approved_by_user": true,
+    "published_at": "2026-10-14T21:56:37+08:00",
+    "deployment_url": "https://91563e63.notepad-plus-plus-mac.pages.dev",
+    "production_url": "https://notepad-plus-plus-mac.com/en/best-lightweight-text-editors-for-mac-2026/"
+  },
+  "publication_baseline": {
+    "checked_on": "2026-10-14",
+    "data_start": "2026-09-14",
+    "data_end": "2026-10-11",
+    "primary_keyword": {
+      "query": "lightweight text editor for mac",
+      "position": 7.9,
+      "impressions": 10,
+      "clicks": 0,
+      "ctr": 0
+    },
+    "related_keywords": [
+      {
+        "query": "best lightweight text editor for mac",
+        "position": 8.2,
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0
+      },
+      {
+        "query": "lightweight text editor mac",
+        "position": 13.8,
+        "impressions": 5,
+        "clicks": 0,
+        "ctr": 0
+      }
+    ],
+    "note": "Rechecked live Search Console exact-page report at deployment. Historical data is the comparison starting point, not an effect of the just-published edit."
+  },
+  "published_changes": [
+    "Revised title and description",
+    "Task-based comparison of six editors",
+    "Actual TXT workspace screenshots for tabs, Zen Mode, and Minimal Mode",
+    "Six downloadable fictional TXT samples",
+    "Keep prominent App Store download entries",
+    "No unmeasured performance or memory claims"
+  ]
+}

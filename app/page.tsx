@@ -35,13 +35,13 @@ export const metadata: Metadata = {
     siteName: APP_NAME,
     title: `${APP_NAME} — Notepad++ Mac 替代品`,
     description: ZH_APP_DESC,
-    images: [{ url: '/images/og-cover.png', width: 1200, height: 630, alt: `${APP_NAME} — Mac 文本处理工作台` }],
+    images: [{ url: '/images/og-cover.webp', width: 1200, height: 630, alt: `${APP_NAME} — Mac 文本处理工作台` }],
   },
   twitter: {
     card: 'summary_large_image',
     title: `${APP_NAME} — Notepad++ Mac 替代品`,
     description: ZH_APP_DESC,
-    images: ['/images/og-cover.png'],
+    images: ['/images/og-cover.webp'],
   },
   robots: {
     index: true,
@@ -73,11 +73,11 @@ export default function Home() {
             description: ZH_APP_DESC,
             keywords: ZH_SEO_KEYWORDS.join(', '),
             url: SITE_URL,
-            image: `${SITE_URL}/images/optimized/app-icon.png.webp`,
+            image: `${SITE_URL}/images/app-icon.webp`,
             screenshot: [
-              `${SITE_URL}/images/optimized/screen-main.png.webp`,
-              `${SITE_URL}/images/optimized/screen-search.png.webp`,
-              `${SITE_URL}/images/optimized/screen-scripts.png.webp`,
+              `${SITE_URL}/images/screen-main.webp`,
+              `${SITE_URL}/images/screen-search.webp`,
+              `${SITE_URL}/images/screen-scripts.webp`,
             ],
             featureList: [
               '多标签文本编辑', '工作区搜索与浏览', '正则查找替换', '列模式编辑',

@@ -23,16 +23,16 @@ keywords:
 heroKicker: De Windows a macOS sin perder la rutina
 heroSummary: >-
   En Windows tenías dos herramientas para el texto rápido: el Bloc de notas
-  para lo simple y Notepad++ cuando hacía falta más. notePad++++ es un editor
+  para lo simple y Notepad++ cuando hacía falta más. {{APP_NAME}} es un editor
   independiente y nativo de macOS que cubre ese hueco, con pestañas, regex y
   edición en columna, sin abrir un entorno de desarrollo entero.
 related:
   - label: Versión en inglés de esta página
     href: /en/notepad-plus-plus-for-mac/
-  - label: Página de inicio de notePad++++
+  - label: Página de inicio de {{APP_NAME}}
     href: /es/
 externalLinks:
-  - label: Descargar notePad++++ en la App Store
+  - label: Descargar {{APP_NAME}} en la App Store
     href: appStore
     external: true
   - label: Visitar el sitio oficial de Notepad++
@@ -42,13 +42,13 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: ¿Es notePad++++ la versión oficial de Notepad++ para Mac?
+  - q: ¿Es {{APP_NAME}} la versión oficial de Notepad++ para Mac?
     a: >-
-      No. notePad++++ es un editor de texto independiente para macOS y no está
+      No. {{APP_NAME}} es un editor de texto independiente para macOS y no está
       relacionado con el proyecto oficial de Notepad++.
   - q: ¿En qué se diferencia del Bloc de notas de Windows?
     a: >-
-      El Bloc de notas cubre lo más básico. notePad++++ añade pestañas, edición
+      El Bloc de notas cubre lo más básico. {{APP_NAME}} añade pestañas, edición
       en columna, búsqueda con expresiones regulares y búsqueda en carpetas,
       manteniéndose ligero.
   - q: ¿Abre bien los archivos antiguos con acentos y signos raros?
@@ -61,14 +61,14 @@ faq:
       completas, útil para limpiezas repetidas y ordenadas.
   - q: ¿Necesito Wine o una máquina virtual?
     a: >-
-      No. notePad++++ está hecho para macOS y funciona de forma nativa, sin
+      No. {{APP_NAME}} está hecho para macOS y funciona de forma nativa, sin
       capa de compatibilidad con Windows.
 ---
 ## Del Bloc de notas y Notepad++ al Mac: qué cambia
 
 En Windows, el texto rápido tenía dos velocidades. El **Bloc de notas** para abrir un `.txt`, mirar algo y cerrarlo. Y Notepad++ cuando la tarea pedía más: varias pestañas, buscar y reemplazar en serio, editar una columna, limpiar un log. Al llegar al Mac, muchos descubren que TextEdit se queda corto para lo segundo y que Notepad++ no tiene versión nativa.
 
-notePad++++ apunta justo a ese hueco. No es el Notepad++ oficial ni pretende serlo: es un editor de texto independiente para macOS que retoma esas tareas de todos los días sin obligarte a abrir un entorno de desarrollo completo.
+{{APP_NAME}} apunta justo a ese hueco. No es el Notepad++ oficial ni pretende serlo: es un editor de texto independiente para macOS que retoma esas tareas de todos los días sin obligarte a abrir un entorno de desarrollo completo.
 
 ## Cómo resolver las tareas de siempre
 
@@ -86,14 +86,14 @@ Todo esto sucede en una ventana ligera, sin proyectos ni configuración previa.
 
 Un problema muy habitual en español es abrir un archivo viejo y encontrarse las tildes convertidas en símbolos, la ñ rota o los signos ¿ y ¡ ilegibles. Suele ocurrir con archivos guardados hace años en ISO-8859-1 o Windows-1252 y abiertos hoy como si fueran UTF-8.
 
-notePad++++ abre correctamente los archivos en esas codificaciones antiguas, de modo que un TXT exportado por un sistema legado, unas notas de hace una década o un CSV heredado se leen bien y se pueden volver a guardar sin arrastrar el desorden. Es una de esas cosas pequeñas que ahorran mucho tiempo cuando trabajas con material antiguo.
+{{APP_NAME}} abre correctamente los archivos en esas codificaciones antiguas, de modo que un TXT exportado por un sistema legado, unas notas de hace una década o un CSV heredado se leen bien y se pueden volver a guardar sin arrastrar el desorden. Es una de esas cosas pequeñas que ahorran mucho tiempo cuando trabajas con material antiguo.
 
-## Cuándo elegir notePad++++ y cuándo no
+## Cuándo elegir {{APP_NAME}} y cuándo no
 
-Conviene ser claro. Si necesitas compilar, depurar y gestionar un proyecto entero, una IDE como VS Code sigue siendo la herramienta adecuada. notePad++++ no compite con eso ni copia el ecosistema de plugins de Notepad++.
+Conviene ser claro. Si necesitas compilar, depurar y gestionar un proyecto entero, una IDE como VS Code sigue siendo la herramienta adecuada. {{APP_NAME}} no compite con eso ni copia el ecosistema de plugins de Notepad++.
 
 Encaja cuando tu día está lleno de tareas pequeñas de texto: revisar logs, ajustar configuraciones, limpiar fragmentos de CSV, repasar Markdown, corregir texto copiado de la web. Para lo repetitivo, hay una ayuda de IA opcional que redacta scripts de limpieza, y iCloud Sync si quieres la misma configuración en varios Mac. El objetivo es ese: ser el bloc de notas fuerte del día a día, ligero y nativo.
 
 ## Marca e independencia
 
-Notepad++ es una marca de su respectivo titular. notePad++++ es un editor de texto independiente para macOS y no está afiliado, respaldado ni autorizado por el proyecto oficial de Notepad++.
+Notepad++ es una marca de su respectivo titular. {{APP_NAME}} es un editor de texto independiente para macOS y no está afiliado, respaldado ni autorizado por el proyecto oficial de Notepad++.

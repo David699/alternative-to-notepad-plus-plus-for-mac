@@ -86,7 +86,7 @@ export default function AISection({ t, locale = 'zh' }: Props) {
             className="screenshot-glow overflow-hidden rounded-2xl border border-gray-200"
           >
             <LocalizedImage
-              src="/images/ai-write.png"
+              src="/images/ai-write.webp"
               locale={locale}
               alt={t.screenshotAlt}
               width={1400}

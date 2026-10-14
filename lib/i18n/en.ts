@@ -1,3 +1,4 @@
+import { APP_NAME } from '../seo'
 import type { Dict } from './types'
 import { notepadAppStoreRating } from '../app-store-rating'
 
@@ -27,7 +28,7 @@ export const en: Dict = {
     tags: [
       {
         label: 'Notepad++ for Mac',
-        iconSrc: '/images/tag-notepad.png',
+        iconSrc: '/images/tag-notepad.webp',
         imageAlt: 'Notepad++ for Mac alternative icon',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
@@ -35,7 +36,7 @@ export const en: Dict = {
       },
       {
         label: 'Column Mode',
-        iconSrc: '/images/tag-column.png',
+        iconSrc: '/images/tag-column.webp',
         imageAlt: 'Column mode editing icon',
         classes: 'bg-emerald-100 text-emerald-800 border-emerald-300 hover:bg-emerald-200 hover:border-emerald-400',
         iconFrame: 'border-emerald-500 bg-white shadow-[0_2px_10px_rgba(5,150,105,0.22)]',
@@ -43,7 +44,7 @@ export const en: Dict = {
       },
       {
         label: 'Multi-Tab',
-        iconSrc: '/images/tag-tabs.png',
+        iconSrc: '/images/tag-tabs.webp',
         imageAlt: 'Multi-tab text editor icon',
         classes: 'bg-amber-100 text-amber-800 border-amber-300 hover:bg-amber-200 hover:border-amber-400',
         iconFrame: 'border-amber-500 bg-white shadow-[0_2px_10px_rgba(217,119,6,0.24)]',
@@ -51,7 +52,7 @@ export const en: Dict = {
       },
       {
         label: 'AI + Automation',
-        iconSrc: '/images/tag-ai.png',
+        iconSrc: '/images/tag-ai.webp',
         imageAlt: 'AI and text automation icon',
         classes: 'bg-violet-100 text-violet-800 border-violet-300 hover:bg-violet-200 hover:border-violet-400',
         iconFrame: 'border-violet-500 bg-white shadow-[0_2px_10px_rgba(124,58,237,0.24)]',
@@ -73,9 +74,9 @@ export const en: Dict = {
     ],
     shortcutPanelTitle: 'Your Notepad++ shortcuts — now native on Mac',
     shortcutColLeft: 'Notepad++',
-    shortcutColRight: 'notePad++++',
+    shortcutColRight: APP_NAME,
     shortcutFooterLeft: 'Windows Notepad++ shortcuts',
-    shortcutFooterRight: 'macOS notePad++++ ✦',
+    shortcutFooterRight: `macOS ${APP_NAME} ✦`,
     ctaPrimary: 'Download for Mac',
     ctaSecondary: 'See All Features',
   },
@@ -84,14 +85,14 @@ export const en: Dict = {
     sectionLabel: 'What Makes It Different',
     headline: 'It edits text. It also',
     headlineGradient: 'processes a whole batch of it.',
-    sub: 'Ordinary editors open and modify files. notePad++++ goes further: search your whole workspace, extract results, run scripts, chain pipelines, batch-preview diffs, and apply changes safely.',
+    sub: `Ordinary editors open and modify files. ${APP_NAME} goes further: search your whole workspace, extract results, run scripts, chain pipelines, batch-preview diffs, and apply changes safely.`,
     pillars: [
       {
         icon: '✏️',
         title: 'Edit Comfortably',
         desc: 'Multi-tab editing, regex find & replace, column mode, and live Markdown preview. Solid fundamentals, no friction in daily use.',
         points: ['Multi-tab, switch files instantly', 'Regex find & replace', 'Column mode editing', 'Live Markdown preview'],
-        image: '/images/screen-column.png',
+        image: '/images/screen-column.webp',
         imageAlt: 'Column mode editing interface',
         gradient: 'from-brand-50 to-white',
         accent: 'text-brand-600',
@@ -102,7 +103,7 @@ export const en: Dict = {
         title: 'Organize Efficiently',
         desc: 'Workspace search, result extraction, bookmarks, and snippets. Not just finding — turning results into something usable.',
         points: ['Full-text workspace search', 'Batch extract search results', 'Bookmarks for quick navigation', 'Reusable text snippets'],
-        image: '/images/screen-search.png',
+        image: '/images/screen-search.webp',
         imageAlt: 'Workspace search results interface',
         gradient: 'from-teal-50 to-white',
         accent: 'text-teal-600',
@@ -113,7 +114,7 @@ export const en: Dict = {
         title: 'Automate the Repetitive',
         desc: 'Built-in scripts, a pipeline gallery, batch runs, diff preview, and rollback. Configure once, reuse forever.',
         points: ['Script-driven automation', '10+ built-in pipelines', 'Batch process multiple files', 'Preview diff before applying'],
-        image: '/images/screen-scripts.png',
+        image: '/images/screen-scripts.webp',
         imageAlt: 'JS script automation interface',
         gradient: 'from-purple-50 to-white',
         accent: 'text-purple-600',
@@ -201,15 +202,15 @@ export const en: Dict = {
       { step: '04', label: 'Confirm & apply', example: '✓ Applied to 3 files\n✓ Backup saved\n✓ Rollback ready', color: 'border-green-200 bg-green-50' },
     ],
     privacyTitle: 'AI & Privacy',
-    privacyBody: 'AI features are powered by APIs you configure. Choose your own provider and model, confirm input content before execution, and stay in control of your documents. notePad++++ never sends your text to any third party without your explicit action.',
-    screenshotAlt: 'notePad++++ AI script generation and automation interface',
+    privacyBody: `AI features are powered by APIs you configure. Choose your own provider and model, confirm input content before execution, and stay in control of your documents. ${APP_NAME} never sends your text to any third party without your explicit action.`,
+    screenshotAlt: `${APP_NAME} AI script generation and automation interface`,
   },
 
   textCleaning: {
     sectionLabel: 'Text Cleaning',
     headline: 'Handle the messy stuff',
     headlineGradient: 'your real data throws at you.',
-    sub: 'Real-world text is messy — inconsistent whitespace, mixed punctuation, duplicates, embedded links, stray emojis. notePad++++ ships the tools to clean it up fast, without writing a script.',
+    sub: `Real-world text is messy — inconsistent whitespace, mixed punctuation, duplicates, embedded links, stray emojis. ${APP_NAME} ships the tools to clean it up fast, without writing a script.`,
     beforeLabel: 'Before',
     afterLabel: 'After',
     toggleBefore: 'See processed result',
@@ -256,7 +257,7 @@ export const en: Dict = {
     sectionLabel: 'Security & Control',
     headline: 'Your important text',
     headlineGradient: 'should stay yours.',
-    sub: 'notePad++++ is local-first. No account required to edit files. File access is granted by macOS, scripts run in a local sandbox, and AI features only fire when you say so.',
+    sub: `${APP_NAME} is local-first. No account required to edit files. File access is granted by macOS, scripts run in a local sandbox, and AI features only fire when you say so.`,
     points: [
       { icon: '💾', title: 'Local-First', desc: 'Works around your local files by default. No requirement to store documents in an unknown cloud account. Your files stay on your disk, always accessible.', color: 'border-brand-100', accent: 'text-brand-600', bg: 'bg-brand-50' },
       { icon: '🔐', title: 'System-Level Authorization', desc: 'File access is granted through macOS system permissions. Edit local documents without signing in — fully App Sandbox compliant.', color: 'border-green-100', accent: 'text-green-700', bg: 'bg-green-50' },
@@ -265,7 +266,7 @@ export const en: Dict = {
       { icon: '↩️', title: 'Auto Backup & Rollback', desc: 'Backups are saved automatically during batch processing. Restore to the previous state with a single click.', color: 'border-purple-100', accent: 'text-purple-700', bg: 'bg-purple-50' },
       { icon: '🤝', title: 'AI Input You Confirm', desc: 'AI features use APIs you configure. You confirm what gets sent before execution. No text is sent anywhere without your explicit action.', color: 'border-blue-100', accent: 'text-blue-700', bg: 'bg-blue-50' },
     ],
-    disclaimer: 'notePad++++ works with local files by default. AI features use third-party APIs configured by you. Please follow your chosen AI provider\'s terms of service.',
+    disclaimer: `${APP_NAME} works with local files by default. AI features use third-party APIs configured by you. Please follow your chosen AI provider's terms of service.`,
   },
 
   cloudSync: {
@@ -297,7 +298,7 @@ export const en: Dict = {
     ],
     mockPanel: {
       title: 'Sync Space',
-      subtitle: 'iCloud Drive / notePad++++',
+      subtitle: `iCloud Drive / ${APP_NAME}`,
       syncDirLabel: 'Workspace',
       syncDirName: 'My Project',
       statusLabels: {
@@ -346,7 +347,7 @@ export const en: Dict = {
     headline: 'Real users,',
     headlineGradient: 'real feedback.',
     appStoreCaption: 'App Store Reviews',
-    reviewsAlt: 'notePad++++ App Store user reviews screenshot',
+    reviewsAlt: `${APP_NAME} App Store user reviews screenshot`,
     scoreLabel: 'macOS rating',
     scoreValue: '4.8',
     scoreSuffix: 'out of 5',
@@ -375,7 +376,7 @@ export const en: Dict = {
     headline: 'Frequently Asked Questions',
     sub: 'The most common questions, answered clearly.',
     items: [
-      { q: 'How is notePad++++ related to Notepad++?', a: 'notePad++++ is a macOS text editor inspired by the philosophy of Notepad++. It brings the same core power — multi-tab editing, regex search, column mode — plus adds scripted pipelines, batch processing, and AI assistance tailored to Mac users.' },
+      { q: `How is ${APP_NAME} related to Notepad++?`, a: `${APP_NAME} is a macOS text editor inspired by the philosophy of Notepad++. It brings the same core power — multi-tab editing, regex search, column mode — plus adds scripted pipelines, batch processing, and AI assistance tailored to Mac users.` },
       { q: 'Is it suitable for non-programmers?', a: 'Absolutely. The core features (multi-tab editing, workspace browse, find & replace) are intuitive for any user. Pipelines and scripts are power-user features — you can ignore them entirely, or ask AI to write them for you.' },
       { q: 'Where does AI send my text?', a: 'AI features require you to configure a third-party API (e.g. OpenAI, Claude). Content is only sent to your chosen provider when you explicitly trigger an AI action. The app itself never collects or forwards your text.' },
       { q: 'Is batch processing safe? What if something goes wrong?', a: 'Before any batch edit is applied, you see a full diff preview — exactly which files and lines will change. A backup is saved automatically, and you can roll back with a single click. No surprises.' },
@@ -389,10 +390,10 @@ export const en: Dict = {
   cta: {
     headline: 'Ready to get started?',
     headlineSub: 'Process text on Mac more powerfully, starting today.',
-    sub: 'Hand off the repetitive text work to notePad++++, and keep your focus on what actually matters.',
+    sub: `Hand off the repetitive text work to ${APP_NAME}, and keep your focus on what actually matters.`,
     appStoreLabel: 'Download on the App Store',
     githubLabel: 'View on GitHub',
-    iconAlt: 'notePad++++ icon',
+    iconAlt: `${APP_NAME} icon`,
     badges: [
       { icon: '🍎', text: 'macOS 12+' },
       { icon: '💾', text: 'Local-first' },
@@ -421,7 +422,7 @@ export const en: Dict = {
       { label: 'Markdown editor with live preview', href: '/en/markdown-editor-with-live-preview-for-mac/' },
       { label: 'Best Mac text editors 2026', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
       { label: 'Why Mac needs a Notepad++ alternative', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
-      { label: 'How notePad++++ was built', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
+      { label: `How ${APP_NAME} was built`, href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Mac alternatives guide', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: 'Does Notepad++ work on Mac?', href: '/en/does-notepad-plus-plus-work-on-mac/' },
@@ -440,7 +441,7 @@ export const en: Dict = {
     githubLabel: 'GitHub',
     productHuntLabel: 'Product Hunt',
     downloadLabel: 'Download',
-    copyright: '© 2026 notePad++++ · Requires macOS 12 or later',
+    copyright: `© 2026 ${APP_NAME} · Requires macOS 12 or later`,
     trademark: 'macOS is a trademark of Apple Inc. · Notepad++ is an open-source project by Don Ho',
     legalTitle: 'Legal',
     privacyLabel: 'Privacy Policy',

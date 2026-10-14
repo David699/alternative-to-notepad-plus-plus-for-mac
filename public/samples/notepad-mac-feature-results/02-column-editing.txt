@@ -1,0 +1,17 @@
+COLUMN EDITING DEMONSTRATION
+
+Select the OLD prefix on the aligned rows below.
+
+NEW  customer_id   active
+NEW  account_id    active
+NEW  invoice_id    pending
+NEW  order_id      pending
+NEW  product_id    active
+
+EXPECTED CHANGE
+---------------
+Replace only OLD with NEW on the five aligned rows.
+Keep the identifiers and status values unchanged.
+
+A character column is not the same as a CSV field.
+Use fixed-width text for this demonstration.

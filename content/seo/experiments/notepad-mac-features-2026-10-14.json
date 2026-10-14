@@ -1,0 +1,102 @@
+{
+  "page": "https://notepad-plus-plus-mac.com/en/notepad-plus-plus-for-mac/",
+  "prepared_at": "2026-10-14",
+  "publication_status": "published",
+  "published_at": "2026-10-14T23:56:27+08:00",
+  "features_demonstrated": [
+    "document tabs",
+    "JSON syntax highlighting and optional tree preview",
+    "five-row rectangular selection",
+    "four-record regex replacement with captured numbers",
+    "workspace search reporting fourteen matching lines across five files"
+  ],
+  "verification": [
+    "Actual notePad++++ screenshot capture in a 2536x1305 ordinary window",
+    "Column replacement matched expected output and left identifier/status text unchanged",
+    "Regex replacement matched expected output and left account_id/invoice_id unchanged",
+    "Inputs restored after demonstration; results preserved separately"
+  ],
+  "screenshots": [
+    "workspace-search-real.png",
+    "column-selection-real.png",
+    "tabs-syntax-real.png",
+    "regex-replace-real.png"
+  ],
+  "notes": [
+    "Not an official Notepad++ Mac release",
+    "No Windows plugin or recorded-macro import claim",
+    "No performance or memory ranking",
+    "Approved and published on 2026-10-14; subsequent publishing requires new authorization."
+  ],
+  "recorded_at": "2026-10-14",
+  "site": "sc-domain:notepad-plus-plus-mac.com",
+  "primary_keyword": "notepad++ for mac",
+  "latest_complete_data_date": "2026-10-11",
+  "filters": {
+    "search_type": "Web",
+    "page_match": "exact",
+    "query_match": "exact",
+    "country": "all",
+    "device": "all"
+  },
+  "source": "Google Search Console live report checked at publication; exact page and query",
+  "baseline_28_days": {
+    "start": "2026-09-14",
+    "end": "2026-10-11",
+    "primary_keyword": {
+      "query": "notepad++ for mac",
+      "position": 33.8,
+      "impressions": 17,
+      "clicks": 0,
+      "ctr": 0
+    },
+    "page": {
+      "position": 22.4,
+      "impressions": 397,
+      "clicks": 9,
+      "ctr_display": "2.3%",
+      "precision": "Search Console visible summary"
+    }
+  },
+  "baseline_7_days": {
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "primary_keyword": {
+      "query": "notepad++ for mac",
+      "position": 17.8,
+      "impressions": 6,
+      "clicks": 0,
+      "ctr": 0
+    }
+  },
+  "publication": {
+    "approved_by_user": true,
+    "published_at": "2026-10-14T23:56:27+08:00",
+    "deployment_url": "https://d2a04ee1.notepad-plus-plus-mac.pages.dev",
+    "production_url": "https://notepad-plus-plus-mac.com/en/notepad-plus-plus-for-mac/"
+  },
+  "review": {
+    "monitor_id": "notepad",
+    "first_post_publication_review": "2026-10-21 09:00 Asia/Shanghai",
+    "pre_publication_window": [
+      "2026-10-07",
+      "2026-10-13"
+    ],
+    "post_publication_window": [
+      "2026-10-14",
+      "2026-10-20"
+    ],
+    "rules": [
+      "Compare exact page and exact query, unchanged Web search, all countries and all devices.",
+      "Report once on first review even if little change.",
+      "If full data does not cover October 20, report actual complete days and retain full-week review pending.",
+      "No automatic article modification or publication.",
+      "Low samples do not establish a trend; average rank is not a fixed live position."
+    ]
+  },
+  "limitations": [
+    "Only 17 impressions in 28 days and 6 in 7 days for the primary keyword.",
+    "Publication-time historical data is a comparison starting point, not evidence of the new article performance.",
+    "Page-wide totals differ from exact-keyword totals."
+  ]
+}

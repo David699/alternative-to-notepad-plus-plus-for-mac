@@ -1,10 +1,11 @@
+import { APP_NAME } from '../../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
 import { SITE_URL } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'notePad++++ Privacy Policy — learn how we handle your data',
+  description: `${APP_NAME} Privacy Policy — learn how we handle your data`,
   alternates: {
     canonical: `${SITE_URL}/en/privacy/`,
     languages: { 'zh-CN': `${SITE_URL}/privacy/`, en: `${SITE_URL}/en/privacy/` },
@@ -16,7 +17,7 @@ export default function PrivacyEn() {
   return (
     <LegalPage
       title="Privacy Policy"
-      subtitle="This policy explains what data notePad++++ collects, how it is used, and how it is protected."
+      subtitle={`This policy explains what data ${APP_NAME} collects, how it is used, and how it is protected.`}
       lastUpdated="Last updated: May 2026"
       backLabel="Back to Home"
       backHref="/en/"
@@ -25,7 +26,7 @@ export default function PrivacyEn() {
         {
           heading: '1. Data We Collect',
           body: [
-            'notePad++++ collects anonymous or pseudonymous basic usage analytics to understand how the app is used and to improve it over time. The collected information includes:',
+            `${APP_NAME} collects anonymous or pseudonymous basic usage analytics to understand how the app is used and to improve it over time. The collected information includes:`,
             '· System info: macOS version, CPU architecture (arm64 / x86_64), hardware model identifier, whether running under Rosetta',
             '· App info: app version, build number, days since first install (bucketed, e.g. "1–7 days")',
             '· Language and region settings',

@@ -1,3 +1,4 @@
+import { APP_NAME } from '../seo'
 import { notepadAppStoreRating, notepadArabicAppStoreRating } from '../app-store-rating'
 import { GITHUB_REPO_URL, NOTEPAD_PLUS_PLUS_URL, TYPORA_URL } from '../paths'
 import type { SeoOnlyLocale, SeoOnlyLocaleConfig } from './types'
@@ -10,7 +11,7 @@ const arabicLtrTerms = [
   'Workspace Search',
   'Sublime Text',
   'Product Hunt',
-  'notePad++++',
+  APP_NAME,
   'Notepad++',
   'App Store',
   'CotEditor',
@@ -81,7 +82,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Official Notepad++',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ is a trademark of its respective owner. notePad++++ is an independent macOS text editor and is not affiliated with, endorsed by, or approved by the official Notepad++ project.',
+      `Notepad++ is a trademark of its respective owner. ${APP_NAME} is an independent macOS text editor and is not affiliated with, endorsed by, or approved by the official Notepad++ project.`,
     labels: {
       home: 'English home',
       faq: 'FAQ',
@@ -89,8 +90,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Useful links',
       download: 'Download on the App Store',
       viewStore: 'View App Store page',
-      appIconAlt: 'notePad++++ icon',
-      heroImageAlt: 'notePad++++ editing and previewing Markdown on macOS',
+      appIconAlt: `${APP_NAME} icon`,
+      heroImageAlt: `${APP_NAME} editing and previewing Markdown on macOS`,
     },
   }),
   de: ltrSeoLocale({
@@ -103,7 +104,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Offizielles Notepad++',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ ist eine Marke des jeweiligen Rechteinhabers. notePad++++ ist ein unabhängiger macOS-Texteditor und ist weder mit dem offiziellen Notepad++-Projekt verbunden noch von diesem unterstützt oder autorisiert.',
+      `Notepad++ ist eine Marke des jeweiligen Rechteinhabers. ${APP_NAME} ist ein unabhängiger macOS-Texteditor und ist weder mit dem offiziellen Notepad++-Projekt verbunden noch von diesem unterstützt oder autorisiert.`,
     labels: {
       home: 'Startseite',
       faq: 'FAQ',
@@ -111,8 +112,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Nützliche Links',
       download: 'Im App Store laden',
       viewStore: 'App Store ansehen',
-      appIconAlt: 'notePad++++ Symbol',
-      heroImageAlt: 'notePad++++ Oberfläche für Textbearbeitung auf macOS',
+      appIconAlt: `${APP_NAME} Symbol`,
+      heroImageAlt: `${APP_NAME} Oberfläche für Textbearbeitung auf macOS`,
     },
   }),
   es: ltrSeoLocale({
@@ -125,7 +126,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ oficial',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ es una marca de su respectivo propietario. notePad++++ es un editor de texto independiente para macOS y no está afiliado, respaldado ni aprobado por el proyecto oficial Notepad++.',
+      `Notepad++ es una marca de su respectivo propietario. ${APP_NAME} es un editor de texto independiente para macOS y no está afiliado, respaldado ni aprobado por el proyecto oficial Notepad++.`,
     labels: {
       home: 'Inicio',
       faq: 'Preguntas frecuentes',
@@ -133,8 +134,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Enlaces útiles',
       download: 'Descargar en App Store',
       viewStore: 'Ver en App Store',
-      appIconAlt: 'Icono de notePad++++',
-      heroImageAlt: 'Interfaz de notePad++++ para editar texto en macOS',
+      appIconAlt: `Icono de ${APP_NAME}`,
+      heroImageAlt: `Interfaz de ${APP_NAME} para editar texto en macOS`,
     },
   }),
   fr: ltrSeoLocale({
@@ -147,7 +148,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ officiel',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ est une marque de son propriétaire respectif. notePad++++ est un éditeur de texte macOS indépendant, sans affiliation, approbation ni soutien du projet officiel Notepad++.',
+      `Notepad++ est une marque de son propriétaire respectif. ${APP_NAME} est un éditeur de texte macOS indépendant, sans affiliation, approbation ni soutien du projet officiel Notepad++.`,
     labels: {
       home: 'Accueil',
       faq: 'Questions fréquentes',
@@ -155,8 +156,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Liens utiles',
       download: 'Télécharger sur l’App Store',
       viewStore: 'Voir sur l’App Store',
-      appIconAlt: 'Icône notePad++++',
-      heroImageAlt: 'Interface notePad++++ pour l’édition de texte sur macOS',
+      appIconAlt: `Icône ${APP_NAME}`,
+      heroImageAlt: `Interface ${APP_NAME} pour l’édition de texte sur macOS`,
     },
   }),
   it: ltrSeoLocale({
@@ -169,7 +170,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ ufficiale',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ è un marchio del rispettivo proprietario. notePad++++ è un editor di testo indipendente per macOS e non è affiliato, approvato o supportato dal progetto ufficiale Notepad++.',
+      `Notepad++ è un marchio del rispettivo proprietario. ${APP_NAME} è un editor di testo indipendente per macOS e non è affiliato, approvato o supportato dal progetto ufficiale Notepad++.`,
     labels: {
       home: 'Home',
       faq: 'Domande frequenti',
@@ -177,8 +178,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Link utili',
       download: 'Scarica da App Store',
       viewStore: 'Vedi su App Store',
-      appIconAlt: 'Icona di notePad++++',
-      heroImageAlt: 'Interfaccia di notePad++++ per modificare testo su macOS',
+      appIconAlt: `Icona di ${APP_NAME}`,
+      heroImageAlt: `Interfaccia di ${APP_NAME} per modificare testo su macOS`,
     },
   }),
   ja: ltrSeoLocale({
@@ -191,7 +192,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ 公式',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ はそれぞれの権利者に帰属する商標です。notePad++++ は独立したmacOS向けテキストエディタであり、公式Notepad++プロジェクトと提携、承認、関連しているものではありません。',
+      `Notepad++ はそれぞれの権利者に帰属する商標です。${APP_NAME} は独立したmacOS向けテキストエディタであり、公式Notepad++プロジェクトと提携、承認、関連しているものではありません。`,
     labels: {
       home: 'ホーム',
       faq: 'よくある質問',
@@ -199,8 +200,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: '参考リンク',
       download: 'App Storeで入手',
       viewStore: 'App Storeページを見る',
-      appIconAlt: 'notePad++++ アイコン',
-      heroImageAlt: 'macOSで動作するnotePad++++のテキスト編集画面',
+      appIconAlt: `${APP_NAME} アイコン`,
+      heroImageAlt: `macOSで動作する${APP_NAME}のテキスト編集画面`,
     },
   }),
   ko: ltrSeoLocale({
@@ -213,7 +214,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ 공식',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++는 해당 권리자의 상표입니다. notePad++++는 macOS용 독립 텍스트 에디터이며 공식 Notepad++ 프로젝트와 제휴, 승인 또는 보증 관계가 없습니다.',
+      `Notepad++는 해당 권리자의 상표입니다. ${APP_NAME}는 macOS용 독립 텍스트 에디터이며 공식 Notepad++ 프로젝트와 제휴, 승인 또는 보증 관계가 없습니다.`,
     labels: {
       home: '홈',
       faq: '자주 묻는 질문',
@@ -221,8 +222,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: '유용한 링크',
       download: 'App Store에서 받기',
       viewStore: 'App Store 페이지 보기',
-      appIconAlt: 'notePad++++ 아이콘',
-      heroImageAlt: 'macOS에서 텍스트를 편집하는 notePad++++ 화면',
+      appIconAlt: `${APP_NAME} 아이콘`,
+      heroImageAlt: `macOS에서 텍스트를 편집하는 ${APP_NAME} 화면`,
     },
   }),
   nl: ltrSeoLocale({
@@ -235,7 +236,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Officiële Notepad++ site',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ is een merk van de respectieve eigenaar. notePad++++ is een onafhankelijke teksteditor voor macOS en is niet gelieerd aan, goedgekeurd door of ondersteund door het officiële Notepad++-project.',
+      `Notepad++ is een merk van de respectieve eigenaar. ${APP_NAME} is een onafhankelijke teksteditor voor macOS en is niet gelieerd aan, goedgekeurd door of ondersteund door het officiële Notepad++-project.`,
     labels: {
       home: 'English home',
       faq: 'Veelgestelde vragen',
@@ -243,8 +244,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Nuttige links',
       download: 'Download in de App Store',
       viewStore: 'Bekijk in de App Store',
-      appIconAlt: 'notePad++++ pictogram',
-      heroImageAlt: 'notePad++++ interface voor tekstbewerking op macOS',
+      appIconAlt: `${APP_NAME} pictogram`,
+      heroImageAlt: `${APP_NAME} interface voor tekstbewerking op macOS`,
     },
   }),
   pl: ltrSeoLocale({
@@ -257,7 +258,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Oficjalny Notepad++',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ jest znakiem towarowym odpowiedniego właściciela. notePad++++ jest niezależnym edytorem tekstu dla macOS i nie jest powiązany, zatwierdzony ani wspierany przez oficjalny projekt Notepad++.',
+      `Notepad++ jest znakiem towarowym odpowiedniego właściciela. ${APP_NAME} jest niezależnym edytorem tekstu dla macOS i nie jest powiązany, zatwierdzony ani wspierany przez oficjalny projekt Notepad++.`,
     labels: {
       home: 'English home',
       faq: 'Najczęstsze pytania',
@@ -265,8 +266,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Przydatne linki',
       download: 'Pobierz z App Store',
       viewStore: 'Zobacz w App Store',
-      appIconAlt: 'Ikona notePad++++',
-      heroImageAlt: 'Interfejs notePad++++ do edycji tekstu na macOS',
+      appIconAlt: `Ikona ${APP_NAME}`,
+      heroImageAlt: `Interfejs ${APP_NAME} do edycji tekstu na macOS`,
     },
   }),
   'pt-br': ltrSeoLocale({
@@ -279,7 +280,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ oficial',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ é uma marca de seu respectivo proprietário. notePad++++ é um editor de texto independente para macOS e não é afiliado, aprovado nem apoiado pelo projeto oficial Notepad++.',
+      `Notepad++ é uma marca de seu respectivo proprietário. ${APP_NAME} é um editor de texto independente para macOS e não é afiliado, aprovado nem apoiado pelo projeto oficial Notepad++.`,
     labels: {
       home: 'Início',
       faq: 'Perguntas frequentes',
@@ -287,8 +288,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Links úteis',
       download: 'Baixar na App Store',
       viewStore: 'Ver na App Store',
-      appIconAlt: 'Ícone do notePad++++',
-      heroImageAlt: 'Interface do notePad++++ para editar texto no macOS',
+      appIconAlt: `Ícone do ${APP_NAME}`,
+      heroImageAlt: `Interface do ${APP_NAME} para editar texto no macOS`,
     },
   }),
   tr: ltrSeoLocale({
@@ -301,7 +302,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Resmi Notepad++',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ ilgili sahibinin ticari markasıdır. notePad++++ macOS için bağımsız bir metin editörüdür ve resmi Notepad++ projesiyle bağlantılı, onaylı veya desteklenmiş değildir.',
+      `Notepad++ ilgili sahibinin ticari markasıdır. ${APP_NAME} macOS için bağımsız bir metin editörüdür ve resmi Notepad++ projesiyle bağlantılı, onaylı veya desteklenmiş değildir.`,
     labels: {
       home: 'English home',
       faq: 'Sık sorulan sorular',
@@ -309,8 +310,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'Faydalı bağlantılar',
       download: 'App Store’dan indirin',
       viewStore: 'App Store sayfasını görüntüleyin',
-      appIconAlt: 'notePad++++ simgesi',
-      heroImageAlt: 'macOS üzerinde metin düzenleyen notePad++++ arayüzü',
+      appIconAlt: `${APP_NAME} simgesi`,
+      heroImageAlt: `macOS üzerinde metin düzenleyen ${APP_NAME} arayüzü`,
     },
   }),
   'zh-hans': ltrSeoLocale({
@@ -325,7 +326,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialHref: TYPORA_URL,
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Typora 和 Notepad++ 是其各自权利人的商标。notePad++++ 是独立的 macOS 文本编辑器，与上述产品或项目没有合作、认可或背书关系。本文依据公开功能资料比较不同工作方式。',
+      `Typora 和 Notepad++ 是其各自权利人的商标。${APP_NAME} 是独立的 macOS 文本编辑器，与上述产品或项目没有合作、认可或背书关系。本文依据公开功能资料比较不同工作方式。`,
     labels: {
       home: '中文首页',
       faq: '常见问题',
@@ -333,8 +334,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: '实用链接',
       download: '在 App Store 下载',
       viewStore: '查看 App Store 页面',
-      appIconAlt: 'notePad++++ 图标',
-      heroImageAlt: 'notePad++++ 在 macOS 上编辑和预览 Markdown 的界面',
+      appIconAlt: `${APP_NAME} 图标`,
+      heroImageAlt: `${APP_NAME} 在 macOS 上编辑和预览 Markdown 的界面`,
     },
   }),
   'zh-hant': ltrSeoLocale({
@@ -347,7 +348,7 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
     officialLabel: 'Notepad++ 官方網站',
     githubLabel: 'GitHub',
     brandDisclaimer:
-      'Notepad++ 是其權利人的商標。notePad++++ 是獨立的 macOS 文字編輯器，並未與官方 Notepad++ 專案合作、獲得其認可或由其背書。',
+      `Notepad++ 是其權利人的商標。${APP_NAME} 是獨立的 macOS 文字編輯器，並未與官方 Notepad++ 專案合作、獲得其認可或由其背書。`,
     labels: {
       home: '英文首頁',
       faq: '常見問題',
@@ -355,8 +356,8 @@ const ltrSeoLocales: Record<LtrSeoLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: '實用連結',
       download: '在 App Store 取得',
       viewStore: '查看 App Store 頁面',
-      appIconAlt: 'notePad++++ 圖示',
-      heroImageAlt: 'notePad++++ 在 macOS 上編輯文字的介面',
+      appIconAlt: `${APP_NAME} 圖示`,
+      heroImageAlt: `${APP_NAME} 在 macOS 上編輯文字的介面`,
     },
   }),
 }
@@ -372,7 +373,7 @@ export const localizedSeoLocales: Record<SeoOnlyLocale, SeoOnlyLocaleConfig> = {
     homeHref: '/en/',
     rating: notepadArabicAppStoreRating,
     brandDisclaimer:
-      'Notepad++ علامة تجارية تخص مالكها. notePad++++ هو محرر نصوص مستقل لنظام macOS ولا يرتبط بمشروع Notepad++ الرسمي ولا يتم اعتماده من قبله.',
+      `Notepad++ علامة تجارية تخص مالكها. ${APP_NAME} هو محرر نصوص مستقل لنظام macOS ولا يرتبط بمشروع Notepad++ الرسمي ولا يتم اعتماده من قبله.`,
     ltrTerms: arabicLtrTerms,
     labels: {
       home: 'English home',
@@ -381,8 +382,8 @@ export const localizedSeoLocales: Record<SeoOnlyLocale, SeoOnlyLocaleConfig> = {
       usefulLinks: 'روابط مفيدة',
       download: 'تحميل من App Store',
       viewStore: 'عرض صفحة App Store',
-      appIconAlt: 'أيقونة notePad++++',
-      heroImageAlt: 'واجهة notePad++++ لتحرير النصوص على macOS',
+      appIconAlt: `أيقونة ${APP_NAME}`,
+      heroImageAlt: `واجهة ${APP_NAME} لتحرير النصوص على macOS`,
     },
     navLinks: [
       { label: 'Notepad++ للماك', href: '/ar/notepad-plus-plus-for-mac/' },

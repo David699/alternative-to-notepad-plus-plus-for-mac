@@ -24,15 +24,15 @@ heroKicker: Der Werkzeugkasten für den Textalltag
 heroSummary: >-
   Ein Log filtern, eine Konfiguration anpassen, eine Semikolon-CSV
   geraderücken: Für solche Aufgaben braucht niemand eine IDE, sondern ein
-  Werkzeug, das sofort öffnet und genau das kann. notePad++++ ist ein
+  Werkzeug, das sofort öffnet und genau das kann. {{APP_NAME}} ist ein
   unabhängiger, nativer Texteditor für macOS, der diese Rolle übernimmt.
 related:
   - label: Englische Übersicht zu Notepad++ für Mac
     href: /en/notepad-plus-plus-for-mac/
-  - label: notePad++++ Startseite
+  - label: "{{APP_NAME}} Startseite"
     href: /de/
 externalLinks:
-  - label: notePad++++ im App Store laden
+  - label: "{{APP_NAME}} im App Store laden"
     href: appStore
     external: true
   - label: Offizielle Notepad++ Website besuchen
@@ -42,13 +42,13 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: Ist notePad++++ die offizielle Mac-Version von Notepad++?
+  - q: Ist {{APP_NAME}} die offizielle Mac-Version von Notepad++?
     a: >-
-      Nein. notePad++++ ist ein eigenständiger macOS-Texteditor und steht nicht
+      Nein. {{APP_NAME}} ist ein eigenständiger macOS-Texteditor und steht nicht
       mit dem offiziellen Notepad++-Projekt in Verbindung.
   - q: Brauche ich Wine oder eine virtuelle Maschine?
     a: >-
-      Nein. notePad++++ ist nativ für macOS gebaut. Eine
+      Nein. {{APP_NAME}} ist nativ für macOS gebaut. Eine
       Windows-Kompatibilitätsschicht ist nicht nötig.
   - q: Kommt der Editor mit Semikolon-getrennten CSV-Dateien zurecht?
     a: >-
@@ -65,7 +65,7 @@ faq:
 
 Wer jahrelang mit Notepad++ gearbeitet hat, hat selten „einen Editor“ vermisst – sondern eine Handvoll Handgriffe: das Server-Log nach einer Fehlermeldung filtern. In der `hosts`-Datei oder einer Anwendungs-Konfiguration drei Zeilen ändern. Eine CSV aus dem Warenwirtschaftssystem bereinigen, bevor sie weiterverarbeitet wird. Eine Liste sortieren, Duplikate entfernen, Leerzeilen löschen.
 
-Für keinen dieser Handgriffe lohnt es sich, ein Projekt in einer IDE anzulegen. Es sind Werkzeugkasten-Aufgaben: Datei auf, Änderung rein, Datei zu. Genau auf diese Arbeitsweise ist notePad++++ ausgelegt – ein unabhängiger, nativer Texteditor für macOS, der nicht die Windows-App nachbaut, sondern deren Alltagsrolle übernimmt.
+Für keinen dieser Handgriffe lohnt es sich, ein Projekt in einer IDE anzulegen. Es sind Werkzeugkasten-Aufgaben: Datei auf, Änderung rein, Datei zu. Genau auf diese Arbeitsweise ist {{APP_NAME}} ausgelegt – ein unabhängiger, nativer Texteditor für macOS, der nicht die Windows-App nachbaut, sondern deren Alltagsrolle übernimmt.
 
 ## UltraEdit, Wine oder nativ? Die üblichen Wege auf dem Mac
 
@@ -75,11 +75,11 @@ Umsteiger aus der Windows-Welt landen meist bei einer von drei Optionen:
 - **Wine oder CrossOver** können das originale Notepad++ auf macOS starten. Das funktioniert grundsätzlich, bleibt aber eine Kompatibilitätsschicht: Die App fügt sich nicht in macOS ein, Updates und Systemintegration bleiben Fremdkörper.
 - **Ein nativer, leichter Editor** verzichtet auf die Emulation und bildet stattdessen die gewohnten Arbeitsabläufe direkt unter macOS ab.
 
-notePad++++ verfolgt den dritten Weg. Der Maßstab ist nicht, ob jedes Menü aussieht wie unter Windows, sondern ob die täglichen Aufgaben genauso schnell erledigt sind.
+{{APP_NAME}} verfolgt den dritten Weg. Der Maßstab ist nicht, ob jedes Menü aussieht wie unter Windows, sondern ob die täglichen Aufgaben genauso schnell erledigt sind.
 
-## Aufgabe für Aufgabe: so deckt notePad++++ den Alltag ab
+## Aufgabe für Aufgabe: so deckt {{APP_NAME}} den Alltag ab
 
-| Aufgabe | Vorgehen in notePad++++ |
+| Aufgabe | Vorgehen in {{APP_NAME}} |
 | --- | --- |
 | Mehrere Konfigurationsdateien parallel offen halten | Tabs in einem schlanken Fenster, ohne Projekt-Overhead |
 | Eine Spalte in Logs oder Listen versetzt bearbeiten | Column Mode für vertikal ausgerichtete Auswahl |
@@ -96,14 +96,14 @@ Zwei Stolperfallen begegnen deutschsprachigen Nutzern besonders häufig.
 
 **Das Semikolon-CSV.** Deutsches Excel exportiert CSV-Dateien mit Semikolon als Trennzeichen und Komma als Dezimalzeichen. Viele Werkzeuge, die stur auf Kommas prüfen, zerlegen solche Dateien falsch. In einem Texteditor bleibt die Datei dagegen das, was sie ist: Text. Spalten lassen sich mit Column Mode ausrichten, Trennzeichen mit Regex-Ersetzungen umstellen, und über die Batch-Verarbeitung lässt sich dieselbe Korrektur auf mehrere Exporte anwenden – mit Diff-Ansicht vor dem endgültigen Schreiben.
 
-**Die kaputten Umlaute.** Ältere Dateien aus der Windows-Zeit sind oft noch in Windows-1252 oder anderen Alt-Kodierungen gespeichert. Wird so eine Datei als UTF-8 interpretiert, werden aus ä, ö, ü und ß unleserliche Ersatzzeichen. notePad++++ öffnet Dateien in solchen älteren Kodierungen korrekt, sodass alte Konfigurationen, Notizen und Exporte lesbar bleiben und sich sauber weiterverarbeiten lassen.
+**Die kaputten Umlaute.** Ältere Dateien aus der Windows-Zeit sind oft noch in Windows-1252 oder anderen Alt-Kodierungen gespeichert. Wird so eine Datei als UTF-8 interpretiert, werden aus ä, ö, ü und ß unleserliche Ersatzzeichen. {{APP_NAME}} öffnet Dateien in solchen älteren Kodierungen korrekt, sodass alte Konfigurationen, Notizen und Exporte lesbar bleiben und sich sauber weiterverarbeiten lassen.
 
 ## Für wen sich der Umstieg lohnt
 
-notePad++++ passt zu Nutzern, deren Textarbeit aus vielen kleinen, konkreten Aufgaben besteht: Administratoren mit Logs und Konfigurationen, Entwickler, die zwischen Projekten schnell etwas nachschlagen oder bereinigen, Support- und Dokumentationsteams mit CSV-Fragmenten und kopierten Webtexten. Für wiederkehrende Abläufe kann die optionale KI-Unterstützung Skripte formulieren helfen; iCloud Sync steht bereit, wenn derselbe Werkzeugkasten auf mehreren Macs verfügbar sein soll.
+{{APP_NAME}} passt zu Nutzern, deren Textarbeit aus vielen kleinen, konkreten Aufgaben besteht: Administratoren mit Logs und Konfigurationen, Entwickler, die zwischen Projekten schnell etwas nachschlagen oder bereinigen, Support- und Dokumentationsteams mit CSV-Fragmenten und kopierten Webtexten. Für wiederkehrende Abläufe kann die optionale KI-Unterstützung Skripte formulieren helfen; iCloud Sync steht bereit, wenn derselbe Werkzeugkasten auf mehreren Macs verfügbar sein soll.
 
-Wer dagegen das komplette Plugin-Ökosystem von Notepad++ erwartet oder eine vollwertige Entwicklungsumgebung sucht, sollte die eigenen Anforderungen ehrlich dagegenhalten. notePad++++ will das tägliche Textwerkzeug sein – nicht mehr, aber auch nicht weniger.
+Wer dagegen das komplette Plugin-Ökosystem von Notepad++ erwartet oder eine vollwertige Entwicklungsumgebung sucht, sollte die eigenen Anforderungen ehrlich dagegenhalten. {{APP_NAME}} will das tägliche Textwerkzeug sein – nicht mehr, aber auch nicht weniger.
 
 ## Marke und Unabhängigkeit
 
-Notepad++ ist eine Marke des jeweiligen Rechteinhabers. notePad++++ ist ein unabhängiger macOS-Texteditor und ist weder mit dem offiziellen Notepad++-Projekt verbunden noch von diesem unterstützt oder autorisiert.
+Notepad++ ist eine Marke des jeweiligen Rechteinhabers. {{APP_NAME}} ist ein unabhängiger macOS-Texteditor und ist weder mit dem offiziellen Notepad++-Projekt verbunden noch von diesem unterstützt oder autorisiert.

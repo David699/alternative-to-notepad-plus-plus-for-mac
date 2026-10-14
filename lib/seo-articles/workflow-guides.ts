@@ -3,8 +3,8 @@ import { APP_NAME } from '../seo'
 import { APP_STORE_URL, GITHUB_REPO_URL, PRODUCT_HUNT_URL } from '../paths'
 
 const commonExternalLinks: SeoArticleLink[] = [
-  { label: 'Download notePad++++ on the App Store', href: APP_STORE_URL, external: true },
-  { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
+  { label: `Download ${APP_NAME} on the App Store`, href: APP_STORE_URL, external: true },
+  { label: `See ${APP_NAME} on Product Hunt`, href: PRODUCT_HUNT_URL, external: true },
   { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
 ]
 
@@ -14,7 +14,7 @@ export const workflowGuides: SeoArticle[] = [
     title: 'Regex Find and Replace on Mac: Clean URLs, Dates, Logs, Lists, and Markdown Faster',
     shortTitle: 'Regex Find and Replace on Mac',
     description:
-      'Use regex find and replace on Mac with notePad++++ to clean structured text, extract URLs, normalize dates, edit logs, update Markdown, and preview text changes before applying them.',
+      `Use regex find and replace on Mac with ${APP_NAME} to clean structured text, extract URLs, normalize dates, edit logs, update Markdown, and preview text changes before applying them.`,
     datePublished: '2026-07-01',
     dateModified: '2026-07-01',
     keywords: [
@@ -26,7 +26,7 @@ export const workflowGuides: SeoArticle[] = [
     ],
     heroKicker: 'For pattern-based text cleanup',
     heroSummary:
-      'Regex Find & Replace is the right tool when the text follows a pattern: URLs, dates, IDs, prefixes, log levels, Markdown links, or repeated formats. notePad++++ keeps regex close to everyday Mac text editing.',
+      `Regex Find & Replace is the right tool when the text follows a pattern: URLs, dates, IDs, prefixes, log levels, Markdown links, or repeated formats. ${APP_NAME} keeps regex close to everyday Mac text editing.`,
     sections: [
       {
         title: 'When regex is better than manual editing',
@@ -54,7 +54,7 @@ export const workflowGuides: SeoArticle[] = [
         title: 'Use regex with safer batch workflows',
         body: [
           'The risk with regex is applying a broad pattern too confidently. A useful Mac regex editor should make it easy to test the match, inspect the result, preview differences, and roll back when the change affects many lines or files.',
-          'That is why notePad++++ treats regex as part of a controlled text workflow rather than a hidden power feature.',
+          `That is why ${APP_NAME} treats regex as part of a controlled text workflow rather than a hidden power feature.`,
         ],
       },
     ],
@@ -72,12 +72,12 @@ export const workflowGuides: SeoArticle[] = [
     },
     faq: [
       {
-        q: 'Does notePad++++ support regex find and replace?',
+        q: `Does ${APP_NAME} support regex find and replace?`,
         a: 'Yes. Regex Find & Replace is one of the core text cleanup workflows and pairs with batch processing, diff preview, and rollback.',
       },
       {
         q: 'Can regex be used across multiple files?',
-        a: 'notePad++++ is built around workspace and batch workflows, so repeated cleanup can be reviewed before broad changes are applied.',
+        a: `${APP_NAME} is built around workspace and batch workflows, so repeated cleanup can be reviewed before broad changes are applied.`,
       },
       {
         q: 'Is regex only for developers?',
@@ -98,7 +98,7 @@ export const workflowGuides: SeoArticle[] = [
     title: 'Batch Text Processing on Mac: Clean Lists, Logs, Markdown, and Local Text Files Safely',
     shortTitle: 'Batch Text Processing on Mac',
     description:
-      'Batch process text on Mac with notePad++++. Clean lists, remove blank lines, deduplicate, sort, extract links, normalize punctuation, strip Markdown, preview diffs, and roll back changes.',
+      `Batch process text on Mac with ${APP_NAME}. Clean lists, remove blank lines, deduplicate, sort, extract links, normalize punctuation, strip Markdown, preview diffs, and roll back changes.`,
     datePublished: '2026-07-01',
     dateModified: '2026-07-01',
     keywords: [
@@ -110,7 +110,7 @@ export const workflowGuides: SeoArticle[] = [
     ],
     heroKicker: 'For repeatable cleanup work',
     heroSummary:
-      'Batch text processing is useful when the same cleanup needs to happen more than once: across many lines, many notes, or many local files. notePad++++ turns those repeated edits into previewable workflows.',
+      `Batch text processing is useful when the same cleanup needs to happen more than once: across many lines, many notes, or many local files. ${APP_NAME} turns those repeated edits into previewable workflows.`,
     sections: [
       {
         title: 'The text jobs that should not stay manual',
@@ -131,7 +131,7 @@ export const workflowGuides: SeoArticle[] = [
         title: 'Preview first, then apply',
         body: [
           'Batch editing is only useful if the result can be trusted. A fast tool that changes many files without a preview creates risk, especially when the input is messy or the pattern is broad.',
-          'notePad++++ emphasizes diff preview, backup, and rollback for broad changes. That makes batch processing useful for real work rather than only throwaway text.',
+          `${APP_NAME} emphasizes diff preview, backup, and rollback for broad changes. That makes batch processing useful for real work rather than only throwaway text.`,
         ],
       },
       {
@@ -156,7 +156,7 @@ export const workflowGuides: SeoArticle[] = [
     },
     faq: [
       {
-        q: 'Can notePad++++ process multiple text files?',
+        q: `Can ${APP_NAME} process multiple text files?`,
         a: 'Yes. It is designed for batch-safe text processing with preview, backup, and rollback for broad changes.',
       },
       {
@@ -165,7 +165,7 @@ export const workflowGuides: SeoArticle[] = [
       },
       {
         q: 'Is batch processing safe?',
-        a: 'Batch changes should be reviewed before they are applied. notePad++++ emphasizes diff preview and rollback to reduce mistakes.',
+        a: `Batch changes should be reviewed before they are applied. ${APP_NAME} emphasizes diff preview and rollback to reduce mistakes.`,
       },
     ],
     related: [

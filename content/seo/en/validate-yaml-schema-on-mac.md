@@ -2,7 +2,7 @@
 slug: "validate-yaml-schema-on-mac"
 title: "Validate GitHub Actions, Docker Compose, and Kubernetes YAML on Mac"
 shortTitle: "Validate YAML with a Schema on Mac"
-description: "Catch wrong keys and bad structure in YAML config files on Mac. notePad++++ checks syntax by default and can validate against schemas for GitHub Actions, Docker Compose, GitLab CI, OpenAPI, and more."
+description: "Catch wrong keys and bad structure in YAML config files on Mac. {{APP_NAME}} checks syntax by default and can validate against schemas for GitHub Actions, Docker Compose, GitLab CI, OpenAPI, and more."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - "Kubernetes YAML editor Mac"
   - "YAML editor Mac"
 heroKicker: "Valid YAML is not the same as a valid config"
-heroSummary: "A YAML file can parse perfectly and still be wrong: a misspelled key, a value of the wrong type, a job missing a field. A schema catches those mistakes while you type. Here is how it works in notePad++++, and what needs Pro."
+heroSummary: "A YAML file can parse perfectly and still be wrong: a misspelled key, a value of the wrong type, a job missing a field. A schema catches those mistakes while you type. Here is how it works in {{APP_NAME}}, and what needs Pro."
 related:
   - label: "Open and validate JSON, JSONC, and JSON5 on Mac"
     href: "/en/open-and-validate-json-jsonc-json5-on-mac/"
@@ -28,7 +28,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "SchemaStore, a catalog of JSON schemas"
@@ -38,7 +38,7 @@ externalLinks:
     href: "github"
     external: true
 faq:
-  - q: "Is YAML validation in notePad++++ free?"
+  - q: "Is YAML validation in {{APP_NAME}} free?"
     a: "Syntax checking is on by default and does not depend on a schema. The YAML tools panel, which covers schemas, custom tags, and Kubernetes mode, is part of Pro. Pro is offered as a lifetime purchase with a free trial period, described on the App Store listing."
   - q: "Is my YAML sent anywhere when a schema is used?"
     a: "No. According to the app, only the schema file is downloaded, and your YAML content is not sent. Remote schema access is off until you turn it on."
@@ -56,7 +56,7 @@ The second kind is harder. The file is valid YAML but wrong for the tool that re
 
 ## Syntax checking by default
 
-In notePad++++, YAML files are checked for syntax errors as you edit, with completion and hover help, using YAML 1.2. This is on by default and does not depend on choosing a schema.
+In {{APP_NAME}}, YAML files are checked for syntax errors as you edit, with completion and hover help, using YAML 1.2. This is on by default and does not depend on choosing a schema.
 
 ## Schema validation with YAML tools
 
@@ -64,7 +64,7 @@ Schema features live in the YAML tools panel, which is part of Pro. Pro is offer
 
 ### Automatic schemas
 
-notePad++++ recognizes common config files and picks a matching schema for you:
+{{APP_NAME}} recognizes common config files and picks a matching schema for you:
 
 | File | Schema |
 | --- | --- |

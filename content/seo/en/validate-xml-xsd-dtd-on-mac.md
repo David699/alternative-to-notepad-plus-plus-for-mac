@@ -2,7 +2,7 @@
 slug: "validate-xml-xsd-dtd-on-mac"
 title: "Validate XML Against an XSD or DTD on Mac, Offline"
 shortTitle: "Validate XML with XSD or DTD on Mac"
-description: "Check that an XML file is well-formed and valid against an XSD or DTD on Mac, using xmllint in Terminal or the XML panel in notePad++++, with errors you can click to jump to the line."
+description: "Check that an XML file is well-formed and valid against an XSD or DTD on Mac, using xmllint in Terminal or the XML panel in {{APP_NAME}}, with errors you can click to jump to the line."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -26,7 +26,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "W3C XML Schema (XSD) 1.0 specification"
@@ -36,7 +36,7 @@ externalLinks:
     href: "github"
     external: true
 faq:
-  - q: "Is XML validation in notePad++++ free?"
+  - q: "Is XML validation in {{APP_NAME}} free?"
     a: "Part of it. The XML panel, the syntax check, validation against the DTD declared in the file, the manual Validate button, and click-to-jump error locating are free. Choosing your own XSD or DTD file, and granting an extra folder when the schema references other files, are part of Pro. Pro is offered as a lifetime purchase with a free trial period, described on the App Store listing."
   - q: "Does it support XSD 1.1?"
     a: "No. The supported range is XML syntax, XSD 1.0, external DTDs, and DTDs declared inside the XML."
@@ -95,7 +95,7 @@ for f in *.xml; do xmllint --noout --schema order.xsd "$f" 2>&1 | tail -1; done
 
 Each file then prints one line, either `validates` or `fails to validate`. This is the right tool for a batch or a build script. It is less pleasant for fixing one file, because you read a line number in Terminal and then go find it in an editor.
 
-## Option 2: The XML panel in notePad++++
+## Option 2: The XML panel in {{APP_NAME}}
 
 When you open an XML file, an **XML** button appears at the top right of the editor. If problems are found, the number of issues is shown next to it. The panel runs the same `xmllint` that macOS provides, so the messages come from that tool, shown with the line number and, when `xmllint` reports one, the column.
 

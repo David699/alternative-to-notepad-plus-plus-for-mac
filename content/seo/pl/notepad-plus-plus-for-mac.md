@@ -22,16 +22,16 @@ keywords:
 heroKicker: Dla programistów i administratorów
 heroSummary: >-
   Logi, konfiguracje, zrzuty z produkcji — do takich zadań nie potrzeba
-  pełnego IDE, tylko narzędzia, które otwiera się natychmiast. notePad++++ to
+  pełnego IDE, tylko narzędzia, które otwiera się natychmiast. {{APP_NAME}} to
   niezależny, natywny edytor tekstu dla macOS, który przejmuje tę rolę i radzi
   sobie z polskimi znakami.
 related:
   - label: Angielska wersja tej strony
     href: /en/notepad-plus-plus-for-mac/
-  - label: Angielska strona główna notePad++++
+  - label: Angielska strona główna {{APP_NAME}}
     href: /en/
 externalLinks:
-  - label: Pobierz notePad++++ z App Store
+  - label: Pobierz {{APP_NAME}} z App Store
     href: appStore
     external: true
   - label: Odwiedź oficjalną stronę Notepad++
@@ -41,9 +41,9 @@ externalLinks:
     href: github
     external: true
 faq:
-  - q: Czy notePad++++ to oficjalna wersja Notepad++ na Maca?
+  - q: Czy {{APP_NAME}} to oficjalna wersja Notepad++ na Maca?
     a: >-
-      Nie. notePad++++ to niezależny edytor tekstu dla macOS, niezwiązany z
+      Nie. {{APP_NAME}} to niezależny edytor tekstu dla macOS, niezwiązany z
       oficjalnym projektem Notepad++.
   - q: Czy polskie znaki nie będą się sypać na krzaczki?
     a: >-
@@ -56,14 +56,14 @@ faq:
       pomagają filtrować oraz porządkować linie logów.
   - q: Czy potrzebuję Wine lub maszyny wirtualnej?
     a: >-
-      Nie. notePad++++ działa natywnie w macOS, bez warstwy zgodności z
+      Nie. {{APP_NAME}} działa natywnie w macOS, bez warstwy zgodności z
       Windowsem.
 ---
 ## Notepad++ był wszędzie. A co na Macu?
 
 W polskim świecie programistów i administratorów Notepad++ był narzędziem domyślnym: na uczelni, w pracy, na każdym firmowym pececie. Otwierało się w nim log z serwera, poprawiało trzy linie w pliku konfiguracyjnym, czyściło eksport z bazy. Szybko, bez ceregieli.
 
-Po przesiadce na Maca to przyzwyczajenie zostaje, a narzędzie znika — Notepad++ nie ma wersji na macOS. notePad++++ celuje dokładnie w tę lukę. To nie jest oficjalny Notepad++ ani jego kopia, lecz niezależny, natywny edytor tekstu dla macOS, który przejmuje tę codzienną rolę.
+Po przesiadce na Maca to przyzwyczajenie zostaje, a narzędzie znika — Notepad++ nie ma wersji na macOS. {{APP_NAME}} celuje dokładnie w tę lukę. To nie jest oficjalny Notepad++ ani jego kopia, lecz niezależny, natywny edytor tekstu dla macOS, który przejmuje tę codzienną rolę.
 
 ## Logi, konfiguracje i zrzuty z produkcji
 
@@ -79,14 +79,14 @@ To zadania, w których liczy się czas otwarcia pliku i możliwość sprawdzenia
 
 Klasyczny problem: otwierasz starszy plik i zamiast ą, ę, ś, ż czy ł widzisz krzaczki. Dzieje się tak, gdy plik zapisano kiedyś w Windows-1250 lub ISO-8859-2, a dziś otwiera się go tak, jakby był w UTF-8.
 
-notePad++++ poprawnie otwiera pliki w takich starszych kodowaniach, więc dawne notatki, skrypty i eksporty pozostają czytelne, a polskie znaki nie zamieniają się w krzaczki. Przy pracy z materiałem sprzed lat to oszczędza sporo nerwów.
+{{APP_NAME}} poprawnie otwiera pliki w takich starszych kodowaniach, więc dawne notatki, skrypty i eksporty pozostają czytelne, a polskie znaki nie zamieniają się w krzaczki. Przy pracy z materiałem sprzed lat to oszczędza sporo nerwów.
 
-## Czego można oczekiwać po notePad++++
+## Czego można oczekiwać po {{APP_NAME}}
 
-notePad++++ sprawdza się tam, gdzie dzień składa się z wielu drobnych zadań na tekście: logi, konfiguracje, fragmenty CSV, notatki, kod do szybkiego podejrzenia. Do powtarzalnych czynności można skorzystać z opcjonalnego wsparcia AI przy pisaniu skryptów czyszczących, a iCloud Sync udostępnia to samo środowisko na kilku Makach.
+{{APP_NAME}} sprawdza się tam, gdzie dzień składa się z wielu drobnych zadań na tekście: logi, konfiguracje, fragmenty CSV, notatki, kod do szybkiego podejrzenia. Do powtarzalnych czynności można skorzystać z opcjonalnego wsparcia AI przy pisaniu skryptów czyszczących, a iCloud Sync udostępnia to samo środowisko na kilku Makach.
 
-Warto być uczciwym co do granic: nie ma tu ekosystemu wtyczek Notepad++ ani pełni możliwości IDE. Jeśli potrzebujesz kompilować i debugować projekt, właściwym wyborem pozostaje środowisko programistyczne. notePad++++ ma być lekkim, natywnym narzędziem do codziennej pracy z tekstem — i tyle, i aż tyle.
+Warto być uczciwym co do granic: nie ma tu ekosystemu wtyczek Notepad++ ani pełni możliwości IDE. Jeśli potrzebujesz kompilować i debugować projekt, właściwym wyborem pozostaje środowisko programistyczne. {{APP_NAME}} ma być lekkim, natywnym narzędziem do codziennej pracy z tekstem — i tyle, i aż tyle.
 
 ## Znak towarowy i niezależność
 
-Notepad++ jest znakiem towarowym swojego właściciela. notePad++++ to niezależny edytor tekstu dla macOS i nie jest powiązany z oficjalnym projektem Notepad++, ani przez niego wspierany czy autoryzowany.
+Notepad++ jest znakiem towarowym swojego właściciela. {{APP_NAME}} to niezależny edytor tekstu dla macOS i nie jest powiązany z oficjalnym projektem Notepad++, ani przez niego wspierany czy autoryzowany.

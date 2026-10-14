@@ -1,10 +1,11 @@
+import { APP_NAME } from '../../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
 import { SITE_URL } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: 'Terms of Service',
-  description: 'notePad++++ Terms of Service — please read before using the app',
+  description: `${APP_NAME} Terms of Service — please read before using the app`,
   alternates: {
     canonical: `${SITE_URL}/en/terms/`,
     languages: { 'zh-CN': `${SITE_URL}/terms/`, en: `${SITE_URL}/en/terms/` },
@@ -16,7 +17,7 @@ export default function TermsEn() {
   return (
     <LegalPage
       title="Terms of Service"
-      subtitle="Please read these terms before downloading or using notePad++++. By using the app you agree to these terms."
+      subtitle={`Please read these terms before downloading or using ${APP_NAME}. By using the app you agree to these terms.`}
       lastUpdated="Last updated: May 2026"
       backLabel="Back to Home"
       backHref="/en/"
@@ -25,7 +26,7 @@ export default function TermsEn() {
         {
           heading: '1. License',
           body: [
-            'notePad++++ is distributed through the Apple App Store and requires macOS 12 or later. We grant you a personal, non-exclusive, non-transferable license to install and use the app on Mac devices you own or control.',
+            `${APP_NAME} is distributed through the Apple App Store and requires macOS 12 or later. We grant you a personal, non-exclusive, non-transferable license to install and use the app on Mac devices you own or control.`,
           ],
         },
         {
@@ -38,7 +39,7 @@ export default function TermsEn() {
         {
           heading: '3. AI Features',
           body: [
-            'AI features require you to supply an API key from a third-party AI provider (e.g., OpenAI) and comply with that provider\'s terms of service. Any charges from the AI provider are between you and that provider — notePad++++ does not charge for AI usage.',
+            `AI features require you to supply an API key from a third-party AI provider (e.g., OpenAI) and comply with that provider's terms of service. Any charges from the AI provider are between you and that provider — ${APP_NAME} does not charge for AI usage.`,
           ],
         },
         {
@@ -63,7 +64,7 @@ export default function TermsEn() {
         {
           heading: '7. Intellectual Property',
           body: [
-            'The notePad++++ name, icon, interface design, and code are owned by the developer. macOS is a registered trademark of Apple Inc. Notepad++ is an open-source project by Don Ho; notePad++++ has no affiliation with it.',
+            `The ${APP_NAME} name, icon, interface design, and code are owned by the developer. macOS is a registered trademark of Apple Inc. Notepad++ is an open-source project by Don Ho; ${APP_NAME} has no affiliation with it.`,
           ],
         },
         {

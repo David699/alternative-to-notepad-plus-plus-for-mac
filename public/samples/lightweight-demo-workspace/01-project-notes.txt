@@ -1,0 +1,36 @@
+PROJECT NOTES: A LIGHTER EDITING DAY
+
+Goal
+----
+Keep everyday text work easy to start and easy to follow.
+A useful editor should make the next step obvious.
+
+Keep related files together
+--------------------------
+Use one tab for notes, another for a checklist,
+and another for reference text.
+Switch documents without arranging several windows.
+
+Choose a focused view
+---------------------
+The regular view keeps navigation tools nearby.
+Zen Mode removes extra controls from the editing area.
+Minimal Mode keeps a small set of writing controls.
+Return to the regular view when you need more tools.
+
+Work with a local TXT file
+-------------------------
+Open the document you want to edit.
+Read a paragraph and change a line.
+Save a copy and check the result.
+Use sample files when comparing different editors.
+
+A practical definition of lightweight
+-------------------------------------
+Fewer window switches.
+Less visible clutter.
+Useful controls when you need them.
+A workflow you can understand.
+
+A clean layout is not a speed or memory benchmark.
+Measure performance separately on your own Mac.

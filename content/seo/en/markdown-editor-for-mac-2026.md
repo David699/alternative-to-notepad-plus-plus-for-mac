@@ -13,8 +13,8 @@ keywords:
   - "edit Markdown files on Mac"
 heroKicker: "A practical 2026 workflow guide"
 heroSummary: "The right Markdown editor depends on what happens around the document. Writing comfort matters, but so do local files, preview, folder search, regex cleanup, and repeatable changes across a collection of notes or documentation."
-heroImage: "/images/screen-markdown-en.png"
-heroImageAlt: "notePad++++ Markdown editor on Mac showing Markdown source and a rendered preview side by side with tasks, tables, code, math, and Mermaid diagrams"
+heroImage: "/images/screen-markdown-en.webp"
+heroImageAlt: "{{APP_NAME}} Markdown editor on Mac showing Markdown source and a rendered preview side by side with tasks, tables, code, math, and Mermaid diagrams"
 related:
   - label: "Markdown editor with live preview for Mac"
     href: "/en/markdown-editor-with-live-preview-for-mac/"
@@ -27,10 +27,10 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
-  - label: "See notePad++++ on Product Hunt"
+  - label: "See {{APP_NAME}} on Product Hunt"
     href: "productHunt"
     external: true
   - label: "View this website repository on GitHub"
@@ -38,8 +38,8 @@ externalLinks:
     external: true
 faq:
   - q: "What is the best Markdown editor for Mac in 2026?"
-    a: "There is no single best choice. A writing-first app suits focused drafting, a code editor suits repositories, and notePad++++ suits users who combine Markdown preview with local text search, regex cleanup, and repeatable processing."
-  - q: "Does notePad++++ show a live Markdown preview?"
+    a: "There is no single best choice. A writing-first app suits focused drafting, a code editor suits repositories, and {{APP_NAME}} suits users who combine Markdown preview with local text search, regex cleanup, and repeatable processing."
+  - q: "Does {{APP_NAME}} show a live Markdown preview?"
     a: "Yes. It supports editing and previewing Markdown side by side, so the source and rendered result remain visible together."
   - q: "Can it work with a folder of Markdown files?"
     a: "Yes. Workspace Search helps find text across a folder, while scripts and batch tools can handle repeated cleanup tasks."
@@ -66,7 +66,7 @@ An inline rendered view reduces visual noise during prose writing. A side-by-sid
 
 Preview is only one part of maintaining Markdown. Real folders accumulate renamed headings, repeated links, inconsistent punctuation, duplicate sections, trailing spaces, and formatting rules that need to be applied more than once.
 
-notePad++++ combines side-by-side Markdown Preview with tabs, Workspace Search, Regex Find & Replace, Column Mode, Script Pipelines, and Batch Processing. That makes it a practical option when writing and text maintenance happen in the same session.
+{{APP_NAME}} combines side-by-side Markdown Preview with tabs, Workspace Search, Regex Find & Replace, Column Mode, Script Pipelines, and Batch Processing. That makes it a practical option when writing and text maintenance happen in the same session.
 
 - Search a workspace folder instead of opening notes one by one.
 - Use regex to update repeated links, labels, or heading patterns.
@@ -77,11 +77,11 @@ notePad++++ combines side-by-side Markdown Preview with tabs, Workspace Search, 
 
 Choose a dedicated writing app if themes, distraction-free composition, publishing layouts, or polished document export are the center of your work. Choose a full code editor if source control, extensions, terminals, and language tools matter more than a lightweight editing experience.
 
-notePad++++ is aimed at a narrower middle ground: local Markdown and plain-text work where preview, precise cleanup, folder search, and repeatable processing matter more than building a complete publishing system or software development environment.
+{{APP_NAME}} is aimed at a narrower middle ground: local Markdown and plain-text work where preview, precise cleanup, folder search, and repeatable processing matter more than building a complete publishing system or software development environment.
 
 ## Markdown editor features by real task
 
-| Task | What to look for | notePad++++ fit |
+| Task | What to look for | {{APP_NAME}} fit |
 | --- | --- | --- |
 | Write a short document | Fast local editing and a readable preview | Tabs and side-by-side Markdown Preview |
 | Maintain documentation | Folder search, visible source, and link cleanup | Workspace Search plus Regex Find & Replace |

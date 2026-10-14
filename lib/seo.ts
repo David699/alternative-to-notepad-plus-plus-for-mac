@@ -1,3 +1,4 @@
+// 网站显示名称统一从这里读取；改名后重新构建网站。
 export const APP_NAME = 'notePad++++'
 
 export const ZH_APP_DESC =

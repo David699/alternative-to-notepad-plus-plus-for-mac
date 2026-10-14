@@ -1,3 +1,4 @@
+import { APP_NAME } from './seo'
 import { SITE_URL } from '@/lib/paths'
 
 export const APP_SUPPORTED_LOCALE_SLUGS = [
@@ -83,7 +84,7 @@ const localizedPages = {
     label: 'German',
     nativeLabel: 'Deutsch',
     path: '/de/',
-    title: 'notePad++++ - Notepad++ Alternative für Mac',
+    title: `${APP_NAME} - Notepad++ Alternative für Mac`,
     description:
       'Eine leichte Notepad++ Alternative für Mac mit Tabs, Spaltenmodus, regulärer Suche und Ersetzung, Workspace-Suche, Skript-Pipelines, Stapelverarbeitung und KI-Unterstützung.',
     keywords: [
@@ -101,7 +102,7 @@ const localizedPages = {
       headline: 'Eine Notepad++ Alternative',
       highlight: 'für Mac',
       subheadline:
-        'notePad++++ bringt vertraute Notepad++-Workflows auf macOS: Tabs, Spaltenmodus, Regex-Suche, Workspace-Suche, Skript-Pipelines und KI-Hilfe für wiederkehrende Textarbeit.',
+        `${APP_NAME} bringt vertraute Notepad++-Workflows auf macOS: Tabs, Spaltenmodus, Regex-Suche, Workspace-Suche, Skript-Pipelines und KI-Hilfe für wiederkehrende Textarbeit.`,
       badges: ['Tabs', 'Spaltenmodus', 'Regex-Ersetzung', 'Batch-Textverarbeitung'],
       primaryCta: 'Im App Store laden',
       secondaryCta: 'Funktionen ansehen',
@@ -123,13 +124,13 @@ const localizedPages = {
     faq: {
       title: 'Häufige Fragen',
       items: [
-        { q: 'Ist notePad++++ die offizielle Mac-Version von Notepad++?', a: 'Nein. notePad++++ ist ein eigenständiger macOS-Texteditor, inspiriert von bekannten Notepad++-Workflows.' },
+        { q: `Ist ${APP_NAME} die offizielle Mac-Version von Notepad++?`, a: `Nein. ${APP_NAME} ist ein eigenständiger macOS-Texteditor, inspiriert von bekannten Notepad++-Workflows.` },
         { q: 'Welche macOS-Versionen werden unterstützt?', a: 'macOS 12 Monterey oder neuer, inklusive Apple Silicon und Intel Mac.' },
         { q: 'Kann ich Regex und Spaltenbearbeitung nutzen?', a: 'Ja. Beides gehört zu den Kernfunktionen der App.' },
       ],
     },
-    cta: { title: 'Bereit für einen besseren Mac-Texteditor?', body: 'Installiere notePad++++ und erledige wiederkehrende Textarbeit schneller.', appStore: 'Im App Store laden' },
-    footer: 'Notepad++ ist ein Open-Source-Projekt von Don Ho. notePad++++ ist ein eigenständiger macOS-Texteditor.',
+    cta: { title: 'Bereit für einen besseren Mac-Texteditor?', body: `Installiere ${APP_NAME} und erledige wiederkehrende Textarbeit schneller.`, appStore: 'Im App Store laden' },
+    footer: `Notepad++ ist ein Open-Source-Projekt von Don Ho. ${APP_NAME} ist ein eigenständiger macOS-Texteditor.`,
   },
   es: {
     slug: 'es',
@@ -138,7 +139,7 @@ const localizedPages = {
     label: 'Spanish',
     nativeLabel: 'Español',
     path: '/es/',
-    title: 'notePad++++ - Alternativa a Notepad++ para Mac',
+    title: `${APP_NAME} - Alternativa a Notepad++ para Mac`,
     description:
       'Una alternativa ligera a Notepad++ para Mac con pestañas, modo columna, búsqueda y reemplazo con regex, búsqueda en carpetas, pipelines de scripts, procesamiento por lotes y ayuda de IA.',
     keywords: [
@@ -156,7 +157,7 @@ const localizedPages = {
       headline: 'La alternativa a Notepad++',
       highlight: 'para Mac',
       subheadline:
-        'notePad++++ lleva a macOS un flujo familiar: pestañas, modo columna, búsqueda con expresiones regulares, búsqueda en carpetas, automatización con scripts y ayuda de IA.',
+        `${APP_NAME} lleva a macOS un flujo familiar: pestañas, modo columna, búsqueda con expresiones regulares, búsqueda en carpetas, automatización con scripts y ayuda de IA.`,
       badges: ['Pestañas', 'Modo columna', 'Regex', 'Procesamiento por lotes'],
       primaryCta: 'Descargar en App Store',
       secondaryCta: 'Ver funciones',
@@ -178,13 +179,13 @@ const localizedPages = {
     faq: {
       title: 'Preguntas frecuentes',
       items: [
-        { q: '¿Es la versión oficial de Notepad++ para Mac?', a: 'No. notePad++++ es una app independiente para macOS inspirada en flujos de trabajo populares de Notepad++.' },
+        { q: '¿Es la versión oficial de Notepad++ para Mac?', a: `No. ${APP_NAME} es una app independiente para macOS inspirada en flujos de trabajo populares de Notepad++.` },
         { q: '¿Soporta modo columna y regex?', a: 'Sí. El modo columna y la búsqueda/reemplazo con regex son funciones principales.' },
         { q: '¿Necesito una cuenta?', a: 'No para editar archivos locales. Las funciones de IA solo se usan cuando tú las configuras.' },
       ],
     },
-    cta: { title: 'Empieza a editar texto mejor en Mac', body: 'Descarga notePad++++ y acelera tus tareas repetitivas de texto.', appStore: 'Descargar en App Store' },
-    footer: 'Notepad++ es un proyecto open-source de Don Ho. notePad++++ es un editor independiente para macOS.',
+    cta: { title: 'Empieza a editar texto mejor en Mac', body: `Descarga ${APP_NAME} y acelera tus tareas repetitivas de texto.`, appStore: 'Descargar en App Store' },
+    footer: `Notepad++ es un proyecto open-source de Don Ho. ${APP_NAME} es un editor independiente para macOS.`,
   },
   fr: {
     slug: 'fr',
@@ -193,7 +194,7 @@ const localizedPages = {
     label: 'French',
     nativeLabel: 'Français',
     path: '/fr/',
-    title: 'notePad++++ - Alternative à Notepad++ pour Mac',
+    title: `${APP_NAME} - Alternative à Notepad++ pour Mac`,
     description:
       'Une alternative légère à Notepad++ pour Mac avec onglets, mode colonne, recherche et remplacement regex, recherche dans les dossiers, scripts, traitement par lots et assistance IA.',
     keywords: [
@@ -211,7 +212,7 @@ const localizedPages = {
       headline: 'Une alternative à Notepad++',
       highlight: 'pour Mac',
       subheadline:
-        'notePad++++ apporte sur macOS les habitudes de Notepad++ : onglets, mode colonne, regex, recherche dans les dossiers, automatisation par scripts et aide IA.',
+        `${APP_NAME} apporte sur macOS les habitudes de Notepad++ : onglets, mode colonne, regex, recherche dans les dossiers, automatisation par scripts et aide IA.`,
       badges: ['Onglets', 'Mode colonne', 'Regex', 'Traitement par lots'],
       primaryCta: 'Télécharger sur l’App Store',
       secondaryCta: 'Voir les fonctions',
@@ -233,13 +234,13 @@ const localizedPages = {
     faq: {
       title: 'Questions fréquentes',
       items: [
-        { q: 'notePad++++ est-il Notepad++ officiel pour Mac ?', a: 'Non. C’est un éditeur macOS indépendant inspiré des workflows appréciés dans Notepad++.' },
+        { q: `${APP_NAME} est-il Notepad++ officiel pour Mac ?`, a: 'Non. C’est un éditeur macOS indépendant inspiré des workflows appréciés dans Notepad++.' },
         { q: 'Le mode colonne est-il inclus ?', a: 'Oui. Le mode colonne est conçu pour les listes alignées, tableaux, logs et CSV.' },
         { q: 'Les scripts modifient-ils les fichiers sans confirmation ?', a: 'Non. Les changements importants peuvent être prévisualisés avant application.' },
       ],
     },
-    cta: { title: 'Essayez un éditeur Mac plus pratique', body: 'Téléchargez notePad++++ pour traiter du texte plus vite.', appStore: 'Télécharger sur l’App Store' },
-    footer: 'Notepad++ est un projet open-source de Don Ho. notePad++++ est un éditeur macOS indépendant.',
+    cta: { title: 'Essayez un éditeur Mac plus pratique', body: `Téléchargez ${APP_NAME} pour traiter du texte plus vite.`, appStore: 'Télécharger sur l’App Store' },
+    footer: `Notepad++ est un projet open-source de Don Ho. ${APP_NAME} est un éditeur macOS indépendant.`,
   },
   it: {
     slug: 'it',
@@ -248,7 +249,7 @@ const localizedPages = {
     label: 'Italian',
     nativeLabel: 'Italiano',
     path: '/it/',
-    title: 'notePad++++ - Alternativa a Notepad++ per Mac',
+    title: `${APP_NAME} - Alternativa a Notepad++ per Mac`,
     description:
       'Una leggera alternativa a Notepad++ per Mac con schede, modalità colonna, ricerca e sostituzione regex, ricerca nel workspace, pipeline di script, elaborazione batch e assistenza IA.',
     keywords: [
@@ -266,7 +267,7 @@ const localizedPages = {
       headline: 'L’alternativa a Notepad++',
       highlight: 'per Mac',
       subheadline:
-        'notePad++++ porta su macOS schede, modalità colonna, regex, ricerca nel workspace, automazione con script e assistenza IA per il lavoro testuale ripetitivo.',
+        `${APP_NAME} porta su macOS schede, modalità colonna, regex, ricerca nel workspace, automazione con script e assistenza IA per il lavoro testuale ripetitivo.`,
       badges: ['Schede', 'Modalità colonna', 'Regex', 'Elaborazione batch'],
       primaryCta: 'Scarica da App Store',
       secondaryCta: 'Vedi funzioni',
@@ -288,13 +289,13 @@ const localizedPages = {
     faq: {
       title: 'Domande frequenti',
       items: [
-        { q: 'È Notepad++ ufficiale per Mac?', a: 'No. notePad++++ è un editor indipendente per macOS ispirato ai flussi di lavoro di Notepad++.' },
+        { q: 'È Notepad++ ufficiale per Mac?', a: `No. ${APP_NAME} è un editor indipendente per macOS ispirato ai flussi di lavoro di Notepad++.` },
         { q: 'Supporta regex e modalità colonna?', a: 'Sì, entrambe sono funzioni centrali.' },
         { q: 'Funziona con file locali?', a: 'Sì. L’app lavora prima di tutto con file locali e autorizzazioni macOS.' },
       ],
     },
-    cta: { title: 'Porta più potenza nel testo su Mac', body: 'Scarica notePad++++ e velocizza le attività ripetitive.', appStore: 'Scarica da App Store' },
-    footer: 'Notepad++ è un progetto open-source di Don Ho. notePad++++ è un editor macOS indipendente.',
+    cta: { title: 'Porta più potenza nel testo su Mac', body: `Scarica ${APP_NAME} e velocizza le attività ripetitive.`, appStore: 'Scarica da App Store' },
+    footer: `Notepad++ è un progetto open-source di Don Ho. ${APP_NAME} è un editor macOS indipendente.`,
   },
   ja: {
     slug: 'ja',
@@ -303,7 +304,7 @@ const localizedPages = {
     label: 'Japanese',
     nativeLabel: '日本語',
     path: '/ja/',
-    title: 'notePad++++ - Mac向けNotepad++代替エディタ',
+    title: `${APP_NAME} - Mac向けNotepad++代替エディタ`,
     description:
       'Mac向けの軽量なNotepad++代替エディタ。タブ編集、矩形選択・列編集、正規表現検索と置換、ワークスペース検索、スクリプト処理、バッチ処理、AI支援に対応。',
     keywords: [
@@ -321,7 +322,7 @@ const localizedPages = {
       headline: 'Mac向けの',
       highlight: 'Notepad++代替',
       subheadline:
-        'notePad++++ は、タブ編集、列編集、正規表現検索と置換、フォルダ横断検索、スクリプト自動化、AI支援を備えたMac向けテキスト作業環境です。',
+        `${APP_NAME} は、タブ編集、列編集、正規表現検索と置換、フォルダ横断検索、スクリプト自動化、AI支援を備えたMac向けテキスト作業環境です。`,
       badges: ['タブ編集', '列編集', '正規表現置換', 'バッチ処理'],
       primaryCta: 'App Storeで入手',
       secondaryCta: '機能を見る',
@@ -343,13 +344,13 @@ const localizedPages = {
     faq: {
       title: 'よくある質問',
       items: [
-        { q: 'Notepad++の公式Mac版ですか？', a: 'いいえ。notePad++++ はNotepad++のワークフローに着想を得た独立したmacOSアプリです。' },
+        { q: 'Notepad++の公式Mac版ですか？', a: `いいえ。${APP_NAME} はNotepad++のワークフローに着想を得た独立したmacOSアプリです。` },
         { q: '列編集と正規表現に対応していますか？', a: 'はい。どちらも主要機能として搭載されています。' },
         { q: 'ローカルファイルを編集できますか？', a: 'はい。macOSの権限に基づき、ローカルファイル中心に動作します。' },
       ],
     },
-    cta: { title: 'Macのテキスト作業をもっと速く', body: 'notePad++++ を入手して、繰り返し作業を効率化しましょう。', appStore: 'App Storeで入手' },
-    footer: 'Notepad++ は Don Ho によるオープンソースプロジェクトです。notePad++++ は独立したmacOSテキストエディタです。',
+    cta: { title: 'Macのテキスト作業をもっと速く', body: `${APP_NAME} を入手して、繰り返し作業を効率化しましょう。`, appStore: 'App Storeで入手' },
+    footer: `Notepad++ は Don Ho によるオープンソースプロジェクトです。${APP_NAME} は独立したmacOSテキストエディタです。`,
   },
   ko: {
     slug: 'ko',
@@ -358,7 +359,7 @@ const localizedPages = {
     label: 'Korean',
     nativeLabel: '한국어',
     path: '/ko/',
-    title: 'notePad++++ - Mac용 Notepad++ 대안',
+    title: `${APP_NAME} - Mac용 Notepad++ 대안`,
     description:
       'Mac용 가벼운 Notepad++ 대안입니다. 탭 편집, 열 모드, 정규식 찾기 및 바꾸기, 워크스페이스 검색, 스크립트 파이프라인, 일괄 처리, AI 지원을 제공합니다.',
     keywords: [
@@ -376,7 +377,7 @@ const localizedPages = {
       headline: 'Mac용',
       highlight: 'Notepad++ 대안',
       subheadline:
-        'notePad++++는 탭 편집, 열 모드, 정규식 검색/바꾸기, 워크스페이스 검색, 스크립트 자동화, AI 지원을 갖춘 Mac 텍스트 작업 도구입니다.',
+        `${APP_NAME}는 탭 편집, 열 모드, 정규식 검색/바꾸기, 워크스페이스 검색, 스크립트 자동화, AI 지원을 갖춘 Mac 텍스트 작업 도구입니다.`,
       badges: ['탭 편집', '열 모드', '정규식 바꾸기', '일괄 처리'],
       primaryCta: 'App Store에서 받기',
       secondaryCta: '기능 보기',
@@ -398,13 +399,13 @@ const localizedPages = {
     faq: {
       title: '자주 묻는 질문',
       items: [
-        { q: '공식 Notepad++ Mac 버전인가요?', a: '아닙니다. notePad++++는 Notepad++ 워크플로에서 영감을 받은 독립 macOS 앱입니다.' },
+        { q: '공식 Notepad++ Mac 버전인가요?', a: `아닙니다. ${APP_NAME}는 Notepad++ 워크플로에서 영감을 받은 독립 macOS 앱입니다.` },
         { q: '열 모드와 정규식을 지원하나요?', a: '네. 두 기능 모두 핵심 기능입니다.' },
         { q: '계정이 필요한가요?', a: '로컬 파일 편집에는 계정이 필요하지 않습니다.' },
       ],
     },
-    cta: { title: 'Mac 텍스트 작업을 더 빠르게', body: 'notePad++++를 설치하고 반복 편집 시간을 줄이세요.', appStore: 'App Store에서 받기' },
-    footer: 'Notepad++는 Don Ho의 오픈소스 프로젝트입니다. notePad++++는 독립적인 macOS 텍스트 편집기입니다.',
+    cta: { title: 'Mac 텍스트 작업을 더 빠르게', body: `${APP_NAME}를 설치하고 반복 편집 시간을 줄이세요.`, appStore: 'App Store에서 받기' },
+    footer: `Notepad++는 Don Ho의 오픈소스 프로젝트입니다. ${APP_NAME}는 독립적인 macOS 텍스트 편집기입니다.`,
   },
   'pt-br': {
     slug: 'pt-br',
@@ -413,7 +414,7 @@ const localizedPages = {
     label: 'Portuguese Brazil',
     nativeLabel: 'Português',
     path: '/pt-br/',
-    title: 'notePad++++ - Alternativa ao Notepad++ para Mac',
+    title: `${APP_NAME} - Alternativa ao Notepad++ para Mac`,
     description:
       'Uma alternativa leve ao Notepad++ para Mac com abas, modo coluna, busca e substituição com regex, pesquisa no workspace, pipelines de scripts, processamento em lote e assistência de IA.',
     keywords: [
@@ -431,7 +432,7 @@ const localizedPages = {
       headline: 'A alternativa ao Notepad++',
       highlight: 'para Mac',
       subheadline:
-        'notePad++++ leva ao macOS abas, modo coluna, busca com regex, pesquisa em pastas, automação por scripts e IA para tarefas repetitivas de texto.',
+        `${APP_NAME} leva ao macOS abas, modo coluna, busca com regex, pesquisa em pastas, automação por scripts e IA para tarefas repetitivas de texto.`,
       badges: ['Abas', 'Modo coluna', 'Regex', 'Processamento em lote'],
       primaryCta: 'Baixar na App Store',
       secondaryCta: 'Ver recursos',
@@ -453,13 +454,13 @@ const localizedPages = {
     faq: {
       title: 'Perguntas frequentes',
       items: [
-        { q: 'É a versão oficial do Notepad++ para Mac?', a: 'Não. notePad++++ é um app macOS independente inspirado em fluxos de trabalho do Notepad++.' },
+        { q: 'É a versão oficial do Notepad++ para Mac?', a: `Não. ${APP_NAME} é um app macOS independente inspirado em fluxos de trabalho do Notepad++.` },
         { q: 'Suporta regex e modo coluna?', a: 'Sim. Ambos são recursos principais.' },
         { q: 'Preciso criar conta?', a: 'Não para editar arquivos locais. IA só é usada quando você configura.' },
       ],
     },
-    cta: { title: 'Edite texto melhor no Mac', body: 'Baixe notePad++++ e reduza o trabalho repetitivo.', appStore: 'Baixar na App Store' },
-    footer: 'Notepad++ é um projeto open-source de Don Ho. notePad++++ é um editor macOS independente.',
+    cta: { title: 'Edite texto melhor no Mac', body: `Baixe ${APP_NAME} e reduza o trabalho repetitivo.`, appStore: 'Baixar na App Store' },
+    footer: `Notepad++ é um projeto open-source de Don Ho. ${APP_NAME} é um editor macOS independente.`,
   },
   ru: {
     slug: 'ru',
@@ -468,7 +469,7 @@ const localizedPages = {
     label: 'Russian',
     nativeLabel: 'Русский',
     path: '/ru/',
-    title: 'notePad++++ - альтернатива Notepad++ для Mac',
+    title: `${APP_NAME} - альтернатива Notepad++ для Mac`,
     description:
       'Легкая альтернатива Notepad++ для Mac: вкладки, режим колонок, поиск и замена с regex, поиск по рабочей папке, скриптовые пайплайны, пакетная обработка и помощь AI.',
     keywords: [
@@ -486,7 +487,7 @@ const localizedPages = {
       headline: 'Альтернатива Notepad++',
       highlight: 'для Mac',
       subheadline:
-        'notePad++++ переносит на macOS привычные возможности: вкладки, режим колонок, regex, поиск по папкам, автоматизацию скриптами и AI для повторяющейся работы с текстом.',
+        `${APP_NAME} переносит на macOS привычные возможности: вкладки, режим колонок, regex, поиск по папкам, автоматизацию скриптами и AI для повторяющейся работы с текстом.`,
       badges: ['Вкладки', 'Режим колонок', 'Regex', 'Пакетная обработка'],
       primaryCta: 'Скачать в App Store',
       secondaryCta: 'Смотреть функции',
@@ -508,13 +509,13 @@ const localizedPages = {
     faq: {
       title: 'Частые вопросы',
       items: [
-        { q: 'Это официальный Notepad++ для Mac?', a: 'Нет. notePad++++ - независимый редактор для macOS, вдохновленный рабочими процессами Notepad++.' },
+        { q: 'Это официальный Notepad++ для Mac?', a: `Нет. ${APP_NAME} - независимый редактор для macOS, вдохновленный рабочими процессами Notepad++.` },
         { q: 'Есть ли режим колонок и regex?', a: 'Да. Оба режима входят в основные функции.' },
         { q: 'Нужен ли аккаунт?', a: 'Для редактирования локальных файлов аккаунт не нужен.' },
       ],
     },
-    cta: { title: 'Работайте с текстом на Mac быстрее', body: 'Установите notePad++++ и ускорьте повторяющиеся задачи.', appStore: 'Скачать в App Store' },
-    footer: 'Notepad++ - open-source проект Don Ho. notePad++++ - независимый текстовый редактор для macOS.',
+    cta: { title: 'Работайте с текстом на Mac быстрее', body: `Установите ${APP_NAME} и ускорьте повторяющиеся задачи.`, appStore: 'Скачать в App Store' },
+    footer: `Notepad++ - open-source проект Don Ho. ${APP_NAME} - независимый текстовый редактор для macOS.`,
   },
   sv: {
     slug: 'sv',
@@ -523,7 +524,7 @@ const localizedPages = {
     label: 'Swedish',
     nativeLabel: 'Svenska',
     path: '/sv/',
-    title: 'notePad++++ - Notepad++ alternativ för Mac',
+    title: `${APP_NAME} - Notepad++ alternativ för Mac`,
     description:
       'Ett lätt Notepad++ alternativ för Mac med flikar, kolumnläge, regex-sök och ersätt, workspace-sökning, skript-pipelines, batchbearbetning och AI-stöd.',
     keywords: [
@@ -541,7 +542,7 @@ const localizedPages = {
       headline: 'Ett Notepad++ alternativ',
       highlight: 'för Mac',
       subheadline:
-        'notePad++++ ger macOS flikar, kolumnläge, regex-sökning, workspace-sökning, skriptautomation och AI-stöd för återkommande textarbete.',
+        `${APP_NAME} ger macOS flikar, kolumnläge, regex-sökning, workspace-sökning, skriptautomation och AI-stöd för återkommande textarbete.`,
       badges: ['Flikar', 'Kolumnläge', 'Regex', 'Batchbearbetning'],
       primaryCta: 'Ladda ner från App Store',
       secondaryCta: 'Se funktioner',
@@ -563,13 +564,13 @@ const localizedPages = {
     faq: {
       title: 'Vanliga frågor',
       items: [
-        { q: 'Är detta den officiella Mac-versionen av Notepad++?', a: 'Nej. notePad++++ är en fristående macOS-app inspirerad av Notepad++-arbetsflöden.' },
+        { q: 'Är detta den officiella Mac-versionen av Notepad++?', a: `Nej. ${APP_NAME} är en fristående macOS-app inspirerad av Notepad++-arbetsflöden.` },
         { q: 'Finns kolumnläge och regex?', a: 'Ja. Båda ingår som kärnfunktioner.' },
         { q: 'Fungerar appen lokalt?', a: 'Ja. Lokal filredigering kräver inget konto.' },
       ],
     },
-    cta: { title: 'Gör textarbete snabbare på Mac', body: 'Ladda ner notePad++++ och minska repetitiv redigering.', appStore: 'Ladda ner från App Store' },
-    footer: 'Notepad++ är ett open-source-projekt av Don Ho. notePad++++ är en fristående textredigerare för macOS.',
+    cta: { title: 'Gör textarbete snabbare på Mac', body: `Ladda ner ${APP_NAME} och minska repetitiv redigering.`, appStore: 'Ladda ner från App Store' },
+    footer: `Notepad++ är ett open-source-projekt av Don Ho. ${APP_NAME} är en fristående textredigerare för macOS.`,
   },
 } satisfies Record<AppSupportedLocaleSlug, LocalePageContent>
 

@@ -6,8 +6,7 @@ type OptimizedImageProps = Omit<ImageProps, 'src'> & {
 }
 
 function getWebpSource(src: string): string {
-  const imagePath = src.replace(/^\/images\//, '')
-  return `/images/optimized/${imagePath}.webp`
+  return src.replace(/\.(png|jpe?g)$/i, '.webp')
 }
 
 export default function OptimizedImage({ src, priority = false, loading, ...props }: OptimizedImageProps) {

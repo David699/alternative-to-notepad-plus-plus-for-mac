@@ -1,10 +1,11 @@
+import { APP_NAME } from '../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
 import { SITE_URL } from '@/lib/paths'
 
 export const metadata: Metadata = {
   title: '隐私政策',
-  description: 'notePad++++ 隐私政策 — 了解我们如何处理您的数据',
+  description: `${APP_NAME} 隐私政策 — 了解我们如何处理您的数据`,
   alternates: {
     canonical: `${SITE_URL}/privacy/`,
     languages: { 'zh-CN': `${SITE_URL}/privacy/`, en: `${SITE_URL}/en/privacy/` },
@@ -16,7 +17,7 @@ export default function PrivacyZh() {
   return (
     <LegalPage
       title="隐私政策"
-      subtitle="本政策说明 notePad++++ 在您使用本应用期间如何收集、使用和保护数据。"
+      subtitle={`本政策说明 ${APP_NAME} 在您使用本应用期间如何收集、使用和保护数据。`}
       lastUpdated="最后更新：2026 年 5 月"
       backLabel="返回首页"
       backHref="/"
@@ -25,7 +26,7 @@ export default function PrivacyZh() {
         {
           heading: '1. 我们收集的数据',
           body: [
-            'notePad++++ 仅收集匿名或伪匿名的基础使用统计信息，用于了解应用的整体使用情况并持续改进产品。收集的内容包括：',
+            `${APP_NAME} 仅收集匿名或伪匿名的基础使用统计信息，用于了解应用的整体使用情况并持续改进产品。收集的内容包括：`,
             '· 系统信息：macOS 版本、CPU 架构（arm64 / x86_64）、硬件型号标识、是否运行于 Rosetta',
             '· 应用信息：应用版本号、构建编号、首次安装以来的天数（分桶处理，如"1–7 天"）',
             '· 语言与地区设置',

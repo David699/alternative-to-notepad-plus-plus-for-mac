@@ -1,0 +1,18 @@
+SAMPLE LOG - DEMONSTRATION DATA
+
+2026-10-14 09:00 INFO  Workspace opened
+2026-10-14 09:01 INFO  Project notes loaded
+2026-10-14 09:02 INFO  Checklist loaded
+2026-10-14 09:03 INFO  Reference text loaded
+2026-10-14 09:04 WARN  Sample item needs review
+2026-10-14 09:05 INFO  Review completed
+2026-10-14 09:06 INFO  Copy saved
+
+Things to try
+-------------
+Search for WARN.
+Find the reference-file entry.
+Check the timestamp format.
+Compare the same file in two editors.
+
+All entries are fictional demonstration data.

@@ -1,16 +1,26 @@
 import type { Metadata } from 'next'
 import SeoArticlePage from '@/components/SeoArticlePage'
 import { APP_NAME } from '@/lib/seo'
-import { getSeoArticle, getSeoArticleUrl } from '@/lib/seo-articles'
+import { getSeoArticle, getSeoArticleUrl, type SeoArticle } from '@/lib/seo-articles'
 import { SITE_URL } from '@/lib/paths'
 
-const ARTICLE_IMAGE = '/images/screen-main-en.png'
+const ARTICLE_IMAGE = '/images/screen-main-en.webp'
+
+function getArticleImage(article: SeoArticle) {
+  const figure = article.heroFigure
+  if (!figure) return { url: ARTICLE_IMAGE, width: 1440, height: 900, alt: article.shortTitle }
+  const url = /^\/images\/.*\.(png|jpe?g)$/i.test(figure.src)
+    ? figure.src.replace(/\.(png|jpe?g)$/i, '.webp')
+    : figure.src
+  return { url, width: figure.width, height: figure.height, alt: figure.alt }
+}
 
 export function generateSeoArticleMetadata(slug: string): Metadata {
   const article = getSeoArticle(slug)
   if (!article) return {}
 
   const canonical = getSeoArticleUrl(article)
+  const articleImage = getArticleImage(article)
 
   return {
     metadataBase: new URL(SITE_URL),
@@ -25,7 +35,7 @@ export function generateSeoArticleMetadata(slug: string): Metadata {
       siteName: APP_NAME,
       title: article.title,
       description: article.description,
-      images: [{ url: ARTICLE_IMAGE, width: 1440, height: 900, alt: article.shortTitle }],
+      images: [articleImage],
       publishedTime: article.datePublished,
       modifiedTime: article.dateModified,
     },
@@ -33,7 +43,7 @@ export function generateSeoArticleMetadata(slug: string): Metadata {
       card: 'summary_large_image',
       title: article.title,
       description: article.description,
-      images: [ARTICLE_IMAGE],
+      images: [articleImage.url],
     },
     robots: {
       index: true,
@@ -57,7 +67,7 @@ export default function SeoArticleRoute({ slug }: { slug: string }) {
       description: article.description,
       datePublished: article.datePublished,
       dateModified: article.dateModified,
-      image: `${SITE_URL}${ARTICLE_IMAGE}`,
+      image: `${SITE_URL}${getArticleImage(article).url}`,
       mainEntityOfPage: canonical,
       author: { '@type': 'Person', name: 'David699' },
       publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },

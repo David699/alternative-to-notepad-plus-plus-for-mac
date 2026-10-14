@@ -18,12 +18,12 @@ heroSummary: "サクラエディタは Windows 専用で、Mac 版はありま�
 related:
   - label: "秀丸・サクラエディタ・Notepad++ からの移行ガイド"
     href: "/ja/notepad-plus-plus-for-mac/"
-  - label: "notePad++++ 日本語ホーム"
+  - label: "{{APP_NAME}} 日本語ホーム"
     href: "/ja/"
   - label: "Mac で Notepad++ は使える？（英語）"
     href: "/en/does-notepad-plus-plus-work-on-mac/"
 externalLinks:
-  - label: "notePad++++ を App Store で入手"
+  - label: "{{APP_NAME}} を App Store で入手"
     href: "appStore"
     external: true
   - label: "CotEditor 公式サイト"
@@ -38,11 +38,11 @@ faq:
   - q: "Wine や仮想マシンでサクラエディタを動かせますか？"
     a: "Wine 系のツールで動かした例は紹介されていますが、動作は環境しだいで、設定や更新の手間が自分に残ります。仮想マシンなら確実性は高い一方、Windows のライセンスとメモリ・容量が必要です。"
   - q: "サクラエディタのマクロはそのまま使えますか？"
-    a: "使えません。マクロは別のエディタに持ち込めないため、「何の変換をしていたか」を書き出し、乗り換え先の仕組みで作り直します。notePad++++ なら Script Pipelines に保存して繰り返し使えます。"
+    a: "使えません。マクロは別のエディタに持ち込めないため、「何の変換をしていたか」を書き出し、乗り換え先の仕組みで作り直します。{{APP_NAME}} なら Script Pipelines に保存して繰り返し使えます。"
   - q: "Shift-JIS のファイルは Mac で開けますか？"
-    a: "notePad++++ は Shift-JIS など従来の文字コードで保存されたファイルを開けます。乗り換え前に、手持ちの古いファイルで実際に確認することをおすすめします。"
-  - q: "notePad++++ はサクラエディタの公式 Mac 版ですか？"
-    a: "いいえ。notePad++++ は独立した macOS 向けテキストエディタで、サクラエディタとは関係ありません。"
+    a: "{{APP_NAME}} は Shift-JIS など従来の文字コードで保存されたファイルを開けます。乗り換え前に、手持ちの古いファイルで実際に確認することをおすすめします。"
+  - q: "{{APP_NAME}} はサクラエディタの公式 Mac 版ですか？"
+    a: "いいえ。{{APP_NAME}} は独立した macOS 向けテキストエディタで、サクラエディタとは関係ありません。"
 ---
 
 ## サクラエディタに Mac 版はある？
@@ -61,12 +61,12 @@ faq:
 
 | サクラエディタで使う機能 | Mac での置き換え方 |
 | --- | --- |
-| grep（複数ファイルの検索） | notePad++++ は Workspace Search でフォルダ全体を検索できます。BBEdit もマルチファイル検索に対応しています |
-| 矩形選択 | notePad++++ の Column Mode（Option + ドラッグ）で、縦にそろったテキストをまとめて編集できます |
-| 正規表現の検索・置換 | notePad++++ は Regex Find & Replace、CotEditor は ICU 正規表現、BBEdit は grep パターンに対応しています |
-| マクロ | 互換性はありません。notePad++++ では Script Pipelines で作り直し、CotEditor では AppleScript などで自動化できます |
-| 文字コード・改行コード | notePad++++ は Shift-JIS など従来の文字コードのファイルを開け、改行コードをそろえるスクリプトもあります。CotEditor も CJK 言語向けに多くの文字コードへ対応をうたっています |
-| 全角と半角の統一 | notePad++++ の内蔵スクリプト（全角から半角、半角から全角）で一括変換できます |
+| grep（複数ファイルの検索） | {{APP_NAME}} は Workspace Search でフォルダ全体を検索できます。BBEdit もマルチファイル検索に対応しています |
+| 矩形選択 | {{APP_NAME}} の Column Mode（Option + ドラッグ）で、縦にそろったテキストをまとめて編集できます |
+| 正規表現の検索・置換 | {{APP_NAME}} は Regex Find & Replace、CotEditor は ICU 正規表現、BBEdit は grep パターンに対応しています |
+| マクロ | 互換性はありません。{{APP_NAME}} では Script Pipelines で作り直し、CotEditor では AppleScript などで自動化できます |
+| 文字コード・改行コード | {{APP_NAME}} は Shift-JIS など従来の文字コードのファイルを開け、改行コードをそろえるスクリプトもあります。CotEditor も CJK 言語向けに多くの文字コードへ対応をうたっています |
+| 全角と半角の統一 | {{APP_NAME}} の内蔵スクリプト（全角から半角、半角から全角）で一括変換できます |
 
 どの行も「まったく同じ操作」ではなく「同じ目的を果たせる手段」です。手順が少し変わるので、最初の数日は手が迷うものと考えておくと楽です。
 
@@ -76,7 +76,7 @@ faq:
 
 **mi。** 日本の開発元による Mac 用エディタで、日本語環境への対応が手厚いと紹介されています。価格や最新の対応 OS は公式サイトで確認してください。
 
-**notePad++++。** タブ編集、Column Mode、Regex 検索・置換、Workspace Search に加えて、Script Pipelines と Batch Processing で同じ整形作業を繰り返せます。変更を反映する前に差分を確認でき、広い範囲の修正は元に戻せます。サクラエディタのプラグインやマクロは動きませんが、日常の検索・置換・整形の流れは近いところにあります。
+**{{APP_NAME}}。** タブ編集、Column Mode、Regex 検索・置換、Workspace Search に加えて、Script Pipelines と Batch Processing で同じ整形作業を繰り返せます。変更を反映する前に差分を確認でき、広い範囲の修正は元に戻せます。サクラエディタのプラグインやマクロは動きませんが、日常の検索・置換・整形の流れは近いところにあります。
 
 ## 乗り換えの進め方
 
@@ -92,4 +92,4 @@ faq:
 
 ## 商標と独立性について
 
-サクラエディタ、秀丸エディタ、mi、CotEditor、BBEdit はそれぞれの権利者に帰属します。notePad++++ は独立した macOS 向けテキストエディタであり、これらのプロジェクトと提携、承認、関連しているものではありません。
+サクラエディタ、秀丸エディタ、mi、CotEditor、BBEdit はそれぞれの権利者に帰属します。{{APP_NAME}} は独立した macOS 向けテキストエディタであり、これらのプロジェクトと提携、承認、関連しているものではありません。

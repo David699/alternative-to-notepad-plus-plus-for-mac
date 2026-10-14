@@ -98,6 +98,9 @@ const articleDataPaths = [
   'lib/seo-articles.ts',
   'lib/seo-articles/text-editor-guides.ts',
   'lib/seo-articles/workflow-guides.ts',
+  'lib/seo-articles/notepad-alternatives-guide.ts',
+  'lib/seo-articles/lightweight-editor-guide.ts',
+  'lib/seo-articles/notepad-mac-feature-guide.ts',
 ]
 for (const articleDataPath of articleDataPaths) {
   assert(fs.existsSync(path.join(root, articleDataPath)), `${articleDataPath} is missing`)
@@ -215,7 +218,7 @@ assert(htmlLangFixer.includes("ar: 'ar'"), 'Static html lang fixer is missing Ar
 assert(htmlLangFixer.includes("ja: 'ja'"), 'Static html lang fixer is missing localized SEO directory support')
 
 const ratingSource = read('lib/app-store-rating.ts')
-assert(ratingSource.includes('const appStoreRatingCount = 323'), 'App Store rating source should keep the current rating count')
+assert(ratingSource.includes('const appStoreRatingCount = 493'), 'App Store rating source should keep the current rating count')
 for (const localeDataPath of ['lib/i18n/en.ts', 'lib/i18n/zh.ts', 'lib/i18n/multilingual.ts']) {
   const localeData = read(localeDataPath)
   assert(
@@ -227,7 +230,7 @@ for (const localeDataPath of ['lib/i18n/en.ts', 'lib/i18n/zh.ts', 'lib/i18n/mult
 const hero = read('components/Hero.tsx')
 assert(hero.includes("import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'"), 'Hero app badge should use the shared App Store link component')
 assert(hero.includes('source="hero_badge"'), 'Hero app badge should report a dedicated download source')
-assert(hero.includes('aria-label="Open notePad++++ on the App Store"'), 'Hero app badge should expose an accessible App Store link label')
+assert(hero.includes('aria-label={`Open ${APP_NAME} on the App Store`}'), 'Hero app badge should expose an accessible App Store link label using APP_NAME')
 assert(read('lib/google-ads.ts').includes("'hero_badge'"), 'Download click source should include hero_badge')
 
 const footer = read('components/Footer.tsx')

@@ -46,7 +46,7 @@ let generatedWebpCount = 0
 for (const sourcePath of sourceImages) {
   const relativePath = path.relative(imageDirectory, sourcePath)
   const parsedPath = path.parse(relativePath)
-  const outputPath = path.join(outputDirectory, parsedPath.dir, `${parsedPath.base}.webp`)
+  const outputPath = path.join(imageDirectory, parsedPath.dir, `${parsedPath.name}.webp`)
 
   if (!await needsUpdate(sourcePath, outputPath)) continue
 
@@ -57,7 +57,7 @@ for (const sourcePath of sourceImages) {
   generatedWebpCount += 1
 }
 
-const appIconSource = path.join(imageDirectory, 'app-icon.png')
+const appIconSource = path.join(imageDirectory, 'app-icon.webp')
 const appIconVariants = [
   { fileName: 'app-icon-64.png', size: 64 },
   { fileName: 'app-icon-180.png', size: 180 },
@@ -68,6 +68,7 @@ for (const variant of appIconVariants) {
   const outputPath = path.join(outputDirectory, variant.fileName)
   if (!await needsUpdate(appIconSource, outputPath)) continue
 
+  await mkdir(outputDirectory, { recursive: true })
   await sharp(appIconSource)
     .resize(variant.size, variant.size)
     .png({ compressionLevel: 9, adaptiveFiltering: true })

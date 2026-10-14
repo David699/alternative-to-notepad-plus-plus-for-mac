@@ -4,6 +4,12 @@
 
 最终访问者和搜索引擎看到的是完整 HTML 页面，不是运行时加载的 Markdown。
 
+## App 名称
+
+网站显示名称统一定义在 `lib/seo.ts` 的 `APP_NAME`。TypeScript 页面、文章数据和翻译文案直接引用该常量；Markdown 文章使用 `{{APP_NAME}}`，构建时会在标题、描述、正文和链接文字中替换成实际名称。YAML 字段建议加引号，例如 `title: "{{APP_NAME}} 功能介绍"`。
+
+修改名称后运行 `npm run build` 并检查页面。截图和已经生成的图片中的文字需要另外更新；文章网址和历史监控记录不随显示名称自动修改。
+
 ## 目录和 URL
 
 文件路径按语言分目录：
@@ -81,11 +87,11 @@ heroSummary: "Hero 里的简介"
 每篇文章可以在 frontmatter 中指定自己的 Hero 配图。两个字段必须同时填写，图片必须位于 `public/images/`：
 
 ```yaml
-heroImage: "/images/seo/example-page.png"
+heroImage: "/images/seo/example-page.webp"
 heroImageAlt: "准确描述图片内容的英文替代文字"
 ```
 
-如果省略这两个字段，页面继续使用默认产品截图。构建前的图片处理会自动为 PNG 或 JPEG 生成 WebP，文章作者仍然只需要维护 Markdown 和原始图片。
+如果省略这两个字段，页面继续使用默认产品截图。发布目录中的截图和文章配图优先直接保存为 WebP，并在文章中引用实际的 `.webp` 路径。原始 PNG/JPEG 放在工程外备份，不放入 `public`。构建前仍可将新增 PNG/JPEG 转成同目录 WebP；确认引用和图片质量后，应将原图移出发布目录。网页图标所需的小尺寸 PNG 可以保留。
 
 ## 相关链接
 

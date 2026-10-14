@@ -12,9 +12,9 @@ keywords:
   - "local HTML editor Mac"
   - "HTML code preview side by side Mac"
 heroKicker: "Edit source and see the page beside it"
-heroSummary: "notePad++++ keeps HTML source, a rendered local preview, structure navigation, issue checks, and common markup actions in one Mac editing window—useful for learning, fixing a page, reviewing generated HTML, or adjusting a small static site."
-heroImage: "/images/seo/html-live-preview-mac.png"
-heroImageAlt: "notePad++++ HTML editor showing source code, document outline, and the corresponding rendered webpage side by side"
+heroSummary: "{{APP_NAME}} keeps HTML source, a rendered local preview, structure navigation, issue checks, and common markup actions in one Mac editing window—useful for learning, fixing a page, reviewing generated HTML, or adjusting a small static site."
+heroImage: "/images/seo/html-live-preview-mac.webp"
+heroImageAlt: "{{APP_NAME}} HTML editor showing source code, document outline, and the corresponding rendered webpage side by side"
 related:
   - label: "Responsive HTML preview on Mac"
     href: "/en/responsive-html-preview-mac/"
@@ -29,17 +29,17 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
-  - label: "See notePad++++ on Product Hunt"
+  - label: "See {{APP_NAME}} on Product Hunt"
     href: "productHunt"
     external: true
   - label: "View this website repository on GitHub"
     href: "github"
     external: true
 faq:
-  - q: "Does notePad++++ show a live HTML preview?"
+  - q: "Does {{APP_NAME}} show a live HTML preview?"
     a: "Yes. An HTML document can be rendered beside its source, and the preview refreshes as the document changes."
   - q: "Can it preview local CSS, JavaScript, and images?"
     a: "Yes, when the HTML file and its resources are in a folder the user has authorized. The local resource inspection can report missing or unavailable references."
@@ -53,7 +53,7 @@ faq:
 
 Opening an HTML file in a browser answers one question: what does the page look like? It does not make repeated source edits, refreshes, and navigation especially convenient.
 
-notePad++++ can place the HTML source and rendered preview side by side. Saved files can resolve local images, style sheets, and scripts from their authorized folder, while an unsaved HTML document can still be rendered through a temporary local preview.
+{{APP_NAME}} can place the HTML source and rendered preview side by side. Saved files can resolve local images, style sheets, and scripts from their authorized folder, while an unsaved HTML document can still be rendered through a temporary local preview.
 
 - Edit HTML with syntax highlighting and completion.
 - Render the current page inside the editor window.
@@ -84,7 +84,7 @@ The basic HTML preview, structure outline, paired-tag editing, quick actions, an
 
 ## HTML editing tasks in one window
 
-| Task | notePad++++ tool |
+| Task | {{APP_NAME}} tool |
 | --- | --- |
 | See the current page | Side-by-side rendered HTML preview |
 | Find a nested section | HTML structure outline with source-line navigation |

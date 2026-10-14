@@ -1,0 +1,22 @@
+NOTEPAD++-STYLE TEXT WORK ON MAC
+
+Keep related documents in tabs.
+Read notes, edit a configuration file, and search a log.
+
+DEMONSTRATION FILES
+-------------------
+01-project-notes.txt     Notes and reference text
+02-column-editing.txt    Aligned text for a rectangular selection
+03-search-replace.txt    Search and replacement examples
+04-app-log.txt           Fictional log entries for workspace search
+05-settings.json         Syntax highlighting in a configuration file
+
+THINGS TO TRY
+-------------
+Open the documents as tabs in one window.
+Select the same character columns across several lines.
+Find customer_id in one file or across this folder.
+Use a regular expression to find a set of identifiers.
+Review the result before editing original files.
+
+All data in this workspace is fictional demonstration content.

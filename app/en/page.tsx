@@ -32,11 +32,11 @@ export default function EnHome() {
             description: EN_APP_DESC,
             keywords: EN_SEO_KEYWORDS.join(', '),
             url: `${SITE_URL}/en/`,
-            image: `${SITE_URL}/images/optimized/app-icon.png.webp`,
+            image: `${SITE_URL}/images/app-icon.webp`,
             screenshot: [
-              `${SITE_URL}/images/optimized/screen-main.png.webp`,
-              `${SITE_URL}/images/optimized/screen-search.png.webp`,
-              `${SITE_URL}/images/optimized/screen-scripts.png.webp`,
+              `${SITE_URL}/images/screen-main.webp`,
+              `${SITE_URL}/images/screen-search.webp`,
+              `${SITE_URL}/images/screen-scripts.webp`,
             ],
             featureList: [
               'Multi-tab text editing', 'Workspace search & browse', 'Regex find & replace',

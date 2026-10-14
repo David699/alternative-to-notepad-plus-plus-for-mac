@@ -2,6 +2,7 @@ import fs from 'node:fs'
 import path from 'node:path'
 import matter from 'gray-matter'
 import { marked } from 'marked'
+import { APP_NAME } from '../seo'
 import {
   APP_STORE_URL,
   GITHUB_REPO_URL,
@@ -32,7 +33,7 @@ function requiredString(value: unknown, field: string, filePath: string): string
     throw new Error(`${fieldPath(filePath, field)} must be a non-empty string`)
   }
 
-  return value
+  return value.replaceAll('{{APP_NAME}}', APP_NAME)
 }
 
 function optionalString(value: unknown, field: string, filePath: string): string | undefined {
@@ -45,7 +46,7 @@ function stringArray(value: unknown, field: string, filePath: string): string[] 
     throw new Error(`${fieldPath(filePath, field)} must be a string array`)
   }
 
-  return value
+  return value.map((item) => item.replaceAll('{{APP_NAME}}', APP_NAME))
 }
 
 function booleanValue(value: unknown): boolean | undefined {
@@ -149,7 +150,7 @@ function parseMarkdownArticle(filePath: string, config: SeoOnlyLocaleConfig): Lo
   }
 
   const contentHtml = wrapMarkdownTables(
-    marked.parse(wrapLtrTerms(parsed.content.trim(), config.ltrTerms), { async: false }) as string,
+    marked.parse(wrapLtrTerms(parsed.content.trim().replaceAll('{{APP_NAME}}', APP_NAME), config.ltrTerms), { async: false }) as string,
   )
 
   return {

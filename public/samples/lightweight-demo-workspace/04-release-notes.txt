@@ -1,0 +1,21 @@
+RELEASE NOTES - DEMONSTRATION PROJECT
+
+Version 1.2
+-----------
+Added a clearer editing checklist.
+Grouped reference notes in one workspace.
+Updated the headings in the writing sample.
+
+Version 1.1
+-----------
+Added a sample log for search practice.
+Added a simple list for everyday text editing.
+Kept each document in plain TXT format.
+
+Version 1.0
+-----------
+Created the demonstration workspace.
+Prepared notes, a checklist, and reference text.
+
+These release notes describe the sample project.
+They are not notePad++++ product release claims.

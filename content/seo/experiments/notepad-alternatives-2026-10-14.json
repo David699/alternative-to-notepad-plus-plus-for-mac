@@ -1,0 +1,138 @@
+{
+  "site": "sc-domain:notepad-plus-plus-mac.com",
+  "page": "https://notepad-plus-plus-mac.com/en/notepad-plus-plus-alternatives-for-mac/",
+  "published_at": "2026-10-14",
+  "recorded_at": "2026-10-14",
+  "primary_keyword": "notepad++ alternative for mac",
+  "related_keywords": [
+    "notepad++ alternatives for mac",
+    "best notepad++ alternative for mac",
+    "notepad++ mac alternative",
+    "mac notepad++ alternative",
+    "free Notepad++ alternative for Mac"
+  ],
+  "source": "Google Search Console; live page-filtered report checked on 2026-10-14",
+  "filters": {
+    "search_type": "Web",
+    "page_match": "exact",
+    "country": "all",
+    "device": "all"
+  },
+  "latest_complete_data_date": "2026-10-11",
+  "baseline_28_days": {
+    "start": "2026-09-14",
+    "end": "2026-10-11",
+    "page": {
+      "clicks": 25,
+      "impressions": 1965,
+      "ctr": 0.01272264631043257,
+      "position": 8.14,
+      "precision_source": "Original same-day page CSV, live summary confirms 8.1"
+    },
+    "queries": [
+      {
+        "query": "notepad++ alternative for mac",
+        "clicks": 0,
+        "impressions": 96,
+        "ctr": 0,
+        "position": 8.6
+      },
+      {
+        "query": "best notepad++ alternative for mac",
+        "clicks": 2,
+        "impressions": 25,
+        "ctr": 0.08,
+        "position": 9.0
+      },
+      {
+        "query": "notepad++ mac alternative",
+        "clicks": 1,
+        "impressions": 24,
+        "ctr": 0.041666666666666664,
+        "position": 9.2
+      },
+      {
+        "query": "mac notepad++ alternative",
+        "clicks": 1,
+        "impressions": 30,
+        "ctr": 0.03333333333333333,
+        "position": 8.1
+      }
+    ]
+  },
+  "baseline_7_days": {
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "page": {
+      "clicks": 16,
+      "impressions": 957,
+      "ctr": 0.01671891327063741,
+      "position": 7.0
+    },
+    "queries": [
+      {
+        "query": "notepad++ alternative for mac",
+        "clicks": 0,
+        "impressions": 40,
+        "ctr": 0,
+        "position": 7.7
+      },
+      {
+        "query": "notepad++ mac alternative",
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 7.7
+      },
+      {
+        "query": "mac notepad++ alternative",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr": 0,
+        "position": 8.0
+      }
+    ]
+  },
+  "changes": [
+    "Shorter title and revised description",
+    "Eight editors compared with task-based recommendations",
+    "Four official competitor interface images with clickable source credits",
+    "Developer-provided actual notePad++++ main screenshot replacing one illustration",
+    "WebP images",
+    "Three prominent App Store download placements",
+    "493 ratings displayed"
+  ],
+  "review": {
+    "first_review_date": "2026-10-21",
+    "post_publication_window": [
+      "2026-10-14",
+      "2026-10-20"
+    ],
+    "pre_publication_window": [
+      "2026-10-07",
+      "2026-10-13"
+    ],
+    "cadence": "Wednesday 09:00 Asia/Shanghai, existing long-term keyword monitor",
+    "metrics": [
+      "clicks",
+      "impressions",
+      "ctr",
+      "position"
+    ],
+    "rules": [
+      "Only compare this exact page with the same exact query and filters.",
+      "Retrieve publication-adjacent pre-period when complete; do not substitute the 10/05–10/11 window without labelling dates.",
+      "On 10/21 use only complete available days; if data do not cover 10/20, report interim results and retain pending full-week evaluation for next check.",
+      "Average position is not a fixed live rank and a smaller number is better.",
+      "No impression means missing position, not position zero.",
+      "Do not attribute natural changes solely to this edit.",
+      "Do not modify or deploy content during observation without user authorization."
+    ]
+  },
+  "limitations": [
+    "Query details omit some anonymous searches; page totals and query totals differ.",
+    "This baseline predates publication and does not measure results of the new article.",
+    "Positions shown in live query report have one-decimal precision.",
+    "The 28-day exact plural keyword and free keyword have not been checked under the exact-page filter; do not claim a rank for them."
+  ]
+}

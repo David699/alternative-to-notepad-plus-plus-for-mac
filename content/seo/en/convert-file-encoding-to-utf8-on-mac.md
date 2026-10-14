@@ -2,7 +2,7 @@
 slug: "convert-file-encoding-to-utf8-on-mac"
 title: "Convert GBK, Shift-JIS, or Big5 Text Files to UTF-8 on Mac (and Fix Garbled Text)"
 shortTitle: "Convert File Encoding to UTF-8 on Mac"
-description: "Fix garbled Chinese, Japanese, or Korean text files on Mac and convert them to UTF-8, using iconv in Terminal or the encoding menu in notePad++++."
+description: "Fix garbled Chinese, Japanese, or Korean text files on Mac and convert them to UTF-8, using iconv in Terminal or the encoding menu in {{APP_NAME}}."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -26,7 +26,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "Official Notepad++ website"
@@ -38,7 +38,7 @@ externalLinks:
 faq:
   - q: "What is the difference between re-reading and converting?"
     a: "Re-reading changes how the app interprets the bytes already on disk, which fixes garbled text without altering the file. Converting rewrites the file in a new encoding. Fix the display first with re-read, and only convert once the text looks right."
-  - q: "Does notePad++++ support EUC-KR or EUC-JP?"
+  - q: "Does {{APP_NAME}} support EUC-KR or EUC-JP?"
     a: "The encoding menu lists UTF-8, UTF-16 LE and BE, Latin-1, Win-1252, GBK, GB18030, Big5, Shift-JIS, and Win-949. Win-949 is Microsoft's Korean code page, a superset of EUC-KR. EUC-JP is not in the menu, so for those files use iconv in Terminal."
   - q: "Why does the file command guess wrong?"
     a: "Detecting a legacy encoding from bytes is a guess, and short files give little to go on. In a quick test on macOS, file -I reported a GBK sample as iso-8859-1. Treat any automatic detection as a starting point and confirm by reading the text."
@@ -87,9 +87,9 @@ for f in *.txt; do iconv -f GBK -t UTF-8 "$f" > "utf8/$f"; done
 
 Always write to a new file. Redirecting onto the input file would empty it.
 
-## Option 2: The encoding menu in notePad++++
+## Option 2: The encoding menu in {{APP_NAME}}
 
-1. Open the file. notePad++++ tries to detect the encoding when it opens, and can recognize GB18030, GBK, Big5, Shift-JIS, and Korean text among others.
+1. Open the file. {{APP_NAME}} tries to detect the encoding when it opens, and can recognize GB18030, GBK, Big5, Shift-JIS, and Korean text among others.
 2. Look at the encoding shown in the status bar. If the text is garbled, click it to open the encoding menu.
 3. Choose **Re-read using specified encoding** and pick the correct one, for example GBK or Shift-JIS. The text is reloaded using that encoding. You must save or discard unsaved changes first, because the current text is replaced.
 4. When the text reads correctly, open the encoding menu again, choose **Convert to specified encoding and save**, and pick **UTF-8**. Confirm the prompt.
@@ -105,7 +105,7 @@ The menu lists UTF-8, UTF-16 LE and BE, Latin-1, Win-1252, GBK, GB18030, Big5, S
 
 | Situation | Best route |
 | --- | --- |
-| One file, and you want to see the text as you fix it | notePad++++ re-read, then convert |
+| One file, and you want to see the text as you fix it | {{APP_NAME}} re-read, then convert |
 | Many files with the same encoding | `iconv` in a loop |
 | A file in an encoding not in the menu, such as EUC-JP | `iconv` |
 | You are not sure which encoding it is | Try candidates with Re-read and compare |

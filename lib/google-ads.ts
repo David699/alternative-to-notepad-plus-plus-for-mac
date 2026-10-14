@@ -1,3 +1,4 @@
+import { APP_NAME } from './seo'
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || ''
 
 const DOWNLOAD_CONVERSION_LABEL = process.env.NEXT_PUBLIC_GOOGLE_ADS_DOWNLOAD_CONVERSION_LABEL || ''
@@ -22,7 +23,7 @@ export function reportAppStoreDownloadClick(source: DownloadClickSource) {
   window.gtag('event', 'app_store_download_click', {
     event_category: 'download',
     event_label: source,
-    app_name: 'notePad++++',
+    app_name: APP_NAME,
   })
 
   if (!DOWNLOAD_CONVERSION_SEND_TO) return

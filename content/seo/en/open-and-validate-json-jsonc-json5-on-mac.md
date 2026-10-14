@@ -2,7 +2,7 @@
 slug: "open-and-validate-json-jsonc-json5-on-mac"
 title: "Open and Validate JSON, JSONC, and JSON5 Files on Mac"
 shortTitle: "Open JSON, JSONC, and JSON5 on Mac"
-description: "How to open, check, and explore JSON, JSONC (JSON with comments), and JSON5 files on Mac, with a column-style structure view, search, JSONPath copying, and error locating in notePad++++."
+description: "How to open, check, and explore JSON, JSONC (JSON with comments), and JSON5 files on Mac, with a column-style structure view, search, JSONPath copying, and error locating in {{APP_NAME}}."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -13,7 +13,7 @@ keywords:
   - "JSON with comments Mac"
   - "copy JSONPath Mac"
 heroKicker: "Three flavors of JSON, one editor"
-heroSummary: "Strict JSON rejects comments, JSONC allows them, and JSON5 allows even more. Open the wrong one in a strict tool and you get errors that are not real. Here is how each is handled in notePad++++, and how to explore a big JSON file without scrolling."
+heroSummary: "Strict JSON rejects comments, JSONC allows them, and JSON5 allows even more. Open the wrong one in a strict tool and you get errors that are not real. Here is how each is handled in {{APP_NAME}}, and how to explore a big JSON file without scrolling."
 related:
   - label: "Validate YAML with a schema on Mac"
     href: "/en/validate-yaml-schema-on-mac/"
@@ -28,7 +28,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "JSON5 specification"
@@ -59,7 +59,7 @@ faq:
 
 A strict tool that opens a `.jsonc` or `.json5` file reports errors that are not errors in the format the file was written in. What you need is an editor that knows which flavor it is looking at.
 
-## How each is handled in notePad++++
+## How each is handled in {{APP_NAME}}
 
 - **`.json`** files are checked as JSON, with syntax highlighting and error markers.
 - **`.jsonc`** files allow comments and trailing commas, so a configuration file with notes in it opens without false errors.

@@ -1,4 +1,5 @@
 'use client'
+import AppName from '@/components/AppName'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import type { FooterDict } from '@/lib/i18n/types'
 import { footerLanguageLinks } from '@/lib/footer-languages'
@@ -14,7 +15,7 @@ export default function Footer({ t }: Props) {
         <div className="grid sm:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="font-bold text-white mb-3">
-              notePad<span className="text-brand-400">++++</span>
+              <AppName accentClassName="text-brand-400" />
             </div>
             <p className="text-sm leading-relaxed">
               {taglineLines[0]}

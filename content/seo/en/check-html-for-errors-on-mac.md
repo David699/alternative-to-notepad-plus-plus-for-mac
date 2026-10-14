@@ -2,7 +2,7 @@
 slug: "check-html-for-errors-on-mac"
 title: "Check HTML for Common Mistakes on Mac: Missing Alt Text, Viewport, Duplicate IDs, and Broken Paths"
 shortTitle: "Check HTML for Errors on Mac"
-description: "Find unclosed tags, missing alt text, duplicate IDs, and broken local file paths in an HTML file on Mac, and preview it on phone and tablet sizes, all inside notePad++++."
+description: "Find unclosed tags, missing alt text, duplicate IDs, and broken local file paths in an HTML file on Mac, and preview it on phone and tablet sizes, all inside {{APP_NAME}}."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -28,7 +28,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "View this website repository on GitHub"
@@ -53,7 +53,7 @@ None of these needs a heavyweight validator. They need a fast check that runs wh
 
 ## What the HTML inspection looks for
 
-notePad++++ inspects the HTML file you have open and lists problems with their location. The checks fall into groups.
+{{APP_NAME}} inspects the HTML file you have open and lists problems with their location. The checks fall into groups.
 
 | Group | What it flags |
 | --- | --- |

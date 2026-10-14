@@ -2,7 +2,7 @@
 slug: "delete-lines-containing-text-on-mac"
 title: "Delete Lines Containing Text on Mac: Regex in an Editor, or Terminal"
 shortTitle: "Delete Lines Containing Text on Mac"
-description: "Remove every line that contains a word or pattern from a text file on Mac, using regex find and replace in notePad++++ or grep and sed in Terminal, with tested examples."
+description: "Remove every line that contains a word or pattern from a text file on Mac, using regex find and replace in {{APP_NAME}} or grep and sed in Terminal, with tested examples."
 datePublished: "2026-09-30"
 dateModified: "2026-09-30"
 keywords:
@@ -13,8 +13,8 @@ keywords:
   - "delete lines with word Mac"
 heroKicker: "Filter a log or list by deleting what you do not need"
 heroSummary: "Deleting every line that contains a word is a one-line regex, but it is easy to get the last line, the line break, or the capitalization wrong. Here are patterns that were tested, plus Terminal equivalents and a safer non-destructive route."
-heroImage: "/images/screen-search-en.png"
-heroImageAlt: "notePad++++ search and replace with regex, showing match counts per file and replacement previews"
+heroImage: "/images/screen-search-en.webp"
+heroImageAlt: "{{APP_NAME}} search and replace with regex, showing match counts per file and replacement previews"
 related:
   - label: "Sort lines and remove duplicate lines on Mac"
     href: "/en/sort-and-remove-duplicate-lines-on-mac/"
@@ -27,7 +27,7 @@ related:
   - label: "Back to product overview"
     href: "/en/"
 externalLinks:
-  - label: "Download notePad++++ on the App Store"
+  - label: "Download {{APP_NAME}} on the App Store"
     href: "appStore"
     external: true
   - label: "Official Notepad++ website"
@@ -38,7 +38,7 @@ externalLinks:
     external: true
 faq:
   - q: "Is the search case sensitive?"
-    a: "In notePad++++ it ignores capitals unless you turn on Match Case. In the Terminal sed and grep examples below, matching is case sensitive by default, so ERROR and error are different."
+    a: "In {{APP_NAME}} it ignores capitals unless you turn on Match Case. In the Terminal sed and grep examples below, matching is case sensitive by default, so ERROR and error are different."
   - q: "How do I keep only the lines that contain the word?"
     a: "Use Extract to New Tab, which copies the matching lines into a new tab and leaves the original untouched. In Terminal, grep 'word' file prints only the matching lines."
   - q: "Why does my regex leave an empty line behind?"
@@ -51,7 +51,7 @@ faq:
 
 To delete every line that contains a word, you match the entire line and replace it with nothing. In regular expressions, `^.*word.*` matches a whole line containing `word`, and adding `\n?` at the end includes the line break so that no empty line is left behind.
 
-## Option 1: Regex find and replace in notePad++++
+## Option 1: Regex find and replace in {{APP_NAME}}
 
 1. Open the file and open the search panel.
 2. Turn on **Regex**. Turn on **Match Case** only if capitals matter.
@@ -99,7 +99,7 @@ In-place editing overwrites the file. Keep a copy.
 
 | Situation | Best route |
 | --- | --- |
-| A one-off cleanup where you want to see it happen | Regex Replace All in notePad++++ |
+| A one-off cleanup where you want to see it happen | Regex Replace All in {{APP_NAME}} |
 | You are unsure and want to review first | Extract to New Tab |
 | A script or a repeated job on many files | `grep -v` or `sed` in Terminal |
 | Capitalization must be ignored | Regex with Match Case off, or `grep -vi` |

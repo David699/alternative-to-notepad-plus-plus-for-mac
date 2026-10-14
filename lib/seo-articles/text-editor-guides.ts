@@ -3,8 +3,8 @@ import { APP_NAME } from '../seo'
 import { APP_STORE_URL, GITHUB_REPO_URL, PRODUCT_HUNT_URL } from '../paths'
 
 const commonExternalLinks: SeoArticleLink[] = [
-  { label: 'Download notePad++++ on the App Store', href: APP_STORE_URL, external: true },
-  { label: 'See notePad++++ on Product Hunt', href: PRODUCT_HUNT_URL, external: true },
+  { label: `Download ${APP_NAME} on the App Store`, href: APP_STORE_URL, external: true },
+  { label: `See ${APP_NAME} on Product Hunt`, href: PRODUCT_HUNT_URL, external: true },
   { label: 'View this website repository on GitHub', href: GITHUB_REPO_URL, external: true },
 ]
 
@@ -14,7 +14,7 @@ export const textEditorGuides: SeoArticle[] = [
     title: 'Text Editor for Mac: A Practical Native Editor for Notes, Logs, Markdown, and Text Cleanup',
     shortTitle: 'Text Editor for Mac',
     description:
-      'Looking for a text editor for Mac? notePad++++ is a native macOS editor for local text files, tabs, regex find and replace, column editing, Markdown preview, workspace search, and batch-safe text cleanup.',
+      `Looking for a text editor for Mac? ${APP_NAME} is a native macOS editor for local text files, tabs, regex find and replace, column editing, Markdown preview, workspace search, and batch-safe text cleanup.`,
     datePublished: '2026-07-01',
     dateModified: '2026-07-01',
     keywords: [
@@ -26,7 +26,7 @@ export const textEditorGuides: SeoArticle[] = [
     ],
     heroKicker: 'For everyday Mac text work',
     heroSummary:
-      'A good Mac text editor should open quickly, handle local files cleanly, and help with the work around text: searching, cleaning, previewing, and safely applying repeated edits. notePad++++ is built for that daily loop.',
+      `A good Mac text editor should open quickly, handle local files cleanly, and help with the work around text: searching, cleaning, previewing, and safely applying repeated edits. ${APP_NAME} is built for that daily loop.`,
     sections: [
       {
         title: 'What makes a useful Mac text editor',
@@ -36,10 +36,10 @@ export const textEditorGuides: SeoArticle[] = [
         ],
       },
       {
-        title: 'When notePad++++ fits better than a code IDE',
+        title: `When ${APP_NAME} fits better than a code IDE`,
         body: [
           'A full IDE is excellent when the task is software development. It can feel heavy when the task is opening one file, fixing a list, extracting lines, reviewing Markdown, or cleaning copied content.',
-          'notePad++++ is designed for the in-between space: more capable than a basic notepad app, but more focused than a coding platform. The goal is to make local text manipulation fast without turning every small edit into a project.',
+          `${APP_NAME} is designed for the in-between space: more capable than a basic notepad app, but more focused than a coding platform. The goal is to make local text manipulation fast without turning every small edit into a project.`,
         ],
         bullets: [
           'Open multiple local files with tabs.',
@@ -54,12 +54,12 @@ export const textEditorGuides: SeoArticle[] = [
         title: 'Common text editor jobs on Mac',
         body: [
           'The app is especially useful for messy real-world text: keyword lists, support replies, Markdown notes, copied tables, logs, URLs, dates, and one-off snippets that need structure.',
-          'Instead of forcing every task into a manual find-and-replace session, notePad++++ lets you combine editing with repeatable processing. You can inspect the result, preview differences, and roll back broad changes when needed.',
+          `Instead of forcing every task into a manual find-and-replace session, ${APP_NAME} lets you combine editing with repeatable processing. You can inspect the result, preview differences, and roll back broad changes when needed.`,
         ],
       },
     ],
     table: {
-      title: 'Text editor tasks and notePad++++ features',
+      title: `Text editor tasks and ${APP_NAME} features`,
       headers: ['Task', 'Feature to use'],
       rows: [
         ['Open several text files', 'Multi-tab editing with clear local file handling.'],
@@ -73,10 +73,10 @@ export const textEditorGuides: SeoArticle[] = [
     faq: [
       {
         q: 'What is a good text editor for Mac?',
-        a: 'A good Mac text editor depends on the job. notePad++++ is a strong fit if you want local text editing, tabs, regex cleanup, Column Mode, workspace search, Markdown preview, and batch-safe processing.',
+        a: `A good Mac text editor depends on the job. ${APP_NAME} is a strong fit if you want local text editing, tabs, regex cleanup, Column Mode, workspace search, Markdown preview, and batch-safe processing.`,
       },
       {
-        q: 'Is notePad++++ only for programmers?',
+        q: `Is ${APP_NAME} only for programmers?`,
         a: 'No. It can edit code-like files, but it is also useful for notes, Markdown, lists, logs, copied text, and everyday text cleanup.',
       },
       {
@@ -98,7 +98,7 @@ export const textEditorGuides: SeoArticle[] = [
     title: 'Plain Text Editor for Mac: Local Files, Markdown, Regex Cleanup, and Batch Text Processing',
     shortTitle: 'Plain Text Editor for Mac',
     description:
-      'Need a plain text editor for Mac? notePad++++ edits local .txt, .md, .csv, .json, .log, and code-like files with tabs, regex, Column Mode, Markdown preview, workspace search, and safe batch cleanup.',
+      `Need a plain text editor for Mac? ${APP_NAME} edits local .txt, .md, .csv, .json, .log, and code-like files with tabs, regex, Column Mode, Markdown preview, workspace search, and safe batch cleanup.`,
     datePublished: '2026-07-01',
     dateModified: '2026-07-01',
     keywords: [
@@ -110,20 +110,20 @@ export const textEditorGuides: SeoArticle[] = [
     ],
     heroKicker: 'For local plain-text files',
     heroSummary:
-      'Plain text work sounds simple until the file is a log, a Markdown draft, a CSV-like list, or copied content full of noise. notePad++++ keeps plain-text editing direct while adding tools for cleanup and structure.',
+      `Plain text work sounds simple until the file is a log, a Markdown draft, a CSV-like list, or copied content full of noise. ${APP_NAME} keeps plain-text editing direct while adding tools for cleanup and structure.`,
     sections: [
       {
         title: 'Plain text needs more than a blank page',
         body: [
           'A plain text editor should preserve predictable text, avoid unexpected formatting, and make local files easy to open and edit. That covers the basics, but many Mac users also need to clean, search, transform, and preview text.',
-          'notePad++++ is built around plain-text workflows such as .txt notes, Markdown, CSV-like rows, JSON snippets, logs, HTML fragments, keyword lists, and support text.',
+          `${APP_NAME} is built around plain-text workflows such as .txt notes, Markdown, CSV-like rows, JSON snippets, logs, HTML fragments, keyword lists, and support text.`,
         ],
       },
       {
         title: 'Useful workflows for plain text',
         body: [
           'The most common plain-text tasks are often repetitive: remove blank lines, deduplicate values, sort entries, extract links, normalize punctuation, replace date formats, or strip Markdown before pasting somewhere else.',
-          'Instead of handling those tasks by hand every time, notePad++++ combines Regex Find & Replace with Script Pipelines and Batch Processing. For broad changes, diff preview and rollback help keep the workflow controlled.',
+          `Instead of handling those tasks by hand every time, ${APP_NAME} combines Regex Find & Replace with Script Pipelines and Batch Processing. For broad changes, diff preview and rollback help keep the workflow controlled.`,
         ],
         bullets: [
           'Edit .txt, .md, .csv, .json, .log, .html, .js, .py, and other plain-text files.',
@@ -144,7 +144,7 @@ export const textEditorGuides: SeoArticle[] = [
     ],
     table: {
       title: 'Plain-text workflows',
-      headers: ['Workflow', 'How notePad++++ helps'],
+      headers: ['Workflow', `How ${APP_NAME} helps`],
       rows: [
         ['Quick local editing', 'Open files directly and work in tabs.'],
         ['Markdown drafts', 'Edit and preview Markdown documents.'],
@@ -156,12 +156,12 @@ export const textEditorGuides: SeoArticle[] = [
     },
     faq: [
       {
-        q: 'Can notePad++++ edit plain text files?',
+        q: `Can ${APP_NAME} edit plain text files?`,
         a: 'Yes. It is designed around local plain-text formats such as TXT, Markdown, CSV-like text, JSON, logs, scripts, and HTML snippets.',
       },
       {
         q: 'Is it a rich text editor?',
-        a: 'No. notePad++++ focuses on plain text and text-processing workflows rather than document formatting.',
+        a: `No. ${APP_NAME} focuses on plain text and text-processing workflows rather than document formatting.`,
       },
       {
         q: 'Can I use it for Markdown?',
@@ -182,7 +182,7 @@ export const textEditorGuides: SeoArticle[] = [
     title: 'Notepad for Mac: A Native macOS Text Editor for Quick Notes, Plain Text, and Cleanup',
     shortTitle: 'Notepad for Mac',
     description:
-      'Looking for a Notepad for Mac? notePad++++ is a native macOS text editor for quick plain-text notes, local files, tabs, Markdown, regex cleanup, Column Mode, and batch text processing.',
+      `Looking for a Notepad for Mac? ${APP_NAME} is a native macOS text editor for quick plain-text notes, local files, tabs, Markdown, regex cleanup, Column Mode, and batch text processing.`,
     datePublished: '2026-07-01',
     dateModified: '2026-07-01',
     keywords: [
@@ -194,7 +194,7 @@ export const textEditorGuides: SeoArticle[] = [
     ],
     heroKicker: 'A stronger notepad-style workflow',
     heroSummary:
-      'If you search for a notepad on Mac, you may only need a fast place to edit plain text. But many real notes turn into lists, logs, Markdown, snippets, and cleanup jobs. notePad++++ covers that practical range.',
+      `If you search for a notepad on Mac, you may only need a fast place to edit plain text. But many real notes turn into lists, logs, Markdown, snippets, and cleanup jobs. ${APP_NAME} covers that practical range.`,
     sections: [
       {
         title: 'What people usually mean by notepad for Mac',
@@ -207,7 +207,7 @@ export const textEditorGuides: SeoArticle[] = [
         title: 'A notepad that can handle messy text',
         body: [
           'Copied notes often contain extra blank lines, duplicate entries, inconsistent punctuation, URLs, dates, or Markdown syntax. Manual cleanup is slow and easy to repeat badly.',
-          'notePad++++ lets you use built-in pipelines or custom scripts to clean text in a repeatable way. For bigger operations, preview the diff before applying changes.',
+          `${APP_NAME} lets you use built-in pipelines or custom scripts to clean text in a repeatable way. For bigger operations, preview the diff before applying changes.`,
         ],
         bullets: [
           'Quick notes and plain-text drafts.',
@@ -221,14 +221,14 @@ export const textEditorGuides: SeoArticle[] = [
       {
         title: 'How it differs from Notepad++ searches',
         body: [
-          'Some users search for "notepad for Mac" because they want a simple editor. Others mean "something like Notepad++ on Mac." notePad++++ is closer to the second intent: it is simple enough for quick text, but built for practical Notepad++-style workflows.',
+          `Some users search for "notepad for Mac" because they want a simple editor. Others mean "something like Notepad++ on Mac." ${APP_NAME} is closer to the second intent: it is simple enough for quick text, but built for practical Notepad++-style workflows.`,
           'That makes this page useful for broader search intent while the dedicated Notepad++ pages cover users who already know the Windows editor by name.',
         ],
       },
     ],
     table: {
       title: 'Notepad-style needs on Mac',
-      headers: ['Need', 'notePad++++ fit'],
+      headers: ['Need', `${APP_NAME} fit`],
       rows: [
         ['Quick text note', 'Open a local file and edit without a project setup.'],
         ['Plain-text file', 'Work with predictable text instead of rich formatting.'],
@@ -241,15 +241,15 @@ export const textEditorGuides: SeoArticle[] = [
     faq: [
       {
         q: 'Does Mac have a notepad app?',
-        a: 'macOS includes basic text tools, but users who need tabs, regex, Column Mode, Markdown preview, workspace search, and batch cleanup may prefer a focused editor like notePad++++.',
+        a: `macOS includes basic text tools, but users who need tabs, regex, Column Mode, Markdown preview, workspace search, and batch cleanup may prefer a focused editor like ${APP_NAME}.`,
       },
       {
-        q: 'Is notePad++++ simple enough for quick notes?',
+        q: `Is ${APP_NAME} simple enough for quick notes?`,
         a: 'Yes. It can be used for quick local text notes, while still offering advanced tools when the text needs cleanup or structure.',
       },
       {
         q: 'Is this the same as Notepad++?',
-        a: 'No. notePad++++ is an independent Mac app inspired by practical Notepad++-style text workflows.',
+        a: `No. ${APP_NAME} is an independent Mac app inspired by practical Notepad++-style text workflows.`,
       },
     ],
     related: [

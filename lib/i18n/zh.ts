@@ -1,3 +1,4 @@
+import { APP_NAME } from '../seo'
 import type { Dict } from './types'
 import { notepadAppStoreRating } from '../app-store-rating'
 
@@ -23,11 +24,11 @@ export const zh: Dict = {
     headline: 'Mac 上更顺手的',
     headlineGradient: '文本处理工作台',
     subheadline:
-      '面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 notePad++++。',
+      `面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 ${APP_NAME}。`,
     tags: [
       {
         label: 'Notepad++ Mac 替代',
-        iconSrc: '/images/tag-notepad.png',
+        iconSrc: '/images/tag-notepad.webp',
         imageAlt: 'Notepad++ Mac 替代品图标',
         classes: 'bg-blue-100 text-blue-800 border-blue-300 hover:bg-blue-200 hover:border-blue-400',
         iconFrame: 'border-blue-500 bg-white shadow-[0_2px_10px_rgba(37,99,235,0.22)]',
@@ -35,7 +36,7 @@ export const zh: Dict = {
       },
       {
         label: '列模式',
-        iconSrc: '/images/tag-column.png',
+        iconSrc: '/images/tag-column.webp',
         imageAlt: '列模式编辑图标',
         classes: 'bg-emerald-100 text-emerald-800 border-emerald-300 hover:bg-emerald-200 hover:border-emerald-400',
         iconFrame: 'border-emerald-500 bg-white shadow-[0_2px_10px_rgba(5,150,105,0.22)]',
@@ -43,7 +44,7 @@ export const zh: Dict = {
       },
       {
         label: '多标签',
-        iconSrc: '/images/tag-tabs.png',
+        iconSrc: '/images/tag-tabs.webp',
         imageAlt: '多标签文本编辑器图标',
         classes: 'bg-amber-100 text-amber-800 border-amber-300 hover:bg-amber-200 hover:border-amber-400',
         iconFrame: 'border-amber-500 bg-white shadow-[0_2px_10px_rgba(217,119,6,0.24)]',
@@ -51,7 +52,7 @@ export const zh: Dict = {
       },
       {
         label: 'AI + 自动化',
-        iconSrc: '/images/tag-ai.png',
+        iconSrc: '/images/tag-ai.webp',
         imageAlt: 'AI 与文本自动化图标',
         classes: 'bg-violet-100 text-violet-800 border-violet-300 hover:bg-violet-200 hover:border-violet-400',
         iconFrame: 'border-violet-500 bg-white shadow-[0_2px_10px_rgba(124,58,237,0.24)]',
@@ -73,9 +74,9 @@ export const zh: Dict = {
     ],
     shortcutPanelTitle: 'Notepad++ 快捷键，原样延续到 Mac',
     shortcutColLeft: 'Notepad++',
-    shortcutColRight: 'notePad++++',
+    shortcutColRight: APP_NAME,
     shortcutFooterLeft: 'Windows Notepad++ 习惯',
-    shortcutFooterRight: 'macOS notePad++++ ✦',
+    shortcutFooterRight: `macOS ${APP_NAME} ✦`,
     ctaPrimary: '下载 Mac 版',
     ctaSecondary: '查看功能亮点',
   },
@@ -84,14 +85,14 @@ export const zh: Dict = {
     sectionLabel: '为什么不一样',
     headline: '它可以写字，也可以',
     headlineGradient: '替你整理一整批文字',
-    sub: '普通编辑器擅长打开和修改文件。notePad++++ 更进一步：搜索整个工作区、提取结果、运行脚本、组合流水线、批量预览差异，再安全地应用修改。',
+    sub: `普通编辑器擅长打开和修改文件。${APP_NAME} 更进一步：搜索整个工作区、提取结果、运行脚本、组合流水线、批量预览差异，再安全地应用修改。`,
     pillars: [
       {
         icon: '✏️',
         title: '编辑更顺手',
         desc: '多标签编辑、正则查找替换、列模式、Markdown 预览。基本功扎实，日常使用不设障碍。',
         points: ['多标签，多文件来回切', '正则查找替换', '列模式编辑', 'Markdown 实时预览'],
-        image: '/images/screen-column.png',
+        image: '/images/screen-column.webp',
         imageAlt: '列模式编辑界面',
         gradient: 'from-brand-50 to-white',
         accent: 'text-brand-600',
@@ -102,7 +103,7 @@ export const zh: Dict = {
         title: '整理更高效',
         desc: '工作区搜索、结果提取、书签和片段。不只是找到，还能直接整理成可用的内容。',
         points: ['工作区全文搜索', '搜索结果批量提取', '书签快速定位', '常用片段复用'],
-        image: '/images/screen-search.png',
+        image: '/images/screen-search.webp',
         imageAlt: '工作区搜索结果界面',
         gradient: 'from-teal-50 to-white',
         accent: 'text-teal-600',
@@ -113,7 +114,7 @@ export const zh: Dict = {
         title: '重复工作自动化',
         desc: '内置脚本、流水线画廊、批量运行、差异预览与回滚。一次配置，反复使用。',
         points: ['脚本自动化处理', '10+ 内置流水线', '批量处理多文件', '预览差异后再应用'],
-        image: '/images/screen-scripts.png',
+        image: '/images/screen-scripts.webp',
         imageAlt: 'JS 脚本自动化界面',
         gradient: 'from-purple-50 to-white',
         accent: 'text-purple-600',
@@ -201,15 +202,15 @@ export const zh: Dict = {
       { step: '04', label: '确认应用', example: '✓ 应用到 3 个文件\n✓ 已保留备份\n✓ 可回滚', color: 'border-green-200 bg-green-50' },
     ],
     privacyTitle: '关于 AI 与隐私',
-    privacyBody: 'AI 功能由用户主动配置 API。你可以选择自己的服务提供商和模型，在执行前确认输入内容，重要文档始终由你掌控。notePad++++ 不会在你不知情的情况下将文本发送给任何第三方。',
-    screenshotAlt: 'notePad++++ AI 脚本生成与自动化界面',
+    privacyBody: `AI 功能由用户主动配置 API。你可以选择自己的服务提供商和模型，在执行前确认输入内容，重要文档始终由你掌控。${APP_NAME} 不会在你不知情的情况下将文本发送给任何第三方。`,
+    screenshotAlt: `${APP_NAME} AI 脚本生成与自动化界面`,
   },
 
   textCleaning: {
     sectionLabel: '中文场景',
     headline: '',
     headlineGradient: '更懂中文文本的细节',
-    sub: '中文内容整理常常不是"写代码"，而是清洗标点、统一全角半角、去掉多余空行、整理列表、提取链接、处理平台复制带来的杂质。notePad++++ 把这些高频动作做成可复用工具。',
+    sub: `中文内容整理常常不是"写代码"，而是清洗标点、统一全角半角、去掉多余空行、整理列表、提取链接、处理平台复制带来的杂质。${APP_NAME} 把这些高频动作做成可复用工具。`,
     beforeLabel: '处理前',
     afterLabel: '处理后',
     toggleBefore: '点击查看处理后',
@@ -256,7 +257,7 @@ export const zh: Dict = {
     sectionLabel: '安全与可控',
     headline: '重要文本，',
     headlineGradient: '应该由你掌控',
-    sub: 'notePad++++ 以本地文件为中心，不要求你把文档存到陌生账号里。文件访问由 macOS 授权，脚本处理当前文本，AI 功能由你主动配置并确认输入。',
+    sub: `${APP_NAME} 以本地文件为中心，不要求你把文档存到陌生账号里。文件访问由 macOS 授权，脚本处理当前文本，AI 功能由你主动配置并确认输入。`,
     points: [
       { icon: '💾', title: '本地文件优先', desc: '默认围绕本地文件工作，不要求把文档存到陌生账号里。文件就在你的磁盘上，随时可访问。', color: 'border-brand-100', accent: 'text-brand-600', bg: 'bg-brand-50' },
       { icon: '🔐', title: '系统级授权', desc: '文件访问通过 macOS 系统授权，无需账号即可编辑本地文档，符合 App Sandbox 安全规范。', color: 'border-green-100', accent: 'text-green-700', bg: 'bg-green-50' },
@@ -265,7 +266,7 @@ export const zh: Dict = {
       { icon: '↩️', title: '自动备份与回滚', desc: '批量处理时自动保留备份，意外修改可以一键还原，重要文本操作更有保障。', color: 'border-purple-100', accent: 'text-purple-700', bg: 'bg-purple-50' },
       { icon: '🤝', title: 'AI 输入由你确认', desc: 'AI 功能由你主动配置 API，执行前可确认输入内容。不会在你不知情的情况下发送文本。', color: 'border-blue-100', accent: 'text-blue-700', bg: 'bg-blue-50' },
     ],
-    disclaimer: 'notePad++++ 默认围绕本地文件工作。AI 功能使用第三方 API，由用户主动配置。使用时请遵循所选 AI 服务商的使用条款。',
+    disclaimer: `${APP_NAME} 默认围绕本地文件工作。AI 功能使用第三方 API，由用户主动配置。使用时请遵循所选 AI 服务商的使用条款。`,
   },
 
   cloudSync: {
@@ -297,7 +298,7 @@ export const zh: Dict = {
     ],
     mockPanel: {
       title: '同步空间',
-      subtitle: 'iCloud Drive / notePad++++',
+      subtitle: `iCloud Drive / ${APP_NAME}`,
       syncDirLabel: '工作区目录',
       syncDirName: '我的项目',
       statusLabels: {
@@ -346,7 +347,7 @@ export const zh: Dict = {
     headline: '真实用户，',
     headlineGradient: '真实反馈',
     appStoreCaption: 'App Store 用户评价',
-    reviewsAlt: 'notePad++++ App Store 用户评价截图',
+    reviewsAlt: `${APP_NAME} App Store 用户评价截图`,
     scoreLabel: 'macOS 评分',
     scoreValue: '4.8',
     scoreSuffix: '满分 5 分',
@@ -375,8 +376,8 @@ export const zh: Dict = {
     headline: 'FAQ',
     sub: '使用前最常见的疑问，一次解答清楚。',
     items: [
-      { q: 'notePad++++ 和 Notepad++ 有什么关系？', a: 'notePad++++ 是专为 macOS 设计的文本编辑器，受到 Notepad++ 的功能理念启发，提供多标签、正则搜索、列模式等核心功能，并在此基础上增加了脚本流水线、批量处理和 AI 辅助能力，更适合 Mac 用户的使用习惯。' },
-      { q: '它适合非程序员使用吗？', a: '完全适合。notePad++++ 的基础功能（多标签编辑、工作区浏览、搜索替换）对任何用户都很友好。流水线和脚本是进阶功能，不会的用户可以先忽略，也可以让 AI 帮忙生成脚本。' },
+      { q: `${APP_NAME} 和 Notepad++ 有什么关系？`, a: `${APP_NAME} 是专为 macOS 设计的文本编辑器，受到 Notepad++ 的功能理念启发，提供多标签、正则搜索、列模式等核心功能，并在此基础上增加了脚本流水线、批量处理和 AI 辅助能力，更适合 Mac 用户的使用习惯。` },
+      { q: '它适合非程序员使用吗？', a: `完全适合。${APP_NAME} 的基础功能（多标签编辑、工作区浏览、搜索替换）对任何用户都很友好。流水线和脚本是进阶功能，不会的用户可以先忽略，也可以让 AI 帮忙生成脚本。` },
       { q: 'AI 功能会把我的文本发送到哪里？', a: 'AI 功能需要你主动配置第三方 API（如 OpenAI、Claude 等）。内容只会在你执行 AI 操作时发送到你指定的服务商，app 本身不会收集或转发任何文本内容。' },
       { q: '批量处理安全吗？万一改错怎么办？', a: '批量处理前会先展示差异预览，你可以清楚看到哪些文件、哪些行会被修改，确认后再应用。处理时自动保留备份，可以随时一键回滚，不用担心误操作。' },
       { q: '支持哪些文件格式？', a: '支持所有纯文本格式，包括 .txt、.md（Markdown）、.csv、.json、.log、.html、.js、.py 等。对于二进制文件（如 Word、PDF）需先转换为文本格式。' },
@@ -389,10 +390,10 @@ export const zh: Dict = {
   cta: {
     headline: '准备好了吗？',
     headlineSub: '开始在 Mac 上更高效地处理文本',
-    sub: '从今天起，把重复的文本整理工作交给 notePad++++，把注意力留给真正重要的内容。',
+    sub: `从今天起，把重复的文本整理工作交给 ${APP_NAME}，把注意力留给真正重要的内容。`,
     appStoreLabel: '在 App Store 下载',
     githubLabel: '查看 GitHub',
-    iconAlt: 'notePad++++图标',
+    iconAlt: `${APP_NAME}图标`,
     badges: [
       { icon: '🍎', text: 'macOS 12+ 支持' },
       { icon: '💾', text: '本地文件优先' },
@@ -420,10 +421,10 @@ export const zh: Dict = {
       { label: '2026 Mac Markdown 编辑器', href: '/en/markdown-editor-for-mac-2026/' },
       { label: '带实时预览的 Markdown 编辑器', href: '/en/markdown-editor-with-live-preview-for-mac/' },
       { label: 'Typora 替代方案', href: '/zh-hans/typora-alternative-for-mac/' },
-      { label: 'Typora 与 notePad++++ 对比', href: '/zh-hans/typora-vs-notepad-plus-plus-plus-plus/' },
+      { label: `Typora 与 ${APP_NAME} 对比`, href: '/zh-hans/typora-vs-notepad-plus-plus-plus-plus/' },
       { label: '2026 Mac 轻量编辑器', href: '/en/best-lightweight-text-editors-for-mac-2026/' },
       { label: '为什么 Mac 仍需要 Notepad++ 替代品', href: '/en/why-macos-still-needs-a-notepad-plus-plus-alternative/' },
-      { label: 'notePad++++ 构建故事', href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
+      { label: `${APP_NAME} 构建故事`, href: '/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/' },
       { label: 'Notepad++ for Mac', href: '/en/notepad-plus-plus-for-mac/' },
       { label: 'Mac 替代品指南', href: '/en/notepad-plus-plus-alternatives-for-mac/' },
       { label: '列模式编辑指南', href: '/en/column-mode-editor-for-mac/' },
@@ -432,7 +433,7 @@ export const zh: Dict = {
     githubLabel: 'GitHub 仓库',
     productHuntLabel: 'Product Hunt',
     downloadLabel: '立即下载',
-    copyright: '© 2026 notePad++++ · 适用于 macOS 12 及以上版本',
+    copyright: `© 2026 ${APP_NAME} · 适用于 macOS 12 及以上版本`,
     trademark: 'macOS 是 Apple Inc. 的商标 · Notepad++ 是 Don Ho 的开源项目',
     legalTitle: '法律',
     privacyLabel: '隐私政策',
