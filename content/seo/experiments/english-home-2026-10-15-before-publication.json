@@ -1,0 +1,85 @@
+{
+  "page": "https://notepad-plus-plus-mac.com/en/",
+  "site": "sc-domain:notepad-plus-plus-mac.com",
+  "prepared_at": "2026-10-15",
+  "publication_status": "draft_pending_user_review",
+  "published_at": null,
+  "primary_keyword": "notepad++ mac",
+  "filters": {
+    "page_match": "exact",
+    "query_match": "exact",
+    "search_type": "Web",
+    "country": "all",
+    "device": "all"
+  },
+  "source": "Google Search Console exact homepage and keyword, checked live on 2026-10-15",
+  "latest_complete_data_date": "2026-10-11",
+  "baseline_28_days": {
+    "start": "2026-09-14",
+    "end": "2026-10-11",
+    "primary_keyword": {
+      "query": "notepad++ mac",
+      "position": 11.8,
+      "impressions": 340,
+      "clicks": 3,
+      "ctr": 0.008823529411764706,
+      "ctr_display": "0.9%"
+    }
+  },
+  "baseline_7_days": {
+    "start": "2026-10-05",
+    "end": "2026-10-11",
+    "primary_keyword": {
+      "query": "notepad++ mac",
+      "position": 11.2,
+      "impressions": 107,
+      "clicks": 0,
+      "ctr": 0
+    }
+  },
+  "changes": [
+    "Clear title, heading, description and app identity",
+    "Direct App Store links at the top, after core workflows, and at the end",
+    "Reuse 6 actual screenshots from published articles; add only Markdown and Pipeline Gallery screenshots",
+    "Replace simulated app panels and batch counts with actual screenshots and explanations",
+    "Keep existing language alternates and article links"
+  ],
+  "screenshots": {
+    "reused": [
+      "seo/notepad-mac-features/tabs-syntax-real.webp",
+      "seo/notepad-mac-features/column-selection-real.webp",
+      "seo/notepad-mac-features/regex-replace-real.webp",
+      "seo/notepad-mac-features/workspace-search-real.webp",
+      "seo/lightweight-editor/zen-workspace-real.webp",
+      "seo/lightweight-editor/minimal-mode-real.webp"
+    ],
+    "new": [
+      "seo/english-home/markdown-preview-real.webp",
+      "seo/english-home/pipeline-gallery-real.webp"
+    ]
+  },
+  "review": {
+    "monitor_id": "notepad",
+    "start_post_publication_observation_only_after_user_approval_and_actual_deployment": true,
+    "rules": [
+      "Retain pre-publication baseline; recheck latest complete data at actual deployment.",
+      "Compare exact /en/ page and exact keyword with identical filters.",
+      "Keep tracking the homepage in the existing weekly monitor; no automatic publishing.",
+      "Treat current draft as unpublished; do not attribute rankings to it."
+    ]
+  },
+  "verification": [
+    "Production static build, type check and SEO article checks passed.",
+    "Homepage metadata, language alternates, eight existing image paths and download URLs checked.",
+    "1920x1080 desktop and 390px narrow viewport checked: no horizontal overflow, download entry present.",
+    "Review browser viewport reset after checks; temporary Search Console tab closed."
+  ],
+  "rollback": {
+    "tag": "backup-en-home-before-seo-2026-10-15",
+    "commit": "7f462c2bb634e3d79d2e718d0650473e79cb61d9",
+    "production_deployment_url": "https://295e70d0.notepad-plus-plus-mac.pages.dev",
+    "scope": "Production version before the new English homepage draft; includes previously published article changes and WebP migration.",
+    "method": "Restore only the homepage changes using a new commit, or build this tag separately for full-site redeployment. Preserve later unrelated work.",
+    "automatic_rollback": false
+  }
+}
