@@ -43,12 +43,6 @@ export const englishHomeExtras = [
     figure: actualFigure('/images/seo/english-home/markdown-preview-real.webp', `${APP_NAME} editing a fictional Markdown release checklist with a rendered preview beside the source.`, 'Actual App screenshot with a fictional Markdown checklist, table, and code block.'),
     href: '/en/markdown-editor-with-live-preview-for-mac/', label: 'Read the Markdown guide',
   },
-  {
-    title: 'Pipelines: reuse a sequence of cleanup steps',
-    body: 'The Pipeline Gallery groups built-in text operations such as removing blank lines, deduplicating lists, sorting entries, and extracting links. Check the steps and try them on a copy of your file.',
-    figure: actualFigure('/images/seo/english-home/pipeline-gallery-real.webp', `${APP_NAME} Pipeline Gallery showing built-in list and link cleanup workflows.`, 'Actual Pipeline Gallery. No simulated batch counts or processing results.'),
-    href: '/en/batch-text-processing-mac/', label: 'Explore batch text processing',
-  },
 ]
 
 export const englishHomeFocusModes = [

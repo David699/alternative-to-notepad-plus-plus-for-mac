@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import SeoArticleFigure from '@/components/SeoArticleFigure'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
+import EnglishHomeAutomation from '@/components/EnglishHomeAutomation'
 import { englishHomeWorkflows, englishHomeExtras, englishHomeFocusModes } from '@/lib/english-home'
 import { APP_NAME } from '@/lib/seo'
 import { withBasePath } from '@/lib/paths'
@@ -30,11 +31,11 @@ export default function EnglishHomeWorkflows() {
           </div>
         </div>
       </section>
-      <section id="automation" className="bg-gray-50 py-16 sm:py-24">
+      <section id="formats" className="bg-gray-50 py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <p className="section-label">When you need more</p>
-          <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">Preview documents and reuse text operations</h2>
-          <div className="mt-10 grid gap-10 lg:grid-cols-2">
+          <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">Preview Markdown beside the source</h2>
+          <div className="mt-10 max-w-4xl">
             {englishHomeExtras.map((item) => (
               <article key={item.title}>
                 <h3 className="text-xl font-bold text-gray-950">{item.title}</h3>
@@ -44,16 +45,9 @@ export default function EnglishHomeWorkflows() {
               </article>
             ))}
           </div>
-          <div id="ai" className="mt-10 rounded-2xl border border-gray-200 bg-white p-6">
-            <h3 className="text-xl font-bold text-gray-950">Optional AI assistance</h3>
-            <p className="mt-3 leading-7 text-gray-600">Configure your own AI provider to assist with text or scripts. Check generated output before applying it. Local file editing does not require an AI account; third-party AI services have their own terms and charges.</p>
-          </div>
-          <div id="text-cleaning" className="mt-6 rounded-2xl border border-gray-200 bg-white p-6">
-            <h3 className="text-xl font-bold text-gray-950">Clean up lists and copied text</h3>
-            <p className="mt-3 leading-7 text-gray-600">Remove blank lines, deduplicate entries, or sort a list using the available text operations. For a worked example, <Link href={withBasePath('/en/sort-and-remove-duplicate-lines-on-mac/')} className="text-brand-700 underline underline-offset-4">read the list cleanup guide</Link>.</p>
-          </div>
         </div>
       </section>
+      <EnglishHomeAutomation />
       <section className="bg-white py-16 sm:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-black tracking-tight text-gray-950 sm:text-4xl">Choose a quieter view for plain text</h2>

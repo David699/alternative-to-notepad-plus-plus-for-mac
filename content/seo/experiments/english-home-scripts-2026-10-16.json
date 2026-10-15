@@ -1,0 +1,124 @@
+{
+  "recorded_at": "2026-10-16T02:32:50.921762+08:00",
+  "status": "published",
+  "page": "https://notepad-plus-plus-mac.com/en/",
+  "published_at": "2026-10-16T02:31:08.419187+08:00",
+  "primary_query": "notepad++ mac",
+  "changes": [
+    "Add dedicated section for built-in and custom scripts, optional AI help, folder preview, backed-up application and restoration",
+    "Reuse five real WebP screenshots without creating or duplicating image assets",
+    "Link to the script automation tutorial and retain prior App Store links with an additional section download link",
+    "Update batch-processing FAQ with retention and restoration conditions"
+  ],
+  "sources": [
+    "components/EnglishHomeAutomation.tsx",
+    "lib/english-home-automation.ts",
+    "components/EnglishHomeWorkflows.tsx",
+    "lib/english-home.ts",
+    "app/en/page.tsx"
+  ],
+  "metadata_unchanged": true,
+  "ranking_baseline": {
+    "recorded_at": "2026-10-16T02:30:53.711689+08:00",
+    "source": "Google Search Console visible UI",
+    "page": "https://notepad-plus-plus-mac.com/en/",
+    "query": "notepad++ mac",
+    "filters": {
+      "page_match": "exact",
+      "query_match": "exact",
+      "search_type": "web",
+      "countries": "all",
+      "devices": "all"
+    },
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "clicks": 3,
+        "impressions": 357,
+        "ctr_percent": 0.84,
+        "position": 11.6,
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/notepad-mac-28d.txt"
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "clicks": 0,
+        "impressions": 110,
+        "ctr_percent": 0.0,
+        "position": 11.1,
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/notepad-mac-7d.txt"
+      }
+    },
+    "limits": [
+      "Exact English homepage and exact keyword, not sitewide or all queries page totals.",
+      "Historical average position is not a fixed live rank.",
+      "Data end before both October 15 homepage optimization and October 16 script supplement; cannot measure either release.",
+      "The two homepage changes are close together; later results cannot isolate the script section contribution."
+    ]
+  },
+  "deployment": {
+    "id": "761bf41d-6ea5-4e8d-a75b-41407451f2e4",
+    "url": "https://761bf41d.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T18:31:06.54553Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T18:31:08.419187Z",
+    "published_at": "2026-10-16T02:31:08.419187+08:00"
+  },
+  "backup_tag": "backup-en-home-scripts-before-seo-2026-10-16",
+  "backup_commit": "7b19be0947b9156a5ced3dfda82910beeaf30fe9",
+  "previous_home_optimization_record": "content/seo/experiments/english-home-2026-10-15.json",
+  "interpretation": "October 15 homepage optimization and October 16 script supplement overlap; later changes cannot be attributed to this section alone. October 15 is already an optimized version.",
+  "follow_up": {
+    "scheduled_at": "2026-10-23T13:00:00+08:00",
+    "automation_id": "automation",
+    "previous_schedule": "2026-10-22T09:00:00+08:00",
+    "reason": "Merge same-page keyword review into one report after latest approved update",
+    "long_term_automation_id": "notepad",
+    "before_window": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "after_window": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "retain_first_homepage_windows": [
+      [
+        "2026-10-08",
+        "2026-10-14"
+      ],
+      [
+        "2026-10-15",
+        "2026-10-21"
+      ]
+    ],
+    "incomplete_data": "Report actual dates and keep full-week comparison pending in long-term monitoring"
+  },
+  "verification": {
+    "build": "67 exported routes, TypeScript and lint passed",
+    "selected_seo_validator": "Passed selected repository coverage",
+    "production": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/production-verification.json",
+    "browser": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/production-browser-verification.json",
+    "prior_desktop_mobile_review": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-local-review/browser-verification.json",
+    "script_images_reused": 5,
+    "app_store_links": 6,
+    "all_old_download_links_retained": true,
+    "diff_check": "Passed"
+  },
+  "cleanup": {
+    "pid": 1860,
+    "command": "/opt/homebrew/Cellar/python@3.14/3.14.5/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python -m http.server 8768 --bind 127.0.0.1 --directory out",
+    "cwd": "/Users/xuwanbiao/Desktop/Work/macOS/alternative-to-notepad-plus-plus-for-mac",
+    "stopped": true,
+    "reason": "Approved publication completed; local user review service no longer needed"
+  },
+  "git_delivery_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/completion.json",
+  "screenshots": [
+    "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/english-home-scripts-publication/published-script-section.png"
+  ]
+}
