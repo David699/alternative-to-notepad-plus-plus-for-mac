@@ -1,3 +1,4 @@
+import { notepadForMacGuide } from './notepad-for-mac-guide'
 import type { SeoArticle, SeoArticleLink } from '../seo-articles'
 import { APP_NAME } from '../seo'
 import { APP_STORE_URL, GITHUB_REPO_URL, PRODUCT_HUNT_URL } from '../paths'
@@ -177,87 +178,5 @@ export const textEditorGuides: SeoArticle[] = [
     ],
     externalLinks: commonExternalLinks,
   },
-  {
-    slug: 'notepad-for-mac',
-    title: 'Notepad for Mac: A Native macOS Text Editor for Quick Notes, Plain Text, and Cleanup',
-    shortTitle: 'Notepad for Mac',
-    description:
-      `Looking for a Notepad for Mac? ${APP_NAME} is a native macOS text editor for quick plain-text notes, local files, tabs, Markdown, regex cleanup, Column Mode, and batch text processing.`,
-    datePublished: '2026-07-01',
-    dateModified: '2026-07-01',
-    keywords: [
-      'notepad for Mac',
-      'Mac notepad',
-      'notepad app for Mac',
-      'simple text editor for Mac',
-      'Notepad++ for Mac alternative',
-    ],
-    heroKicker: 'A stronger notepad-style workflow',
-    heroSummary:
-      `If you search for a notepad on Mac, you may only need a fast place to edit plain text. But many real notes turn into lists, logs, Markdown, snippets, and cleanup jobs. ${APP_NAME} covers that practical range.`,
-    sections: [
-      {
-        title: 'What people usually mean by notepad for Mac',
-        body: [
-          'Sometimes the need is simple: open a text file, paste notes, make a quick edit, and save. macOS already includes basic options for that. The problem appears when the note becomes structured text that needs search, cleanup, or repeated edits.',
-          `${APP_NAME} keeps the direct feel of a notepad-style editor while adding practical tools for local text work: tabs, regex, Column Mode, Markdown preview, workspace search, pipelines, and safe batch changes.`,
-        ],
-      },
-      {
-        title: 'A notepad that can handle messy text',
-        body: [
-          'Copied notes often contain extra blank lines, duplicate entries, inconsistent punctuation, URLs, dates, or Markdown syntax. Manual cleanup is slow and easy to repeat badly.',
-          `${APP_NAME} lets you use built-in pipelines or custom scripts to clean text in a repeatable way. For bigger operations, preview the diff before applying changes.`,
-        ],
-        bullets: [
-          'Quick notes and plain-text drafts.',
-          'Markdown notes with preview.',
-          'Lists that need deduplication and sorting.',
-          'Logs and snippets that need regex cleanup.',
-          'Aligned rows that benefit from Column Mode.',
-          'Folder-level search for recurring notes and references.',
-        ],
-      },
-      {
-        title: 'How it differs from Notepad++ searches',
-        body: [
-          `Some users search for "notepad for Mac" because they want a simple editor. Others mean "something like Notepad++ on Mac." ${APP_NAME} is closer to the second intent: it is simple enough for quick text, but built for practical Notepad++-style workflows.`,
-          'That makes this page useful for broader search intent while the dedicated Notepad++ pages cover users who already know the Windows editor by name.',
-        ],
-      },
-    ],
-    table: {
-      title: 'Notepad-style needs on Mac',
-      headers: ['Need', `${APP_NAME} fit`],
-      rows: [
-        ['Quick text note', 'Open a local file and edit without a project setup.'],
-        ['Plain-text file', 'Work with predictable text instead of rich formatting.'],
-        ['Several notes at once', 'Use tabs for multiple open files.'],
-        ['Markdown note', 'Preview the rendered document while editing.'],
-        ['Messy pasted text', 'Run cleanup pipelines and regex replacements.'],
-        ['Repeated edits', 'Use scripts and batch-safe processing.'],
-      ],
-    },
-    faq: [
-      {
-        q: 'Does Mac have a notepad app?',
-        a: `macOS includes basic text tools, but users who need tabs, regex, Column Mode, Markdown preview, workspace search, and batch cleanup may prefer a focused editor like ${APP_NAME}.`,
-      },
-      {
-        q: `Is ${APP_NAME} simple enough for quick notes?`,
-        a: 'Yes. It can be used for quick local text notes, while still offering advanced tools when the text needs cleanup or structure.',
-      },
-      {
-        q: 'Is this the same as Notepad++?',
-        a: `No. ${APP_NAME} is an independent Mac app inspired by practical Notepad++-style text workflows.`,
-      },
-    ],
-    related: [
-      { label: 'Text editor for Mac', href: '/en/text-editor-for-mac/' },
-      { label: 'Plain text editor for Mac', href: '/en/plain-text-editor-for-mac/' },
-      { label: 'Notepad++ for Mac alternative', href: '/en/notepad-plus-plus-for-mac/' },
-      { label: 'Back to product overview', href: '/en/' },
-    ],
-    externalLinks: commonExternalLinks,
-  },
+  notepadForMacGuide,
 ]

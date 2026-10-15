@@ -1,0 +1,23 @@
+MULTI-KEYWORD SEARCH: FICTIONAL RECORDS
+Compare exact phrases, rows and paragraphs.
+
+2026-10-16 ERROR payment timeout request=101
+
+2026-10-16 WARN timeout during payment request=102
+
+2026-10-16 INFO payment completed request=103
+
+2026-10-16 WARN login timeout request=104
+
+REQUEST DETAIL: RECORD 105
+operation: payment
+reason: timeout
+status: retry
+
+SEPARATE RECORD: 106
+operation: payment
+
+SEPARATE RECORD: 107
+reason: timeout
+
+All names and records are demonstration data.

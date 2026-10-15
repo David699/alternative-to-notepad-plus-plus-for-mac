@@ -1,0 +1,649 @@
+{
+  "recorded_at": "2026-10-16T01:13:05.967293+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T01:27:50.416603+08:00",
+  "page": "https://notepad-plus-plus-mac.com/en/notepad-for-mac/",
+  "source": "lib/seo-articles/notepad-for-mac-guide.ts",
+  "original_source": "lib/seo-articles/text-editor-guides.ts",
+  "primary_queries": [
+    "notepad mac",
+    "notepad for mac"
+  ],
+  "changes": [
+    "Preserve URL and original 2026-07-01 datePublished",
+    "Separate article data into a small dedicated module",
+    "Explain TextEdit TXT workflow and Notes import distinction",
+    "Demonstrate local file save, tabs, Minimal Mode and Zen Mode",
+    "Reuse three existing real WebP screenshots without copying assets",
+    "Retain App Store download entry at the top, middle and end",
+    "Introduce verified Pro multi-keyword search without claiming exclusivity"
+  ],
+  "official_sources": [
+    "https://support.apple.com/guide/textedit/create-open-and-convert-documents-txtee6663a0e/mac",
+    "https://support.apple.com/guide/notes/import-export-and-print-notes-not201900c07/mac"
+  ],
+  "verification": {
+    "status": "passed",
+    "production_build": "Latest combined draft build: 66 routes, TypeScript and lint passed",
+    "existing_seo_validator": "Passed after registering the extracted article module",
+    "export": {
+      "page": "https://notepad-plus-plus-mac.com/en/notepad-for-mac/",
+      "title": "Notepad for Mac: Open TXT Files, Use TextEdit & Compare Apps | notePad++++",
+      "description": "Need a notepad on Mac? Create TXT files with TextEdit, compare it with Notes, and see real notePad++++ screenshots of tabs and focused editing.",
+      "h1_count": 1,
+      "app_store_links": 5,
+      "article_real_webp_images": 3,
+      "sample_preview_and_download_separate": true,
+      "original_publication_date_preserved": true,
+      "image_paths_exist": true
+    },
+    "browser": {
+      "desktop": {
+        "documentWidth": 2106,
+        "downloads": 5,
+        "height": 1188,
+        "scrollY": 0,
+        "width": 2112
+      },
+      "mobile": {
+        "documentWidth": 385,
+        "height": 844,
+        "imagesLoaded": true,
+        "url": "http://127.0.0.1:8768/en/notepad-for-mac/#use-zen-mode-for-a-focused-reading-pass",
+        "width": 390
+      }
+    },
+    "screenshots": [
+      "screenshots/notepad-for-mac-final-desktop-review.png",
+      "screenshots/notepad-for-mac-mobile-review.png",
+      "screenshots/notepad-for-mac-local-review.png"
+    ],
+    "cleanup": "Temporary Chrome checks closed and viewport reset; existing App preserved, original document and search settings restored; review tabs navigated to production.",
+    "review_service": {
+      "url": "http://127.0.0.1:8768/en/notepad-for-mac/",
+      "pid": 92934,
+      "purpose": "Kept only to serve the local page explicitly requested for user review; stop after approved production publication or when no longer needed.",
+      "status": "stopped_after_publication"
+    },
+    "production": {
+      "record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-production-verification.json",
+      "page": {
+        "url": "https://notepad-plus-plus-mac.com/en/notepad-for-mac/",
+        "html_identical": true,
+        "h1_count": 1,
+        "app_store_links": 5,
+        "real_screenshot_count": 3,
+        "canonical": "https://notepad-plus-plus-mac.com/en/notepad-for-mac/",
+        "description": "Need a notepad on Mac? Create TXT files with TextEdit, compare it with Notes, and see real notePad++++ screenshots of tabs and focused editing.",
+        "title": "Notepad for Mac: Open TXT Files, Use TextEdit &amp; Compare Apps | notePad++++",
+        "sample_links": [
+          {
+            "href": "/samples/lightweight-demo-workspace/01-project-notes.txt",
+            "target": "_blank",
+            "rel": "noopener noreferrer",
+            "class": "font-semibold text-brand-700 hover:text-brand-900"
+          },
+          {
+            "href": "/samples/lightweight-demo-workspace/01-project-notes.txt",
+            "download": "",
+            "class": "font-semibold text-brand-700 hover:text-brand-900"
+          },
+          {
+            "href": "/samples/lightweight-demo-workspace/02-editing-checklist.txt",
+            "download": "",
+            "class": "font-semibold text-brand-700 hover:text-brand-900"
+          },
+          {
+            "href": "/samples/lightweight-demo-workspace/03-reference.txt",
+            "download": "",
+            "class": "font-semibold text-brand-700 hover:text-brand-900"
+          }
+        ]
+      },
+      "screenshots_and_samples_identical_to_local": true,
+      "sitemap_contains_page": true,
+      "screenshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/notepad-for-mac-published.png"
+    },
+    "publication_checks": "66-route build, TypeScript/lint, existing selected SEO validator and git diff --check passed before deployment; no site source edits afterward.",
+    "local_review_service": "Task-created review server PID 92934 stopped after production verification; port 8768 no longer listening."
+  },
+  "publication": "Published with user approval; production HTML, screenshots, samples and download entry verified.",
+  "linked_followup_article": "/en/search-multiple-keywords-text-file-mac/",
+  "draft_ranking_baseline": {
+    "source": "Google Search Console visible UI, captured earlier in this same session; latest complete period unchanged",
+    "period": [
+      "2026-09-16",
+      "2026-10-13"
+    ],
+    "scope": "Exact article URL, web search, all countries and devices",
+    "page_totals": {
+      "clicks": 0,
+      "impressions": 199,
+      "ctr_percent": 0,
+      "position": 32.4
+    },
+    "query_page_rows": [
+      {
+        "query": "notepad mac",
+        "clicks": 0,
+        "impressions": 48,
+        "ctr_percent": 0,
+        "position": 28.6
+      },
+      {
+        "query": "notepad for mac",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr_percent": 0,
+        "position": 34.8
+      },
+      {
+        "query": "notepad++ mac",
+        "clicks": 0,
+        "impressions": 14,
+        "ctr_percent": 0,
+        "position": 65.6
+      },
+      {
+        "query": "notepad macbook",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr_percent": 0,
+        "position": 27.2
+      },
+      {
+        "query": "notepad for macbook air",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr_percent": 0,
+        "position": 41.0
+      },
+      {
+        "query": "notepad mac download",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr_percent": 0,
+        "position": 43.4
+      },
+      {
+        "query": "notepad for macbook",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr_percent": 0,
+        "position": 46.4
+      },
+      {
+        "query": "notepad++ for mac",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr_percent": 0,
+        "position": 54.4
+      },
+      {
+        "query": "notepad in mac",
+        "clicks": 0,
+        "impressions": 4,
+        "ctr_percent": 0,
+        "position": 32.5
+      },
+      {
+        "query": "notepad macos",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr_percent": 0,
+        "position": 25.0
+      }
+    ],
+    "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/next-seo-opportunities-0106-notepad-page-28d.txt",
+    "table_coverage": "First 10 of 38 public rows, including both primary queries",
+    "limits": [
+      "Historical average position, not a fixed live rank.",
+      "Page totals are not keyword positions or global search volume.",
+      "The draft has not been published and has no post-publication result."
+    ]
+  },
+  "publication_baseline": {
+    "source": "Google Search Console visible UI",
+    "scope": "Exact page URL; query strings preserved exactly",
+    "search_type": "web",
+    "countries": "all",
+    "devices": "all",
+    "url": "https://notepad-plus-plus-mac.com/en/notepad-for-mac/",
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 199,
+          "ctr_percent": 0,
+          "position": 32.4
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad mac",
+            "clicks": 0,
+            "impressions": 48,
+            "ctr_percent": 0.0,
+            "position": 28.6
+          },
+          {
+            "query": "notepad for mac",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr_percent": 0.0,
+            "position": 34.8
+          },
+          {
+            "query": "notepad++ mac",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr_percent": 0.0,
+            "position": 65.6
+          },
+          {
+            "query": "notepad macbook",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 27.2
+          },
+          {
+            "query": "notepad for macbook air",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 41.0
+          },
+          {
+            "query": "notepad mac download",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 43.4
+          },
+          {
+            "query": "notepad for macbook",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 46.4
+          },
+          {
+            "query": "notepad++ for mac",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 54.4
+          },
+          {
+            "query": "notepad in mac",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr_percent": 0.0,
+            "position": 32.5
+          },
+          {
+            "query": "notepad macos",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr_percent": 0.0,
+            "position": 25.0
+          },
+          {
+            "query": "macbook notepad",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr_percent": 0.0,
+            "position": 31.0
+          },
+          {
+            "query": "notepad of mac",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr_percent": 0.0,
+            "position": 33.7
+          },
+          {
+            "query": "mac notepad",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr_percent": 0.0,
+            "position": 49.7
+          },
+          {
+            "query": "macos notepad",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 28.0
+          },
+          {
+            "query": "notepad on mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 36.5
+          },
+          {
+            "query": "notepadd mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 37.0
+          },
+          {
+            "query": "notepad to mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 38.0
+          },
+          {
+            "query": "notepad mac os",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 53.0
+          },
+          {
+            "query": "macbook notepad++",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 69.5
+          },
+          {
+            "query": "notepad+ for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 10.0
+          },
+          {
+            "query": "does macbook have notepad",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "notepad for macos",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "notepad app for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 19.0
+          },
+          {
+            "query": "mac notepad app",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 26.0
+          },
+          {
+            "query": "what is notepad on mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 33.0
+          },
+          {
+            "query": "download notepad for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 38.0
+          },
+          {
+            "query": "notepad download mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 39.0
+          },
+          {
+            "query": "notepad for mac download",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 39.0
+          },
+          {
+            "query": "notepad download for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 40.0
+          },
+          {
+            "query": "notepad para mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 42.0
+          },
+          {
+            "query": "notepad plus plus mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 48.0
+          },
+          {
+            "query": "notepad on macbook",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 52.0
+          },
+          {
+            "query": "notepad ++ mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 63.0
+          },
+          {
+            "query": "notepad mac os x",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 66.0
+          },
+          {
+            "query": "mac os notepad++",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 75.0
+          },
+          {
+            "query": "download notepad++ for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 78.0
+          },
+          {
+            "query": "free notepad for mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 83.0
+          },
+          {
+            "query": "markdown app mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 111.0
+          }
+        ],
+        "primary_queries": [
+          {
+            "query": "notepad mac",
+            "clicks": 0,
+            "impressions": 48,
+            "ctr_percent": 0.0,
+            "position": 28.6
+          },
+          {
+            "query": "notepad for mac",
+            "clicks": 0,
+            "impressions": 14,
+            "ctr_percent": 0.0,
+            "position": 34.8
+          }
+        ],
+        "table_coverage": "38 of 38 public rows",
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-notepad-28d.txt"
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 106,
+          "ctr_percent": 0,
+          "position": 30.1
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad mac",
+            "clicks": 0,
+            "impressions": 28,
+            "ctr_percent": 0.0,
+            "position": 28.9
+          },
+          {
+            "query": "notepad for mac",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr_percent": 0.0,
+            "position": 33.3
+          },
+          {
+            "query": "notepad++ mac",
+            "clicks": 0,
+            "impressions": 7,
+            "ctr_percent": 0.0,
+            "position": 68.0
+          },
+          {
+            "query": "notepad in mac",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr_percent": 0.0,
+            "position": 32.5
+          },
+          {
+            "query": "notepad for macbook",
+            "clicks": 0,
+            "impressions": 4,
+            "ctr_percent": 0.0,
+            "position": 35.5
+          },
+          {
+            "query": "notepad mac download",
+            "clicks": 0,
+            "impressions": 3,
+            "ctr_percent": 0.0,
+            "position": 47.7
+          },
+          {
+            "query": "notepad macbook",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 13.0
+          },
+          {
+            "query": "mac notepad",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 32.0
+          },
+          {
+            "query": "notepad of mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 34.5
+          },
+          {
+            "query": "does macbook have notepad",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          }
+        ],
+        "primary_queries": [
+          {
+            "query": "notepad mac",
+            "clicks": 0,
+            "impressions": 28,
+            "ctr_percent": 0.0,
+            "position": 28.9
+          },
+          {
+            "query": "notepad for mac",
+            "clicks": 0,
+            "impressions": 9,
+            "ctr_percent": 0.0,
+            "position": 33.3
+          }
+        ],
+        "table_coverage": "First 10 of 24 public rows, includes both primary terms",
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-notepad-7d.txt"
+      }
+    },
+    "raw_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-publication-baseline.json",
+    "limits": [
+      "Historical average positions, not fixed live rankings",
+      "No public row means missing data, not zero global demand",
+      "Page totals and keyword metrics are separate",
+      "All dates precede publication; not evidence of optimization effects"
+    ]
+  },
+  "deployment": {
+    "id": "3bf49dd3-92b9-4855-ab2f-2630a95b38e3",
+    "url": "https://3bf49dd3.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T17:27:47.521278Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T17:27:50.416603Z",
+    "published_at": "2026-10-16T01:27:50.416603+08:00"
+  },
+  "backup": {
+    "tag": "backup-notepad-search-before-seo-2026-10-16",
+    "commit": "a8d7c51a7457ff8a01cce6cfc85ab9714eae8fa1"
+  },
+  "weekly_review": {
+    "scheduled_at": "2026-10-23T11:00:00+08:00",
+    "automation_id": "notepad-2",
+    "ongoing_automation_id": "notepad",
+    "comparison_before": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "comparison_after": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "data_delay": "If complete data does not reach October 22, report actual dates and carry the full-week comparison into ongoing monitoring.",
+    "first_complete_week_report_even_if_unchanged": true
+  }
+}

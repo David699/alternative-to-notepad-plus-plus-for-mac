@@ -1,0 +1,354 @@
+{
+  "recorded_at": "2026-10-16T01:24:12.467377+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T01:27:50.416603+08:00",
+  "page": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/",
+  "source": "content/seo/en/search-multiple-keywords-text-file-mac.md",
+  "primary_queries": [
+    "search multiple keywords in text file mac",
+    "find lines containing multiple words",
+    "search multiple words in any order",
+    "search multiple keywords same paragraph"
+  ],
+  "sample": "public/samples/multi-keyword-search/request-log.txt",
+  "observed_demo": {
+    "query": "payment timeout",
+    "contains_phrase_occurrences": 1,
+    "and_line_results": 2,
+    "and_paragraph_results": 3,
+    "paragraph_capture_current_result": 3,
+    "blank_line_separated_records_excluded": true,
+    "replacement_controls_disabled": true,
+    "native_window_bounds": [
+      2536,
+      1302
+    ],
+    "native_window_fullscreen": false
+  },
+  "images": [
+    {
+      "asset": "/images/seo/multi-keyword-search/line-real.webp",
+      "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-line-raw.png",
+      "crop": [
+        100,
+        165,
+        1640,
+        850
+      ],
+      "source": "Real installed notePad++++ App; fictional local TXT data; crop and WebP conversion only"
+    },
+    {
+      "asset": "/images/seo/multi-keyword-search/paragraph-real.webp",
+      "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-paragraph-raw.png",
+      "crop": [
+        100,
+        165,
+        1640,
+        850
+      ],
+      "source": "Real installed notePad++++ App; fictional local TXT data; crop and WebP conversion only"
+    },
+    {
+      "asset": "/images/seo/multi-keyword-search/line-controls-real.webp",
+      "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-line-raw.png",
+      "crop": [
+        940,
+        580,
+        772,
+        274
+      ],
+      "source": "Real installed notePad++++ App; fictional local TXT data; crop and WebP conversion only"
+    },
+    {
+      "asset": "/images/seo/multi-keyword-search/phrase-real.webp",
+      "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-exact-phrase-raw.png",
+      "crop": [
+        100,
+        165,
+        1640,
+        700
+      ],
+      "source": "Real installed notePad++++ App; fictional local TXT data; crop and WebP conversion only"
+    }
+  ],
+  "verified_limits": [
+    "2–8 whitespace-separated literal terms",
+    "Order independent, optional case sensitivity, substring matching",
+    "Blank lines delimit paragraphs",
+    "Replacement disabled; multi-keyword modes not combined with regex/whole-word",
+    "Pro access or eligible trial required"
+  ],
+  "sources": [
+    "Sources/Core/Search/EditorSearchModels.swift",
+    "Sources/Core/Workspace/WorkspaceMultiKeywordSearchMatcher.swift",
+    "Sources/UI/Components/SearchPanelView.swift",
+    "WebApp/src/searchEngine.js"
+  ],
+  "verification": {
+    "build": "66 routes, TypeScript and lint passed",
+    "existing_seo_validator": "Passed; selected repository coverage, direct checks additionally verify this new page",
+    "export": {
+      "url": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/",
+      "one_h1": true,
+      "app_store_links": 5,
+      "real_webp_images": [
+        "/images/app-icon.webp",
+        "/images/seo/multi-keyword-search/line-real.webp",
+        "/images/seo/multi-keyword-search/line-controls-real.webp",
+        "/images/seo/multi-keyword-search/paragraph-real.webp",
+        "/images/seo/multi-keyword-search/phrase-real.webp"
+      ],
+      "sample_preview_and_download": true,
+      "sitemap": true,
+      "faq_jsonld": true,
+      "sample_sha256": "993990989e7ae9bc9a8679fae7ddce5d6414ab8f054481f455ff806399f0ee23"
+    },
+    "existing_search_tests": "Previous same-session 12 tests passed; search source unchanged since that verification",
+    "browser": {
+      "desktop": {
+        "documentWidth": 2106,
+        "downloads": 5,
+        "h1": "Search Multiple Keywords in a Text File on Mac",
+        "height": 1188,
+        "width": 2112
+      },
+      "mobile": {
+        "codeBlocks": [
+          {
+            "overflow": "auto",
+            "scrollWidth": 680,
+            "width": 337
+          }
+        ],
+        "documentWidth": 385,
+        "height": 844,
+        "tables": [
+          {
+            "container": 335,
+            "overflow": "auto",
+            "width": 640
+          }
+        ],
+        "width": 390
+      },
+      "desktopImagesLoaded": true
+    },
+    "review_screenshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-article-local-review.png",
+    "production": {
+      "record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-production-verification.json",
+      "page": {
+        "url": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/",
+        "html_identical": true,
+        "h1_count": 1,
+        "app_store_links": 5,
+        "real_screenshot_count": 4,
+        "canonical": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/",
+        "description": "Find lines or paragraphs containing every search word on Mac, in any order. Follow real App screenshots and try a sample TXT file without writing regex.",
+        "title": "Search Multiple Keywords in a Text File on Mac: AND Search",
+        "sample_links": [
+          {
+            "href": "/samples/multi-keyword-search/request-log.txt",
+            "target": "_blank",
+            "rel": "noopener noreferrer"
+          },
+          {
+            "href": "/samples/multi-keyword-search/request-log.txt",
+            "download": null
+          }
+        ]
+      },
+      "screenshots_and_samples_identical_to_local": true,
+      "sitemap_contains_page": true,
+      "screenshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/multi-keyword-article-published.png"
+    },
+    "publication_checks": "66-route build, TypeScript/lint, existing selected SEO validator and git diff --check passed before deployment; no site source edits afterward.",
+    "local_review_service": "Task-created review server PID 92934 stopped after production verification; port 8768 no longer listening."
+  },
+  "app_source_modified": false,
+  "cleanup": "Task-opened demonstration tab closed. Original search query/mode, replacement text, 16pt font and Markdown preview restored. Original user App retained.",
+  "publication": "Published with user approval; production HTML, screenshots, samples and download entry verified.",
+  "local_review_url": "http://127.0.0.1:8768/en/search-multiple-keywords-text-file-mac/",
+  "review_service": "Task-created local review server stopped after publication; production tab retained.",
+  "draft_ranking_baseline": {
+    "source": "Earlier same-session GSC capture: complete list of 354 public sitewide queries",
+    "period": [
+      "2026-09-16",
+      "2026-10-13"
+    ],
+    "scope": "Sitewide web search, all countries and devices; this new page is not published",
+    "queries": [
+      {
+        "query": "search multiple keywords in text file mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row_in_sitewide_capture"
+      },
+      {
+        "query": "find lines containing multiple words",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row_in_sitewide_capture"
+      },
+      {
+        "query": "search multiple words in any order",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row_in_sitewide_capture"
+      },
+      {
+        "query": "search multiple keywords same paragraph",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row_in_sitewide_capture"
+      }
+    ],
+    "page_baseline": null,
+    "note": "No public query row is not zero rank or zero global demand. Recheck exact new page and terms at approved publication. No global volume or competition claim is made."
+  },
+  "publication_baseline": {
+    "source": "Google Search Console visible UI",
+    "scope": "Exact page URL; query strings preserved exactly",
+    "search_type": "web",
+    "countries": "all",
+    "devices": "all",
+    "url": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/",
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": 0,
+          "position": null
+        },
+        "public_query_rows": [],
+        "primary_queries": [
+          {
+            "query": "search multiple keywords in text file mac",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "find lines containing multiple words",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "search multiple words in any order",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "search multiple keywords same paragraph",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "table_coverage": "No public rows",
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-multiple-28d.txt"
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": 0,
+          "position": null
+        },
+        "public_query_rows": [],
+        "primary_queries": [
+          {
+            "query": "search multiple keywords in text file mac",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "find lines containing multiple words",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "search multiple words in any order",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "search multiple keywords same paragraph",
+            "clicks": null,
+            "impressions": null,
+            "ctr_percent": null,
+            "position": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "table_coverage": "No public rows",
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-multiple-7d.txt"
+      }
+    },
+    "raw_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/notepad-search-publication-baseline.json",
+    "limits": [
+      "Historical average positions, not fixed live rankings",
+      "No public row means missing data, not zero global demand",
+      "Page totals and keyword metrics are separate",
+      "All dates precede publication; not evidence of optimization effects"
+    ]
+  },
+  "deployment": {
+    "id": "3bf49dd3-92b9-4855-ab2f-2630a95b38e3",
+    "url": "https://3bf49dd3.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T17:27:47.521278Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T17:27:50.416603Z",
+    "published_at": "2026-10-16T01:27:50.416603+08:00"
+  },
+  "backup": {
+    "tag": "backup-notepad-search-before-seo-2026-10-16",
+    "commit": "a8d7c51a7457ff8a01cce6cfc85ab9714eae8fa1"
+  },
+  "weekly_review": {
+    "scheduled_at": "2026-10-23T11:00:00+08:00",
+    "automation_id": "notepad-2",
+    "ongoing_automation_id": "notepad",
+    "comparison_before": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "comparison_after": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "data_delay": "If complete data does not reach October 22, report actual dates and carry the full-week comparison into ongoing monitoring.",
+    "first_complete_week_report_even_if_unchanged": true
+  }
+}

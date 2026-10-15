@@ -101,6 +101,7 @@ const articleDataPaths = [
   'lib/seo-articles/notepad-alternatives-guide.ts',
   'lib/seo-articles/lightweight-editor-guide.ts',
   'lib/seo-articles/notepad-mac-feature-guide.ts',
+  'lib/seo-articles/notepad-for-mac-guide.ts',
 ]
 for (const articleDataPath of articleDataPaths) {
   assert(fs.existsSync(path.join(root, articleDataPath)), `${articleDataPath} is missing`)

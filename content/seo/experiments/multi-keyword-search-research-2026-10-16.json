@@ -1,0 +1,77 @@
+{
+  "status": "article_published",
+  "feature": "多关键词 AND 搜索（所有词都要出现）",
+  "scope": "功能检查、真实截图和独立文章已完成，并获用户批准发布；未修改 App 源码。",
+  "confirmed": {
+    "line_mode": "AND-L：所有词必须出现在同一行，顺序不限。",
+    "paragraph_mode": "AND-P：所有词必须出现在同一段落，允许在不同行，空白行分段。",
+    "input": "2–8 个用空白字符分隔的词。引号不是把带空格短语合成一个词的语法。",
+    "matching": "字面文本包含匹配，支持区分大小写；短词可能命中较长单词内部。",
+    "scope_support": "当前文档搜索，以及工作区/文件夹搜索；工作区范围由源码确认，本轮未在界面逐一实测。",
+    "not_supported": "两种模式不执行替换，不同时使用正则或整词选项；不是任一词命中，也不是完整短语查找。",
+    "access": "Pro 或具备权限的有效试用。"
+  },
+  "evidence": {
+    "source_files": [
+      "Sources/Core/Search/EditorSearchModels.swift",
+      "Sources/Core/Workspace/WorkspaceMultiKeywordSearchMatcher.swift",
+      "Sources/Core/Workspace/WorkspaceFileSearch.swift",
+      "Sources/UI/Components/SearchPanelView.swift",
+      "Sources/UI/Components/WorkspaceSearchView.swift",
+      "Sources/UI/EditorViewModel.swift",
+      "WebApp/src/searchEngine.js"
+    ],
+    "existing_test_command": "rtk proxy node --test src/searchEngine.test.js (WebApp)",
+    "existing_tests": {
+      "passed": 12,
+      "failed": 0
+    },
+    "installed_app_preview_observations": [
+      {
+        "file": "public/samples/lightweight-demo-workspace/01-project-notes.txt",
+        "query": "TXT file",
+        "mode": "Multi-Keyword AND (Line)",
+        "matches": 1
+      },
+      {
+        "file": "public/samples/lightweight-demo-workspace/01-project-notes.txt",
+        "query": "reference windows",
+        "mode": "Multi-Keyword AND (Paragraph)",
+        "matches": 1
+      },
+      {
+        "file": "public/samples/lightweight-demo-workspace/01-project-notes.txt",
+        "query": "reference windows",
+        "mode": "Multi-Keyword AND (Line)",
+        "matches": 0
+      }
+    ],
+    "observed_controls": "切换多关键词模式后，替换输入和替换按钮停用。",
+    "window": "普通窗口2536×1302，未进入全屏。",
+    "limits": "本轮核对预览计数、入口和源码；没有验证所有文件类型、超大文件和整个工作区端到端搜索。"
+  },
+  "proposed_article": {
+    "title": "Search Multiple Keywords in a Text File on Mac: Same Line or Paragraph",
+    "suggested_slug": "search-multiple-keywords-text-file-mac",
+    "candidate_queries": [
+      "search multiple keywords in text file mac",
+      "find lines containing multiple words",
+      "search multiple words in any order",
+      "search multiple keywords in same paragraph"
+    ],
+    "volume_status": "候选词尚未核对全网月搜索量，不宣称高需求或低竞争。",
+    "structure": [
+      "先用错误日志解释：精确短语、任意一个词、所有词同时出现有什么不同。",
+      "同一份虚构 TXT 中展示词序变化、缺一个词、不同行同段落、空白行分段五种情况，并列出应命中与不应命中。",
+      "分别展示 AND-L 和 AND-P 的输入、结果与点击定位，优先复用已有图；缺失时补真实图。",
+      "演示工作区搜索，说明文件范围、过滤与跳过文件提示；先实际验证。",
+      "讲清2–8词、空白分隔、大小写、字面包含、Pro和不能替换等限制。",
+      "与普通查找及正则按任务比较，不未经核实就说其他App都没有或我们独有。",
+      "保留下载入口，链接回 Notepad for Mac 和正则教程。"
+    ]
+  },
+  "next_step": "已发布并记录关键词起点；2026-10-23 11:00北京时间回访，长期任务继续观察首次收录、展示、点击和排名。",
+  "article_draft": "content/seo/en/search-multiple-keywords-text-file-mac.md",
+  "published_at": "2026-10-16T01:27:50.416603+08:00",
+  "published_article": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/"
+}
