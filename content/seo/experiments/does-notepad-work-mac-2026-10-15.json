@@ -1,0 +1,93 @@
+{
+  "recorded_at": "2026-10-15",
+  "status": "published",
+  "published_at": "2026-10-15T17:12:15.087963+08:00",
+  "publication_time_source": "Cloudflare successful production deployment latest_stage.ended_on, converted to Asia/Shanghai",
+  "deployment": {
+    "id": "d08fd8c1-3730-4bbe-8ffe-945240828a0e",
+    "url": "https://d08fd8c1.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T09:12:13.559636Z",
+    "ended_on": "2026-10-15T09:12:15.087963Z"
+  },
+  "previous_production_commit": "fb75a079eb2a869bea9464a1614f3c728c9357c1",
+  "page": "/en/does-notepad-plus-plus-work-on-mac/",
+  "primary_query": "does notepad++ work on mac",
+  "secondary_queries": ["can i use notepad++ on mac", "is notepad++ available for mac"],
+  "source": "Google Search Console live UI; primary query and article row rechecked immediately before publication, web search, all countries and devices. Exact anchored query regex; page rows and exact page filter checked separately during drafting.",
+  "period_28d": ["2026-09-15", "2026-10-12"],
+  "period_7d": ["2026-10-06", "2026-10-12"],
+  "query_page_baseline": {
+    "scope": "Exact primary query and this article URL only",
+    "baseline_28d": {"clicks": 0, "impressions": 25, "position": 9.0},
+    "baseline_7d": {"clicks": 0, "impressions": 16, "position": 9.1}
+  },
+  "sitewide_query_baseline": {
+    "scope": "Exact primary query across the whole site",
+    "baseline_28d": {"clicks": 0, "impressions": 26, "position": 10.5},
+    "baseline_7d": {"clicks": 0, "impressions": 17, "position": 11.3}
+  },
+  "page_baseline": {
+    "scope": "This article URL, all queries including unreported queries",
+    "baseline_28d": {"clicks": 3, "impressions": 403, "position": 10.3, "ctr_display": "0.7%"},
+    "baseline_7d": {"clicks": 0, "impressions": 211, "position": 12.2, "ctr_display": "0%"}
+  },
+  "secondary_query_page_baseline": [
+    {
+      "query": "can i use notepad++ on mac",
+      "baseline_28d": {"clicks": 0, "impressions": 4, "position": 7.5},
+      "baseline_7d": {"clicks": 0, "impressions": 2, "position": 7.5}
+    }
+  ],
+  "evidence_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15",
+  "evidence_files": [
+    "does-work-query-pages-28d.txt",
+    "does-work-query-pages-7d.txt",
+    "does-work-query-page-7d.txt",
+    "does-work-page-28d.txt",
+    "does-work-page-7d.txt",
+    "does-work-publication-query-28d.txt",
+    "does-work-publication-query-7d.txt"
+  ],
+  "changes": [
+    "Preserve existing article URL; rewrite title, description, direct answer and six FAQs",
+    "Replace default hero with an existing real screenshot and reuse two real WebP feature screenshots",
+    "Add concrete Column Mode and regex examples with image attribution",
+    "Distinguish original Windows app, compatibility layers, virtual machines and community ports",
+    "Correct Apple silicon and plugin compatibility caveats using primary sources",
+    "Keep template download buttons and add two contextual App Store links"
+  ],
+  "limitations": [
+    "GSC average position is an aggregate, not a fixed live Google rank",
+    "Small query samples do not establish a stable ranking trend",
+    "Page totals and exact-query totals are different measurements",
+    "Publication-day data includes only the period after 17:12 Beijing time",
+    "At publication the latest complete GSC date is October 12, not the publication date"
+  ],
+  "ongoing_monitor_automation_id": "notepad",
+  "first_review_at": "2026-10-22T17:30:00+08:00",
+  "review_automation_id": "notepad-mac",
+  "production_verification": {
+    "page": "HTTP 200; approved title, description and canonical verified on the custom production domain",
+    "images": "All four referenced images including the app icon returned HTTP 200; three article screenshots use existing real WebP files",
+    "downloads": "Five App Store links retained",
+    "sitemap": "Original article URL remains present",
+    "evidence": "does-work-production-verification.json; does-work-published.html; does-work-deployment.json"
+  },
+  "draft_verification": {
+    "build": "Passed production static export, TypeScript and lint checks; final build includes five emphasized subheadings",
+    "existing_seo_validator": "Passed; its coverage is limited to the articles selected by the repository script",
+    "article_export": "One H1; six FAQ answers; all internal links and image files exist; original URL remains in sitemap; no unresolved APP_NAME token",
+    "downloads": "Five App Store links: two hero buttons, two contextual body links, one sidebar link",
+    "desktop": "1920x1080 viewport checked; all three article screenshots loaded; no document overflow",
+    "mobile": "390x844 viewport checked; no document overflow; comparison table scrolls within its own container",
+    "screenshots": ["screenshots/does-work-final-review.png", "screenshots/does-work-full-review.png", "screenshots/does-work-mobile-final.png"],
+    "production": "Not deployed or changed"
+  },
+  "next_steps": [
+    "First review on October 22 at 17:30 Asia/Shanghai, even if no material change",
+    "Compare October 08 through 14 with October 15 through 21 using exact page and query filters; explain the partial publication day",
+    "If GSC has not completed October 21, report actual complete dates and leave the full-week comparison pending for the existing weekly monitor",
+    "Do not deploy, revert, commit or push from a monitoring run"
+  ]
+}
