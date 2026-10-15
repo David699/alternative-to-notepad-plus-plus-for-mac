@@ -1,0 +1,697 @@
+{
+  "recorded_at": "2026-10-16T00:35:53.689674+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T00:57:17.142899+08:00",
+  "production_commit_before_draft": "78907e764f54bd01eb2e67e5ceec2f53a086b082",
+  "pages": [
+    {
+      "path": "/en/markdown-editor-with-live-preview-for-mac/",
+      "source": "content/seo/en/markdown-editor-with-live-preview-for-mac.md",
+      "focus": "Practical live preview workflow with linked scrolling and optional configured AI",
+      "primary_queries": [
+        "markdown editor with live preview mac",
+        "live markdown preview mac",
+        "side by side markdown editor mac"
+      ],
+      "local_review_url": "http://127.0.0.1:8768/en/markdown-editor-with-live-preview-for-mac/"
+    },
+    {
+      "path": "/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+      "source": "content/seo/zh-hans/typora-vs-notepad-plus-plus-plus-plus.md",
+      "focus": "Objective task-based comparison with Typora",
+      "primary_queries": [
+        "Typora 对比",
+        "Typora 和 notePad++++",
+        "Mac Markdown 编辑器对比"
+      ],
+      "local_review_url": "http://127.0.0.1:8768/zh-hans/typora-vs-notepad-plus-plus-plus-plus/"
+    },
+    {
+      "path": "/zh-hans/typora-alternative-for-mac/",
+      "source": "content/seo/zh-hans/typora-alternative-for-mac.md",
+      "focus": "Choosing an alternative by need and testing migration",
+      "primary_queries": [
+        "Typora 替代品",
+        "Typora 平替",
+        "Typora 替代 Mac"
+      ],
+      "local_review_url": "http://127.0.0.1:8768/zh-hans/typora-alternative-for-mac/"
+    }
+  ],
+  "changes": [
+    "Rewrite titles, descriptions, direct answers and six FAQs per page while keeping original URLs and datePublished",
+    "Prioritize existing real screenshots and retain two contextual App Store links per article in addition to template links",
+    "Correct Typora regex and cross-file search coverage; avoid unsupported performance or exclusive-feature claims",
+    "Add optional configured AI with precise input scope, access requirements, provider charges and review-before-apply explanation",
+    "Distinguish English workflow, Chinese head-to-head comparison and Chinese choice/migration guide"
+  ],
+  "ai_verification": {
+    "operations_observed_in_native_menu": [
+      "Translate",
+      "Summarize",
+      "Fix Grammar",
+      "Improve Writing",
+      "Explain Code",
+      "Simplify"
+    ],
+    "writing_assistant_observed": [
+      "Correctness",
+      "Improve Clarity",
+      "Markdown Layout",
+      "Humanize",
+      "Tone",
+      "Rewrite",
+      "Review"
+    ],
+    "input_scope": "Single nonempty selection first; otherwise active document",
+    "result_handling": "Source confirms review then apply/discard; content modifications checked before apply",
+    "requirements": "API key, service URL, model and App AI access eligibility",
+    "network_generation_exercised": false,
+    "credentials_or_provider_configuration_changed": false,
+    "screenshot": "/images/seo/markdown-ai/assistant-real.webp",
+    "screenshot_state": "Original demonstration document; no generated output shown",
+    "native_app_window": {
+      "pid": 10843,
+      "normal_window": [
+        2536,
+        1302
+      ],
+      "temporary_app_launched": false
+    }
+  },
+  "app_source_modified": false,
+  "source_references": [
+    "Sources/Core/AI/AIProvider.swift",
+    "Sources/UI/EditorViewModel.swift",
+    "Sources/UI/Components/AIResultSheet.swift",
+    "Sources/UI/Settings/AISettingsTabView.swift"
+  ],
+  "official_sources_checked": [
+    "https://typora.io/",
+    "https://support.typora.io/Shortcut-Keys/",
+    "https://support.typora.io/Search/",
+    "https://support.typora.io/Images/",
+    "https://support.typora.io/Export/",
+    "https://support.typora.io/Focus-and-Typewriter-Mode/",
+    "https://support.typora.io/File-Management/",
+    "https://store.typora.io/",
+    "https://code.visualstudio.com/docs/languages/markdown",
+    "https://obsidian.md/",
+    "https://obsidian.md/pricing"
+  ],
+  "new_image_sources": [
+    {
+      "asset": "/images/seo/markdown-ai/assistant-real.webp",
+      "source": "Actual notePad++++ sheet with fictional Markdown document; cropped from capture without redrawing UI",
+      "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/markdown-trio-ai-writing-assistant-panel-real.png",
+      "crop": [
+        804,
+        360,
+        1040,
+        660
+      ]
+    },
+    {
+      "asset": "/images/seo/editors/typora-focus-official.webp",
+      "source": "https://support.typora.io/Focus-and-Typewriter-Mode/",
+      "original": "https://support.typora.io/media/focus-and-typewriter/Screen%20Shot%202019-01-05%20at%2015.50.26.png",
+      "note": "Historical official Mac example, clearly labelled; not a current local test"
+    },
+    {
+      "asset": "/images/seo/editors/typora-search-official.webp",
+      "source": "https://support.typora.io/Search/",
+      "original": "https://support.typora.io/media/search/CleanShot%202022-05-26%20at%2016.42.17%402x.png",
+      "note": "Official annotated Mac example, clearly labelled"
+    }
+  ],
+  "backup_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-before-optimization",
+  "verification": {
+    "status": "passed",
+    "build": "Final production static build, TypeScript and lint passed; 65 routes generated",
+    "existing_seo_validator": "Passed after content revisions; repository validator has selected coverage only",
+    "article_export": "Each page has one H1, six FAQ entries, five App Store links, original canonical/URL/datePublished; all local image and link targets exist",
+    "desktop": [
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 2106,
+        "downloads": 5,
+        "height": 1188,
+        "url": "http://127.0.0.1:8768/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+        "width": 2112
+      },
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 2106,
+        "downloads": 5,
+        "height": 1188,
+        "url": "http://127.0.0.1:8768/zh-hans/typora-alternative-for-mac/",
+        "width": 2112
+      },
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 2106,
+        "downloads": 5,
+        "height": 1188,
+        "url": "http://127.0.0.1:8768/en/markdown-editor-with-live-preview-for-mac/",
+        "width": 2112
+      }
+    ],
+    "mobile": [
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 385,
+        "height": 844,
+        "tables": [
+          {
+            "container": 336.8000183105469,
+            "overflow": "auto",
+            "width": 640
+          }
+        ],
+        "url": "http://127.0.0.1:8768/en/markdown-editor-with-live-preview-for-mac/",
+        "width": 390
+      },
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 385,
+        "h1": "Typora 对比：Mac Markdown 编辑怎么选？",
+        "height": 844,
+        "tables": [
+          {
+            "container": 336.8000183105469,
+            "overflow": "auto",
+            "width": 640
+          }
+        ],
+        "url": "http://127.0.0.1:8768/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+        "width": 390
+      },
+      {
+        "articleImagesLoaded": true,
+        "documentWidth": 385,
+        "height": 844,
+        "tables": [
+          {
+            "container": 336.8000183105469,
+            "overflow": "auto",
+            "width": 640
+          }
+        ],
+        "url": "http://127.0.0.1:8768/zh-hans/typora-alternative-for-mac/",
+        "width": 390
+      }
+    ],
+    "phone_title_fix": "Shortened displayed comparison heading to prevent an unbreakable App name overflowing at 390 px; full product names retained in page metadata and body.",
+    "public_images": "Three new WebP assets: real AI panel plus two attributed official Typora Mac examples; five existing screenshot assets reused across these pages",
+    "ai_scope": "Menu and writing assistant UI inspected; configuration, input scope and apply/discard implementation read; no model call or credentials change",
+    "screenshots": [
+      "screenshots/markdown-trio-live-preview-desktop.png",
+      "screenshots/markdown-trio-comparison-desktop.png",
+      "screenshots/markdown-trio-alternatives-desktop.png",
+      "screenshots/markdown-trio-ai-section-local-review.png",
+      "screenshots/markdown-trio-comparison-mobile-fixed.png"
+    ],
+    "records": [
+      "markdown-trio-export-validation.json",
+      "markdown-trio-final-browser-verification.json"
+    ],
+    "cleanup": "GSC temporary tab closed; existing user App retained; all three review tabs now show production pages. Local review server PID 88582 stopped after checking its command and working directory.",
+    "review_server": {
+      "pid": 88582,
+      "port": 8768,
+      "status": "Stopped after production publication; production pages retained for viewing."
+    }
+  },
+  "publication": "Three user-approved articles deployed and checked on the production domain; this record is included in the associated Git publication commit.",
+  "rank_data": {
+    "source": "Google Search Console visible UI",
+    "resource": "sc-domain:notepad-plus-plus-mac.com",
+    "captured_at": "2026-10-16T00:59:13.776713+08:00",
+    "filters": {
+      "page": "exact full URL per page",
+      "search_type": "web",
+      "country": "all",
+      "device": "all"
+    },
+    "latest_complete_date": "2026-10-13",
+    "periods": {
+      "28d": [
+        "2026-09-16",
+        "2026-10-13"
+      ],
+      "7d": [
+        "2026-10-07",
+        "2026-10-13"
+      ]
+    },
+    "pages": [
+      {
+        "url": "https://notepad-plus-plus-mac.com/en/markdown-editor-with-live-preview-for-mac/",
+        "periods": {
+          "28d": {
+            "page_totals": {
+              "clicks": 0,
+              "impressions": 0,
+              "ctr_percent": null,
+              "position": null
+            },
+            "reported_query_page_rows": [],
+            "tracked_query_page_baselines": [
+              {
+                "query": "markdown editor with live preview mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "live markdown preview mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "side by side markdown editor mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-live-preview-publication-28d.txt"
+          },
+          "7d": {
+            "page_totals": {
+              "clicks": 0,
+              "impressions": 0,
+              "ctr_percent": null,
+              "position": null
+            },
+            "reported_query_page_rows": [],
+            "tracked_query_page_baselines": [
+              {
+                "query": "markdown editor with live preview mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "live markdown preview mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "side by side markdown editor mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-live-preview-publication-7d.txt"
+          }
+        }
+      },
+      {
+        "url": "https://notepad-plus-plus-mac.com/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+        "periods": {
+          "28d": {
+            "page_totals": {
+              "clicks": 1,
+              "impressions": 9,
+              "ctr_percent": 11.11,
+              "position": 8.1
+            },
+            "reported_query_page_rows": [
+              {
+                "query": "typora官网",
+                "clicks": 0,
+                "impressions": 2,
+                "ctr_percent": 0.0,
+                "position": 13.0
+              }
+            ],
+            "tracked_query_page_baselines": [
+              {
+                "query": "Typora 对比",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Typora 和 notePad++++",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Mac Markdown 编辑器对比",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-typora-comparison-publication-28d-with-ranks.txt"
+          },
+          "7d": {
+            "page_totals": {
+              "clicks": 0,
+              "impressions": 1,
+              "ctr_percent": 0.0,
+              "position": 6.0
+            },
+            "reported_query_page_rows": [],
+            "tracked_query_page_baselines": [
+              {
+                "query": "Typora 对比",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Typora 和 notePad++++",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Mac Markdown 编辑器对比",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-typora-comparison-publication-7d.txt"
+          }
+        }
+      },
+      {
+        "url": "https://notepad-plus-plus-mac.com/zh-hans/typora-alternative-for-mac/",
+        "periods": {
+          "28d": {
+            "page_totals": {
+              "clicks": 1,
+              "impressions": 31,
+              "ctr_percent": 3.23,
+              "position": 9.4
+            },
+            "reported_query_page_rows": [
+              {
+                "query": "typora 平替",
+                "clicks": 1,
+                "impressions": 1,
+                "ctr_percent": 100.0,
+                "position": 6.0
+              },
+              {
+                "query": "typora替代品",
+                "clicks": 0,
+                "impressions": 2,
+                "ctr_percent": 0.0,
+                "position": 16.5
+              },
+              {
+                "query": "typora 平 替",
+                "clicks": 0,
+                "impressions": 1,
+                "ctr_percent": 0.0,
+                "position": 14.0
+              },
+              {
+                "query": "typora官方下载",
+                "clicks": 0,
+                "impressions": 1,
+                "ctr_percent": 0.0,
+                "position": 58.0
+              }
+            ],
+            "tracked_query_page_baselines": [
+              {
+                "query": "Typora 替代品",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Typora 平替",
+                "clicks": 1,
+                "impressions": 1,
+                "ctr_percent": 100.0,
+                "position": 6.0
+              },
+              {
+                "query": "Typora 替代 Mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "typora替代品",
+                "clicks": 0,
+                "impressions": 2,
+                "ctr_percent": 0.0,
+                "position": 16.5
+              },
+              {
+                "query": "typora 平 替",
+                "clicks": 0,
+                "impressions": 1,
+                "ctr_percent": 0.0,
+                "position": 14.0
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-typora-alternative-publication-28d.txt"
+          },
+          "7d": {
+            "page_totals": {
+              "clicks": 0,
+              "impressions": 11,
+              "ctr_percent": 0.0,
+              "position": 7.9
+            },
+            "reported_query_page_rows": [
+              {
+                "query": "typora 平 替",
+                "clicks": 0,
+                "impressions": 1,
+                "ctr_percent": 0.0,
+                "position": 14.0
+              }
+            ],
+            "tracked_query_page_baselines": [
+              {
+                "query": "Typora 替代品",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Typora 平替",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "Typora 替代 Mac",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "typora替代品",
+                "clicks": null,
+                "impressions": null,
+                "ctr_percent": null,
+                "position": null,
+                "status": "no_public_query_row"
+              },
+              {
+                "query": "typora 平 替",
+                "clicks": 0,
+                "impressions": 1,
+                "ctr_percent": 0.0,
+                "position": 14.0
+              }
+            ],
+            "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/markdown-trio-typora-alternative-publication-7d.txt"
+          }
+        }
+      }
+    ],
+    "notes": [
+      "Page totals and exact query+page results are separate.",
+      "No public query row is null, not position zero, no demand or confirmed absence of impressions.",
+      "Variants with different spaces remain separate.",
+      "Very small samples; no optimization effect can yet be inferred.",
+      "Captured historical complete data available at publication; GSC daily timezone differs from Beijing release timestamp."
+    ]
+  },
+  "deployment": {
+    "id": "b55ddbe1-7d97-4ff7-96b2-81598ad20cf0",
+    "url": "https://b55ddbe1.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T16:57:15.463146Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T16:57:17.142899Z",
+    "published_at": "2026-10-16T00:57:17.142899+08:00"
+  },
+  "backup_tag": "backup-markdown-trio-before-seo-2026-10-16",
+  "production_verification": {
+    "pages": [
+      {
+        "url": "https://notepad-plus-plus-mac.com/en/markdown-editor-with-live-preview-for-mac/",
+        "http_status": 200,
+        "matches_local_export": true,
+        "title": "Markdown Editor with Live Preview for Mac: Sync & AI",
+        "description": "Write Markdown on Mac with linked source and preview scrolling, editable tables and local image tools. Add optional AI help with your own service configuration.",
+        "h1_count": 1,
+        "app_store_links": 5,
+        "canonical": "https://notepad-plus-plus-mac.com/en/markdown-editor-with-live-preview-for-mac/",
+        "in_sitemap": true
+      },
+      {
+        "url": "https://notepad-plus-plus-mac.com/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+        "http_status": 200,
+        "matches_local_export": true,
+        "title": "Typora 与 notePad++++ 对比：Mac Markdown 编辑怎么选？",
+        "description": "客观比较 Typora 与 notePad++++ 的 Markdown 编辑、同步预览、图片处理、正则搜索、导出和可配置 AI。配合真实截图，按写作与文档整理任务选择。",
+        "h1_count": 1,
+        "app_store_links": 5,
+        "canonical": "https://notepad-plus-plus-mac.com/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+        "in_sitemap": true
+      },
+      {
+        "url": "https://notepad-plus-plus-mac.com/zh-hans/typora-alternative-for-mac/",
+        "http_status": 200,
+        "matches_local_export": true,
+        "title": "Typora 替代品怎么选？Mac Markdown 与 AI 编辑指南",
+        "description": "寻找 Mac 上的 Typora 替代品或平替？按连续写作、双栏预览、笔记管理、图片编辑和可配置 AI 选择工具，附真实截图与 Markdown 文件迁移检查清单。",
+        "h1_count": 1,
+        "app_store_links": 5,
+        "canonical": "https://notepad-plus-plus-mac.com/zh-hans/typora-alternative-for-mac/",
+        "in_sitemap": true
+      }
+    ],
+    "assets": [
+      {
+        "path": "/images/app-icon.webp",
+        "http_status": 200,
+        "bytes": 60382,
+        "sha256": "fdd26368c48d1f8c3adcb9f9744be1702dcc042e581d64cac9334820c77c2ab5",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/editors/typora-focus-official.webp",
+        "http_status": 200,
+        "bytes": 127346,
+        "sha256": "9f4a830b266b45b48c7b0c72602373fbde0cd2beb7af2023f3eefda426e2cc2c",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/editors/typora-search-official.webp",
+        "http_status": 200,
+        "bytes": 140172,
+        "sha256": "e5a5857b7ad3d0f8fd7bfce7a53eebfba631353d5ccadf5c8b40eaa7f0520fae",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-ai/assistant-real.webp",
+        "http_status": 200,
+        "bytes": 45516,
+        "sha256": "1166b2cd28631102a17fadd9c2e2b5cde623e4c0d3bd9fd47daf373d241e67bf",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-workbench/image-crop-resize-real.webp",
+        "http_status": 200,
+        "bytes": 45460,
+        "sha256": "33f65f360d84728b169f5cb60303e30633c4a6568e3821008a8bcb5ae727d2ea",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-workbench/overview-real.webp",
+        "http_status": 200,
+        "bytes": 161912,
+        "sha256": "09d164c9a512f8bb226edd7bc5d12e07f13cc000a19f8808a7ce442f872e68b3",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-workbench/scroll-sync-chain-closeup.webp",
+        "http_status": 200,
+        "bytes": 41210,
+        "sha256": "27d5ee07855a9275e7d4c7326addfb92be88d11e364e602af55e430e619b2b0e",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-workbench/table-editor-real.webp",
+        "http_status": 200,
+        "bytes": 153716,
+        "sha256": "681c728e6ddad4443618b6c2267ffc66e64d827888b60eadf6aeddf5fe3944d8",
+        "matches_local": true
+      },
+      {
+        "path": "/images/seo/markdown-workbench/task-source-sync-real.webp",
+        "http_status": 200,
+        "bytes": 155120,
+        "sha256": "10ef771a7275d2715a4aba35fc29e18b9a73f49c2b1e3e947a077318c1f40717",
+        "matches_local": true
+      }
+    ],
+    "browser": {
+      "three_production_pages_opened": true,
+      "screenshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/markdown-trio-published-typora-alternative.png",
+      "alternative_page_article_images_loaded": true
+    }
+  },
+  "weekly_review": {
+    "scheduled_for": "2026-10-23T10:00:00+08:00",
+    "before_window": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "after_window": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "if_data_incomplete": "Report actual complete dates as an interim observation and retain full-week comparison for existing weekly monitor.",
+    "automation_id": "markdown-typora",
+    "long_term_automation_id": "notepad",
+    "status": "ACTIVE",
+    "timezone": "Asia/Shanghai"
+  }
+}
