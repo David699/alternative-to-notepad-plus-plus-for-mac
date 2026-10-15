@@ -1,0 +1,603 @@
+{
+  "recorded_at": "2026-10-15T22:38:02.824228+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T00:13:24.981760+08:00",
+  "page": "/en/markdown-editor-for-mac-2026/",
+  "production_commit_before_draft": "627c97b2c4ee5649ecb0d31ec260d5ff9ef8f455",
+  "primary_queries": [
+    "markdown editor mac",
+    "markdown editor for mac",
+    "markdown preview mac"
+  ],
+  "related_queries": [
+    "notepad++ markdown",
+    "notepad++ markdown preview",
+    "notepad++ mermaid"
+  ],
+  "source": "Google Search Console live UI; exact article URL, web search, all countries and devices; latest complete day October 13.",
+  "period_28d": [
+    "2026-09-16",
+    "2026-10-13"
+  ],
+  "period_7d": [
+    "2026-10-07",
+    "2026-10-13"
+  ],
+  "page_baseline": {
+    "scope": "Exact article URL, all queries including unreported queries",
+    "baseline_28d": {
+      "impressions": 97,
+      "clicks": 0,
+      "position": 6.5
+    },
+    "baseline_7d": {
+      "impressions": 21,
+      "clicks": 0,
+      "position": 5.7
+    }
+  },
+  "reported_query_page_rows": {
+    "28d": [
+      {
+        "query": "what about notepad++",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1
+      },
+      {
+        "query": "in 2026",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 2
+      },
+      {
+        "query": "哪個最熱門",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 4
+      },
+      {
+        "query": "open source markdown editor mac",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 5
+      },
+      {
+        "query": "notepad++ mermaid",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 6
+      },
+      {
+        "query": "notepad++ markdown",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 8
+      },
+      {
+        "query": "notepad++ markdown preview",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 8
+      },
+      {
+        "query": "markdown in notepad++",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 10
+      },
+      {
+        "query": "notepad++ markdown language",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 13
+      }
+    ],
+    "7d": [
+      {
+        "query": "what about notepad++",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 1
+      },
+      {
+        "query": "哪個最熱門",
+        "clicks": 0,
+        "impressions": 1,
+        "position": 4
+      }
+    ]
+  },
+  "primary_query_baselines": [
+    {
+      "query": "markdown editor mac",
+      "baseline_28d": null,
+      "baseline_7d": null,
+      "note": "No exact reported row. Missing rank does not imply zero searches or rank zero."
+    },
+    {
+      "query": "markdown editor for mac",
+      "baseline_28d": null,
+      "baseline_7d": null,
+      "note": "No exact reported row. Missing rank does not imply zero searches or rank zero."
+    },
+    {
+      "query": "markdown preview mac",
+      "baseline_28d": null,
+      "baseline_7d": null,
+      "note": "No exact reported row. Missing rank does not imply zero searches or rank zero."
+    }
+  ],
+  "demo": {
+    "markdown": "content/seo/demos/markdown-workbench/markdown-showcase.md",
+    "original_image": "content/seo/demos/markdown-workbench/assets/mountain-lake-original.jpg",
+    "edited_image": "content/seo/demos/markdown-workbench/assets/mountain-lake.png",
+    "original_image_dimensions": [
+      1600,
+      609
+    ],
+    "saved_image_dimensions": [
+      601,
+      229
+    ],
+    "data": "Fictional documentation tasks and a licensed Scott Goodwill landscape photograph; no customer data.",
+    "elements": [
+      "Headings H1–H4",
+      "Emphasis and strikethrough",
+      "Nested ordered and unordered lists",
+      "Interactive task checkboxes",
+      "Aligned table",
+      "Local relative image",
+      "JavaScript fenced block",
+      "Mermaid flowchart and sequence diagram",
+      "Inline and display math",
+      "Inline and reference-style links",
+      "Block quote",
+      "Footnotes",
+      "Horizontal rule"
+    ],
+    "prepared_image_dimensions": [
+      1200,
+      457
+    ]
+  },
+  "verified_app_features": [
+    {
+      "feature": "Live side-by-side Markdown preview",
+      "verification": "Actual native App renders the comprehensive demonstration."
+    },
+    {
+      "feature": "Two-way scroll and precise alignment",
+      "verification": "Enable chain toggle, scroll source down, scroll preview up; matching content remains aligned. Clicking preview table or image locates source line."
+    },
+    {
+      "feature": "Precise alignment automatically disables for an edit",
+      "verification": "Preview task click changes source and shows the native explanatory toast; chain toggle becomes off."
+    },
+    {
+      "feature": "Local image crop and proportional sizing",
+      "verification": "Earlier chart draft verified cropping from 1200×620 to 600×273. Current landscape resized in actual App from prepared 1200×457 to 601×229, confirmed from saved file; no crop was applied to current photo."
+    },
+    {
+      "feature": "Image rotation",
+      "verification": "Current landscape Rotate Right preview captured, then canceled; saved photo remains horizontal at 601×229."
+    },
+    {
+      "feature": "Table editing panel",
+      "verification": "Opened grid with 3 data rows, 4 columns, cells and alignment controls; canceled without rewriting table."
+    },
+    {
+      "feature": "Interactive task list",
+      "verification": "Third task changed from [ ] to [x] by preview click and was saved in source file."
+    },
+    {
+      "feature": "Highlighting, diagrams and math",
+      "verification": "Native preview shows JavaScript code, flowchart, sequence diagram and inline/display formula."
+    },
+    {
+      "feature": "Heading outline",
+      "verification": "Opened heading list and jumped to code, table, image and math sections."
+    },
+    {
+      "feature": "Markdown inspection",
+      "verification": "Report shows completed structural checks with zero issues, and separately notes one unreachable local resource; not described as all resources verified."
+    },
+    {
+      "feature": "Export",
+      "verification": "File menu offers HTML, PDF, long image, DOCX and static website. Actual DOCX export created a file with demo text and an embedded image. Word package inspection found Mermaid source text and no native Word tables; visual Word layout and other export formats were not verified. Export test used the earlier chart version, not the landscape revision."
+    }
+  ],
+  "read_only_source_references": [
+    "WebApp/src/markdown/useMarkdownScrollSync.js",
+    "WebApp/src/markdown/useMarkdownSyncEditing.js",
+    "WebApp/src/markdown/renderer.js",
+    "WebApp/src/markdown/useMarkdownContextActions.js",
+    "Sources/UI/Components/MarkdownImageEditSheet.swift",
+    "Sources/UI/EditorViewModel.swift",
+    "Sources/UI/EditorViewModel+MarkdownDocxExport.swift"
+  ],
+  "app_source_modified": false,
+  "native_app_window": {
+    "size": [
+      2536,
+      1302
+    ],
+    "type": "Existing normal user App window; no temporary App was launched",
+    "pid": 10843
+  },
+  "images": [
+    {
+      "asset": "/images/seo/markdown-workbench/overview-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-overview-v2-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 161912
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/scroll-sync-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-editor-scroll-sync-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 141388
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/image-crop-resize-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-image-resize-real.png",
+      "width": 720,
+      "height": 689,
+      "bytes": 45460
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/image-rotate-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-image-rotate-real.png",
+      "width": 720,
+      "height": 689,
+      "bytes": 22896
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/table-editor-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-table-editor-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 153716
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/outline-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-outline-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 163518
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/math-mermaid-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-math-sequence-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 140238
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/code-preview-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-code-preview-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 151732
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/task-source-sync-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-task-source-sync-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 155120
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/inspection-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-inspection-real.png",
+      "width": 2536,
+      "height": 1302,
+      "bytes": 85342
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/docx-export-real.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-docx-export-real.png",
+      "width": 370,
+      "height": 204,
+      "bytes": 5540
+    },
+    {
+      "asset": "/images/seo/markdown-workbench/scroll-sync-chain-closeup.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-overview-v2-real.png",
+      "crop": {
+        "left": 1030,
+        "top": 130,
+        "width": 650,
+        "height": 430
+      },
+      "scale": 1.6,
+      "annotation": "Arrow and explanatory text only; UI is cropped and resized directly from original screenshot, without redrawing.",
+      "width": 1040,
+      "height": 836,
+      "bytes": 41210
+    }
+  ],
+  "changes": [
+    "Preserve original URL and datePublished; rewrite title, description, direct answer and six FAQs",
+    "Replace legacy simulated hero with a real rich-document capture",
+    "Use eleven real App captures converted to WebP with accurate captions and full-size links for ten body screenshots",
+    "Document sync behavior, local image overwrite, Pro sizing and observed inspection/export limits",
+    "Keep five App Store entry points",
+    "Create a reusable local rich Markdown demonstration and preserve original demo image before editing"
+  ],
+  "evidence_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15",
+  "evidence_files": [
+    "markdown-workbench-baseline-28d.txt",
+    "markdown-workbench-baseline-7d.txt",
+    "markdown-screenshot-manifest.json",
+    "markdown-workbench-export-validation.json",
+    "markdown-workbench-browser-checks.json",
+    "markdown-export-test/markdown-showcase.docx",
+    "markdown-export-test/verification.json",
+    "markdown-landscape-screenshot-manifest.json",
+    "markdown-chain-closeup-manifest.json"
+  ],
+  "draft_verification": {
+    "build": "Production static build, TypeScript and lint passed; 65 routes generated",
+    "seo_validator": "Passed existing validator; its selected article coverage is limited",
+    "article_export": "One H1; six FAQs; canonical and sitemap unchanged; all local image and link targets exist; no unresolved APP_NAME token",
+    "screenshots": "11 full or modal real App captures plus one annotated crop derived directly from a real capture; all 12 article assets are WebP and loaded in production.",
+    "download_links": 5,
+    "full_size_image_navigation": "Clicked image opens actual WebP and browser Back returns to article",
+    "browser": {
+      "desktop": {
+        "allImagesLoaded": true,
+        "documentWidth": 1915,
+        "height": 1080,
+        "width": 1920
+      },
+      "mobile": {
+        "allImagesLoaded": true,
+        "documentWidth": 385,
+        "height": 844,
+        "tables": [
+          {
+            "container": 351,
+            "overflow": "auto",
+            "width": 640
+          }
+        ],
+        "width": 390
+      }
+    },
+    "local_review_url": "http://127.0.0.1:8768/en/markdown-editor-for-mac-2026/",
+    "production": "Draft verification preceded successful publication; see deployment and production_verification.",
+    "cleanup": "Closed this task temporary GSC tab, restored browser viewport override, retained existing user App and production review tab; stopped only task-created Python preview server PID 77512 after production verification."
+  },
+  "monitoring": {
+    "publication_status": "Published and added to ongoing monitor notepad",
+    "first_review": "Scheduled for October 23, 2026 at 09:00 Asia/Shanghai; automation markdown",
+    "scope_warning": "Page average rank 6.5 is not an exact target keyword rank; query table does not cover anonymous queries."
+  },
+  "image_revision": {
+    "recorded_at": "2026-10-15T14:56:25.238Z",
+    "reason": "Replace chart-like demonstration image with an actual landscape photograph at user request",
+    "photo_author": "Scott Goodwill",
+    "source": "https://unsplash.com/photos/a-serene-mountain-lake-reflects-peaks-and-sky-Oifn0Pgl1Ug",
+    "license": "https://unsplash.com/license",
+    "backup_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/markdown-before-landscape",
+    "changed_screenshots": [
+      "overview-real.webp",
+      "image-crop-resize-real.webp",
+      "image-rotate-real.webp",
+      "table-editor-real.webp",
+      "outline-real.webp",
+      "code-preview-real.webp",
+      "task-source-sync-real.webp",
+      "inspection-real.webp"
+    ],
+    "saved_image_dimensions": [
+      601,
+      229
+    ],
+    "operations": "Actual App proportional resize saved. Clockwise rotation captured then canceled. New landscape was not cropped; previous chart crop verification remains historical.",
+    "publication": "Image revision was reviewed as a local draft and included in the approved October 16 production publication.",
+    "verification": {
+      "build": "Passed static build, TypeScript and lint; 65 routes",
+      "seo_validator": "Passed existing selected coverage",
+      "diff_check": "Passed",
+      "desktop": {
+        "width": 1920,
+        "height": 1080,
+        "document_width": 1915,
+        "images_loaded": true
+      },
+      "mobile": {
+        "width": 390,
+        "height": 844,
+        "document_width": 385,
+        "images_loaded": true
+      },
+      "download_links": 5,
+      "app_screenshot_assets": 11,
+      "new_captures": 8,
+      "viewport_reset": true,
+      "local_review_open": true,
+      "server": "Existing local review server retained; no new server started"
+    }
+  },
+  "sync_callout_revision": {
+    "request": "Emphasize the chain toggle for synchronized editor/preview scrolling with an arrow and close-up",
+    "asset": {
+      "asset": "/images/seo/markdown-workbench/scroll-sync-chain-closeup.webp",
+      "source": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15/screenshots/markdown-landscape-overview-v2-real.png",
+      "crop": {
+        "left": 1030,
+        "top": 130,
+        "width": 650,
+        "height": 430
+      },
+      "scale": 1.6,
+      "annotation": "Arrow and explanatory text only; UI is cropped and resized directly from original screenshot, without redrawing.",
+      "width": 1040,
+      "height": 836,
+      "bytes": 41210
+    },
+    "copy": "Explain scrolling in both directions, chain toggle location, enabled state, live typing updates and automatic precise-alignment disable on edit",
+    "publication": "Sync close-up was reviewed as a local draft and included in the approved October 16 production publication.",
+    "verification": {
+      "build": "Static build, TypeScript and lint passed; 65 routes",
+      "diff_check": "Passed",
+      "browser": "New close-up loads at 1040×836; all article screenshots loaded; desktop 1920×1080 with document width 1915; five App Store links retained",
+      "article_icon": "Outside current scrolled viewport and deferred by browser, not treated as an image failure",
+      "screenshot": "screenshots/markdown-chain-callout-local-review.png",
+      "publication": "Not deployed, committed or pushed",
+      "cleanup": "No temporary program launched; existing review server retained and viewport override reset"
+    }
+  },
+  "publication_baseline_rechecked_at": "2026-10-16T00:12:48.867421+08:00",
+  "publication_baseline_source": "Rechecked Google Search Console live UI on October 16; exact article URL, network search, all countries/devices; most recent complete date remains October 13. Complete visible query tables contain 9 rows for 28 days and 2 rows for 7 days.",
+  "rollback": {
+    "tag": "backup-markdown-before-seo-2026-10-16",
+    "commit": "627c97b2c4ee5649ecb0d31ec260d5ff9ef8f455",
+    "note": "Restore only the reviewed article and relevant assets when needed; avoid reverting unrelated later website work."
+  },
+  "publication_evidence_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16",
+  "publication_evidence_files": [
+    "markdown-publication-28d.txt",
+    "markdown-publication-7d.txt",
+    "markdown-publication-baseline.json",
+    "markdown-deployment.json",
+    "markdown-published.html",
+    "markdown-production-verification.json",
+    "screenshots/markdown-published-review.png"
+  ],
+  "publication_time_source": "Cloudflare successful production deployment latest_stage.ended_on converted to Asia/Shanghai",
+  "deployment": {
+    "id": "ae9f64e7-2d7b-4ab0-b8a1-c19351dad161",
+    "url": "https://ae9f64e7.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T16:13:23.062994Z",
+    "ended_on": "2026-10-15T16:13:24.98176Z",
+    "published_at": "2026-10-16T00:13:24.981760+08:00",
+    "production_branch": "main",
+    "domains": [
+      "notepad-plus-plus-mac.pages.dev",
+      "notepad-plus-plus-mac.com",
+      "www.notepad-plus-plus-mac.com"
+    ]
+  },
+  "production_verification": {
+    "status": "passed",
+    "page": "https://notepad-plus-plus-mac.com/en/markdown-editor-for-mac-2026/",
+    "http_status": 200,
+    "h1": 1,
+    "canonical": "https://notepad-plus-plus-mac.com/en/markdown-editor-for-mac-2026/",
+    "image_count": 13,
+    "images": [
+      {
+        "path": "/images/app-icon.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 60382
+      },
+      {
+        "path": "/images/seo/markdown-workbench/overview-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 161912
+      },
+      {
+        "path": "/images/seo/markdown-workbench/scroll-sync-chain-closeup.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 41210
+      },
+      {
+        "path": "/images/seo/markdown-workbench/scroll-sync-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 141388
+      },
+      {
+        "path": "/images/seo/markdown-workbench/image-crop-resize-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 45460
+      },
+      {
+        "path": "/images/seo/markdown-workbench/image-rotate-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 22896
+      },
+      {
+        "path": "/images/seo/markdown-workbench/table-editor-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 153716
+      },
+      {
+        "path": "/images/seo/markdown-workbench/task-source-sync-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 155120
+      },
+      {
+        "path": "/images/seo/markdown-workbench/code-preview-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 151732
+      },
+      {
+        "path": "/images/seo/markdown-workbench/math-mermaid-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 140238
+      },
+      {
+        "path": "/images/seo/markdown-workbench/outline-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 163518
+      },
+      {
+        "path": "/images/seo/markdown-workbench/inspection-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 85342
+      },
+      {
+        "path": "/images/seo/markdown-workbench/docx-export-real.webp",
+        "http_status": 200,
+        "matches_local": true,
+        "bytes": 5540
+      }
+    ],
+    "download_links": 5,
+    "sitemap": "URL present",
+    "title": "approved title present",
+    "photo_credit": "present",
+    "chain_closeup": "present",
+    "network_note": "Default Python client received 403; normal user agent via curl and actual browser successfully retrieved production page.",
+    "browser": "Approved production title and H1, all 13 images loaded, five download links; normal desktop viewport 2112×1188 with document width 2106; override reset after review",
+    "screenshot": "screenshots/markdown-published-review.png"
+  },
+  "review_automation_id": "markdown",
+  "ongoing_monitor_automation_id": "notepad",
+  "first_review_at": "2026-10-23T09:00:00+08:00",
+  "review_after_publication": {
+    "status": "scheduled",
+    "first_review_at": "2026-10-23T09:00:00+08:00",
+    "comparison_periods": [
+      [
+        "2026-10-09",
+        "2026-10-15"
+      ],
+      [
+        "2026-10-16",
+        "2026-10-22"
+      ]
+    ],
+    "publication_day_limitation": "October 16 before 00:13:24 Beijing time belongs to the previous version; GSC daily data may use a different reporting time zone, so label the publication-day boundary rather than claiming minute-accurate attribution.",
+    "incomplete_data_rule": "Report actual complete dates and retain full-week comparison as pending for existing weekly monitor notepad; first full review reports once even if unchanged.",
+    "automatic_changes": "No authorization to automatically edit, deploy, revert, commit or push during monitoring."
+  }
+}
