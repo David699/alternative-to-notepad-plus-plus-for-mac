@@ -2,7 +2,7 @@ import OptimizedImage from '@/components/OptimizedImage'
 import type { SeoArticleFigure as ArticleFigure } from '@/lib/seo-articles'
 import { withBasePath } from '@/lib/paths'
 
-export default function SeoArticleFigure({ figure, priority = false }: { figure: ArticleFigure; priority?: boolean }) {
+export default function SeoArticleFigure({ figure, priority = false, sourceLabel = 'Source' }: { figure: ArticleFigure; priority?: boolean; sourceLabel?: string }) {
   return (
     <figure className="mt-6 overflow-hidden rounded-2xl border border-gray-200 bg-white shadow-sm">
       {figure.src.endsWith('.svg') ? (
@@ -14,7 +14,7 @@ export default function SeoArticleFigure({ figure, priority = false }: { figure:
       {(figure.caption || figure.source) && (
         <figcaption className="border-t border-gray-200 px-4 py-3 text-sm leading-6 text-gray-600">
           {figure.caption && <p>{figure.caption}</p>}
-          {figure.source && <p className="mt-1">Source: <a href={figure.source.href} target="_blank" rel="noopener noreferrer" className="text-blue-700 underline underline-offset-2">{figure.source.label}</a></p>}
+          {figure.source && <p className="mt-1">{sourceLabel}: <a href={figure.source.href} target="_blank" rel="noopener noreferrer" className="text-blue-700 underline underline-offset-2">{figure.source.label}</a></p>}
         </figcaption>
       )}
     </figure>

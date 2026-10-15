@@ -1,0 +1,109 @@
+{
+  "recorded_at": "2026-10-15",
+  "status": "published",
+  "published_at": "2026-10-15T18:02:20.909704+08:00",
+  "publication_time_source": "Cloudflare successful production deployment latest_stage.ended_on, converted to Asia/Shanghai",
+  "deployment": {
+    "id": "a819073c-2c41-424a-b9ac-3a3698bc18cb",
+    "url": "https://a819073c.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T10:02:19.362986Z",
+    "ended_on": "2026-10-15T10:02:20.909704Z"
+  },
+  "page": "/es/",
+  "canonical": "https://notepad-plus-plus-mac.com/es/",
+  "primary_query": "notepad++ para mac",
+  "search_type": "web",
+  "countries": "all",
+  "devices": "all",
+  "source": "Google Search Console live UI, exact homepage URL filter; all three query rows and page totals rechecked immediately before publication; query metrics kept separate from page totals",
+  "period_28d": ["2026-09-15", "2026-10-12"],
+  "period_7d": ["2026-10-06", "2026-10-12"],
+  "page_baseline": {
+    "scope": "Exact Spanish homepage URL, all queries",
+    "baseline_28d": {"impressions": 238, "clicks": 0, "ctr": 0, "position": 8.9},
+    "baseline_7d": {"impressions": 78, "clicks": 0, "ctr": 0, "position": 8.4}
+  },
+  "keywords": [
+    {
+      "query": "notepad++ para mac",
+      "scope": "Exact Spanish homepage URL and this query",
+      "baseline_28d": {"impressions": 30, "clicks": 0, "ctr": 0, "position": 10.1},
+      "baseline_7d": {"impressions": 12, "clicks": 0, "ctr": 0, "position": 9.7}
+    },
+    {
+      "query": "notepad ++ para mac",
+      "scope": "Exact Spanish homepage URL and this query",
+      "baseline_28d": {"impressions": 11, "clicks": 0, "ctr": 0, "position": 9.6},
+      "baseline_7d": {"impressions": 7, "clicks": 0, "ctr": 0, "position": 9.4}
+    },
+    {
+      "query": "notepad para mac",
+      "scope": "Exact Spanish homepage URL and this query",
+      "baseline_28d": {"impressions": 6, "clicks": 0, "ctr": 0, "position": 11.0},
+      "baseline_7d": {"impressions": 3, "clicks": 0, "ctr": 0, "position": 10.0}
+    }
+  ],
+  "query_coverage": {
+    "reported_28d": {"rows": 7, "impressions": 51, "clicks": 0},
+    "reported_7d": {"rows": 6, "impressions": 25, "clicks": 0},
+    "note": "Anonymous or unreported queries mean query rows do not sum to page totals"
+  },
+  "evidence_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15",
+  "evidence_files": [
+    "spanish-home-page-query-28d.txt",
+    "spanish-home-page-query-7d.txt",
+    "spanish-home-before-optimization.html",
+    "spanish-home-other-pages-before-build.json",
+    "spanish-home-publication-query-28d.txt",
+    "spanish-home-publication-query-7d.txt",
+    "spanish-home-deployment.json",
+    "spanish-home-production-verification.json",
+    "spanish-home-published.html"
+  ],
+  "previous_production_commit": "39d607f06c1c573d8d73a52edb7e83d3b6e6fd9b",
+  "changes": [
+    "Keep /es/ and all language alternates; rewrite Spanish title and description",
+    "Replace the Spanish homepage's old generic demonstrations with eight existing real WebP screenshots",
+    "Use Spanish captions, source labels, concrete editing examples and six FAQs",
+    "Explain independent product identity, Windows plugin limitations, optional AI and current App Store purchase details",
+    "Retain multiple download entries and Spanish guide links; mark English guides explicitly",
+    "Apply the new page only to Spanish; keep other languages on their existing homepage implementation"
+  ],
+  "limitations": [
+    "GSC average position is not a fixed live Google rank",
+    "The previously reported 38 impressions and position 10.0 for the main query are site-wide figures, not the Spanish homepage baseline",
+    "Small query samples limit conclusions",
+    "Countries include all markets, not Spain alone",
+    "Publication-day data includes only the period after 18:02 Beijing time",
+    "At publication the latest complete GSC date is October 12, not the publication date"
+  ],
+  "ongoing_monitor_automation_id": "notepad",
+  "first_review_at": "2026-10-22T18:30:00+08:00",
+  "review_automation_id": "automation-2",
+  "production_verification": {
+    "page": "HTTP 200, approved title and description, Spanish html language and original canonical verified",
+    "images": "Eight real WebP screenshots retained; all referenced images returned HTTP 200",
+    "downloads": "Five App Store links verified including the rating link",
+    "languages": "Twelve language alternates retained; English homepage title unchanged",
+    "sitemap": "Original Spanish homepage URL retained"
+  },
+  "draft_verification": {
+    "build": "Final static build, TypeScript and lint checks passed",
+    "existing_seo_validator": "Passed; coverage is limited to articles selected by the repository script",
+    "export": "Spanish html language; one H1; exact canonical; real screenshot in social metadata; six FAQ answers; valid app structured data; all internal links and section anchors checked",
+    "images": "Eight distinct existing real WebP screenshots; all exported image paths and alt text checked; hero load verified in the browser",
+    "downloads": "Five App Store links including the rating link; three prominent download entries and the footer download retained",
+    "desktop": "1920x1080 viewport checked; no horizontal document overflow",
+    "mobile": "390x844 viewport checked; no horizontal document overflow; menu opens, navigates to format previews and closes",
+    "other_pages": "Eleven comparison pages retain the same rendered text after the final build, including English home and the existing Spanish article",
+    "screenshots": ["screenshots/spanish-home-desktop-review.png", "screenshots/spanish-home-mobile-formats.png"],
+    "production": "Not deployed; no commit or push performed"
+  },
+  "next_steps": [
+    "First publication review on October 22 at 18:30 Asia/Shanghai, even if no material change",
+    "Compare October 08 through 14 with October 15 through 21; explain the partial publication day",
+    "If GSC has not completed October 21, report actual complete dates and leave the full-week comparison pending for the weekly monitor",
+    "Keep exact homepage and query comparisons separate from site-wide query figures"
+  ]
+}

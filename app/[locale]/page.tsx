@@ -20,6 +20,8 @@ import { SITE_URL } from '@/lib/paths'
 import { APP_NAME } from '@/lib/seo'
 import { getLandingDict } from '@/lib/i18n'
 import type { Locale } from '@/lib/i18n'
+import SpanishHome from '@/components/SpanishHome'
+import { spanishHomeHero } from '@/lib/spanish-home'
 
 interface Props {
   params: { locale: string }
@@ -37,7 +39,7 @@ export function generateMetadata({ params }: Props): Metadata {
 
   return {
     metadataBase: new URL(SITE_URL),
-    title: page.title,
+    title: page.slug === 'es' ? { absolute: page.title } : page.title,
     description: page.description,
     keywords: page.keywords,
     authors: [{ name: 'David699' }],
@@ -49,13 +51,15 @@ export function generateMetadata({ params }: Props): Metadata {
       siteName: APP_NAME,
       title: page.title,
       description: page.description,
-      images: [{ url: '/images/og-cover.webp', width: 1200, height: 630, alt: page.title }],
+      images: [page.slug === 'es'
+        ? { url: spanishHomeHero.src, width: spanishHomeHero.width, height: spanishHomeHero.height, alt: spanishHomeHero.alt }
+        : { url: '/images/og-cover.webp', width: 1200, height: 630, alt: page.title }],
     },
     twitter: {
       card: 'summary_large_image',
       title: page.title,
       description: page.description,
-      images: ['/images/og-cover.webp'],
+      images: [page.slug === 'es' ? spanishHomeHero.src : '/images/og-cover.webp'],
     },
     robots: {
       index: true,
@@ -77,6 +81,10 @@ export default function LocalePage({ params }: Props) {
   if (!page) notFound()
   const locale = page.slug as Locale
   const t = getLandingDict(locale)
+
+  if (locale === 'es') {
+    return <><HtmlLangSetter lang={page.htmlLang} /><SpanishHome /></>
+  }
 
   return (
     <>

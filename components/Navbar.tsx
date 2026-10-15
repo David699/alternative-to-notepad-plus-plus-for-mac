@@ -11,9 +11,11 @@ import type { Locale } from '@/lib/i18n/types'
 interface NavbarProps {
   t: NavDict
   locale: Locale
+  platformLabel?: string
+  menuLabel?: string
 }
 
-export default function Navbar({ t, locale }: NavbarProps) {
+export default function Navbar({ t, locale, platformLabel = 'for macOS', menuLabel = 'Menu' }: NavbarProps) {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
 
@@ -38,7 +40,7 @@ export default function Navbar({ t, locale }: NavbarProps) {
             <OptimizedImage src="/images/app-icon.webp" alt={`${APP_NAME} icon`} width={32} height={32} className="object-cover" />
           </div>
           <span className="font-bold text-gray-900 text-sm tracking-tight"><AppName accentClassName="text-brand-600" /></span>
-          <span className="hidden sm:inline text-xs text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded font-medium">for macOS</span>
+          <span className="hidden sm:inline text-xs text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded font-medium">{platformLabel}</span>
         </a>
 
         {/* Desktop nav */}
@@ -69,7 +71,7 @@ export default function Navbar({ t, locale }: NavbarProps) {
         <button
           className="lg:hidden p-2 rounded-lg text-gray-600 hover:bg-gray-100 transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
-          aria-label="Menu"
+          aria-label={menuLabel}
         >
           <div className="w-5 space-y-1">
             <span className={`block h-0.5 bg-current transition-all duration-200 ${mobileOpen ? 'rotate-45 translate-y-1.5' : ''}`} />

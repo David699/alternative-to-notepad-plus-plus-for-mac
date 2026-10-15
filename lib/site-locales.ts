@@ -1,5 +1,6 @@
 import { APP_NAME } from './seo'
 import { SITE_URL } from '@/lib/paths'
+import { spanishHomeSeo } from './spanish-home'
 
 export const APP_SUPPORTED_LOCALE_SLUGS = [
   'de',
@@ -139,18 +140,9 @@ const localizedPages = {
     label: 'Spanish',
     nativeLabel: 'Español',
     path: '/es/',
-    title: `${APP_NAME} - Alternativa a Notepad++ para Mac`,
-    description:
-      'Una alternativa ligera a Notepad++ para Mac con pestañas, modo columna, búsqueda y reemplazo con regex, búsqueda en carpetas, pipelines de scripts, procesamiento por lotes y ayuda de IA.',
-    keywords: [
-      'alternativa a Notepad++ para Mac',
-      'Notepad++ Mac español',
-      'editor de texto Mac con pestañas',
-      'editor modo columna Mac',
-      'buscar y reemplazar regex Mac',
-      'alternativa a TextEdit para Mac',
-      ...baseKeywords,
-    ],
+    title: spanishHomeSeo.title,
+    description: spanishHomeSeo.description,
+    keywords: spanishHomeSeo.keywords,
     nav: { features: 'Funciones', useCases: 'Usos', faq: 'FAQ', download: 'Descargar', language: 'Idiomas' },
     hero: {
       eyebrow: 'Editor de texto para macOS',
