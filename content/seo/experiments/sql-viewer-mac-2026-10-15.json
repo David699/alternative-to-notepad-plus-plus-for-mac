@@ -1,0 +1,109 @@
+{
+  "recorded_at": "2026-10-15",
+  "status": "published",
+  "published_at": "2026-10-15T11:55:01.786656+08:00",
+  "search_type": "web",
+  "countries": "all",
+  "devices": "all",
+  "period_28d": [
+    "2026-09-15",
+    "2026-10-12"
+  ],
+  "period_7d": [
+    "2026-10-06",
+    "2026-10-12"
+  ],
+  "source": "Google Search Console live UI at publication, anchored four-query regex; web, all countries/devices, no page filter. JSON article source previously verified separately.",
+  "evidence_directory": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-15",
+  "limitations": [
+    "Average position is not a fixed live Google rank",
+    "One impression does not establish a stable rank",
+    "Missing query rows mean no reportable data, not position zero or proof of no searches",
+    "Publication-day comparison includes a partial first day after 11:55 Beijing time",
+    "Current GSC complete data ends October 12, not the publication date",
+    "New SQL URL had no pre-publication page rank; track first indexation and first impressions separately from site-wide keywords"
+  ],
+  "next_steps": [
+    "First review 2026-10-22 12:00 Asia/Shanghai",
+    "Compare 2026-10-08 through 2026-10-14 against 2026-10-15 through 2026-10-21 with exact query and exact page filters as well as site-wide query figures",
+    "Report actual available complete dates if Search Console lags; preserve full-week pending status and fill in later",
+    "Do not automatically edit, deploy, revert, commit or push in monitoring runs"
+  ],
+  "page": "/en/sql-file-viewer-mac/",
+  "keywords": [
+    {
+      "query": "sql file viewer mac",
+      "baseline_28d": {
+        "clicks": null,
+        "impressions": null,
+        "position": null,
+        "status": "no_reportable_query_row",
+        "scope": "site-wide exact query; no page-specific rank available"
+      },
+      "baseline_7d": {
+        "clicks": null,
+        "impressions": null,
+        "position": null,
+        "status": "no_reportable_query_row",
+        "scope": "site-wide exact query; no page-specific rank available"
+      }
+    },
+    {
+      "query": "open sql file mac",
+      "baseline_28d": {
+        "clicks": null,
+        "impressions": null,
+        "position": null,
+        "status": "no_reportable_query_row",
+        "scope": "site-wide exact query; no page-specific rank available"
+      },
+      "baseline_7d": {
+        "clicks": null,
+        "impressions": null,
+        "position": null,
+        "status": "no_reportable_query_row",
+        "scope": "site-wide exact query; no page-specific rank available"
+      }
+    }
+  ],
+  "revision_focus": "Lead with hover-triggered SQL statement panels: CREATE structure, INSERT rows, UPDATE assignments, DELETE conditions.",
+  "screenshot_status": "Four actual hover panels captured and visually verified: CREATE users, INSERT users, UPDATE inventory with WHERE, DELETE login_sessions without WHERE. Cropped screenshots converted to WebP; original PNGs outside public.",
+  "native_window": {
+    "width": 2560,
+    "height": 1328,
+    "fullscreen": false
+  },
+  "draft_period_28d": [
+    "2026-09-14",
+    "2026-10-11"
+  ],
+  "draft_period_7d": [
+    "2026-10-05",
+    "2026-10-11"
+  ],
+  "publication_time_source": "Cloudflare production deployment successful stage ended_on",
+  "deployment": {
+    "id": "3da73d4b-53e6-423a-b77e-078f6f23cf5d",
+    "url": "https://3da73d4b.notepad-plus-plus-mac.pages.dev",
+    "created_on": "2026-10-15T03:54:59.859103Z",
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": null,
+      "ended_on": "2026-10-15T03:55:01.786656Z",
+      "status": "success"
+    },
+    "environment": "production"
+  },
+  "publication_baseline_evidence": [
+    "json-sql-publication-query-28d.txt",
+    "json-sql-publication-query-7d.txt"
+  ],
+  "first_review_at": "2026-10-22T12:00:00+08:00",
+  "review_automation_id": "json-sql",
+  "ongoing_monitor_automation_id": "notepad",
+  "production_verification": {
+    "page": "HTTP 200; expected title, canonical and download links verified",
+    "images": "all referenced images HTTP 200",
+    "sitemap": "both article URLs present"
+  }
+}
