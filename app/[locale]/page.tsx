@@ -22,6 +22,8 @@ import { getLandingDict } from '@/lib/i18n'
 import type { Locale } from '@/lib/i18n'
 import SpanishHome from '@/components/SpanishHome'
 import { spanishHomeHero } from '@/lib/spanish-home'
+import FrenchHome from '@/components/FrenchHome'
+import { frenchHomeHero } from '@/lib/french-home'
 
 interface Props {
   params: { locale: string }
@@ -36,10 +38,11 @@ export function generateMetadata({ params }: Props): Metadata {
   if (!page) return {}
 
   const canonical = getAbsoluteUrl(page.path)
+  const homeHero = page.slug === 'fr' ? frenchHomeHero : page.slug === 'es' ? spanishHomeHero : undefined
 
   return {
     metadataBase: new URL(SITE_URL),
-    title: page.slug === 'es' ? { absolute: page.title } : page.title,
+    title: homeHero ? { absolute: page.title } : page.title,
     description: page.description,
     keywords: page.keywords,
     authors: [{ name: 'David699' }],
@@ -51,15 +54,15 @@ export function generateMetadata({ params }: Props): Metadata {
       siteName: APP_NAME,
       title: page.title,
       description: page.description,
-      images: [page.slug === 'es'
-        ? { url: spanishHomeHero.src, width: spanishHomeHero.width, height: spanishHomeHero.height, alt: spanishHomeHero.alt }
+      images: [homeHero
+        ? { url: homeHero.src, width: homeHero.width, height: homeHero.height, alt: homeHero.alt }
         : { url: '/images/og-cover.webp', width: 1200, height: 630, alt: page.title }],
     },
     twitter: {
       card: 'summary_large_image',
       title: page.title,
       description: page.description,
-      images: [page.slug === 'es' ? spanishHomeHero.src : '/images/og-cover.webp'],
+      images: [homeHero ? homeHero.src : '/images/og-cover.webp'],
     },
     robots: {
       index: true,
@@ -84,6 +87,10 @@ export default function LocalePage({ params }: Props) {
 
   if (locale === 'es') {
     return <><HtmlLangSetter lang={page.htmlLang} /><SpanishHome /></>
+  }
+
+  if (locale === 'fr') {
+    return <><HtmlLangSetter lang={page.htmlLang} /><FrenchHome /></>
   }
 
   return (

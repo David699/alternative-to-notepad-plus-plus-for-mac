@@ -1,0 +1,534 @@
+{
+  "recorded_at": "2026-10-16T02:14:53.967384+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T02:20:38.834357+08:00",
+  "published": true,
+  "backup_commit": "c7a007e9bc2990bc39ce0718ef08f0590d4f3195",
+  "review_service": {
+    "url": "http://127.0.0.1:8768",
+    "pid": 99039,
+    "purpose": "User-requested local review; retained to serve both review pages. Stop after approved publication or when user finishes local review.",
+    "stopped_after_publication": true,
+    "cleanup_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-review-service-cleanup.json"
+  },
+  "verification": {
+    "build": "67 routes generated, TypeScript and lint passed",
+    "existing_seo_validator": "Passed, selected repository coverage only; direct checks verify these two pages",
+    "diff_check": "Passed",
+    "export_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-script-article-export-verification.json",
+    "browser_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-script-article-browser-verification.json",
+    "publication_build": "67 exported routes; TypeScript and lint passed; image optimization generated no additional images",
+    "publication_existing_seo_validator": "Passed repository selected coverage; production pages independently verified"
+  },
+  "publication": "User approved publication. Production deploy and public URL verification succeeded. Git submission and push are tracked in the external completion record.",
+  "page": "https://notepad-plus-plus-mac.com/fr/",
+  "local_review_url": "http://127.0.0.1:8768/fr/",
+  "primary_queries": [
+    "notepad++ pour mac",
+    "notepad pour mac",
+    "alternative à notepad++ pour mac",
+    "notepad++ mac français"
+  ],
+  "before_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-before-optimization",
+  "sources": [
+    "lib/french-home.ts",
+    "components/FrenchHome.tsx",
+    "components/FrenchHomeHero.tsx",
+    "components/FrenchHomeContent.tsx",
+    "components/FrenchHomeAutomation.tsx",
+    "app/[locale]/page.tsx",
+    "lib/site-locales.ts"
+  ],
+  "changes": [
+    "Review title, description, H1 and French content; preserve canonical and alternate-language links",
+    "Clarify independent Mac editor identity and link to official supported-systems source",
+    "Reuse existing real WebP captures for tabs, column selection, regex, multi-keyword search, Markdown, SQL, gallery and Zen Mode",
+    "Make built-in/custom scripts, optional AI help, folder preview, backups and restore a primary section",
+    "Reuse two newly captured tutorial images without duplicating image assets",
+    "Retain top, middle, final and footer App Store links"
+  ],
+  "images": {
+    "real_webp_count": 10,
+    "existing_captures_reused": 8,
+    "new_tutorial_captures_reused": 2,
+    "duplicated_image_files": 0
+  },
+  "official_source_checked": "https://github.com/notepad-plus-plus/notepad-plus-plus/blob/master/SUPPORTED_SYSTEM.md",
+  "export": {
+    "path": "/fr/",
+    "lang": "fr",
+    "title": "Notepad++ pour Mac : une alternative native | notePad++++",
+    "description": "Notepad++ pour Mac ? Découvrez notePad++++ : onglets, mode colonne, scripts intégrés et personnalisés, aperçu Markdown. Sur le Mac App Store.",
+    "h1_count": 1,
+    "downloads": 4,
+    "real_webp_images": 10,
+    "all_images_exist": true,
+    "all_internal_links_exist": true,
+    "canonical": "https://notepad-plus-plus-mac.com/fr/",
+    "faq_entries": 9
+  },
+  "browser": {
+    "desktop": {
+      "documentWidth": 2106,
+      "downloads": 4,
+      "h1": "Notepad++ pour Mac :une alternative native",
+      "height": 1188,
+      "url": "http://127.0.0.1:8768/fr/",
+      "width": 2112,
+      "imagesLoaded": true
+    },
+    "mobile": {
+      "documentWidth": 385,
+      "height": 844,
+      "width": 390
+    },
+    "mobileMenuAndAnchorPassed": true
+  },
+  "screenshots": [
+    "screenshots/french-home-desktop-review.png",
+    "screenshots/french-home-mobile-review.png",
+    "screenshots/french-home-script-section-review.png",
+    "screenshots/french-scripts-published-fr.png"
+  ],
+  "draft_ranking_baseline": {
+    "source": "Google Search Console visible UI",
+    "recorded_at": "2026-10-16T01:51:44.158795+08:00",
+    "page": "https://notepad-plus-plus-mac.com/fr/",
+    "filters": {
+      "page_match": "exact",
+      "search_type": "web",
+      "countries": "all",
+      "devices": "all"
+    },
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 2,
+          "impressions": 135,
+          "ctr_percent": 1.48,
+          "position": 8.9
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 15,
+            "ctr_percent": 0.0,
+            "position": 10.1
+          },
+          {
+            "query": "note pad ++ mac",
+            "clicks": 0,
+            "impressions": 5,
+            "ctr_percent": 0.0,
+            "position": 10.6
+          },
+          {
+            "query": "notepad plus plus mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 9.5
+          },
+          {
+            "query": "mac os notepad++",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 9.0
+          },
+          {
+            "query": "notepad plus mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 10.0
+          },
+          {
+            "query": "notepad ++ macos",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "note++ mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 14.0
+          },
+          {
+            "query": "notepad to mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 16.0
+          }
+        ],
+        "target_queries": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 15,
+            "ctr_percent": 0.0,
+            "position": 10.1
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "alternative à notepad++ pour mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "notepad++ mac français",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-draft-baseline-28d.txt",
+        "table_complete": true
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 1,
+          "impressions": 24,
+          "ctr_percent": 4.17,
+          "position": 8.2
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 9.5
+          },
+          {
+            "query": "note pad ++ mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 10.5
+          },
+          {
+            "query": "notepad plus plus mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 9.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          }
+        ],
+        "target_queries": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 2,
+            "ctr_percent": 0.0,
+            "position": 9.5
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "ctr_percent": 0.0,
+            "position": 11.0
+          },
+          {
+            "query": "alternative à notepad++ pour mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "notepad++ mac français",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-draft-baseline-7d.txt",
+        "table_complete": true
+      }
+    },
+    "limits": [
+      "Historical average position, not a fixed live rank",
+      "Page totals differ from public query sums because some queries are not reported",
+      "This draft is not published; these data cannot measure its impact"
+    ]
+  },
+  "ranking_baseline": {
+    "source": "Google Search Console visible UI",
+    "recorded_at": "2026-10-16T02:21:33.093716+08:00",
+    "filters": {
+      "page_match": "exact",
+      "search_type": "web",
+      "countries": "all",
+      "devices": "all"
+    },
+    "limits": [
+      "Historical average positions are not fixed live ranks.",
+      "Unreported exact keyword rows and ranks with no impressions are null, not rank zero or proof of no search demand.",
+      "Page totals include anonymous queries and must not replace exact keyword metrics.",
+      "These historical periods precede publication and cannot measure this release."
+    ],
+    "url": "https://notepad-plus-plus-mac.com/fr/",
+    "target_queries": [
+      "notepad++ pour mac",
+      "notepad pour mac",
+      "alternative à notepad++ pour mac",
+      "notepad++ mac français"
+    ],
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 2,
+          "impressions": 135,
+          "ctr_percent": 1.48,
+          "position": 8.9
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 15,
+            "position": 10.1,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "note pad ++ mac",
+            "clicks": 0,
+            "impressions": 5,
+            "position": 10.6,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad plus plus mac",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 9.5,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "mac os notepad++",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad plus mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 10.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad ++ macos",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "note++ mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 14.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad to mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 16.0,
+            "ctr_percent": 0.0
+          }
+        ],
+        "target_queries": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 15,
+            "position": 10.1,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "alternative à notepad++ pour mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "notepad++ mac français",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-fr-28d.txt",
+        "table_complete": true
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 1,
+          "impressions": 24,
+          "ctr_percent": 4.17,
+          "position": 8.2
+        },
+        "public_query_rows": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 9.5,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "note pad ++ mac",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 10.5,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad plus plus mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 9.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11.0,
+            "ctr_percent": 0.0
+          }
+        ],
+        "target_queries": [
+          {
+            "query": "notepad++ pour mac",
+            "clicks": 0,
+            "impressions": 2,
+            "position": 9.5,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "notepad pour mac",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 11.0,
+            "ctr_percent": 0.0
+          },
+          {
+            "query": "alternative à notepad++ pour mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "notepad++ mac français",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-fr-7d.txt",
+        "table_complete": true
+      }
+    }
+  },
+  "git_delivery_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-completion.json",
+  "backup_tag": "backup-fr-home-scripts-before-seo-2026-10-16",
+  "deployment": {
+    "id": "42376e3c-e5b2-481e-ad58-d463d0beafa1",
+    "url": "https://42376e3c.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T18:20:33.257765Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T18:20:38.834357Z",
+    "published_at": "2026-10-16T02:20:38.834357+08:00"
+  },
+  "publication_baseline_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-baseline.json",
+  "production_verification": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-production-verification.json",
+  "production_browser_verification": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-production-browser-verification.json",
+  "follow_up": {
+    "scheduled_at": "2026-10-23T12:00:00+08:00",
+    "one_time_automation_id": "automation-3",
+    "long_term_automation_id": "notepad",
+    "before_window": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "after_window": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "missing_days": "Report actual dates and continue complete-week comparison in long-term monitor",
+    "no_automatic_content_or_git_changes": true
+  }
+}

@@ -1,0 +1,455 @@
+{
+  "recorded_at": "2026-10-16T02:14:53.967384+08:00",
+  "status": "published",
+  "published_at": "2026-10-16T02:20:38.834357+08:00",
+  "published": true,
+  "backup_commit": "c7a007e9bc2990bc39ce0718ef08f0590d4f3195",
+  "review_service": {
+    "url": "http://127.0.0.1:8768",
+    "pid": 99039,
+    "purpose": "User-requested local review; retained to serve both review pages. Stop after approved publication or when user finishes local review.",
+    "stopped_after_publication": true,
+    "cleanup_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-review-service-cleanup.json"
+  },
+  "verification": {
+    "build": "67 routes generated, TypeScript and lint passed",
+    "existing_seo_validator": "Passed, selected repository coverage only; direct checks verify these two pages",
+    "diff_check": "Passed",
+    "export_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-script-article-export-verification.json",
+    "browser_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-home-script-article-browser-verification.json",
+    "publication_build": "67 exported routes; TypeScript and lint passed; image optimization generated no additional images",
+    "publication_existing_seo_validator": "Passed repository selected coverage; production pages independently verified"
+  },
+  "publication": "User approved publication. Production deploy and public URL verification succeeded. Git submission and push are tracked in the external completion record.",
+  "page": "https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/",
+  "local_review_url": "http://127.0.0.1:8768/en/automate-text-files-mac-scripts/",
+  "source": "content/seo/en/automate-text-files-mac-scripts.md",
+  "article_scope": "New practical walkthrough of built-ins, custom rules, optional AI prompt, folder preview, backed-up application and restore. Existing JavaScript reference and batch overview remain linked and unchanged.",
+  "primary_queries": [
+    "automate text files mac",
+    "batch edit text files mac",
+    "text processing scripts mac",
+    "bulk text processing mac",
+    "custom text editor scripts mac"
+  ],
+  "feature_checks": {
+    "built_in_scripts": 46,
+    "built_in_pipelines": 7,
+    "custom_script_saved": "Demo - OLD to NEW",
+    "custom_rule": "Change only OLD- at each line start to NEW-; preview confirmed four replacements with blank lines preserved",
+    "custom_script_run": "Real installed App Script Change Preview inspected and cancelled; no document application",
+    "ai_assistant": "Real Generate New Content UI and request inspected; no model call, no provider settings or credentials changed",
+    "batch_target_files": 3,
+    "nested_folder_included": true,
+    "md_file_excluded": true,
+    "dry_run_no_disk_writes_verified": true,
+    "batch_applied_files": 3,
+    "backups_and_restore": {
+      "restored_txt_files": 3,
+      "all_original_hashes_match": true,
+      "excluded_readme_unchanged": true,
+      "dry_run_original_hashes_match": true,
+      "applied_then_restored_in_native_app": true
+    },
+    "retention_days": 7,
+    "restoration_conflicts": "Source confirms changed-content and dirty-open-document files are skipped; conflict cases not simulated in this run",
+    "main_window": {
+      "width": 2536,
+      "height": 1302,
+      "fullscreen": false
+    },
+    "auxiliary_ui": "Script utility window and modal sheets captured at their natural sizes; main App window remained ordinary 2536×1302.",
+    "source_files": [
+      "Sources/Core/Plugins/PluginRegistry.swift",
+      "Sources/Core/Workflow/BuiltInWorkflowTemplates.swift",
+      "Sources/UI/Components/ScriptPanelView.swift",
+      "Sources/UI/Components/AIGenerateScriptSheet.swift",
+      "Sources/UI/Components/BatchFilePreviewSheet.swift",
+      "Sources/Core/Workspace/BatchScriptRunner.swift",
+      "Sources/Core/Workspace/BatchBackupStore.swift",
+      "Sources/UI/EditorViewModel+Workspace.swift",
+      "Sources/Core/Scripting/ScriptSandbox.swift"
+    ]
+  },
+  "images": {
+    "reused_hero": "/images/seo/english-home/pipeline-gallery-real.webp",
+    "new_real_captures": [
+      {
+        "asset": "/images/seo/script-automation/batch-targets-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-batch-targets-raw.png",
+        "crop": {
+          "left": 1085,
+          "top": 568,
+          "width": 480,
+          "height": 245
+        },
+        "width": 480,
+        "height": 245,
+        "bytes": 10072,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/batch-diff-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-batch-diff-raw.png",
+        "crop": {
+          "left": 894,
+          "top": 418,
+          "width": 860,
+          "height": 295
+        },
+        "width": 860,
+        "height": 295,
+        "bytes": 10090,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/backups-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-history-backups-raw.png",
+        "crop": {
+          "left": 1058,
+          "top": 472,
+          "width": 532,
+          "height": 435
+        },
+        "width": 532,
+        "height": 435,
+        "bytes": 11288,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/restored-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-history-restored-raw.png",
+        "crop": {
+          "left": 1058,
+          "top": 472,
+          "width": 532,
+          "height": 435
+        },
+        "width": 532,
+        "height": 435,
+        "bytes": 11676,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/custom-editor-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-custom-editor-real-raw.png",
+        "crop": {
+          "left": 0,
+          "top": 0,
+          "width": 780,
+          "height": 360
+        },
+        "width": 780,
+        "height": 360,
+        "bytes": 26046,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/ai-assistant-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-ai-assistant-real-raw.png",
+        "crop": null,
+        "width": 620,
+        "height": 500,
+        "bytes": 25152,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      },
+      {
+        "asset": "/images/seo/script-automation/custom-preview-real.webp",
+        "raw_capture": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/screenshots/script-custom-preview-real-raw.png",
+        "crop": null,
+        "width": 920,
+        "height": 620,
+        "bytes": 15332,
+        "source": "Real installed App, fictional local files; crop and WebP conversion only"
+      }
+    ]
+  },
+  "sample_zip": "public/samples/script-automation-demo.zip",
+  "sample_source": "content/seo/demos/script-automation/workspace",
+  "code_sample": "content/seo/demos/script-automation/old-to-new.js",
+  "export": {
+    "path": "/en/automate-text-files-mac-scripts/",
+    "lang": "en",
+    "title": "Automate Text Files on Mac: Built-in &amp; Custom Scripts",
+    "description": "Clean up text files on Mac with built-in or custom scripts. See real folder previews, automatic backups and restoration in notePad++++.",
+    "h1_count": 1,
+    "downloads": 4,
+    "real_webp_images": 8,
+    "all_images_exist": true,
+    "all_internal_links_exist": true,
+    "canonical": "https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/",
+    "faq_entries": 8
+  },
+  "browser": {
+    "desktop": {
+      "documentWidth": 2106,
+      "downloads": 4,
+      "height": 1188,
+      "width": 2112,
+      "imagesLoaded": true
+    },
+    "mobile": {
+      "code": [
+        {
+          "overflow": "auto",
+          "scrollWidth": 339,
+          "width": 336.8000183105469
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 337,
+          "width": 336.8000183105469
+        },
+        {
+          "overflow": "auto",
+          "scrollWidth": 642,
+          "width": 336.8000183105469
+        }
+      ],
+      "documentWidth": 385,
+      "height": 844,
+      "tables": [
+        {
+          "container": 336.8000183105469,
+          "overflow": "auto",
+          "width": 640
+        }
+      ],
+      "width": 390
+    }
+  },
+  "screenshots": [
+    "screenshots/script-automation-article-desktop-review.png",
+    "screenshots/script-automation-article-mobile-review.png",
+    "screenshots/script-automation-ai-section-review.png",
+    "screenshots/french-scripts-published-scripts.png"
+  ],
+  "cleanup": {
+    "app_source_modified": false,
+    "user_documents_modified": false,
+    "demonstration_files_restored_to_original_bytes": true,
+    "temporary_demo_tab_and_script_window_closed": true,
+    "original_markdown_preview_and_workspace_visibility_restored": true,
+    "original_script_draft_rule_restored": "Same function and alpha-to-script-ok rule; whitespace normalized to a single line",
+    "saved_demo_script_retained": "Demo - OLD to NEW remains in My Scripts as a reusable demonstration, not selected or pinned",
+    "original_app_retained": true,
+    "temporary_chrome_test_tab_closed": true,
+    "viewport_reset": true
+  },
+  "draft_ranking_baseline": {
+    "source": "Same-session 354 public sitewide queries; new page has not been published",
+    "period": [
+      "2026-09-16",
+      "2026-10-13"
+    ],
+    "scope": "Sitewide only, web/all countries/devices; not a new-page ranking report",
+    "query_rows": [
+      {
+        "query": "automate text files mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row"
+      },
+      {
+        "query": "batch edit text files mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row"
+      },
+      {
+        "query": "text processing scripts mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row"
+      },
+      {
+        "query": "bulk text processing mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row"
+      },
+      {
+        "query": "custom text editor scripts mac",
+        "position": null,
+        "impressions": null,
+        "clicks": null,
+        "status": "no_public_exact_query_row"
+      }
+    ],
+    "page_baseline": null,
+    "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/next-seo-opportunities-after-notepad-queries-28d.txt",
+    "note": "Candidate search terms, no claimed global search volume or competition score. Recheck exact new URL at approved publication."
+  },
+  "ranking_baseline": {
+    "source": "Google Search Console visible UI",
+    "recorded_at": "2026-10-16T02:21:33.093716+08:00",
+    "filters": {
+      "page_match": "exact",
+      "search_type": "web",
+      "countries": "all",
+      "devices": "all"
+    },
+    "limits": [
+      "Historical average positions are not fixed live ranks.",
+      "Unreported exact keyword rows and ranks with no impressions are null, not rank zero or proof of no search demand.",
+      "Page totals include anonymous queries and must not replace exact keyword metrics.",
+      "These historical periods precede publication and cannot measure this release."
+    ],
+    "url": "https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/",
+    "target_queries": [
+      "automate text files mac",
+      "batch edit text files mac",
+      "text processing scripts mac",
+      "bulk text processing mac",
+      "custom text editor scripts mac"
+    ],
+    "periods": {
+      "28d": {
+        "start": "2026-09-16",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "position": null
+        },
+        "public_query_rows": [],
+        "target_queries": [
+          {
+            "query": "automate text files mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "batch edit text files mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "text processing scripts mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "bulk text processing mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "custom text editor scripts mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-scripts-28d.txt",
+        "table_complete": true
+      },
+      "7d": {
+        "start": "2026-10-07",
+        "end": "2026-10-13",
+        "page_totals": {
+          "clicks": 0,
+          "impressions": 0,
+          "ctr_percent": null,
+          "position": null
+        },
+        "public_query_rows": [],
+        "target_queries": [
+          {
+            "query": "automate text files mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "batch edit text files mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "text processing scripts mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "bulk text processing mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          },
+          {
+            "query": "custom text editor scripts mac",
+            "position": null,
+            "impressions": null,
+            "clicks": null,
+            "ctr_percent": null,
+            "status": "no_public_exact_query_row"
+          }
+        ],
+        "raw_snapshot": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-scripts-7d.txt",
+        "table_complete": true
+      }
+    }
+  },
+  "git_delivery_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-completion.json",
+  "backup_tag": "backup-fr-home-scripts-before-seo-2026-10-16",
+  "deployment": {
+    "id": "42376e3c-e5b2-481e-ad58-d463d0beafa1",
+    "url": "https://42376e3c.notepad-plus-plus-mac.pages.dev",
+    "environment": "production",
+    "created_on": "2026-10-15T18:20:33.257765Z",
+    "aliases": [
+      "https://notepad-plus-plus-mac.com",
+      "https://www.notepad-plus-plus-mac.com"
+    ],
+    "ended_on": "2026-10-15T18:20:38.834357Z",
+    "published_at": "2026-10-16T02:20:38.834357+08:00"
+  },
+  "publication_baseline_record": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-publication-baseline.json",
+  "production_verification": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-production-verification.json",
+  "production_browser_verification": "/Users/xuwanbiao/.codex/seo/notepad-plus-plus-mac.com/2026-10-16/french-scripts-production-browser-verification.json",
+  "follow_up": {
+    "scheduled_at": "2026-10-23T12:00:00+08:00",
+    "one_time_automation_id": "automation-3",
+    "long_term_automation_id": "notepad",
+    "before_window": [
+      "2026-10-09",
+      "2026-10-15"
+    ],
+    "after_window": [
+      "2026-10-16",
+      "2026-10-22"
+    ],
+    "missing_days": "Report actual dates and continue complete-week comparison in long-term monitor",
+    "no_automatic_content_or_git_changes": true
+  }
+}

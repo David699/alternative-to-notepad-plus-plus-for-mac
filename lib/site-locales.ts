@@ -1,6 +1,7 @@
 import { APP_NAME } from './seo'
 import { SITE_URL } from '@/lib/paths'
 import { spanishHomeSeo } from './spanish-home'
+import { frenchHomeSeo } from './french-home'
 
 export const APP_SUPPORTED_LOCALE_SLUGS = [
   'de',
@@ -186,18 +187,7 @@ const localizedPages = {
     label: 'French',
     nativeLabel: 'Français',
     path: '/fr/',
-    title: `${APP_NAME} - Alternative à Notepad++ pour Mac`,
-    description:
-      'Une alternative légère à Notepad++ pour Mac avec onglets, mode colonne, recherche et remplacement regex, recherche dans les dossiers, scripts, traitement par lots et assistance IA.',
-    keywords: [
-      'alternative à Notepad++ pour Mac',
-      'Notepad++ Mac français',
-      'éditeur de texte Mac avec onglets',
-      'éditeur mode colonne Mac',
-      'recherche remplacement regex Mac',
-      'alternative à TextEdit pour Mac',
-      ...baseKeywords,
-    ],
+    ...frenchHomeSeo,
     nav: { features: 'Fonctions', useCases: 'Usages', faq: 'FAQ', download: 'Télécharger', language: 'Langues' },
     hero: {
       eyebrow: 'Éditeur de texte macOS',
