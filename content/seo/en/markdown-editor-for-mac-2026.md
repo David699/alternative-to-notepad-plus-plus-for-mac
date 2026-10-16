@@ -72,6 +72,17 @@ This guide is published by the App's developer. Every screenshot below is a real
 | Review a long file | Heading outline and Markdown inspection report |
 | Share a copy | Choose an export format and check its rendering |
 
+## Watch: linked scrolling and local image tools
+
+This 41-second demonstration shows the chain button linking Markdown source and preview, followed by the local image editing controls. Tasks, tables, diagrams and a landscape photograph appear in the same document. Keep an original copy before saving changes to an existing image.
+
+<figure id="watch-markdown-sync" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/RzehRkrH9QQ" title="Markdown on Mac: Linked Scrolling and Local Image Tools" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Real {{APP_NAME}} operations with English narration and captions. The photograph in the demonstration is by <a href="https://unsplash.com/photos/a-serene-mountain-lake-reflects-peaks-and-sky-Oifn0Pgl1Ug" target="_blank" rel="noopener noreferrer">Scott Goodwill on Unsplash</a>. <a href="https://www.youtube.com/watch?v=RzehRkrH9QQ" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
+
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?mt=12) to try it with your own files.
+
 ## Keep the editor and preview in sync
 
 **Scroll the editor and preview together:** open a saved `.md` file and enable **Preview** in the toolbar. The source stays on the left and the rendered document on the right. Scroll down in the editor and the preview follows; scroll the preview and the editor follows back. You can review either pane without repeatedly searching for the same passage in the other.

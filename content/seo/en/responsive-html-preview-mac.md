@@ -4,7 +4,7 @@ title: "Responsive HTML Preview on Mac: Desktop, iPad, and Phone"
 shortTitle: "Responsive HTML Preview on Mac"
 description: "Preview local HTML on Mac at desktop, iPad, phone, and custom sizes. Rotate the viewport and inspect layout problems without leaving the editor."
 datePublished: "2026-08-17"
-dateModified: "2026-08-17"
+dateModified: "2026-10-16"
 keywords:
   - "responsive HTML preview Mac"
   - "mobile HTML preview Mac"
@@ -61,6 +61,17 @@ Responsive design depends on the available viewport width and height. Checking o
 - Swap width and height to check portrait and landscape layouts.
 
 Responsive and desktop preview modes are available without Pro. The named iPad and phone preview modes are Pro features.
+
+## Watch: desktop, phone, tablet and rotation
+
+Watch the same local HTML file switch from desktop to portrait phone, landscape phone and an iPad Pro 11-inch viewport in 45 seconds. Close-ups show the device selector and rotation button while the source stays beside the preview. These are viewport previews, not tests on physical devices.
+
+<figure id="watch-device-preview" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/Us0glyrVpDI" title="HTML Preview on Mac: Desktop, Phone, Tablet and Rotation" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Recorded in the real {{APP_NAME}} Mac app with English narration and captions. Named phone and iPad modes require Pro. <a href="https://www.youtube.com/watch?v=Us0glyrVpDI" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
+
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?mt=12) to try it with your own local HTML files.
 
 ## Look for layout failures, not just smaller screenshots
 

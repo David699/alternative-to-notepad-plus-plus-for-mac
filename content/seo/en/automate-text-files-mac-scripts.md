@@ -62,6 +62,15 @@ This guide is written by the developer of {{APP_NAME}}. The opening image reuses
 
 Some advanced tools, including folder batch processing, its history and AI assistance, require **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/cn/app/id6759166160?ct=seo_script_automation_intro&mt=12) for current requirements and terms.
 
+## Watch: built-in tools and your own script
+
+See a built-in script extract URLs, then inspect a saved custom JavaScript rule that changes OLD- prefixes to NEW-. The 48-second demonstration shows the result preview and how to keep a rule in My Scripts.
+
+<figure id="watch-scripts" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/2M2RvFUXkxU" title="Text Scripts on Mac: Built-in Tools and Your Own Rules" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Real {{APP_NAME}} operations with fictional sample text. English narration and captions. No AI request is made in this demonstration. <a href="https://www.youtube.com/watch?v=2M2RvFUXkxU" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
+
 ## Start with the built-in scripts
 
 You do not have to write JavaScript to begin. The checked App contains dozens of individual scripts, grouped by job, plus ready-made sequences in **Pipeline Gallery**.
@@ -166,6 +175,15 @@ Choose **Generate New Content** to request a new rule or **Modify Existing Conte
 Review the returned code in the script editor and test its output on a small example before saving or applying it. AI can misunderstand a rule; a successful request does not prove the edit is correct.
 
 Built-in and custom scripts can run locally without AI. The optional assistant sends a request to the provider you configure, whose data-handling terms and possible fees apply. Use a fictional sample when you do not want to include a real document in a request.
+
+## Watch: preview, back up and restore a folder edit
+
+This 52-second demonstration follows a folder operation from file selection and a preview without disk writes to application and restoration from Operation History. Watch the differences before applying, then see the original prefixes return after restoring three demonstration files. Backups are kept for seven days; restoration skips files changed since the operation or open with unsaved edits.
+
+<figure id="watch-folder-batch" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/Z0O3QfLGM5o" title="Batch Edit Text Files on Mac: Preview, Back Up, Restore" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Real folder processing in {{APP_NAME}}. English narration and captions. Folder batch processing requires Pro or an eligible trial. <a href="https://www.youtube.com/watch?v=Z0O3QfLGM5o" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
 
 ## Preview a script or pipeline across a folder
 

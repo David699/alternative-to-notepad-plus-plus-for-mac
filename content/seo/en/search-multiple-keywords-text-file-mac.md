@@ -55,6 +55,17 @@ Multi-keyword AND search addresses that gap: enter `payment timeout` and require
 
 This guide is written by the developer of {{APP_NAME}}. All screenshots are cropped from the actual Mac App using the fictional TXT sample below; the interface and result counts have not been redrawn. The feature requires **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/cn/app/id6759166160?ct=seo_multi_keyword_intro&mt=12) for current requirements, pricing and access.
 
+## Watch: find every keyword, in either order
+
+See the same query find both `payment timeout` and `timeout during payment`, then switch from same-line to same-paragraph matching. This 40-second demonstration shows real searches on a fictional text file; the AND modes require Pro access or an eligible trial.
+
+<figure id="watch-multi-keyword-search" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/xweYD8JKFn8" title="Find Multiple Keywords in Any Order on Mac" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Real {{APP_NAME}} operations with English narration and captions. AND search supports 2–8 space-separated terms and does not perform replacement. <a href="https://www.youtube.com/watch?v=xweYD8JKFn8" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
+
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?mt=12) to try it with your own files.
+
 ## Try the same TXT file used in the screenshots
 
 The sample deliberately includes successful matches and near misses. It is short enough to check manually before using the feature with your own notes or logs.

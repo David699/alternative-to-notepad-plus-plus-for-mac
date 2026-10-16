@@ -4,7 +4,7 @@ title: "SQL File Viewer for Mac: Hover to Preview SQL Statements"
 shortTitle: "SQL File Viewer for Mac with Hover Previews"
 description: "Open SQL files on Mac and hover over table names to preview schemas, inserted rows, updates, and delete conditions while reading your script."
 datePublished: "2026-10-15"
-dateModified: "2026-10-15"
+dateModified: "2026-10-16"
 keywords:
   - "sql file viewer mac"
   - "open sql file mac"
@@ -52,6 +52,17 @@ A SQL script can describe a table or a data change across many lines. Instead of
 The useful part is the connection between the code and its preview: stay in the same editor, inspect the statement, then move on to the next one. You do not need to switch to a separate preview tab or click a Run button.
 
 *Screenshots in this guide are cropped from the actual {{APP_NAME}} Mac window, captured on October 15, 2026, using fictional SQL examples. The opening image shows the real CREATE TABLE hover panel.*
+
+## Watch: move the pointer to preview SQL
+
+Watch a table definition and sample INSERT values turn into compact hover panels in this 40-second walkthrough. Move the pointer over a supported table name to inspect the statement while keeping the SQL source in view. The preview does not execute SQL or connect to a database.
+
+<figure id="watch-sql-hover-preview" style="margin: 1.5rem 0;">
+<iframe src="https://www.youtube-nocookie.com/embed/jxHVcfoCrUk" title="Read SQL Files on Mac with Hover Previews" width="960" height="540" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="display: block; width: 100%; height: auto; aspect-ratio: 16 / 9; border: 0; border-radius: 12px;"></iframe>
+<figcaption>Recorded in the real {{APP_NAME}} Mac app using fictional SQL data, with English narration and captions. <a href="https://www.youtube.com/watch?v=jxHVcfoCrUk" target="_blank" rel="noopener noreferrer">Watch on YouTube</a>.</figcaption>
+</figure>
+
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?mt=12) to try it with your own files.
 
 ## CREATE TABLE: see the table's structure
 
