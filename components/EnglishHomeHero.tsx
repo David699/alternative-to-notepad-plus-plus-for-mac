@@ -21,7 +21,7 @@ export default function EnglishHomeHero() {
             <AppStoreDownloadLink source="hero_badge" className="rounded-xl bg-brand-600 px-6 py-4 font-bold text-white shadow-sm transition hover:bg-brand-700">
               Download on the Mac App Store
             </AppStoreDownloadLink>
-            <a href="#features" className="rounded-xl border border-gray-300 bg-white px-6 py-4 font-semibold text-gray-800 hover:border-brand-400">See real editing examples</a>
+            <a href="#app-overview" className="rounded-xl border border-gray-300 bg-white px-6 py-4 font-semibold text-gray-800 hover:border-brand-400">Watch the 65-second tour</a>
           </div>
           <p className="mt-3 text-sm leading-6 text-gray-600">See the App Store for current pricing, trial details, and macOS requirements.</p>
           <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-gray-700 underline underline-offset-4">

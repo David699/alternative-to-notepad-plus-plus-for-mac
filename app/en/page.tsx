@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import EnglishHomeHero from '@/components/EnglishHomeHero'
+import EnglishHomeOverviewVideo from '@/components/EnglishHomeOverviewVideo'
 import EnglishHomeWorkflows from '@/components/EnglishHomeWorkflows'
 import { englishHomeTitle, englishHomeDescription, englishHomeHero } from '@/lib/english-home'
 import { getLanguageAlternates } from '@/lib/site-locales'
@@ -72,6 +73,7 @@ export default function EnHome() {
       />
       <Navbar t={en.nav} locale="en" />
       <EnglishHomeHero />
+      <EnglishHomeOverviewVideo />
       <EnglishHomeWorkflows />
       <Privacy t={en.privacy} />
       <Reviews t={en.reviews} locale="en" />
