@@ -25,7 +25,7 @@ export default function FAQ({ t }: Props) {
               className="bg-white rounded-2xl border border-gray-100 p-6 shadow-card"
             >
               <h3 className="font-bold text-gray-900 mb-3 flex items-start gap-3">
-                <span className="text-brand-500 flex-shrink-0 mt-0.5 text-lg font-black">Q</span>
+                <span className="text-brand-500 flex-shrink-0 mt-0.5 text-lg font-black">Q</span>{' '}
                 <span>{faq.q}</span>
               </h3>
               <div className="flex items-start gap-3">

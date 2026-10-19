@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import SeoArticlePage from '@/components/SeoArticlePage'
 import { APP_NAME } from '@/lib/seo'
 import { getSeoArticle, getSeoArticleUrl } from '@/lib/seo-articles'
+import { getArticleLanguageAlternates } from '@/lib/seo-language-alternates'
 import { SITE_URL } from '@/lib/paths'
 
 const article = getSeoArticle('column-mode-editor-for-mac')
@@ -15,7 +16,7 @@ export function generateMetadata(): Metadata {
     title: article.title,
     description: article.description,
     keywords: article.keywords,
-    alternates: { canonical },
+    alternates: { canonical, languages: getArticleLanguageAlternates(`/en/${article.slug}/`) },
     openGraph: {
       type: 'article',
       locale: 'en_US',
@@ -58,9 +59,10 @@ export default function ColumnModeEditorForMacPage() {
             description: article.description,
             datePublished: article.datePublished,
             dateModified: article.dateModified,
+            image: `${SITE_URL}${article.heroFigure?.src ?? '/images/screen-main-en.webp'}`,
             mainEntityOfPage: canonical,
             author: { '@type': 'Person', name: 'David699' },
-            publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
+            publisher: { '@type': 'Organization', name: APP_NAME, url: `${SITE_URL}/` },
           }),
         }}
       />

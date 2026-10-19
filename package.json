@@ -10,6 +10,7 @@
     "optimize:images": "node scripts/optimize-images.mjs",
     "test:seo": "node scripts/validate-seo-articles.mjs",
     "test:app-store": "node scripts/validate-app-store-campaigns.mjs",
+    "test:seo-audit": "python3 scripts/validate-seo-audit.py",
     "seo:indexnow": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {

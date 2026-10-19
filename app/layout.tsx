@@ -25,7 +25,7 @@ export default function RootLayout({
   const htmlLang = getHtmlLangForSegment(params?.locale)
 
   return (
-    <html lang={htmlLang} className="scroll-smooth">
+    <html lang={htmlLang} dir={htmlLang.startsWith('ar') ? 'rtl' : 'ltr'} className="scroll-smooth">
       <head>
         {GOOGLE_ADS_ID ? (
           <>

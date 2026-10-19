@@ -1,4 +1,5 @@
 'use client'
+import { headingSeparator } from '@/lib/heading-text'
 import { motion } from 'framer-motion'
 import type { PrivacyDict } from '@/lib/i18n/types'
 
@@ -11,7 +12,7 @@ export default function Privacy({ t }: Props) {
         <div className="text-center mb-16">
           <span className="section-label">{t.sectionLabel}</span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            {t.headline}
+            {t.headline}{headingSeparator(t.headline, t.headlineGradient)}
             <span className="gradient-text">{t.headlineGradient}</span>
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">{t.sub}</p>

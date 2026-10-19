@@ -1,21 +1,14 @@
 import { APP_NAME } from '../../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
-import { SITE_URL } from '@/lib/paths'
+import { legalPageMetadata } from '@/lib/legal-metadata'
 
-export const metadata: Metadata = {
-  title: 'Terms of Service',
-  description: `${APP_NAME} Terms of Service — please read before using the app`,
-  alternates: {
-    canonical: `${SITE_URL}/en/terms/`,
-    languages: { 'zh-CN': `${SITE_URL}/terms/`, en: `${SITE_URL}/en/terms/` },
-  },
-  robots: { index: true, follow: true },
-}
+export const metadata: Metadata = legalPageMetadata('en', 'terms')
 
 export default function TermsEn() {
   return (
     <LegalPage
+      canonicalPath="/en/terms/"
       title="Terms of Service"
       subtitle={`Please read these terms before downloading or using ${APP_NAME}. By using the app you agree to these terms.`}
       lastUpdated="Last updated: May 2026"

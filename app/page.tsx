@@ -76,7 +76,7 @@ export default function Home() {
             aggregateRating: notepadAppStoreAggregateRating,
             description: ZH_APP_DESC,
             keywords: ZH_SEO_KEYWORDS.join(', '),
-            url: SITE_URL,
+            url: `${SITE_URL}/`,
             image: `${SITE_URL}/images/app-icon.webp`,
             screenshot: [
               `${SITE_URL}/images/screen-main.webp`,

@@ -353,8 +353,7 @@ export const en: Dict = {
     scoreSuffix: 'out of 5',
     ratingsCountLabel: 'ratings',
     ratingsCount: String(notepadAppStoreRating.ratingCount),
-    latestLabel: 'Latest reviews',
-    latestCount: '25',
+    latestLabel: 'Selected reviews',
     versionPrefix: 'Version',
     items: [
       { name: 'Geek_Wang', role: 'Front-end Developer', avatar: '👨‍💻', rating: 5, text: 'Finally found a proper Notepad++ replacement on Mac. Multi-tab + workspace search — it covers everything I need day to day.' },

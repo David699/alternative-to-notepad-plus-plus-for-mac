@@ -1,21 +1,14 @@
 import { APP_NAME } from '../../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
-import { SITE_URL } from '@/lib/paths'
+import { legalPageMetadata } from '@/lib/legal-metadata'
 
-export const metadata: Metadata = {
-  title: 'Privacy Policy',
-  description: `${APP_NAME} Privacy Policy — learn how we handle your data`,
-  alternates: {
-    canonical: `${SITE_URL}/en/privacy/`,
-    languages: { 'zh-CN': `${SITE_URL}/privacy/`, en: `${SITE_URL}/en/privacy/` },
-  },
-  robots: { index: true, follow: true },
-}
+export const metadata: Metadata = legalPageMetadata('en', 'privacy')
 
 export default function PrivacyEn() {
   return (
     <LegalPage
+      canonicalPath="/en/privacy/"
       title="Privacy Policy"
       subtitle={`This policy explains what data ${APP_NAME} collects, how it is used, and how it is protected.`}
       lastUpdated="Last updated: May 2026"

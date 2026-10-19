@@ -3,6 +3,7 @@ import SeoArticlePage from '@/components/SeoArticlePage'
 import { APP_NAME } from '@/lib/seo'
 import { getSeoArticle, getSeoArticleUrl, type SeoArticle } from '@/lib/seo-articles'
 import { SITE_URL } from '@/lib/paths'
+import { getArticleLanguageAlternates } from '@/lib/seo-language-alternates'
 
 const ARTICLE_IMAGE = '/images/screen-main-en.webp'
 
@@ -27,7 +28,7 @@ export function generateSeoArticleMetadata(slug: string): Metadata {
     title: article.title,
     description: article.description,
     keywords: article.keywords,
-    alternates: { canonical },
+    alternates: { canonical, languages: getArticleLanguageAlternates(`/en/${article.slug}/`) },
     openGraph: {
       type: 'article',
       locale: 'en_US',
@@ -70,7 +71,7 @@ export default function SeoArticleRoute({ slug }: { slug: string }) {
       image: `${SITE_URL}${getArticleImage(article).url}`,
       mainEntityOfPage: canonical,
       author: { '@type': 'Person', name: 'David699' },
-      publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
+      publisher: { '@type': 'Organization', name: APP_NAME, url: `${SITE_URL}/` },
     },
     {
       '@context': 'https://schema.org',

@@ -1,21 +1,14 @@
 import { APP_NAME } from '../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
-import { SITE_URL } from '@/lib/paths'
+import { legalPageMetadata } from '@/lib/legal-metadata'
 
-export const metadata: Metadata = {
-  title: '隐私政策',
-  description: `${APP_NAME} 隐私政策 — 了解我们如何处理您的数据`,
-  alternates: {
-    canonical: `${SITE_URL}/privacy/`,
-    languages: { 'zh-CN': `${SITE_URL}/privacy/`, en: `${SITE_URL}/en/privacy/` },
-  },
-  robots: { index: true, follow: true },
-}
+export const metadata: Metadata = legalPageMetadata('zh', 'privacy')
 
 export default function PrivacyZh() {
   return (
     <LegalPage
+      canonicalPath="/privacy/"
       title="隐私政策"
       subtitle={`本政策说明 ${APP_NAME} 在您使用本应用期间如何收集、使用和保护数据。`}
       lastUpdated="最后更新：2026 年 5 月"

@@ -2,6 +2,7 @@ import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import SeoArticleFigure from '@/components/SeoArticleFigure'
 import { APP_NAME } from '@/lib/seo'
 import { frenchHomeHero } from '@/lib/french-home'
+import { notepadAppStoreRating } from '@/lib/app-store-rating'
 
 export default function FrenchHomeHero() {
   return (
@@ -24,7 +25,10 @@ export default function FrenchHomeHero() {
             </AppStoreDownloadLink>
             <a href="#features" className="rounded-xl border border-gray-300 bg-white px-6 py-4 font-semibold text-gray-800 hover:border-brand-400">Voir les fonctions en action</a>
           </div>
-          <p className="mt-3 text-sm leading-6 text-gray-600">Consultez la fiche App Store pour la compatibilité, le prix et les conditions d’essai. Certaines fonctions avancées nécessitent Pro.</p>
+          <AppStoreDownloadLink source="seo_french_home_rating" className="mt-5 inline-block text-sm font-semibold text-gray-700 underline underline-offset-4">
+            {notepadAppStoreRating.score.toLocaleString('fr', { minimumFractionDigits: 1 })} sur {notepadAppStoreRating.maxScore} · {notepadAppStoreRating.ratingCount.toLocaleString('fr')} évaluations, tous pays et régions · App Store
+          </AppStoreDownloadLink>
+          <p className="mt-3 text-sm leading-6 text-gray-600">Téléchargement gratuit, avec achats intégrés pour les fonctions Pro. Consultez la fiche App Store pour la compatibilité, les prix et les conditions d’essai.</p>
         </div>
         <SeoArticleFigure figure={frenchHomeHero} sourceLabel="Source" priority />
         <p className="mt-4 text-sm leading-6 text-gray-500">Captures réelles de notre application, réutilisées depuis nos guides. L’interface et les fichiers d’exemple sont en anglais ; les données sont fictives. Cliquez sur le lien sous chaque image pour la voir en taille réelle.</p>

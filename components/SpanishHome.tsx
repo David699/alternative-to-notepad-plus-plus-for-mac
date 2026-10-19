@@ -1,3 +1,5 @@
+import { appStoreOfferForPath } from '@/lib/app-store-offer'
+import { notepadAppStoreAggregateRating } from '@/lib/app-store-rating'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import FAQ from '@/components/FAQ'
@@ -21,6 +23,7 @@ export default function SpanishHome() {
     <main lang="es">
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         '@context': 'https://schema.org', '@type': 'SoftwareApplication',
+        offers: appStoreOfferForPath('/es/'), aggregateRating: notepadAppStoreAggregateRating,
         name: APP_NAME, operatingSystem: 'macOS', applicationCategory: 'ProductivityApplication',
         applicationSubCategory: 'TextEditor', description: spanishHomeSeo.description,
         keywords: spanishHomeSeo.keywords.join(', '), url: `${SITE_URL}/es/`,

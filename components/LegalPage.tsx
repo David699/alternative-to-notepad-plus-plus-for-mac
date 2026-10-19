@@ -1,6 +1,6 @@
 import AppName from '@/components/AppName'
 import { APP_NAME } from '../lib/seo'
-import { withBasePath } from '@/lib/paths'
+import { SITE_URL, withBasePath } from '@/lib/paths'
 
 interface Section {
   heading: string
@@ -9,6 +9,7 @@ interface Section {
 
 interface LegalPageProps {
   title: string
+  canonicalPath: string
   subtitle: string
   lastUpdated: string
   sections: Section[]
@@ -20,6 +21,7 @@ interface LegalPageProps {
 
 export default function LegalPage({
   title,
+  canonicalPath,
   subtitle,
   lastUpdated,
   sections,
@@ -30,6 +32,12 @@ export default function LegalPage({
 }: LegalPageProps) {
   return (
     <div className="min-h-screen bg-gray-950 text-gray-200">
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+        '@context': 'https://schema.org', '@type': 'WebPage',
+        name: `${title} | ${appName}`, description: subtitle,
+        url: `${SITE_URL}${canonicalPath}`, inLanguage: homeHref === '/en/' ? 'en' : 'zh-CN',
+        publisher: { '@type': 'Organization', name: appName, url: `${SITE_URL}/` },
+      }) }} />
       {/* Top nav bar */}
       <nav className="border-b border-gray-800 bg-gray-950/90 backdrop-blur sticky top-0 z-30">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">

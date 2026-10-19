@@ -353,8 +353,7 @@ export const zh: Dict = {
     scoreSuffix: '满分 5 分',
     ratingsCountLabel: '个评分',
     ratingsCount: String(notepadAppStoreRating.ratingCount),
-    latestLabel: '最新评论',
-    latestCount: '25',
+    latestLabel: '精选评论',
     versionPrefix: '版本',
     items: [
       { name: '极客老王', role: '前端开发', avatar: '👨‍💻', rating: 5, text: '终于找到了 Mac 上的 Notepad++ 替代。多标签 + 工作区搜索，日常工作完全够用。' },

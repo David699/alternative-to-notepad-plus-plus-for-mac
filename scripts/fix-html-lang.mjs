@@ -35,7 +35,10 @@ let updatedCount = 0
 async function fixHtmlLang(relativePath, lang) {
   const filePath = path.join(process.cwd(), 'out', relativePath)
   const html = await readFile(filePath, 'utf8')
-  const updated = html.replace(/<html lang="[^"]*"/, `<html lang="${lang}"`)
+  const updated = html.replace(/<html\b([^>]*)>/, (_, attributes) => {
+    const remaining = attributes.replace(/\s(?:lang|dir)="[^"]*"/g, '')
+    return `<html lang="${lang}" dir="${lang.startsWith('ar') ? 'rtl' : 'ltr'}"${remaining}>`
+  })
 
   if (updated !== html) {
     await writeFile(filePath, updated)

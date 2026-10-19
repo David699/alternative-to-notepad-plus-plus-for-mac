@@ -8,6 +8,7 @@ import {
   type SeoOnlyLocale,
 } from '@/lib/seo-localized'
 import { SITE_URL } from '@/lib/paths'
+import { getArticleLanguageAlternates } from '@/lib/seo-language-alternates'
 
 const ARTICLE_IMAGE = '/images/og-cover.webp'
 
@@ -27,11 +28,9 @@ export function generateLocalizedSeoArticleMetadata(locale: SeoOnlyLocale, slug:
     keywords: article.keywords,
     alternates: {
       canonical,
-      languages: {
-        [config.contentLanguage]: canonical,
-        [config.htmlLang]: canonical,
-        ...(article.englishEquivalentPath ? { en: `${SITE_URL}${article.englishEquivalentPath}` } : {}),
-      },
+      languages: article.englishEquivalentPath
+        ? getArticleLanguageAlternates(article.englishEquivalentPath)
+        : { [config.htmlLang]: canonical, 'x-default': canonical },
     },
     openGraph: {
       type: 'article',
@@ -79,7 +78,7 @@ export default function LocalizedSeoArticleRoute({ locale, slug }: { locale: Seo
       image: `${SITE_URL}${articleImage}`,
       mainEntityOfPage: canonical,
       author: { '@type': 'Person', name: 'David699' },
-      publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
+      publisher: { '@type': 'Organization', name: APP_NAME, url: `${SITE_URL}/` },
     },
     {
       '@context': 'https://schema.org',

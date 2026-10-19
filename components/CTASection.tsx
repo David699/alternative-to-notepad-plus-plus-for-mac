@@ -1,4 +1,5 @@
 'use client'
+import { headingSeparator } from '@/lib/heading-text'
 import { motion } from 'framer-motion'
 import AppStoreDownloadLink from '@/components/AppStoreDownloadLink'
 import OptimizedImage from '@/components/OptimizedImage'
@@ -34,7 +35,7 @@ export default function CTASection({ t }: Props) {
           </div>
 
           <h2 className="text-4xl sm:text-6xl font-black mb-6 leading-tight">
-            {t.headline}
+            {t.headline}{headingSeparator(t.headline, t.headlineSub)}
             <br />
             <span className="text-white/80 text-3xl sm:text-4xl font-bold">{t.headlineSub}</span>
           </h2>

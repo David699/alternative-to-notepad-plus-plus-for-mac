@@ -1,21 +1,14 @@
 import { APP_NAME } from '../../lib/seo'
 import type { Metadata } from 'next'
 import LegalPage from '@/components/LegalPage'
-import { SITE_URL } from '@/lib/paths'
+import { legalPageMetadata } from '@/lib/legal-metadata'
 
-export const metadata: Metadata = {
-  title: '服务条款',
-  description: `${APP_NAME} 服务条款 — 使用本应用前请阅读以下条款`,
-  alternates: {
-    canonical: `${SITE_URL}/terms/`,
-    languages: { 'zh-CN': `${SITE_URL}/terms/`, en: `${SITE_URL}/en/terms/` },
-  },
-  robots: { index: true, follow: true },
-}
+export const metadata: Metadata = legalPageMetadata('zh', 'terms')
 
 export default function TermsZh() {
   return (
     <LegalPage
+      canonicalPath="/terms/"
       title="服务条款"
       subtitle={`在使用 ${APP_NAME} 之前，请仔细阅读以下条款。下载或使用本应用即表示您同意本条款。`}
       lastUpdated="最后更新：2026 年 5 月"

@@ -817,8 +817,7 @@ function buildDict(page: LocalePageContent, ui: UiCopy): Dict {
       scoreSuffix: 'out of 5',
       ratingsCountLabel: 'ratings',
       ratingsCount: String(notepadAppStoreRating.ratingCount),
-      latestLabel: 'Latest reviews',
-      latestCount: '25',
+      latestLabel: 'Selected reviews',
       versionPrefix: 'Version',
       items: ui.reviewTexts.map((text, index) => ({ name: ['MacUser', 'TextPro', 'PowerUser'][index], role: ui.reviews, avatar: ['💻', '📝', '⚡'][index], rating: 5, text })),
       appStoreReviews: [

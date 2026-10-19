@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import SeoArticlePage from '@/components/SeoArticlePage'
 import { APP_NAME } from '@/lib/seo'
 import { getSeoArticle, getSeoArticleUrl } from '@/lib/seo-articles'
+import { getArticleLanguageAlternates } from '@/lib/seo-language-alternates'
 import { SITE_URL } from '@/lib/paths'
 
 const article = getSeoArticle('notepad-plus-plus-alternatives-for-mac')
@@ -15,7 +16,7 @@ export function generateMetadata(): Metadata {
     title: article.title,
     description: article.description,
     keywords: article.keywords,
-    alternates: { canonical },
+    alternates: { canonical, languages: getArticleLanguageAlternates(`/en/${article.slug}/`) },
     openGraph: {
       type: 'article',
       locale: 'en_US',
@@ -61,7 +62,7 @@ export default function NotepadPlusPlusAlternativesForMacPage() {
             mainEntityOfPage: canonical,
             author: { '@type': 'Person', name: 'David699' },
             image: `${SITE_URL}/images/seo/notepad-alternatives-workflow-map.webp`,
-            publisher: { '@type': 'Organization', name: APP_NAME, url: SITE_URL },
+            publisher: { '@type': 'Organization', name: APP_NAME, url: `${SITE_URL}/` },
           }),
         }}
       />

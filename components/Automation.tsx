@@ -1,4 +1,5 @@
 'use client'
+import { headingSeparator } from '@/lib/heading-text'
 import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import type { AutomationDict } from '@/lib/i18n/types'
@@ -32,7 +33,7 @@ export default function Automation({ t }: Props) {
             {t.sectionLabel}
           </span>
           <h2 className="text-4xl sm:text-5xl font-black mb-4">
-            {t.headline}
+            {t.headline}{headingSeparator(t.headline, t.headlineGradient)}
             <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-teal-400 to-brand-400">
               {t.headlineGradient}

@@ -283,7 +283,6 @@ export interface ReviewsDict {
   ratingsCountLabel: string
   ratingsCount: string
   latestLabel: string
-  latestCount: string
   versionPrefix: string
   items: ReviewItem[]
   appStoreReviews: AppStoreReviewItem[]

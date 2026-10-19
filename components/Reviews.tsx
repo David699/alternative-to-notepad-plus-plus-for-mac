@@ -1,4 +1,5 @@
 'use client'
+import { headingSeparator } from '@/lib/heading-text'
 import { motion } from 'framer-motion'
 import type { AppStoreReviewItem, ReviewsDict, Locale } from '@/lib/i18n/types'
 
@@ -49,7 +50,7 @@ export default function Reviews({ t, locale = 'zh' }: Props) {
         <div className="text-center mb-16">
           <span className="section-label">{t.sectionLabel}</span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 mb-4">
-            {t.headline}
+            {t.headline}{headingSeparator(t.headline, t.headlineGradient)}
             <span className="gradient-text">{t.headlineGradient}</span>
           </h2>
         </div>
@@ -80,7 +81,7 @@ export default function Reviews({ t, locale = 'zh' }: Props) {
         </div>
 
         <motion.div
-          initial={{ opacity: 0, y: 24 }}
+          initial={false}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
@@ -111,8 +112,8 @@ export default function Reviews({ t, locale = 'zh' }: Props) {
           </div>
 
           <div className="mt-10 flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
-            <h3 className="text-2xl font-black text-gray-950">{t.latestLabel} ({t.latestCount})</h3>
-            <div className="text-sm text-gray-500">{locale === 'zh' ? '所有版本 · 所有评分 · 所有评论' : 'All versions · All ratings · All reviews'}</div>
+            <h3 className="text-2xl font-black text-gray-950">{t.latestLabel} ({t.appStoreReviews.length})</h3>
+            <div className="text-sm text-gray-500">{locale === 'zh' ? '摘选自不同国家和地区的 App Store 评论' : 'Selected App Store reviews from multiple countries'}</div>
           </div>
 
           <div className="mt-5 grid gap-4 md:grid-cols-2">

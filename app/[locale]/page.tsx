@@ -1,3 +1,5 @@
+import { appStoreOfferForPath } from '@/lib/app-store-offer'
+import { notepadAppStoreAggregateRating } from '@/lib/app-store-rating'
 import type { Metadata } from 'next'
 import { notFound } from 'next/navigation'
 import HtmlLangSetter from '@/components/HtmlLangSetter'
@@ -106,6 +108,8 @@ export default function LocalePage({ params }: Props) {
             operatingSystem: 'macOS',
             applicationCategory: 'ProductivityApplication',
             applicationSubCategory: 'TextEditor',
+            offers: appStoreOfferForPath(page.path),
+            aggregateRating: notepadAppStoreAggregateRating,
             description: page.description,
             keywords: page.keywords.join(', '),
             url: getAbsoluteUrl(page.path),

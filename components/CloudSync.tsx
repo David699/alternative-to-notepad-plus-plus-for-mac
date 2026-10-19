@@ -1,4 +1,5 @@
 'use client'
+import { headingSeparator } from '@/lib/heading-text'
 import { motion } from 'framer-motion'
 import type { CloudSyncDict, SyncStatusItem } from '@/lib/i18n/types'
 
@@ -26,7 +27,7 @@ export default function CloudSync({ t }: Props) {
             {t.sectionLabel}
           </span>
           <h2 className="text-4xl sm:text-5xl font-black mb-4">
-            {t.headline}
+            {t.headline}{headingSeparator(t.headline, t.headlineGradient)}
             <br />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-sky-400 to-indigo-400">
               {t.headlineGradient}
