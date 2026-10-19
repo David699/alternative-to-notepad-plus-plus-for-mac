@@ -86,7 +86,7 @@ export default function Hero({ t, locale = 'zh' }: HeroProps) {
             variants={item}
             className="text-4xl sm:text-6xl lg:text-7xl font-black text-gray-900 leading-tight tracking-tight mb-6"
           >
-            {t.headline}
+            {t.headline}{' '}
             <br />
             <span className="gradient-text">{t.headlineGradient}</span>
           </motion.h1>

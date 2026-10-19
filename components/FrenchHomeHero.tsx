@@ -10,7 +10,7 @@ export default function FrenchHomeHero() {
         <div className="max-w-4xl">
           <p className="section-label">{APP_NAME} · Éditeur de texte pour macOS</p>
           <h1 className="text-4xl font-black leading-tight tracking-tight text-gray-950 sm:text-6xl">
-            Notepad++ pour Mac :<br /><span className="gradient-text">une alternative native</span>
+            Notepad++ pour Mac :{' '}<br /><span className="gradient-text">une alternative native</span>
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
             Retrouvez des outils familiers pour vos notes, journaux et fichiers de configuration. {APP_NAME} réunit les onglets, le mode colonne, la recherche avancée, les scripts de traitement et les aperçus de documents dans une application pour Mac.

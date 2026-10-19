@@ -123,6 +123,6 @@ The URL loader makes a network request to the address you provide, then asks whe
 
 ## Try it with your own file
 
-[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_json_guide&mt=12), open a copy of a JSON file you know, and compare the source with the structure pane. Start with the fictional sample above if you want a repeatable demonstration.
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_json_guide&mt=12), open a copy of a JSON file you know, and compare the source with the structure pane. Start with the fictional sample above if you want a repeatable demonstration.
 
 If you also inspect database export scripts, see our [SQL file viewer for Mac guide](/en/sql-file-viewer-mac/). SQL statement previews have a different purpose from JSON structure browsing.

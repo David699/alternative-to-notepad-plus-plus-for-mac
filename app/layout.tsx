@@ -4,6 +4,7 @@ import './globals.css'
 import { CLOUDFLARE_WEB_ANALYTICS_TOKEN } from '@/lib/analytics'
 import { withBasePath } from '@/lib/paths'
 import { getHtmlLangForSegment } from '@/lib/site-locales'
+import AppStoreReferralTracking from '@/components/AppStoreReferralTracking'
 
 const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID
 
@@ -46,7 +47,7 @@ export default function RootLayout({
           data-cf-beacon={JSON.stringify({ token: CLOUDFLARE_WEB_ANALYTICS_TOKEN })}
         />
       </head>
-      <body>{children}</body>
+      <body>{children}<AppStoreReferralTracking /></body>
     </html>
   )
 }

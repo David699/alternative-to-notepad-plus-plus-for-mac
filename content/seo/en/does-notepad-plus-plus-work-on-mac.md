@@ -78,7 +78,7 @@ faq:
 
 You can still use the Windows program with additional software, or choose a Mac editor for the tasks you used it for. The important question is **whether you need the original application and its plugins, or familiar editing features**.
 
-If you want to edit text on your Mac right away, [download {{APP_NAME}} from the App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_does_notepad_work_mac_intro&mt=12). It is our independent Mac editor; the screenshots below show its own features, and it does not run Notepad++ plugins.
+If you want to edit text on your Mac right away, [download {{APP_NAME}} from the App Store](https://apps.apple.com/app/id6759166160?ct=seo_does_notepad_work_mac_intro&mt=12). It is our independent Mac editor; the screenshots below show its own features, and it does not run Notepad++ plugins.
 
 ## Four ways to get the workflow on macOS
 
@@ -150,6 +150,6 @@ The practical check is plugins. Its [Mac plugin directory](https://nextpad.org/p
 
 If your list is mostly tabs, column editing, and search and replacement, start with those tasks in {{APP_NAME}}. The App Store listing shows the current compatibility, trial, and purchase details.
 
-**[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_does_notepad_work_mac_end&mt=12)**
+**[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_does_notepad_work_mac_end&mt=12)**
 
 Want to check a specific file format first? See our [JSON viewer and editor guide](/en/open-and-validate-json-jsonc-json5-on-mac/) or [SQL file viewer with hover previews](/en/sql-file-viewer-mac/).

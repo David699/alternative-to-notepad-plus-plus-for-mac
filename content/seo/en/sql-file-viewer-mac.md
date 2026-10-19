@@ -136,4 +136,4 @@ This guide covers plain-text `.sql` files. Decompress `.sql.gz` files before ope
 
 ## Try SQL hover previews on your Mac
 
-[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_sql_guide&mt=12), open the small demonstration files, and hover over the table names to compare the statement with its preview. Review the current App Store purchase and trial terms for additional assistant features.
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_sql_guide&mt=12), open the small demonstration files, and hover over the table names to compare the statement with its preview. Review the current App Store purchase and trial terms for additional assistant features.

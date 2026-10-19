@@ -12,7 +12,7 @@ export default function SpanishHomeHero() {
         <div className="max-w-4xl">
           <p className="section-label">{APP_NAME} · Editor de texto para macOS</p>
           <h1 className="text-4xl font-black leading-tight tracking-tight text-gray-950 sm:text-6xl">
-            Una alternativa a Notepad++<br /><span className="gradient-text">para Mac</span>
+            Una alternativa a Notepad++{' '}<br /><span className="gradient-text">para Mac</span>
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
             Trabaja con notas, registros y archivos de configuración en tu Mac. {APP_NAME} reúne pestañas, modo columna, búsqueda y reemplazo con expresiones regulares y búsqueda en carpetas en una aplicación para macOS.
@@ -24,9 +24,9 @@ export default function SpanishHomeHero() {
             <a href="#features" className="rounded-xl border border-gray-300 bg-white px-6 py-4 font-semibold text-gray-800 hover:border-brand-400">Ver las funciones en acción</a>
           </div>
           <p className="mt-3 text-sm leading-6 text-gray-600">Consulta en el App Store la compatibilidad, el precio y las condiciones de prueba vigentes.</p>
-          <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-gray-700 underline underline-offset-4">
+          <AppStoreDownloadLink source="hero_badge" href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-gray-700 underline underline-offset-4">
             {notepadAppStoreRating.score.toLocaleString('es', { minimumFractionDigits: 1 })} de {notepadAppStoreRating.maxScore} · {notepadAppStoreRating.ratingCount.toLocaleString('es')} valoraciones · App Store
-          </a>
+          </AppStoreDownloadLink>
           <p className="mt-5 max-w-3xl text-sm leading-6 text-gray-600">Notepad++ es una aplicación para Windows. {APP_NAME} es un editor independiente para Mac y no ejecuta los plugins de Notepad++ para Windows.</p>
         </div>
         <SeoArticleFigure figure={spanishHomeHero} sourceLabel="Fuente" priority />

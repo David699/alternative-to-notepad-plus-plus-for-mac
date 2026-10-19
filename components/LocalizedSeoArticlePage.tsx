@@ -1,3 +1,4 @@
+import { trackAppStoreHref, trackAppStoreHtml } from '@/lib/app-store-campaign'
 import AppName from '@/components/AppName'
 import Link from 'next/link'
 import HtmlLangSetter from '@/components/HtmlLangSetter'
@@ -17,6 +18,7 @@ function getEscapedPatternPart(term: string): string {
 }
 
 export default function LocalizedSeoArticlePage({ article, config }: Props) {
+  const pathname = `/${config.segment}/${article.slug}/`
   const ltrTerms = [...config.ltrTerms].sort((lhs, rhs) => rhs.length - lhs.length)
   const ltrTermSet = new Set(ltrTerms)
   const ltrTermPattern = ltrTerms.length > 0
@@ -48,7 +50,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
     if (link.external) {
       return (
         <a
-          href={link.href}
+          href={trackAppStoreHref(link.href, pathname)}
           target="_blank"
           rel="noopener noreferrer"
           className="font-semibold text-brand-700 hover:text-brand-900"
@@ -59,7 +61,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
     }
 
     return (
-      <Link href={link.href} className="font-semibold text-brand-700 hover:text-brand-900">
+      <Link href={trackAppStoreHref(link.href, pathname)} className="font-semibold text-brand-700 hover:text-brand-900">
         {mixedText(link.label)}
       </Link>
     )
@@ -70,14 +72,14 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
 
     if (link.external) {
       return (
-        <a key={link.href} href={link.href} target="_blank" rel="noopener noreferrer" className={className}>
+        <a key={link.href} href={trackAppStoreHref(link.href, pathname)} target="_blank" rel="noopener noreferrer" className={className}>
           {mixedText(link.label)}
         </a>
       )
     }
 
     return (
-      <Link key={link.href} href={link.href} className={className}>
+      <Link key={link.href} href={trackAppStoreHref(link.href, pathname)} className={className}>
         {mixedText(link.label)}
       </Link>
     )
@@ -172,7 +174,7 @@ export default function LocalizedSeoArticlePage({ article, config }: Props) {
             <div className="min-w-0 space-y-12">
               <div
                 className={`localized-seo-markdown localized-seo-markdown-${config.dir}`}
-                dangerouslySetInnerHTML={{ __html: article.contentHtml }}
+                dangerouslySetInnerHTML={{ __html: trackAppStoreHtml(article.contentHtml, pathname) }}
               />
 
               <section>

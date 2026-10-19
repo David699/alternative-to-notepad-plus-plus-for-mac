@@ -53,7 +53,7 @@ Suppose you are investigating a payment problem. One record says `payment timeou
 
 Multi-keyword AND search addresses that gap: enter `payment timeout` and require **both** words, with no fixed order.
 
-This guide is written by the developer of {{APP_NAME}}. All screenshots are cropped from the actual Mac App using the fictional TXT sample below; the interface and result counts have not been redrawn. The feature requires **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/cn/app/id6759166160?ct=seo_multi_keyword_intro&mt=12) for current requirements, pricing and access.
+This guide is written by the developer of {{APP_NAME}}. All screenshots are cropped from the actual Mac App using the fictional TXT sample below; the interface and result counts have not been redrawn. The feature requires **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/app/id6759166160?ct=seo_multi_keyword_intro&mt=12) for current requirements, pricing and access.
 
 ## Watch: find every keyword, in either order
 
@@ -172,4 +172,4 @@ Start with two distinctive clues, choose the smallest meaningful scope, and insp
 
 Keep an unedited copy of an important file, and check the actual text before changing or sharing it. This guide demonstrates matching behavior on a small sample; it does not establish large-file performance or that other editors lack comparable search features.
 
-[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_multi_keyword_end&mt=12) and try the sample. For opening, saving and organizing ordinary TXT files, continue with [Notepad for Mac](/en/notepad-for-mac/).
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_multi_keyword_end&mt=12) and try the sample. For opening, saving and organizing ordinary TXT files, continue with [Notepad for Mac](/en/notepad-for-mac/).

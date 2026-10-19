@@ -60,7 +60,7 @@ The useful combination in {{APP_NAME}} is more than a code box: ready-made scrip
 
 This guide is written by the developer of {{APP_NAME}}. The opening image reuses our real Pipeline Gallery capture. The close-ups below were captured from the installed Mac App with a small, fictional roster folder. They have been cropped and converted to WebP; the controls and result counts have not been redrawn. The AI screenshot shows a prepared request, not a submitted request or a claimed AI-generated result.
 
-Some advanced tools, including folder batch processing, its history and AI assistance, require **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/cn/app/id6759166160?ct=seo_script_automation_intro&mt=12) for current requirements and terms.
+Some advanced tools, including folder batch processing, its history and AI assistance, require **Pro access or an eligible trial**. Check the [Mac App Store listing](https://apps.apple.com/app/id6759166160?ct=seo_script_automation_intro&mt=12) for current requirements and terms.
 
 ## Watch: built-in tools and your own script
 

@@ -61,7 +61,7 @@ faq:
 
 This guide is published by the App's developer. Every screenshot below is a real capture of the Mac App using one demonstration document, **Documentation release kit**. It contains a task list, table, local landscape photograph, highlighted JavaScript, Mermaid diagrams, formulas, quotes, links and footnotes. Its names and numbers are fictional. Click a body screenshot to inspect it at full size.
 
-[Download {{APP_NAME}} from the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_markdown_workbench_intro&mt=12). Check current requirements, pricing and Pro availability on the listing; the captures were made during a trial.
+[Download {{APP_NAME}} from the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_markdown_workbench_intro&mt=12). Check current requirements, pricing and Pro availability on the listing; the captures were made during a trial.
 
 | Your task | What to try |
 | --- | --- |
@@ -196,6 +196,6 @@ Use a copy of one of your own documents containing a table, an image, code and a
 
 {{APP_NAME}} is a practical fit when you want ordinary local Markdown files plus preview and asset tools. It also provides [regex cleanup](/en/regex-find-replace-mac/) and [repeatable text processing](/en/batch-text-processing-mac/) for document maintenance. Choose according to the tasks you actually perform, including any publishing or note-library features you need beyond this workflow.
 
-[Download {{APP_NAME}} for Mac on the App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_markdown_workbench_final&mt=12) and check the current listing for pricing, system requirements and Pro features.
+[Download {{APP_NAME}} for Mac on the App Store](https://apps.apple.com/app/id6759166160?ct=seo_markdown_workbench_final&mt=12) and check the current listing for pricing, system requirements and Pro features.
 
 *Feature checks and real captures: October 15, 2026. Screenshots use the App's current interface language settings. No generated or simulated App screens are used in this guide.*

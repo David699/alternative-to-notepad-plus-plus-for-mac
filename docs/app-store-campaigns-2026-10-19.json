@@ -1,0 +1,413 @@
+{
+  "recordedAt": "2026-10-19T12:54:55.946Z",
+  "providerToken": "118772193",
+  "generatedIn": "App Store Connect → 分析 → 用户获取 → 营销活动",
+  "macMediaType": "12",
+  "websiteCampaigns": [
+    {
+      "path": "/ar/notepad-alternative-mac/",
+      "campaign": "web_ar_notepad_alternative_mac",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ar_notepad_alternative_mac&mt=12"
+    },
+    {
+      "path": "/ar/notepad-plus-plus-for-mac/",
+      "campaign": "web_ar_notepad_plus_pl_1m8d4ta",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ar_notepad_plus_pl_1m8d4ta&mt=12"
+    },
+    {
+      "path": "/ar/text-editor-for-mac/",
+      "campaign": "web_ar_text_editor_for_mac",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ar_text_editor_for_mac&mt=12"
+    },
+    {
+      "path": "/de/",
+      "campaign": "web_home_de",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_de&mt=12"
+    },
+    {
+      "path": "/de/notepad-plus-plus-for-mac/",
+      "campaign": "web_de_notepad_plus_pl_04w2ceu",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_de_notepad_plus_pl_04w2ceu&mt=12"
+    },
+    {
+      "path": "/en/automate-text-files-mac-scripts/",
+      "campaign": "web_en_automate_text_f_022lajy",
+      "downloadLinks": 4,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_automate_text_f_022lajy&mt=12"
+    },
+    {
+      "path": "/en/batch-text-processing-mac/",
+      "campaign": "web_en_batch_text_proc_1o7xflz",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_batch_text_proc_1o7xflz&mt=12"
+    },
+    {
+      "path": "/en/best-lightweight-text-editors-for-mac-2026/",
+      "campaign": "web_en_best_lightweigh_00qo0d8",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_best_lightweigh_00qo0d8&mt=12"
+    },
+    {
+      "path": "/en/check-html-for-errors-on-mac/",
+      "campaign": "web_en_check_html_for__1d7tspj",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_check_html_for__1d7tspj&mt=12"
+    },
+    {
+      "path": "/en/column-mode-editor-for-mac/",
+      "campaign": "web_en_column_mode_edi_0kgywp3",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_column_mode_edi_0kgywp3&mt=12"
+    },
+    {
+      "path": "/en/convert-file-encoding-to-utf8-on-mac/",
+      "campaign": "web_en_convert_file_en_0u33x3f",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_convert_file_en_0u33x3f&mt=12"
+    },
+    {
+      "path": "/en/coteditor-alternative-for-mac/",
+      "campaign": "web_en_coteditor_alter_0ikk7z4",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_coteditor_alter_0ikk7z4&mt=12"
+    },
+    {
+      "path": "/en/delete-lines-containing-text-on-mac/",
+      "campaign": "web_en_delete_lines_co_0cwcf2l",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_delete_lines_co_0cwcf2l&mt=12"
+    },
+    {
+      "path": "/en/does-notepad-plus-plus-work-on-mac/",
+      "campaign": "web_en_does_notepad_pl_1ndwx42",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_does_notepad_pl_1ndwx42&mt=12"
+    },
+    {
+      "path": "/en/how-i-built-a-notepad-plus-plus-style-editor-for-macos/",
+      "campaign": "web_en_how_i_built_a_n_1py33ts",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_how_i_built_a_n_1py33ts&mt=12"
+    },
+    {
+      "path": "/en/html-editor-with-live-preview-mac/",
+      "campaign": "web_en_html_editor_wit_1n8jloz",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_html_editor_wit_1n8jloz&mt=12"
+    },
+    {
+      "path": "/en/",
+      "campaign": "web_home_en",
+      "downloadLinks": 7,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_en&mt=12"
+    },
+    {
+      "path": "/en/javascript-text-processing-mac/",
+      "campaign": "web_en_javascript_text_1qp1fo6",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_javascript_text_1qp1fo6&mt=12"
+    },
+    {
+      "path": "/en/markdown-editor-for-mac-2026/",
+      "campaign": "web_en_markdown_editor_1krwgg1",
+      "downloadLinks": 6,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_markdown_editor_1krwgg1&mt=12"
+    },
+    {
+      "path": "/en/markdown-editor-with-live-preview-for-mac/",
+      "campaign": "web_en_markdown_editor_093sxhl",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_markdown_editor_093sxhl&mt=12"
+    },
+    {
+      "path": "/en/nextpad-vs-notepadnext-vs-notepad-plus-plus-plus-plus/",
+      "campaign": "web_en_nextpad_vs_note_0swdgp8",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_nextpad_vs_note_0swdgp8&mt=12"
+    },
+    {
+      "path": "/en/notepad-for-mac/",
+      "campaign": "web_en_notepad_for_mac",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_notepad_for_mac&mt=12"
+    },
+    {
+      "path": "/en/notepad-plus-plus-alternatives-for-mac/",
+      "campaign": "web_en_notepad_plus_pl_05xxi4x",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_notepad_plus_pl_05xxi4x&mt=12"
+    },
+    {
+      "path": "/en/notepad-plus-plus-for-mac/",
+      "campaign": "web_en_notepad_plus_pl_0bixz4e",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_notepad_plus_pl_0bixz4e&mt=12"
+    },
+    {
+      "path": "/en/open-and-validate-json-jsonc-json5-on-mac/",
+      "campaign": "web_en_open_and_valida_0e69595",
+      "downloadLinks": 4,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_open_and_valida_0e69595&mt=12"
+    },
+    {
+      "path": "/en/plain-text-editor-for-mac/",
+      "campaign": "web_en_plain_text_edit_0b5vgpr",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_plain_text_edit_0b5vgpr&mt=12"
+    },
+    {
+      "path": "/en/regex-find-replace-mac/",
+      "campaign": "web_en_regex_find_replace_mac",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_regex_find_replace_mac&mt=12"
+    },
+    {
+      "path": "/en/responsive-html-preview-mac/",
+      "campaign": "web_en_responsive_html_18d0u7a",
+      "downloadLinks": 4,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_responsive_html_18d0u7a&mt=12"
+    },
+    {
+      "path": "/en/search-multiple-keywords-text-file-mac/",
+      "campaign": "web_en_search_multiple_0me1awi",
+      "downloadLinks": 6,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_search_multiple_0me1awi&mt=12"
+    },
+    {
+      "path": "/en/sort-and-remove-duplicate-lines-on-mac/",
+      "campaign": "web_en_sort_and_remove_0youlpk",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_sort_and_remove_0youlpk&mt=12"
+    },
+    {
+      "path": "/en/sql-file-viewer-mac/",
+      "campaign": "web_en_sql_file_viewer_mac",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_sql_file_viewer_mac&mt=12"
+    },
+    {
+      "path": "/en/text-editor-for-mac/",
+      "campaign": "web_en_text_editor_for_mac",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_text_editor_for_mac&mt=12"
+    },
+    {
+      "path": "/en/validate-xml-xsd-dtd-on-mac/",
+      "campaign": "web_en_validate_xml_xs_0ubr0j2",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_validate_xml_xs_0ubr0j2&mt=12"
+    },
+    {
+      "path": "/en/validate-yaml-schema-on-mac/",
+      "campaign": "web_en_validate_yaml_s_0317msn",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_validate_yaml_s_0317msn&mt=12"
+    },
+    {
+      "path": "/en/why-macos-still-needs-a-notepad-plus-plus-alternative/",
+      "campaign": "web_en_why_macos_still_17cq0ca",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_en_why_macos_still_17cq0ca&mt=12"
+    },
+    {
+      "path": "/es/",
+      "campaign": "web_home_es",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_es&mt=12"
+    },
+    {
+      "path": "/es/notepad-plus-plus-for-mac/",
+      "campaign": "web_es_notepad_plus_pl_0sjndxd",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_es_notepad_plus_pl_0sjndxd&mt=12"
+    },
+    {
+      "path": "/fr/",
+      "campaign": "web_home_fr",
+      "downloadLinks": 4,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_fr&mt=12"
+    },
+    {
+      "path": "/fr/notepad-plus-plus-for-mac/",
+      "campaign": "web_fr_notepad_plus_pl_09ncmxl",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_fr_notepad_plus_pl_09ncmxl&mt=12"
+    },
+    {
+      "path": "/",
+      "campaign": "web_home_zh",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_zh&mt=12"
+    },
+    {
+      "path": "/it/",
+      "campaign": "web_home_it",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_it&mt=12"
+    },
+    {
+      "path": "/it/notepad-plus-plus-for-mac/",
+      "campaign": "web_it_notepad_plus_pl_1vuj07s",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_it_notepad_plus_pl_1vuj07s&mt=12"
+    },
+    {
+      "path": "/ja/",
+      "campaign": "web_home_ja",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_ja&mt=12"
+    },
+    {
+      "path": "/ja/notepad-plus-plus-for-mac/",
+      "campaign": "web_ja_notepad_plus_pl_0g6ouic",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ja_notepad_plus_pl_0g6ouic&mt=12"
+    },
+    {
+      "path": "/ja/sakura-editor-for-mac/",
+      "campaign": "web_ja_sakura_editor_for_mac",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ja_sakura_editor_for_mac&mt=12"
+    },
+    {
+      "path": "/ko/",
+      "campaign": "web_home_ko",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_ko&mt=12"
+    },
+    {
+      "path": "/ko/notepad-plus-plus-for-mac/",
+      "campaign": "web_ko_notepad_plus_pl_1blylhv",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ko_notepad_plus_pl_1blylhv&mt=12"
+    },
+    {
+      "path": "/ko/remove-duplicate-lines-mac/",
+      "campaign": "web_ko_remove_duplicat_0zz6p8w",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_ko_remove_duplicat_0zz6p8w&mt=12"
+    },
+    {
+      "path": "/nl/notepad-plus-plus-for-mac/",
+      "campaign": "web_nl_notepad_plus_pl_1hbulcb",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_nl_notepad_plus_pl_1hbulcb&mt=12"
+    },
+    {
+      "path": "/pl/notepad-plus-plus-for-mac/",
+      "campaign": "web_pl_notepad_plus_pl_05c1q9d",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_pl_notepad_plus_pl_05c1q9d&mt=12"
+    },
+    {
+      "path": "/pt-br/",
+      "campaign": "web_home_pt_br",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_pt_br&mt=12"
+    },
+    {
+      "path": "/pt-br/notepad-plus-plus-for-mac/",
+      "campaign": "web_pt_br_notepad_plus_10sqwi0",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_pt_br_notepad_plus_10sqwi0&mt=12"
+    },
+    {
+      "path": "/ru/",
+      "campaign": "web_home_ru",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_ru&mt=12"
+    },
+    {
+      "path": "/sv/",
+      "campaign": "web_home_sv",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_home_sv&mt=12"
+    },
+    {
+      "path": "/tr/notepad-plus-plus-for-mac/",
+      "campaign": "web_tr_notepad_plus_pl_1jqglvz",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_tr_notepad_plus_pl_1jqglvz&mt=12"
+    },
+    {
+      "path": "/zh-hans/typora-alternative-for-mac/",
+      "campaign": "web_zh_hans_typora_alt_1qpv4o6",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_zh_hans_typora_alt_1qpv4o6&mt=12"
+    },
+    {
+      "path": "/zh-hans/typora-vs-notepad-plus-plus-plus-plus/",
+      "campaign": "web_zh_hans_typora_vs__08qar4g",
+      "downloadLinks": 5,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_zh_hans_typora_vs__08qar4g&mt=12"
+    },
+    {
+      "path": "/zh-hant/notepad-plus-plus-for-mac/",
+      "campaign": "web_zh_hant_notepad_pl_0s7k4br",
+      "downloadLinks": 3,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=web_zh_hant_notepad_pl_0s7k4br&mt=12"
+    }
+  ],
+  "youtubeCampaigns": [
+    {
+      "id": "2M2RvFUXkxU",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_scripts&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=2M2RvFUXkxU",
+      "description": "https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/?utm_source=youtube&utm_medium=video&utm_campaign=yt_scripts\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_scripts&mt=12\n\nExtract URLs from a release note with a built-in script, compare the result, and apply it. Then inspect a saved custom JavaScript rule for migrating OLD- prefixes to NEW-. Save reusable rules under My Scripts. Optional AI assistance requires your own configured API provider; no AI call is performed in this demonstration.\n\nReal operations in the installed notePad++++ Mac app, using fictional demonstration files. English synthetic narration and English captions. Some advanced tools require Pro or an eligible trial. notePad++++ is an independent app and is not the official Windows Notepad++.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "Z0O3QfLGM5o",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_folder_batch&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=Z0O3QfLGM5o",
+      "description": "https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/?utm_source=youtube&utm_medium=video&utm_campaign=yt_folder_batch\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_folder_batch&mt=12\n\nChoose target text files, preview a folder operation without writing to disk, inspect a file's differences, apply the batch, and restore from Operation History. The demonstrated operation restores three fictional files. Backups are retained for seven days. Restore skips files changed since the operation or open with unsaved edits.\n\nReal operations in the installed notePad++++ Mac app, using fictional demonstration files. English synthetic narration and English captions. Some advanced tools require Pro or an eligible trial. notePad++++ is an independent app and is not the official Windows Notepad++.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "Us0glyrVpDI",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_html_preview&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=Us0glyrVpDI",
+      "description": "https://notepad-plus-plus-mac.com/en/responsive-html-preview-mac/?utm_source=youtube&utm_medium=video&utm_campaign=yt_html_preview\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_html_preview&mt=12\n\nPreview one local HTML file beside its source. Switch between desktop, portrait phone, landscape phone, and an iPad Pro 11-inch viewport. Device-selector and orientation controls are shown in close-up. These are viewport previews, not tests on physical devices.\n\nReal operations in the installed notePad++++ Mac app, using fictional demonstration files. English synthetic narration and English captions. Some advanced tools require Pro or an eligible trial. notePad++++ is an independent app and is not the official Windows Notepad++.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "xweYD8JKFn8",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_multi_keyword&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=xweYD8JKFn8",
+      "description": "https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/?utm_source=youtube&utm_medium=video&utm_campaign=yt_multi_keyword\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_multi_keyword&mt=12\n\nFind lines containing both payment and timeout, even when the words appear in the opposite order. Then switch to paragraph matching to find keywords across separate lines. Multi-keyword AND search supports 2–8 space-separated keywords. Blank lines separate paragraphs; replacement is not supported in this mode.\n\nReal operations in the installed Mac app, with fictional demonstration files. English synthetic narration and English captions. Some advanced features require Pro or an eligible trial.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "jxHVcfoCrUk",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_sql_preview&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=jxHVcfoCrUk",
+      "description": "https://notepad-plus-plus-mac.com/en/sql-file-viewer-mac/?utm_source=youtube&utm_medium=video&utm_campaign=yt_sql_preview\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_sql_preview&mt=12\n\nHover over SQL table names to inspect a CREATE TABLE structure or INSERT values. These previews help you read supported statements. They do not execute SQL or connect to a database.\n\nReal operations in the installed Mac app, with fictional demonstration files. English synthetic narration and English captions. Some advanced features require Pro or an eligible trial.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "RzehRkrH9QQ",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_markdown&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=RzehRkrH9QQ",
+      "description": "https://notepad-plus-plus-mac.com/en/markdown-editor-for-mac-2026/?utm_source=youtube&utm_medium=video&utm_campaign=yt_markdown\nhttps://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_markdown&mt=12\n\nKeep Markdown source and preview together with the chain button. This real app demonstration shows linked scrolling, task lists and tables, plus local image crop, rotation and resize controls. Keep a separate copy of important images before saving edits. Photograph shown in the Markdown document: Scott Goodwill, via Unsplash — https://unsplash.com/photos/a-serene-mountain-lake-reflects-peaks-and-sky-Oifn0Pgl1Ug\n\nReal operations in the installed Mac app, with fictional demonstration files. English synthetic narration and English captions. Some advanced features require Pro or an eligible trial.\n\n#MacApps #TextEditor #notePad"
+    },
+    {
+      "id": "JrA0Y0iOdos",
+      "saved": true,
+      "appStoreUrl": "https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_overview&mt=12",
+      "videoUrl": "https://www.youtube.com/watch?v=JrA0Y0iOdos",
+      "description": "Website & feature guide: https://notepad-plus-plus-mac.com/en/?utm_source=youtube&utm_medium=video&utm_campaign=yt_overview\nDownload on the Mac App Store: https://apps.apple.com/app/id6759166160?pt=118772193&ct=yt_overview&mt=12\n\nLooking for a Notepad++ alternative for Mac? Meet notePad++++, an independent Mac text editor, in this quick tour of real app features.\n\n• Multiple tabs and column editing\n• Multi-keyword search in any order, on the same line or in the same paragraph\n• Markdown with linked scrolling between editor and preview, plus local image editing\n• JSON and YAML structure previews, SQL hover previews, and HTML desktop/phone previews with orientation switching\n• Built-in and custom text scripts, folder-wide change previews, backups and operation history\n• Minimal Mode for focused writing\n\n00:00 Notepad++ style editing and multi-keyword search\n00:17 Markdown, linked scrolling and file previews\n00:37 Scripts, folder processing and Minimal Mode\n\nMore guides:\nMulti-keyword search: https://notepad-plus-plus-mac.com/en/search-multiple-keywords-text-file-mac/?utm_source=youtube&utm_medium=video&utm_campaign=yt_overview\nMarkdown: https://notepad-plus-plus-mac.com/en/markdown-editor-for-mac-2026/?utm_source=youtube&utm_medium=video&utm_campaign=yt_overview\nScripts and folder processing: https://notepad-plus-plus-mac.com/en/automate-text-files-mac-scripts/?utm_source=youtube&utm_medium=video&utm_campaign=yt_overview\n\nnotePad++++ is an independent app, not an official Notepad++ Mac port, and does not run Windows plugins. Some advanced features require Pro or an eligible trial. Optional AI assistance requires your own configured API provider; the script shown here was written manually.\n\nReal operations with fictional demo files; preparation and waiting time have been removed. SQL previews do not execute SQL. Batch restores depend on available backups and supported file states. Backups are retained for seven days; files changed since an operation or open with unsaved edits may be skipped.\n\nEnglish synthetic narration and English subtitles. Markdown demonstration photograph: Scott Goodwill, via Unsplash — https://unsplash.com/photos/a-serene-mountain-lake-reflects-peaks-and-sky-Oifn0Pgl1Ug\n\n#NotepadPlusPlus #MacApps #TextEditor"
+    }
+  ],
+  "rules": {
+    "website": "同一个页面内的所有下载入口归到同一个来源；不同页面和语言分开。",
+    "youtube": "每支视频独立统计；视频简介中的文章链接包含 utm_source=youtube 和对应 utm_campaign。",
+    "youtubeViaWebsite": "用户从视频打开网站后，在同一个浏览器标签页内保留来源30分钟；网站内跳转继续保留。新视频入口覆盖之前的视频来源；关闭标签页后不再保留。",
+    "reporting": "至少24小时，并达到苹果的数据门槛后在营销活动中显示；不会补回历史下载来源。"
+  }
+}

@@ -67,7 +67,7 @@ These are separate projects. The [original Notepad++ repository](https://github.
 
 This comparison is published by the maker of {{APP_NAME}}. Our examples use real App screenshots and demonstration files. Competitor details come from their project documentation, with image sources identified below. We have not performed a three-app speed or reliability benchmark.
 
-[Download {{APP_NAME}} for Mac on the App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_nextpad_compare_intro&mt=12). Check the listing for current pricing, requirements and Pro features.
+[Download {{APP_NAME}} for Mac on the App Store](https://apps.apple.com/app/id6759166160?ct=seo_nextpad_compare_intro&mt=12). Check the listing for current pricing, requirements and Pro features.
 
 ## Compare the differences that affect your work
 
@@ -160,6 +160,6 @@ Use the same copies in each editor instead of comparing feature counts alone:
 
 Choose **Nextpad++** when the port and its available plugins meet your existing routine. Consider **NotepadNext** for cross-platform editing after reviewing its project qualifications. Choose **{{APP_NAME}}** when its Mac workspace, text tools and built-in previews suit your tasks.
 
-[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_nextpad_compare_final&mt=12), or explore the [full Mac feature guide](/en/notepad-plus-plus-for-mac/) before installing.
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_nextpad_compare_final&mt=12), or explore the [full Mac feature guide](/en/notepad-plus-plus-for-mac/) before installing.
 
 *Project documentation and image sources checked October 15, 2026. Interfaces, supported plugins and pricing can change; follow the official links above for the version you plan to use.*

@@ -1,3 +1,4 @@
+import { trackAppStoreHref } from '@/lib/app-store-campaign'
 import AppName from '@/components/AppName'
 import { APP_NAME } from '../lib/seo'
 import Link from 'next/link'
@@ -14,13 +15,13 @@ interface Props {
   article: SeoArticle
 }
 
-function ArticleLink({ link }: { link: { label: string; href: string; external?: boolean; download?: boolean } }) {
+function ArticleLink({ link, pathname }: { pathname: string; link: { label: string; href: string; external?: boolean; download?: boolean } }) {
   const sample = link.href.startsWith('/samples/')
   const download = sample && link.download !== false
   if (link.external || sample) {
     return (
       <a
-        href={download ? withBasePath(link.href) : link.href}
+        href={download ? withBasePath(link.href) : trackAppStoreHref(link.href, pathname)}
         target={link.external || (sample && !download) ? '_blank' : undefined}
         rel={link.external || (sample && !download) ? 'noopener noreferrer' : undefined}
         download={download || undefined}
@@ -137,7 +138,7 @@ export default function SeoArticlePage({ article }: Props) {
                 )}
                 {section.links && (
                   <ul aria-label={`Sources and guides for ${section.title}`} className="mt-5 space-y-2 text-sm leading-6">
-                    {section.links.map((link) => <li key={link.href}><ArticleLink link={link} /></li>)}
+                    {section.links.map((link) => <li key={link.href}><ArticleLink link={link} pathname={`/en/${article.slug}/`} /></li>)}
                   </ul>
                 )}
               </section>
@@ -175,7 +176,7 @@ export default function SeoArticlePage({ article }: Props) {
               <h2 className="text-sm font-black uppercase tracking-[0.14em] text-gray-500">Related guides</h2>
               <ul className="mt-4 space-y-3 text-sm leading-6">
                 {article.related.map((link) => (
-                  <li key={link.href}><ArticleLink link={link} /></li>
+                  <li key={link.href}><ArticleLink link={link} pathname={`/en/${article.slug}/`} /></li>
                 ))}
               </ul>
             </div>
@@ -184,7 +185,7 @@ export default function SeoArticlePage({ article }: Props) {
               <h2 className="text-sm font-black uppercase tracking-[0.14em] text-gray-500">Useful links</h2>
               <ul className="mt-4 space-y-3 text-sm leading-6">
                 {article.externalLinks.map((link) => (
-                  <li key={link.href}><ArticleLink link={link} /></li>
+                  <li key={link.href}><ArticleLink link={link} pathname={`/en/${article.slug}/`} /></li>
                 ))}
               </ul>
             </div>

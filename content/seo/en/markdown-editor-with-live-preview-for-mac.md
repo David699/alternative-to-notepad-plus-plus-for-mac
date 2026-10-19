@@ -57,7 +57,7 @@ faq:
 
 This guide focuses on the editing process. For the wider feature tour, including diagrams, math and export limits, see [Markdown Editor for Mac](/en/markdown-editor-for-mac-2026/). This site is published by the App's developer. Our App captures use a fictional demonstration document; body screenshots open at full size when clicked.
 
-[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/cn/app/id6759166160?ct=seo_markdown_live_intro&mt=12). Check the listing for current requirements, pricing and Pro availability.
+[Download {{APP_NAME}} on the Mac App Store](https://apps.apple.com/app/id6759166160?ct=seo_markdown_live_intro&mt=12). Check the listing for current requirements, pricing and Pro availability.
 
 ## Open a file and turn on Preview
 
@@ -129,6 +129,6 @@ Before saving, review the affected section in both panes. Check that task states
 
 For a repeated edit across documents, use [workspace search and regex replacement](/en/regex-find-replace-mac/) to locate the pattern, or [batch text processing](/en/batch-text-processing-mac/) to review a reusable cleanup sequence. Keep broad changes separate from a quick paragraph edit so you can assess their effect before applying them.
 
-[Try {{APP_NAME}} for Mac](https://apps.apple.com/cn/app/id6759166160?ct=seo_markdown_live_final&mt=12) with a copy of your own Markdown file. Preview the result, try the chain control, and add AI only when the configured service fits the text you want to send.
+[Try {{APP_NAME}} for Mac](https://apps.apple.com/app/id6759166160?ct=seo_markdown_live_final&mt=12) with a copy of your own Markdown file. Preview the result, try the chain control, and add AI only when the configured service fits the text you want to send.
 
 *Updated October 16, 2026. App images are real captures, with an explicitly labelled arrow on the chain close-up. Some features require Pro access or an eligible trial; check the current App and store listing.*

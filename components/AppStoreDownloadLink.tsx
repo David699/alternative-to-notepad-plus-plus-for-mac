@@ -3,6 +3,8 @@
 import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from 'react'
 import { reportAppStoreDownloadClick, type DownloadClickSource } from '@/lib/google-ads'
 import { APP_STORE_URL } from '@/lib/paths'
+import { usePathname } from 'next/navigation'
+import { trackAppStoreHref } from '@/lib/app-store-campaign'
 
 interface AppStoreDownloadLinkProps extends AnchorHTMLAttributes<HTMLAnchorElement> {
   source: DownloadClickSource
@@ -18,6 +20,7 @@ export default function AppStoreDownloadLink({
   onClick,
   ...props
 }: AppStoreDownloadLinkProps) {
+  const pathname = usePathname() || '/'
   function handleClick(event: MouseEvent<HTMLAnchorElement>) {
     onClick?.(event)
     if (!event.defaultPrevented) {
@@ -26,7 +29,7 @@ export default function AppStoreDownloadLink({
   }
 
   return (
-    <a href={href} target={target} rel={rel} onClick={handleClick} {...props}>
+    <a href={trackAppStoreHref(href, pathname)} target={target} rel={rel} onClick={handleClick} {...props}>
       {children}
     </a>
   )

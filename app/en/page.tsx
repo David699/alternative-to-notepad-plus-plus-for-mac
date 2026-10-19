@@ -14,6 +14,7 @@ import { en } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/paths'
 import { APP_NAME, EN_SEO_KEYWORDS } from '@/lib/seo'
 import { appStoreOffer } from '@/lib/app-store-offer'
+import { appStoreUrlForPath } from '@/lib/app-store-campaign'
 import { notepadAppStoreAggregateRating } from '@/lib/app-store-rating'
 
 export const metadata: Metadata = {
@@ -54,7 +55,7 @@ export default function EnHome() {
             operatingSystem: 'macOS',
             applicationCategory: 'ProductivityApplication',
             applicationSubCategory: 'TextEditor',
-            offers: appStoreOffer,
+            offers: { ...appStoreOffer, url: appStoreUrlForPath('/en/') },
             aggregateRating: notepadAppStoreAggregateRating,
             description: englishHomeDescription,
             keywords: EN_SEO_KEYWORDS.join(', '),

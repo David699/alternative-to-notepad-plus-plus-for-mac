@@ -198,7 +198,7 @@ const paths = read('lib/paths.ts')
 assert(paths.includes('https://notepad-plus-plus.org/'), 'Official Notepad++ external link is missing')
 assert(paths.includes('https://github.com/David699/alternative-to-notepad-plus-plus-for-mac'), 'GitHub external link is missing')
 assert(paths.includes('https://www.producthunt.com/products/notepad-14'), 'Product Hunt external link is missing')
-assert(paths.includes('apps.apple.com'), 'App Store external link is missing')
+assert(paths.includes('appStoreUrlForPath') && read('lib/app-store-campaign.ts').includes('https://apps.apple.com/app/id6759166160'), 'App Store external link is missing')
 
 const sitemap = read('app/sitemap.ts')
 assert(sitemap.includes('seoArticles'), 'Sitemap does not import seoArticles')

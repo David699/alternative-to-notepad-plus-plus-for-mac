@@ -9,6 +9,7 @@
     "export": "npm run build",
     "optimize:images": "node scripts/optimize-images.mjs",
     "test:seo": "node scripts/validate-seo-articles.mjs",
+    "test:app-store": "node scripts/validate-app-store-campaigns.mjs",
     "seo:indexnow": "node scripts/submit-indexnow.mjs"
   },
   "dependencies": {
