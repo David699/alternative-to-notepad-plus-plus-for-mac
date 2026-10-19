@@ -582,7 +582,7 @@ export function getAbsoluteUrl(path: string): string {
 export function getLanguageAlternates(): Record<string, string> {
   return Object.fromEntries([
     ...allSiteLocales.map((locale) => [locale.hreflang, getAbsoluteUrl(locale.path)]),
-    ['x-default', `${SITE_URL}/`],
+    ['x-default', getAbsoluteUrl('/en/')],
   ])
 }
 

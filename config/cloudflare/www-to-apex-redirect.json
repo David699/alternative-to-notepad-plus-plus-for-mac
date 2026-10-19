@@ -1,0 +1,16 @@
+{
+  "ref": "notepad_www_to_apex",
+  "description": "将 www 永久跳转到 HTTPS 根域名，保留原路径和查询参数",
+  "expression": "(http.host eq \"www.notepad-plus-plus-mac.com\")",
+  "action": "redirect",
+  "action_parameters": {
+    "from_value": {
+      "target_url": {
+        "expression": "concat(\"https://notepad-plus-plus-mac.com\", http.request.uri.path)"
+      },
+      "status_code": 301,
+      "preserve_query_string": true
+    }
+  },
+  "enabled": true
+}

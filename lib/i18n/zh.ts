@@ -21,8 +21,8 @@ export const zh: Dict = {
 
   hero: {
     appBadgeOS: 'macOS App',
-    headline: 'Mac 上更顺手的',
-    headlineGradient: '文本处理工作台',
+    headline: 'Mac 上的 Notepad++ 替代品',
+    headlineGradient: '更顺手的文本编辑与处理工作台',
     subheadline:
       `面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 ${APP_NAME}。`,
     tags: [
