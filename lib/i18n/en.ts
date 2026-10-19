@@ -348,7 +348,7 @@ export const en: Dict = {
     headlineGradient: 'real feedback.',
     appStoreCaption: 'App Store Reviews',
     reviewsAlt: `${APP_NAME} App Store user reviews screenshot`,
-    scoreLabel: 'macOS rating',
+    scoreLabel: 'macOS rating · All countries or regions',
     scoreValue: '4.8',
     scoreSuffix: 'out of 5',
     ratingsCountLabel: 'ratings',

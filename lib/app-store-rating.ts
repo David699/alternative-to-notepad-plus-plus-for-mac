@@ -15,7 +15,8 @@ export interface AppStoreRatingSummaryData {
   distribution: AppStoreRatingDistributionItem[]
 }
 
-const appStoreRatingCount = 493
+// App Store Connect, all countries or regions; screenshot supplied by the owner on 2026-10-19.
+const appStoreRatingCount = 501
 
 export const notepadAppStoreRating: AppStoreRatingSummaryData = {
   platformLabel: 'macOS rating',
@@ -34,6 +35,14 @@ export const notepadAppStoreRating: AppStoreRatingSummaryData = {
     { stars: 1, percentage: 0.5 },
   ],
 }
+
+export const notepadAppStoreAggregateRating = {
+  '@type': 'AggregateRating',
+  ratingValue: notepadAppStoreRating.score,
+  ratingCount: notepadAppStoreRating.ratingCount,
+  bestRating: notepadAppStoreRating.maxScore,
+  worstRating: 1,
+} as const
 
 export const notepadArabicAppStoreRating: AppStoreRatingSummaryData = {
   platformLabel: 'تقييم macOS',

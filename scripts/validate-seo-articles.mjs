@@ -219,7 +219,7 @@ assert(htmlLangFixer.includes("ar: 'ar'"), 'Static html lang fixer is missing Ar
 assert(htmlLangFixer.includes("ja: 'ja'"), 'Static html lang fixer is missing localized SEO directory support')
 
 const ratingSource = read('lib/app-store-rating.ts')
-assert(ratingSource.includes('const appStoreRatingCount = 493'), 'App Store rating source should keep the current rating count')
+assert(ratingSource.includes('const appStoreRatingCount = 501'), 'App Store rating source should match the worldwide count confirmed on 2026-10-19')
 for (const localeDataPath of ['lib/i18n/en.ts', 'lib/i18n/zh.ts', 'lib/i18n/multilingual.ts']) {
   const localeData = read(localeDataPath)
   assert(

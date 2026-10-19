@@ -24,7 +24,7 @@ export const zh: Dict = {
     headline: 'Mac 上的 Notepad++ 替代品',
     headlineGradient: '更顺手的文本编辑与处理工作台',
     subheadline:
-      `面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 ${APP_NAME}。`,
+      `面向 Mac 用户的 Notepad++ Mac 替代品。从多标签编辑、列模式、正则查找替换、工作区搜索，到脚本流水线、批量处理和 AI 辅助，把重复的文本整理工作交给 ${APP_NAME}。免费下载安装，部分高级功能需通过 App 内购买解锁。`,
     tags: [
       {
         label: 'Notepad++ Mac 替代',
@@ -348,7 +348,7 @@ export const zh: Dict = {
     headlineGradient: '真实反馈',
     appStoreCaption: 'App Store 用户评价',
     reviewsAlt: `${APP_NAME} App Store 用户评价截图`,
-    scoreLabel: 'macOS 评分',
+    scoreLabel: 'macOS 全球汇总评分',
     scoreValue: '4.8',
     scoreSuffix: '满分 5 分',
     ratingsCountLabel: '个评分',

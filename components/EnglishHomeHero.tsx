@@ -12,7 +12,7 @@ export default function EnglishHomeHero() {
         <div className="max-w-4xl">
           <p className="section-label">{APP_NAME} · Notepad++ alternative for Mac</p>
           <h1 className="text-4xl font-black leading-tight tracking-tight text-gray-950 sm:text-6xl">
-            Familiar Notepad++ Features,<br /><span className="gradient-text">Built for Mac</span>
+            Notepad++ Alternative<br /><span className="gradient-text">for Mac</span>
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-gray-700">
             Edit text on your Mac with document tabs, column editing, regex find and replace, and workspace search. {APP_NAME} is an independent macOS app inspired by familiar Notepad++ workflows.
@@ -23,9 +23,9 @@ export default function EnglishHomeHero() {
             </AppStoreDownloadLink>
             <a href="#app-overview" className="rounded-xl border border-gray-300 bg-white px-6 py-4 font-semibold text-gray-800 hover:border-brand-400">Watch the 65-second tour</a>
           </div>
-          <p className="mt-3 text-sm leading-6 text-gray-600">See the App Store for current pricing, trial details, and macOS requirements.</p>
+          <p className="mt-3 text-sm leading-6 text-gray-600">Free to download. Optional Pro features are available through in-app purchases. See the App Store for current pricing, trial details, and macOS requirements.</p>
           <a href={APP_STORE_URL} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm font-semibold text-gray-700 underline underline-offset-4">
-            {notepadAppStoreRating.score.toFixed(1)} out of {notepadAppStoreRating.maxScore} · {notepadAppStoreRating.ratingCount} ratings · App Store
+            {notepadAppStoreRating.score.toFixed(1)} out of {notepadAppStoreRating.maxScore} · {notepadAppStoreRating.ratingCount} ratings worldwide · App Store
           </a>
           <p className="mt-5 max-w-3xl text-sm leading-6 text-gray-600">The original Notepad++ is a Windows application. {APP_NAME} is a separate Mac editor and does not run Windows Notepad++ plugins.</p>
         </div>

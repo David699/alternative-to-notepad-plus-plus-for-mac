@@ -17,6 +17,8 @@ import { zh } from '@/lib/i18n'
 import { SITE_URL } from '@/lib/paths'
 import { APP_NAME, ZH_APP_DESC, ZH_SEO_KEYWORDS } from '@/lib/seo'
 import { getLanguageAlternates } from '@/lib/site-locales'
+import { appStoreOffer } from '@/lib/app-store-offer'
+import { notepadAppStoreAggregateRating } from '@/lib/app-store-rating'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -70,6 +72,8 @@ export default function Home() {
             operatingSystem: 'macOS',
             applicationCategory: 'ProductivityApplication',
             applicationSubCategory: 'TextEditor',
+            offers: appStoreOffer,
+            aggregateRating: notepadAppStoreAggregateRating,
             description: ZH_APP_DESC,
             keywords: ZH_SEO_KEYWORDS.join(', '),
             url: SITE_URL,
